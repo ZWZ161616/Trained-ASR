@@ -1,0 +1,5 @@
+# cat exp_learning/inside/mono/decode_mono/scoring_kaldi/penalty_0.5/15.txt | compute-wer --text --mode=present ark:exp_learning/inside/mono/decode_mono/scoring_kaldi/test_filt.txt ark,p:- >& exp_learning/inside/mono/decode_mono/wer_15_0.5 
+# Started at Sat Feb 22 07:01:06 CST 2020
+#
+# Accounting: time=3 threads=1
+# Ended (code 0) at Sat Feb 22 07:01:10 CST 2020, elapsed time 3 seconds

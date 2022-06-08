@@ -1,0 +1,486 @@
+# ali-to-post "ark:gunzip -c exp_learning/inside/DELTA3_tri2_ali/ali.4.gz|" ark:- | weight-silence-post 0.0 1:2:3:4:5 exp_learning/inside/DELTA3_tri2_ali/final.mdl ark:- ark:- | acc-lda --rand-prune=4.0 exp_learning/inside/DELTA3_tri2_ali/final.mdl "ark,s,cs:apply-cmvn  --utt2spk=ark:data/train/split8/4/utt2spk scp:data/train/split8/4/cmvn.scp scp:data/train/split8/4/feats.scp ark:- | splice-feats  ark:- ark:- |" ark,s,cs:- exp_learning/inside/LDA_tri3/lda.4.acc 
+# Started at Sat Feb 22 11:44:44 CST 2020
+#
+ali-to-post 'ark:gunzip -c exp_learning/inside/DELTA3_tri2_ali/ali.4.gz|' ark:- 
+weight-silence-post 0.0 1:2:3:4:5 exp_learning/inside/DELTA3_tri2_ali/final.mdl ark:- ark:- 
+acc-lda --rand-prune=4.0 exp_learning/inside/DELTA3_tri2_ali/final.mdl 'ark,s,cs:apply-cmvn  --utt2spk=ark:data/train/split8/4/utt2spk scp:data/train/split8/4/cmvn.scp scp:data/train/split8/4/feats.scp ark:- | splice-feats  ark:- ark:- |' ark,s,cs:- exp_learning/inside/LDA_tri3/lda.4.acc 
+splice-feats ark:- ark:- 
+apply-cmvn --utt2spk=ark:data/train/split8/4/utt2spk scp:data/train/split8/4/cmvn.scp scp:data/train/split8/4/feats.scp ark:- 
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 100 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 200 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 300 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 400 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 500 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 600 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 700 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 800 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 900 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 1000 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 1100 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 1200 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 1300 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 1400 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 1500 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 1600 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 1700 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 1800 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 1900 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 2000 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 2100 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 2200 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 2300 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 2400 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 2500 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 2600 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 2700 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 2800 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 2900 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 3000 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 3100 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 3200 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 3300 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 3400 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 3500 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 3600 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 3700 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 3800 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 3900 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 4000 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 4100 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 4200 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 4300 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 4400 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 4500 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 4600 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 4700 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 4800 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 4900 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 5000 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 5100 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 5200 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 5300 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 5400 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 5500 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 5600 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 5700 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 5800 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 5900 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 6000 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 6100 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 6200 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 6300 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 6400 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 6500 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 6600 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 6700 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 6800 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 6900 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 7000 utterances.
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-CVA_V1_02_161117_1027
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-CVA_V1_02_161117_1034
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-CVA_V1_02_161117_1039
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-CVA_V1_02_161117_1048
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-CVA_V1_02_161117_1049
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-CVA_V1_02_161124_1021
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-CVA_V1_02_161124_1022_01
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-CVA_V1_02_161124_1025
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-CVA_V1_02_161124_1028
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-CVA_V1_02_161124_1031_01
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-CVA_V1_02_161124_1040_01
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-CVA_V1_02_161124_1047_01
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-CVA_V1_02_161124_1049
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 7100 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 7200 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 7300 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 7400 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 7500 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 7600 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 7700 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 7800 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 7900 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 8000 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 8100 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 8200 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 8300 utterances.
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-ChouCJ01_12256_2
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 8400 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 8500 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 8600 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 8700 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 8800 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 8900 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 9000 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 9100 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 9200 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 9300 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 9400 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 9500 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 9600 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 9700 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 9800 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 9900 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 10000 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 10100 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 10200 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 10300 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 10400 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 10500 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 10600 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 10700 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 10800 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 10900 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 11000 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 11100 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 11200 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 11300 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 11400 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 11500 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 11600 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 11700 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 11800 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 11900 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 12000 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 12100 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 12200 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 12300 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 12400 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 12500 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 12600 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 12700 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 12800 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 12900 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 13000 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 13100 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 13200 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 13300 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 13400 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 13500 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 13600 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 13700 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 13800 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 13900 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 14000 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 14100 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 14200 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 14300 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 14400 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 14500 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 14600 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 14700 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 14800 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 14900 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 15000 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 15100 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 15200 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 15300 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 15400 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 15500 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 15600 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 15700 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 15800 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 15900 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 16000 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 16100 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 16200 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 16300 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 16400 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 16500 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 16600 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 16700 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 16800 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 16900 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 17000 utterances.
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_1
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_101
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_102
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_103
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_105
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_106
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_107
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_108
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_109
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_11
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_110
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_111
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_112
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_113
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_114
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_115
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_116
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_118
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_12
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_120
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_121
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_122
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_123
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_124
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_125
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_126
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_127
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_128
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_129
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_13
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_130
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_131
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_132
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_133
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_134
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_136
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_137
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_138
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_139
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_14
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_140
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_141
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_142
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_143
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_144
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_145
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_146
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_147
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_149
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_15
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_150
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_151
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_152
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_153
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 17100 utterances.
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_155
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_156
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_157
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_158
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_159
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_16
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_160
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_161
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_162
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_163
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_164
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_165
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_166
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_167
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_168
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_169
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_17
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_170
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_171
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_172
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_173
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_174
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_175
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_177
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_179
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_18
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_180
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_181
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_182
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_183
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_184
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_185
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_186
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_187
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_188
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_189
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_19
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_190
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_191
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_192
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_194
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_197
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_198
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_199
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_2
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_20
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_200
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_201
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_202
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_203
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_204
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_205
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_206
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_208
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_21
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_210
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_211
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_212
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_213
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_215
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_216
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_217
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_218
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_219
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_22
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_220
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_221
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_222
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_223
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_224
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_225
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_226
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_227
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_229
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_23
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_230
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_231
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_235
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_236
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_237
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_239
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_24
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_240
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_241
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_242
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_243
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_244
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_246
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_247
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_248
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_25
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_250
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_251
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_252
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_255
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_257
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_258
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_259
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_26
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_260
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_261
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_262
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_263
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_264
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_265
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_266
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_267
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_269
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_27
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_271
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_272
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_276
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_277
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_279
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_28
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_280
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_281
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_282
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_283
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_284
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_285
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_286
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_287
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_288
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_289
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_29
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_290
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_291
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_292
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_294
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_295
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_297
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_298
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_299
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_3
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_30
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_301
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_302
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_303
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_304
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_305
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_306
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_307
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_308
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_309
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_31
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_310
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_311
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_312
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_313
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_315
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_316
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_317
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_318
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_32
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_320
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_33
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_34
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_35
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_36
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_37
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_38
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_39
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_4
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_41
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_42
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_43
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_44
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_45
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_46
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_47
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_48
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_49
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_5
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_50
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_51
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_52
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_53
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_54
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_55
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_56
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_57
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_58
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_59
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_6
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_61
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_63
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_64
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_65
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_66
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_67
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_69
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_7
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_70
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_71
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_72
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_73
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_74
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_75
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_78
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_79
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_8
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_80
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_81
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_82
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_83
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_84
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_85
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_86
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_87
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_88
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_9
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_90
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_92
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_93
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_94
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_95
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_96
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_97
+WARNING (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:77) No posteriors for utterance 1.0-0.8-Wang_Mhint_S2_190919_S2_Wang_98
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 17200 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 17300 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 17400 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 17500 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 17600 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 17700 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 17800 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 17900 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 18000 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 18100 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 18200 utterances.
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:114) Done 18300 utterances.
+LOG (ali-to-post[5.5.646~1-cdf2]:main():ali-to-post.cc:73) Converted 18322 alignments.
+LOG (weight-silence-post[5.5.646~1-cdf2]:main():weight-silence-post.cc:95) Done 18322 posteriors.
+LOG (apply-cmvn[5.5.646~1-cdf2]:main():apply-cmvn.cc:162) Applied cepstral mean normalization to 18610 utterances, errors on 0
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:117) Done 18322 files, failed for 288
+LOG (acc-lda[5.5.646~1-cdf2]:main():acc-lda.cc:122) Written statistics.
+# Accounting: time=105 threads=1
+# Ended (code 0) at Sat Feb 22 11:46:30 CST 2020, elapsed time 105 seconds

@@ -1,0 +1,7 @@
+# lattice-copy "--include=cat exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/egs/valid_uttlist exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/egs/train_subset_uttlist |" --ignore-missing "ark:gunzip -c exp_learning/inside/lats/lat.1.gz |" ark,scp:exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/egs/lat_special.1.ark,exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/egs/lat_special.1.scp 
+# Started at Mon Feb 24 04:47:10 CST 2020
+#
+lattice-copy '--include=cat exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/egs/valid_uttlist exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/egs/train_subset_uttlist |' --ignore-missing 'ark:gunzip -c exp_learning/inside/lats/lat.1.gz |' ark,scp:exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/egs/lat_special.1.ark,exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/egs/lat_special.1.scp 
+LOG (lattice-copy[5.5.646~1-cdf2]:CopySubsetLattices():lattice-copy.cc:122)  Wrote 75 out of 17514 utterances.
+# Accounting: time=4 threads=1
+# Ended (code 0) at Mon Feb 24 04:47:14 CST 2020, elapsed time 4 seconds

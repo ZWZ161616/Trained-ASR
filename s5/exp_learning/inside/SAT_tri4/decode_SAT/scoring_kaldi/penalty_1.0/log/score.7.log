@@ -1,0 +1,5 @@
+# cat exp_learning/inside/SAT_tri4/decode_SAT/scoring_kaldi/penalty_1.0/7.txt | compute-wer --text --mode=present ark:exp_learning/inside/SAT_tri4/decode_SAT/scoring_kaldi/test_filt.txt ark,p:- >& exp_learning/inside/SAT_tri4/decode_SAT/wer_7_1.0 
+# Started at Sat Feb 22 22:15:47 CST 2020
+#
+# Accounting: time=1 threads=1
+# Ended (code 0) at Sat Feb 22 22:15:48 CST 2020, elapsed time 1 seconds

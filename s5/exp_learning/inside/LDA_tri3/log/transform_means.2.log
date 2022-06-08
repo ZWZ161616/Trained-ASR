@@ -1,0 +1,2 @@
+gmm-transform-means exp_learning/inside/LDA_tri3/2.mat.new exp_learning/inside/LDA_tri3/2.mdl exp_learning/inside/LDA_tri3/2.mdl 
+LOG (gmm-transform-means[5.5.646~1-cdf2]:main():gmm-transform-means.cc:103) Written model to exp_learning/inside/LDA_tri3/2.mdl

@@ -1,0 +1,5 @@
+# cat exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang_online/decode_inside/scoring_kaldi/penalty_0.0/13.txt | compute-wer --text --mode=present ark:exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang_online/decode_inside/scoring_kaldi/test_filt.txt ark,p:- >& exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang_online/decode_inside/wer_13_0.0 
+# Started at Mon Feb 24 13:44:36 CST 2020
+#
+# Accounting: time=0 threads=1
+# Ended (code 0) at Mon Feb 24 13:44:36 CST 2020, elapsed time 0 seconds

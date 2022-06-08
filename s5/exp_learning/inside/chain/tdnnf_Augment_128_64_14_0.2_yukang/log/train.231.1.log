@@ -1,0 +1,275 @@
+# nnet3-chain-train --use-gpu=yes --apply-deriv-weights=False --l2-regularize=0.0 --leaky-hmm-coefficient=0.1 --read-cache=exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/cache.231 --write-cache=exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/cache.232 --xent-regularize=0.1 --print-interval=10 --momentum=0.0 --max-param-change=2.0 --backstitch-training-scale=0.0 --backstitch-training-interval=1 --l2-regularize-factor=1.0 --optimization.memory-compression-level=2 --srand=231 "nnet3-am-copy --raw=true --learning-rate=0.00277177469613 --scale=1.0 exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/231.mdl - |nnet3-copy --edits='set-dropout-proportion name=* proportion=0.266666666667' - - |" exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/den.fst "ark,bg:nnet3-chain-copy-egs                          --frame-shift=0                         ark:exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/egs/cegs.1.ark ark:- |                         nnet3-chain-shuffle-egs --buffer-size=5000                         --srand=231 ark:- ark:- | nnet3-chain-merge-egs                         --minibatch-size=64 ark:- ark:- |" exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/232.1.raw 
+# Started at Mon Feb 24 11:48:31 CST 2020
+#
+nnet3-chain-train --use-gpu=yes --apply-deriv-weights=False --l2-regularize=0.0 --leaky-hmm-coefficient=0.1 --read-cache=exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/cache.231 --write-cache=exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/cache.232 --xent-regularize=0.1 --print-interval=10 --momentum=0.0 --max-param-change=2.0 --backstitch-training-scale=0.0 --backstitch-training-interval=1 --l2-regularize-factor=1.0 --optimization.memory-compression-level=2 --srand=231 "nnet3-am-copy --raw=true --learning-rate=0.00277177469613 --scale=1.0 exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/231.mdl - |nnet3-copy --edits='set-dropout-proportion name=* proportion=0.266666666667' - - |" exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/den.fst 'ark,bg:nnet3-chain-copy-egs                          --frame-shift=0                         ark:exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/egs/cegs.1.ark ark:- |                         nnet3-chain-shuffle-egs --buffer-size=5000                         --srand=231 ark:- ark:- | nnet3-chain-merge-egs                         --minibatch-size=64 ark:- ark:- |' exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/232.1.raw 
+WARNING (nnet3-chain-train[5.5.646~1-cdf2]:SelectGpuId():cu-device.cc:228) Not in compute-exclusive mode.  Suggestion: use 'nvidia-smi -c 3' to set compute exclusive mode
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:SelectGpuIdAuto():cu-device.cc:408) Selecting from 1 GPUs
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:SelectGpuIdAuto():cu-device.cc:423) cudaSetDevice(0): Tesla V100-SXM2-32GB	free:21142M, used:11337M, total:32480M, free/total:0.650941
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:SelectGpuIdAuto():cu-device.cc:471) Device: 0, mem_ratio: 0.650941
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:SelectGpuId():cu-device.cc:352) Trying to select device: 0
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:SelectGpuIdAuto():cu-device.cc:481) Success selecting device 0 free mem ratio: 0.650941
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:FinalizeActiveGpu():cu-device.cc:308) The active GPU is [0]: Tesla V100-SXM2-32GB	free:20864M, used:11615M, total:32480M, free/total:0.642382 version 7.0
+nnet3-am-copy --raw=true --learning-rate=0.00277177469613 --scale=1.0 exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/231.mdl - 
+nnet3-copy '--edits=set-dropout-proportion name=* proportion=0.266666666667' - - 
+LOG (nnet3-am-copy[5.5.646~1-cdf2]:main():nnet3-am-copy.cc:153) Copied neural net from exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/231.mdl to raw format as -
+LOG (nnet3-copy[5.5.646~1-cdf2]:ReadEditConfig():nnet-utils.cc:1397) Set dropout proportions for 13 components.
+LOG (nnet3-copy[5.5.646~1-cdf2]:main():nnet3-copy.cc:114) Copied raw neural net from - to -
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:NnetChainTrainer():nnet-chain-training.cc:51) Read computation cache from exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/cache.231
+nnet3-chain-merge-egs --minibatch-size=64 ark:- ark:- 
+nnet3-chain-shuffle-egs --buffer-size=5000 --srand=231 ark:- ark:- 
+nnet3-chain-copy-egs --frame-shift=0 ark:exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/egs/cegs.1.ark ark:- 
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:UpdateNnetWithMaxChange():nnet-utils.cc:2189) Per-component max-change active on 3 / 32 Updatable Components. (Smallest factor=0.648463 on tdnn1.affine with max-change=0.75). Global max-change factor was 0.84466 with max-change=2.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:UpdateNnetWithMaxChange():nnet-utils.cc:2189) Per-component max-change active on 1 / 32 Updatable Components. (Smallest factor=0.888087 on tdnn1.affine with max-change=0.75). Global max-change factor was 0.969904 with max-change=2.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output-xent' for minibatches 0-9 is -1.82071 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output' for minibatches 0-9 is -0.139787 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:UpdateNnetWithMaxChange():nnet-utils.cc:2189) Per-component max-change active on 4 / 32 Updatable Components. (Smallest factor=0.635277 on prefinal-chain.linear with max-change=0.75). Global max-change factor was 0.792469 with max-change=2.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output-xent' for minibatches 10-19 is -1.68575 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output' for minibatches 10-19 is -0.14886 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:UpdateNnetWithMaxChange():nnet-utils.cc:2189) Per-component max-change active on 1 / 32 Updatable Components. (Smallest factor=0.9854 on prefinal-l with max-change=0.75). 
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output-xent' for minibatches 20-29 is -1.80724 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output' for minibatches 20-29 is -0.134076 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output-xent' for minibatches 30-39 is -1.62127 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output' for minibatches 30-39 is -0.11831 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:UpdateNnetWithMaxChange():nnet-utils.cc:2189) Per-component max-change active on 1 / 32 Updatable Components. (Smallest factor=0.946048 on prefinal-l with max-change=0.75). 
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:UpdateNnetWithMaxChange():nnet-utils.cc:2189) Per-component max-change active on 1 / 32 Updatable Components. (Smallest factor=0.905699 on prefinal-l with max-change=0.75). Global max-change factor was 0.984657 with max-change=2.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output-xent' for minibatches 40-49 is -1.68148 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output' for minibatches 40-49 is -0.127257 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:UpdateNnetWithMaxChange():nnet-utils.cc:2189) Per-component max-change active on 1 / 32 Updatable Components. (Smallest factor=0.954198 on prefinal-l with max-change=0.75). Global max-change factor was 0.98402 with max-change=2.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output-xent' for minibatches 50-59 is -1.59845 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output' for minibatches 50-59 is -0.133776 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output-xent' for minibatches 60-69 is -1.61732 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output' for minibatches 60-69 is -0.117193 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output-xent' for minibatches 70-79 is -1.65537 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output' for minibatches 70-79 is -0.127419 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:UpdateNnetWithMaxChange():nnet-utils.cc:2189) Global max-change factor was 0.966048 with max-change=2.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output-xent' for minibatches 80-89 is -1.71266 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output' for minibatches 80-89 is -0.12961 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:UpdateNnetWithMaxChange():nnet-utils.cc:2189) Per-component max-change active on 1 / 32 Updatable Components. (Smallest factor=0.898029 on prefinal-l with max-change=0.75). Global max-change factor was 0.879096 with max-change=2.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output-xent' for minibatches 90-99 is -1.65005 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output' for minibatches 90-99 is -0.127596 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:UpdateNnetWithMaxChange():nnet-utils.cc:2189) Per-component max-change active on 1 / 32 Updatable Components. (Smallest factor=0.983414 on prefinal-l with max-change=0.75). 
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output-xent' for minibatches 100-109 is -1.62852 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output' for minibatches 100-109 is -0.126813 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:UpdateNnetWithMaxChange():nnet-utils.cc:2189) Per-component max-change active on 1 / 32 Updatable Components. (Smallest factor=0.982995 on prefinal-l with max-change=0.75). 
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:UpdateNnetWithMaxChange():nnet-utils.cc:2189) Per-component max-change active on 1 / 32 Updatable Components. (Smallest factor=0.977681 on prefinal-l with max-change=0.75). 
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output-xent' for minibatches 110-119 is -1.7346 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output' for minibatches 110-119 is -0.137549 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:UpdateNnetWithMaxChange():nnet-utils.cc:2189) Per-component max-change active on 1 / 32 Updatable Components. (Smallest factor=0.95126 on tdnn1.affine with max-change=0.75). 
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output-xent' for minibatches 120-129 is -1.76672 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output' for minibatches 120-129 is -0.120995 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:UpdateNnetWithMaxChange():nnet-utils.cc:2189) Per-component max-change active on 1 / 32 Updatable Components. (Smallest factor=0.990754 on prefinal-l with max-change=0.75). 
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:UpdateNnetWithMaxChange():nnet-utils.cc:2189) Per-component max-change active on 1 / 32 Updatable Components. (Smallest factor=0.959142 on prefinal-l with max-change=0.75). Global max-change factor was 0.969583 with max-change=2.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output-xent' for minibatches 130-139 is -1.64599 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output' for minibatches 130-139 is -0.132304 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:UpdateNnetWithMaxChange():nnet-utils.cc:2189) Per-component max-change active on 1 / 32 Updatable Components. (Smallest factor=0.991261 on prefinal-l with max-change=0.75). 
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output-xent' for minibatches 140-149 is -1.6544 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output' for minibatches 140-149 is -0.123271 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:UpdateNnetWithMaxChange():nnet-utils.cc:2189) Global max-change factor was 0.990411 with max-change=2.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output-xent' for minibatches 150-159 is -1.55788 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output' for minibatches 150-159 is -0.123132 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:UpdateNnetWithMaxChange():nnet-utils.cc:2189) Per-component max-change active on 1 / 32 Updatable Components. (Smallest factor=0.957468 on prefinal-l with max-change=0.75). Global max-change factor was 0.906494 with max-change=2.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:UpdateNnetWithMaxChange():nnet-utils.cc:2189) Per-component max-change active on 1 / 32 Updatable Components. (Smallest factor=0.857268 on prefinal-l with max-change=0.75). Global max-change factor was 0.909099 with max-change=2.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output-xent' for minibatches 160-169 is -1.7146 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output' for minibatches 160-169 is -0.1299 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:UpdateNnetWithMaxChange():nnet-utils.cc:2189) Per-component max-change active on 1 / 32 Updatable Components. (Smallest factor=0.990919 on prefinal-l with max-change=0.75). Global max-change factor was 0.887382 with max-change=2.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output-xent' for minibatches 170-179 is -1.63186 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output' for minibatches 170-179 is -0.122949 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output-xent' for minibatches 180-189 is -1.66927 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output' for minibatches 180-189 is -0.124038 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:UpdateNnetWithMaxChange():nnet-utils.cc:2189) Per-component max-change active on 1 / 32 Updatable Components. (Smallest factor=0.93232 on prefinal-l with max-change=0.75). 
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output-xent' for minibatches 190-199 is -1.73884 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output' for minibatches 190-199 is -0.134698 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:UpdateNnetWithMaxChange():nnet-utils.cc:2189) Per-component max-change active on 1 / 32 Updatable Components. (Smallest factor=0.970296 on prefinal-l with max-change=0.75). Global max-change factor was 0.981052 with max-change=2.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:UpdateNnetWithMaxChange():nnet-utils.cc:2189) Per-component max-change active on 1 / 32 Updatable Components. (Smallest factor=0.935866 on prefinal-l with max-change=0.75). 
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:UpdateNnetWithMaxChange():nnet-utils.cc:2189) Per-component max-change active on 1 / 32 Updatable Components. (Smallest factor=0.931521 on prefinal-l with max-change=0.75). 
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output-xent' for minibatches 200-209 is -1.65515 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output' for minibatches 200-209 is -0.121591 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:UpdateNnetWithMaxChange():nnet-utils.cc:2189) Per-component max-change active on 1 / 32 Updatable Components. (Smallest factor=0.990634 on prefinal-l with max-change=0.75). Global max-change factor was 0.984757 with max-change=2.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:UpdateNnetWithMaxChange():nnet-utils.cc:2189) Per-component max-change active on 1 / 32 Updatable Components. (Smallest factor=0.933898 on prefinal-l with max-change=0.75). Global max-change factor was 0.947675 with max-change=2.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:UpdateNnetWithMaxChange():nnet-utils.cc:2189) Per-component max-change active on 1 / 32 Updatable Components. (Smallest factor=0.925779 on prefinal-l with max-change=0.75). Global max-change factor was 0.956604 with max-change=2.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:UpdateNnetWithMaxChange():nnet-utils.cc:2189) Per-component max-change active on 1 / 32 Updatable Components. (Smallest factor=0.914473 on prefinal-l with max-change=0.75). Global max-change factor was 0.987046 with max-change=2.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output-xent' for minibatches 210-219 is -1.74587 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output' for minibatches 210-219 is -0.138801 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:UpdateNnetWithMaxChange():nnet-utils.cc:2189) Per-component max-change active on 1 / 32 Updatable Components. (Smallest factor=0.944134 on prefinal-l with max-change=0.75). Global max-change factor was 0.946613 with max-change=2.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:UpdateNnetWithMaxChange():nnet-utils.cc:2189) Per-component max-change active on 1 / 32 Updatable Components. (Smallest factor=0.955061 on prefinal-l with max-change=0.75). Global max-change factor was 0.955183 with max-change=2.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output-xent' for minibatches 220-229 is -1.76721 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output' for minibatches 220-229 is -0.140569 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:UpdateNnetWithMaxChange():nnet-utils.cc:2189) Per-component max-change active on 1 / 32 Updatable Components. (Smallest factor=0.99102 on prefinal-l with max-change=0.75). 
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output-xent' for minibatches 230-239 is -1.66459 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output' for minibatches 230-239 is -0.120481 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:UpdateNnetWithMaxChange():nnet-utils.cc:2189) Per-component max-change active on 1 / 32 Updatable Components. (Smallest factor=0.964055 on prefinal-l with max-change=0.75). 
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output-xent' for minibatches 240-249 is -1.78039 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output' for minibatches 240-249 is -0.12929 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:UpdateNnetWithMaxChange():nnet-utils.cc:2189) Per-component max-change active on 1 / 32 Updatable Components. (Smallest factor=0.971275 on prefinal-l with max-change=0.75). Global max-change factor was 0.968149 with max-change=2.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output-xent' for minibatches 250-259 is -1.64799 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output' for minibatches 250-259 is -0.121379 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output-xent' for minibatches 260-269 is -1.7087 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output' for minibatches 260-269 is -0.123297 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:UpdateNnetWithMaxChange():nnet-utils.cc:2189) Per-component max-change active on 1 / 32 Updatable Components. (Smallest factor=0.966575 on prefinal-l with max-change=0.75). 
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output-xent' for minibatches 270-279 is -1.59877 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output' for minibatches 270-279 is -0.120724 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:UpdateNnetWithMaxChange():nnet-utils.cc:2189) Per-component max-change active on 1 / 32 Updatable Components. (Smallest factor=0.970405 on prefinal-l with max-change=0.75). 
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:UpdateNnetWithMaxChange():nnet-utils.cc:2189) Per-component max-change active on 1 / 32 Updatable Components. (Smallest factor=0.992766 on prefinal-l with max-change=0.75). Global max-change factor was 0.998153 with max-change=2.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output-xent' for minibatches 280-289 is -1.77891 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output' for minibatches 280-289 is -0.124608 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output-xent' for minibatches 290-299 is -1.64582 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output' for minibatches 290-299 is -0.124347 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:UpdateNnetWithMaxChange():nnet-utils.cc:2189) Global max-change factor was 0.952223 with max-change=2.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output-xent' for minibatches 300-309 is -1.77366 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output' for minibatches 300-309 is -0.136087 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:UpdateNnetWithMaxChange():nnet-utils.cc:2189) Per-component max-change active on 1 / 32 Updatable Components. (Smallest factor=0.984719 on prefinal-l with max-change=0.75). 
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:UpdateNnetWithMaxChange():nnet-utils.cc:2189) Per-component max-change active on 1 / 32 Updatable Components. (Smallest factor=0.911183 on prefinal-l with max-change=0.75). Global max-change factor was 0.954149 with max-change=2.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output-xent' for minibatches 310-319 is -1.74659 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output' for minibatches 310-319 is -0.140687 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:UpdateNnetWithMaxChange():nnet-utils.cc:2189) Per-component max-change active on 1 / 32 Updatable Components. (Smallest factor=0.922276 on tdnn1.affine with max-change=0.75). 
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output-xent' for minibatches 320-329 is -1.68103 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output' for minibatches 320-329 is -0.12312 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:UpdateNnetWithMaxChange():nnet-utils.cc:2189) Per-component max-change active on 1 / 32 Updatable Components. (Smallest factor=0.983699 on prefinal-l with max-change=0.75). 
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:UpdateNnetWithMaxChange():nnet-utils.cc:2189) Per-component max-change active on 1 / 32 Updatable Components. (Smallest factor=0.956068 on prefinal-l with max-change=0.75). Global max-change factor was 0.941684 with max-change=2.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output-xent' for minibatches 330-339 is -1.63203 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output' for minibatches 330-339 is -0.127702 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:UpdateNnetWithMaxChange():nnet-utils.cc:2189) Per-component max-change active on 1 / 32 Updatable Components. (Smallest factor=0.95476 on prefinal-l with max-change=0.75). Global max-change factor was 0.977597 with max-change=2.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output-xent' for minibatches 340-349 is -1.69175 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output' for minibatches 340-349 is -0.127888 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output-xent' for minibatches 350-359 is -1.69591 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output' for minibatches 350-359 is -0.120172 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output-xent' for minibatches 360-369 is -1.6148 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output' for minibatches 360-369 is -0.108456 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:UpdateNnetWithMaxChange():nnet-utils.cc:2189) Per-component max-change active on 1 / 32 Updatable Components. (Smallest factor=0.999946 on prefinal-l with max-change=0.75). 
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output-xent' for minibatches 370-379 is -1.70199 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output' for minibatches 370-379 is -0.126311 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:UpdateNnetWithMaxChange():nnet-utils.cc:2189) Per-component max-change active on 1 / 32 Updatable Components. (Smallest factor=0.944072 on prefinal-l with max-change=0.75). 
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:UpdateNnetWithMaxChange():nnet-utils.cc:2189) Per-component max-change active on 1 / 32 Updatable Components. (Smallest factor=0.952091 on prefinal-l with max-change=0.75). Global max-change factor was 0.989311 with max-change=2.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output-xent' for minibatches 380-389 is -1.73353 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output' for minibatches 380-389 is -0.137379 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output-xent' for minibatches 390-399 is -1.69726 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output' for minibatches 390-399 is -0.124806 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output-xent' for minibatches 400-409 is -1.74552 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output' for minibatches 400-409 is -0.125853 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:UpdateNnetWithMaxChange():nnet-utils.cc:2189) Per-component max-change active on 1 / 32 Updatable Components. (Smallest factor=0.993365 on prefinal-l with max-change=0.75). 
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:UpdateNnetWithMaxChange():nnet-utils.cc:2189) Per-component max-change active on 1 / 32 Updatable Components. (Smallest factor=0.927958 on prefinal-l with max-change=0.75). 
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:UpdateNnetWithMaxChange():nnet-utils.cc:2189) Per-component max-change active on 1 / 32 Updatable Components. (Smallest factor=0.965932 on prefinal-l with max-change=0.75). 
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output-xent' for minibatches 410-419 is -1.65296 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output' for minibatches 410-419 is -0.126727 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output-xent' for minibatches 420-429 is -1.53188 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output' for minibatches 420-429 is -0.117092 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:UpdateNnetWithMaxChange():nnet-utils.cc:2189) Per-component max-change active on 1 / 32 Updatable Components. (Smallest factor=0.958075 on prefinal-l with max-change=0.75). 
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:UpdateNnetWithMaxChange():nnet-utils.cc:2189) Per-component max-change active on 1 / 32 Updatable Components. (Smallest factor=0.990375 on prefinal-l with max-change=0.75). Global max-change factor was 0.991549 with max-change=2.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:UpdateNnetWithMaxChange():nnet-utils.cc:2189) Per-component max-change active on 1 / 32 Updatable Components. (Smallest factor=0.92758 on prefinal-l with max-change=0.75). Global max-change factor was 0.907218 with max-change=2.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output-xent' for minibatches 430-439 is -1.69174 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output' for minibatches 430-439 is -0.131337 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output-xent' for minibatches 440-449 is -1.74243 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output' for minibatches 440-449 is -0.126278 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output-xent' for minibatches 450-459 is -1.74221 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output' for minibatches 450-459 is -0.130831 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:UpdateNnetWithMaxChange():nnet-utils.cc:2189) Global max-change factor was 0.984152 with max-change=2.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output-xent' for minibatches 460-469 is -1.68321 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output' for minibatches 460-469 is -0.122553 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:UpdateNnetWithMaxChange():nnet-utils.cc:2189) Per-component max-change active on 1 / 32 Updatable Components. (Smallest factor=0.982874 on prefinal-l with max-change=0.75). 
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output-xent' for minibatches 470-479 is -1.59412 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output' for minibatches 470-479 is -0.117746 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:UpdateNnetWithMaxChange():nnet-utils.cc:2189) Per-component max-change active on 1 / 32 Updatable Components. (Smallest factor=0.962255 on prefinal-l with max-change=0.75). 
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output-xent' for minibatches 480-489 is -1.67438 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output' for minibatches 480-489 is -0.123893 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:UpdateNnetWithMaxChange():nnet-utils.cc:2189) Per-component max-change active on 1 / 32 Updatable Components. (Smallest factor=0.916903 on prefinal-l with max-change=0.75). Global max-change factor was 0.954404 with max-change=2.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output-xent' for minibatches 490-499 is -1.65174 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output' for minibatches 490-499 is -0.125187 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:UpdateNnetWithMaxChange():nnet-utils.cc:2189) Per-component max-change active on 1 / 32 Updatable Components. (Smallest factor=0.985441 on prefinal-l with max-change=0.75). 
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output-xent' for minibatches 500-509 is -1.60399 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output' for minibatches 500-509 is -0.123767 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output-xent' for minibatches 510-519 is -1.58566 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output' for minibatches 510-519 is -0.11736 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:UpdateNnetWithMaxChange():nnet-utils.cc:2189) Per-component max-change active on 1 / 32 Updatable Components. (Smallest factor=0.963778 on prefinal-l with max-change=0.75). 
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output-xent' for minibatches 520-529 is -1.73203 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output' for minibatches 520-529 is -0.122136 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:UpdateNnetWithMaxChange():nnet-utils.cc:2189) Per-component max-change active on 1 / 32 Updatable Components. (Smallest factor=0.910757 on prefinal-l with max-change=0.75). 
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:UpdateNnetWithMaxChange():nnet-utils.cc:2189) Per-component max-change active on 1 / 32 Updatable Components. (Smallest factor=0.922826 on prefinal-l with max-change=0.75). Global max-change factor was 0.984806 with max-change=2.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:UpdateNnetWithMaxChange():nnet-utils.cc:2189) Global max-change factor was 0.994939 with max-change=2.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output-xent' for minibatches 530-539 is -1.71187 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output' for minibatches 530-539 is -0.13843 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output-xent' for minibatches 540-549 is -1.67074 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output' for minibatches 540-549 is -0.113843 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output-xent' for minibatches 550-559 is -1.60785 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output' for minibatches 550-559 is -0.117709 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output-xent' for minibatches 560-569 is -1.70067 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output' for minibatches 560-569 is -0.126274 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:UpdateNnetWithMaxChange():nnet-utils.cc:2189) Per-component max-change active on 1 / 32 Updatable Components. (Smallest factor=0.956156 on prefinal-l with max-change=0.75). 
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output-xent' for minibatches 570-579 is -1.64693 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output' for minibatches 570-579 is -0.119047 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:UpdateNnetWithMaxChange():nnet-utils.cc:2189) Per-component max-change active on 1 / 32 Updatable Components. (Smallest factor=0.932617 on prefinal-l with max-change=0.75). Global max-change factor was 0.972972 with max-change=2.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output-xent' for minibatches 580-589 is -1.66852 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output' for minibatches 580-589 is -0.126589 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:UpdateNnetWithMaxChange():nnet-utils.cc:2189) Per-component max-change active on 1 / 32 Updatable Components. (Smallest factor=0.865974 on prefinal-l with max-change=0.75). Global max-change factor was 0.829872 with max-change=2.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:UpdateNnetWithMaxChange():nnet-utils.cc:2189) Per-component max-change active on 1 / 32 Updatable Components. (Smallest factor=0.891301 on prefinal-l with max-change=0.75). 
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output-xent' for minibatches 590-599 is -1.59962 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output' for minibatches 590-599 is -0.129301 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:UpdateNnetWithMaxChange():nnet-utils.cc:2189) Per-component max-change active on 1 / 32 Updatable Components. (Smallest factor=0.962045 on prefinal-l with max-change=0.75). 
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:UpdateNnetWithMaxChange():nnet-utils.cc:2189) Per-component max-change active on 1 / 32 Updatable Components. (Smallest factor=0.991074 on prefinal-l with max-change=0.75). 
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output-xent' for minibatches 600-609 is -1.70631 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output' for minibatches 600-609 is -0.130692 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output-xent' for minibatches 610-619 is -1.70723 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output' for minibatches 610-619 is -0.122895 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output-xent' for minibatches 620-629 is -1.64136 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output' for minibatches 620-629 is -0.127115 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:UpdateNnetWithMaxChange():nnet-utils.cc:2189) Global max-change factor was 0.961141 with max-change=2.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:UpdateNnetWithMaxChange():nnet-utils.cc:2189) Global max-change factor was 0.932913 with max-change=2.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:UpdateNnetWithMaxChange():nnet-utils.cc:2189) Per-component max-change active on 1 / 32 Updatable Components. (Smallest factor=0.961975 on prefinal-l with max-change=0.75). Global max-change factor was 0.997988 with max-change=2.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output-xent' for minibatches 630-639 is -1.74057 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output' for minibatches 630-639 is -0.132009 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:UpdateNnetWithMaxChange():nnet-utils.cc:2189) Per-component max-change active on 1 / 32 Updatable Components. (Smallest factor=0.902625 on prefinal-l with max-change=0.75). Global max-change factor was 0.925921 with max-change=2.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:UpdateNnetWithMaxChange():nnet-utils.cc:2189) Per-component max-change active on 1 / 32 Updatable Components. (Smallest factor=0.960759 on prefinal-l with max-change=0.75). Global max-change factor was 0.999025 with max-change=2.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output-xent' for minibatches 640-649 is -1.69658 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output' for minibatches 640-649 is -0.140663 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:UpdateNnetWithMaxChange():nnet-utils.cc:2189) Per-component max-change active on 1 / 32 Updatable Components. (Smallest factor=0.944446 on prefinal-l with max-change=0.75). Global max-change factor was 0.943587 with max-change=2.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:UpdateNnetWithMaxChange():nnet-utils.cc:2189) Per-component max-change active on 1 / 32 Updatable Components. (Smallest factor=0.970999 on prefinal-l with max-change=0.75). 
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output-xent' for minibatches 650-659 is -1.75783 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output' for minibatches 650-659 is -0.136217 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:UpdateNnetWithMaxChange():nnet-utils.cc:2189) Per-component max-change active on 1 / 32 Updatable Components. (Smallest factor=0.960884 on prefinal-l with max-change=0.75). Global max-change factor was 0.989897 with max-change=2.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output-xent' for minibatches 660-669 is -1.78626 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output' for minibatches 660-669 is -0.131613 over 10880 frames.
+LOG (nnet3-chain-copy-egs[5.5.646~1-cdf2]:main():nnet3-chain-copy-egs.cc:395) Read 48281 neural-network training examples, wrote 48281
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output-xent' for minibatches 670-679 is -1.66308 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output' for minibatches 670-679 is -0.125908 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:UpdateNnetWithMaxChange():nnet-utils.cc:2189) Per-component max-change active on 1 / 32 Updatable Components. (Smallest factor=0.983088 on prefinal-l with max-change=0.75). 
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output-xent' for minibatches 680-689 is -1.68745 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output' for minibatches 680-689 is -0.12843 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:UpdateNnetWithMaxChange():nnet-utils.cc:2189) Per-component max-change active on 1 / 32 Updatable Components. (Smallest factor=0.963344 on prefinal-l with max-change=0.75). Global max-change factor was 0.947965 with max-change=2.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:UpdateNnetWithMaxChange():nnet-utils.cc:2189) Per-component max-change active on 1 / 32 Updatable Components. (Smallest factor=0.954196 on prefinal-l with max-change=0.75). 
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output-xent' for minibatches 690-699 is -1.8618 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output' for minibatches 690-699 is -0.146959 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:UpdateNnetWithMaxChange():nnet-utils.cc:2189) Per-component max-change active on 1 / 32 Updatable Components. (Smallest factor=0.999719 on prefinal-l with max-change=0.75). 
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output-xent' for minibatches 700-709 is -1.68251 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output' for minibatches 700-709 is -0.131533 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:UpdateNnetWithMaxChange():nnet-utils.cc:2189) Per-component max-change active on 1 / 32 Updatable Components. (Smallest factor=0.96973 on prefinal-l with max-change=0.75). 
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output-xent' for minibatches 710-719 is -1.66599 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output' for minibatches 710-719 is -0.127805 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:UpdateNnetWithMaxChange():nnet-utils.cc:2189) Per-component max-change active on 1 / 32 Updatable Components. (Smallest factor=0.976418 on prefinal-l with max-change=0.75). 
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output-xent' for minibatches 720-729 is -1.67036 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output' for minibatches 720-729 is -0.122328 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:UpdateNnetWithMaxChange():nnet-utils.cc:2189) Per-component max-change active on 1 / 32 Updatable Components. (Smallest factor=0.98203 on prefinal-l with max-change=0.75). 
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:UpdateNnetWithMaxChange():nnet-utils.cc:2189) Per-component max-change active on 1 / 32 Updatable Components. (Smallest factor=0.947342 on prefinal-l with max-change=0.75). 
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output-xent' for minibatches 730-739 is -1.7093 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output' for minibatches 730-739 is -0.132103 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:UpdateNnetWithMaxChange():nnet-utils.cc:2189) Per-component max-change active on 1 / 32 Updatable Components. (Smallest factor=0.934146 on prefinal-l with max-change=0.75). Global max-change factor was 0.914603 with max-change=2.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output-xent' for minibatches 740-749 is -1.79167 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output' for minibatches 740-749 is -0.136793 over 10880 frames.
+LOG (nnet3-chain-shuffle-egs[5.5.646~1-cdf2]:main():nnet3-chain-shuffle-egs.cc:104) Shuffled order of 48281 neural-network training examples using a buffer (partial randomization)
+LOG (nnet3-chain-merge-egs[5.5.646~1-cdf2]:PrintSpecificStats():nnet-example-utils.cc:1143) Merged specific eg types as follows [format: <eg-size1>={<mb-size1>-><num-minibatches1>,<mbsize2>-><num-minibatches2>.../d=<num-discarded>},<egs-size2>={...},... (note,egs-size == number of input frames including context).
+LOG (nnet3-chain-merge-egs[5.5.646~1-cdf2]:PrintSpecificStats():nnet-example-utils.cc:1173) 391={64->754,d=25}
+LOG (nnet3-chain-merge-egs[5.5.646~1-cdf2]:PrintAggregateStats():nnet-example-utils.cc:1139) Processed 48281 egs of avg. size 391 into 754 minibatches, discarding 0.05178% of egs.  Avg minibatch size was 64, #distinct types of egs/minibatches was 1/1
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintTotalStats():nnet-training.cc:317) Overall average objective function for 'output' is -0.127571 over 820352 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintTotalStats():nnet-training.cc:324) [this line is to be parsed by a script:] log-prob-per-frame=-0.127571
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintTotalStats():nnet-training.cc:317) Overall average objective function for 'output-xent' is -1.68677 over 820352 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintTotalStats():nnet-training.cc:324) [this line is to be parsed by a script:] log-prob-per-frame=-1.68677
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:Print():nnet-utils.cc:2295) For tdnn1.affine, per-component max-change was enforced 0.66313 % of the time.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:Print():nnet-utils.cc:2295) For tdnnf2.affine, per-component max-change was enforced 0.132626 % of the time.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:Print():nnet-utils.cc:2295) For tdnnf3.affine, per-component max-change was enforced 0.132626 % of the time.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:Print():nnet-utils.cc:2295) For prefinal-l, per-component max-change was enforced 9.6817 % of the time.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:Print():nnet-utils.cc:2295) For prefinal-chain.linear, per-component max-change was enforced 0.132626 % of the time.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:Print():nnet-utils.cc:2295) For output.affine, per-component max-change was enforced 0.132626 % of the time.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:Print():nnet-utils.cc:2304) The global max-change was enforced 5.70292 % of the time.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:~NnetChainTrainer():nnet-chain-training.cc:291) Wrote computation cache to exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/cache.232
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0626 seconds taken in nnet3 compilation total (breakdown: 0 compilation, 0 optimization, 0 shortcut expansion, 0 checking, 0 computing indexes, 0.0626 misc.) + 0.596 I/O.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:main():nnet3-chain-train.cc:101) Wrote raw model to exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/232.1.raw
+# Accounting: time=80 threads=1
+# Ended (code 0) at Mon Feb 24 11:49:51 CST 2020, elapsed time 80 seconds

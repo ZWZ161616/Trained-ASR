@@ -1,0 +1,9 @@
+# nnet3-average exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/315.1.raw - | nnet3-am-copy --set-raw-nnet=- exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/314.mdl exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/315.mdl 
+# Started at Mon Feb 24 13:41:48 CST 2020
+#
+nnet3-am-copy --set-raw-nnet=- exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/314.mdl exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/315.mdl 
+nnet3-average exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/315.1.raw - 
+LOG (nnet3-average[5.5.646~1-cdf2]:main():nnet3-average.cc:164) Averaged parameters of 1 neural nets, and wrote to -
+LOG (nnet3-am-copy[5.5.646~1-cdf2]:main():nnet3-am-copy.cc:160) Copied neural net from exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/314.mdl to exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/315.mdl
+# Accounting: time=1 threads=1
+# Ended (code 0) at Mon Feb 24 13:41:49 CST 2020, elapsed time 1 seconds

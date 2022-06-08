@@ -1,0 +1,186 @@
+# nnet3-chain-train --use-gpu=yes --apply-deriv-weights=False --l2-regularize=0.0 --leaky-hmm-coefficient=0.1 --read-cache=exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/cache.263 --write-cache=exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/cache.264 --xent-regularize=0.1 --print-interval=10 --momentum=0.0 --max-param-change=2.0 --backstitch-training-scale=0.0 --backstitch-training-interval=1 --l2-regularize-factor=1.0 --optimization.memory-compression-level=2 --srand=263 "nnet3-am-copy --raw=true --learning-rate=0.00219366660633 --scale=1.0 exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/263.mdl - |nnet3-copy --edits='set-dropout-proportion name=* proportion=0.165079365079' - - |" exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/den.fst "ark,bg:nnet3-chain-copy-egs                          --frame-shift=0                         ark:exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/egs/cegs.12.ark ark:- |                         nnet3-chain-shuffle-egs --buffer-size=5000                         --srand=263 ark:- ark:- | nnet3-chain-merge-egs                         --minibatch-size=64 ark:- ark:- |" exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/264.1.raw 
+# Started at Mon Feb 24 12:35:42 CST 2020
+#
+nnet3-chain-train --use-gpu=yes --apply-deriv-weights=False --l2-regularize=0.0 --leaky-hmm-coefficient=0.1 --read-cache=exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/cache.263 --write-cache=exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/cache.264 --xent-regularize=0.1 --print-interval=10 --momentum=0.0 --max-param-change=2.0 --backstitch-training-scale=0.0 --backstitch-training-interval=1 --l2-regularize-factor=1.0 --optimization.memory-compression-level=2 --srand=263 "nnet3-am-copy --raw=true --learning-rate=0.00219366660633 --scale=1.0 exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/263.mdl - |nnet3-copy --edits='set-dropout-proportion name=* proportion=0.165079365079' - - |" exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/den.fst 'ark,bg:nnet3-chain-copy-egs                          --frame-shift=0                         ark:exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/egs/cegs.12.ark ark:- |                         nnet3-chain-shuffle-egs --buffer-size=5000                         --srand=263 ark:- ark:- | nnet3-chain-merge-egs                         --minibatch-size=64 ark:- ark:- |' exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/264.1.raw 
+WARNING (nnet3-chain-train[5.5.646~1-cdf2]:SelectGpuId():cu-device.cc:228) Not in compute-exclusive mode.  Suggestion: use 'nvidia-smi -c 3' to set compute exclusive mode
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:SelectGpuIdAuto():cu-device.cc:408) Selecting from 1 GPUs
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:SelectGpuIdAuto():cu-device.cc:423) cudaSetDevice(0): Tesla V100-SXM2-32GB	free:21142M, used:11337M, total:32480M, free/total:0.650941
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:SelectGpuIdAuto():cu-device.cc:471) Device: 0, mem_ratio: 0.650941
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:SelectGpuId():cu-device.cc:352) Trying to select device: 0
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:SelectGpuIdAuto():cu-device.cc:481) Success selecting device 0 free mem ratio: 0.650941
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:FinalizeActiveGpu():cu-device.cc:308) The active GPU is [0]: Tesla V100-SXM2-32GB	free:20864M, used:11615M, total:32480M, free/total:0.642382 version 7.0
+nnet3-am-copy --raw=true --learning-rate=0.00219366660633 --scale=1.0 exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/263.mdl - 
+nnet3-copy '--edits=set-dropout-proportion name=* proportion=0.165079365079' - - 
+LOG (nnet3-am-copy[5.5.646~1-cdf2]:main():nnet3-am-copy.cc:153) Copied neural net from exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/263.mdl to raw format as -
+LOG (nnet3-copy[5.5.646~1-cdf2]:ReadEditConfig():nnet-utils.cc:1397) Set dropout proportions for 13 components.
+LOG (nnet3-copy[5.5.646~1-cdf2]:main():nnet3-copy.cc:114) Copied raw neural net from - to -
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:NnetChainTrainer():nnet-chain-training.cc:51) Read computation cache from exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/cache.263
+nnet3-chain-shuffle-egs --buffer-size=5000 --srand=263 ark:- ark:- 
+nnet3-chain-merge-egs --minibatch-size=64 ark:- ark:- 
+nnet3-chain-copy-egs --frame-shift=0 ark:exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/egs/cegs.12.ark ark:- 
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output-xent' for minibatches 0-9 is -1.44842 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output' for minibatches 0-9 is -0.103208 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output-xent' for minibatches 10-19 is -1.44626 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output' for minibatches 10-19 is -0.0992416 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output-xent' for minibatches 20-29 is -1.51262 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output' for minibatches 20-29 is -0.108407 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output-xent' for minibatches 30-39 is -1.5293 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output' for minibatches 30-39 is -0.109011 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output-xent' for minibatches 40-49 is -1.41852 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output' for minibatches 40-49 is -0.0998042 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output-xent' for minibatches 50-59 is -1.48532 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output' for minibatches 50-59 is -0.10972 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output-xent' for minibatches 60-69 is -1.47769 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output' for minibatches 60-69 is -0.111385 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output-xent' for minibatches 70-79 is -1.42662 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output' for minibatches 70-79 is -0.0969526 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output-xent' for minibatches 80-89 is -1.49151 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output' for minibatches 80-89 is -0.100057 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output-xent' for minibatches 90-99 is -1.42998 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output' for minibatches 90-99 is -0.0963415 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output-xent' for minibatches 100-109 is -1.43645 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output' for minibatches 100-109 is -0.10302 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output-xent' for minibatches 110-119 is -1.50023 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output' for minibatches 110-119 is -0.100429 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output-xent' for minibatches 120-129 is -1.42129 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output' for minibatches 120-129 is -0.0960243 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output-xent' for minibatches 130-139 is -1.39079 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output' for minibatches 130-139 is -0.0964141 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output-xent' for minibatches 140-149 is -1.39117 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output' for minibatches 140-149 is -0.0990739 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output-xent' for minibatches 150-159 is -1.40428 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output' for minibatches 150-159 is -0.104333 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output-xent' for minibatches 160-169 is -1.48062 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output' for minibatches 160-169 is -0.0971991 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output-xent' for minibatches 170-179 is -1.40288 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output' for minibatches 170-179 is -0.102764 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output-xent' for minibatches 180-189 is -1.42356 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output' for minibatches 180-189 is -0.0982832 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output-xent' for minibatches 190-199 is -1.53822 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output' for minibatches 190-199 is -0.108277 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output-xent' for minibatches 200-209 is -1.47681 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output' for minibatches 200-209 is -0.109751 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output-xent' for minibatches 210-219 is -1.43218 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output' for minibatches 210-219 is -0.0983685 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output-xent' for minibatches 220-229 is -1.47736 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output' for minibatches 220-229 is -0.106597 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output-xent' for minibatches 230-239 is -1.51612 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output' for minibatches 230-239 is -0.108677 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output-xent' for minibatches 240-249 is -1.45363 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output' for minibatches 240-249 is -0.10417 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output-xent' for minibatches 250-259 is -1.39013 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output' for minibatches 250-259 is -0.100647 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output-xent' for minibatches 260-269 is -1.45789 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output' for minibatches 260-269 is -0.100956 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output-xent' for minibatches 270-279 is -1.4716 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output' for minibatches 270-279 is -0.107983 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output-xent' for minibatches 280-289 is -1.37951 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output' for minibatches 280-289 is -0.096987 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output-xent' for minibatches 290-299 is -1.50834 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output' for minibatches 290-299 is -0.10126 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output-xent' for minibatches 300-309 is -1.44597 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output' for minibatches 300-309 is -0.114443 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output-xent' for minibatches 310-319 is -1.60701 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output' for minibatches 310-319 is -0.11976 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output-xent' for minibatches 320-329 is -1.45126 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output' for minibatches 320-329 is -0.100171 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output-xent' for minibatches 330-339 is -1.42967 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output' for minibatches 330-339 is -0.0960911 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output-xent' for minibatches 340-349 is -1.46076 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output' for minibatches 340-349 is -0.0991647 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output-xent' for minibatches 350-359 is -1.41037 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output' for minibatches 350-359 is -0.0907081 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output-xent' for minibatches 360-369 is -1.54908 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output' for minibatches 360-369 is -0.116813 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output-xent' for minibatches 370-379 is -1.51705 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output' for minibatches 370-379 is -0.109142 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output-xent' for minibatches 380-389 is -1.42305 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output' for minibatches 380-389 is -0.0932013 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output-xent' for minibatches 390-399 is -1.4337 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output' for minibatches 390-399 is -0.101952 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output-xent' for minibatches 400-409 is -1.44502 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output' for minibatches 400-409 is -0.0930645 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output-xent' for minibatches 410-419 is -1.41768 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output' for minibatches 410-419 is -0.100702 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output-xent' for minibatches 420-429 is -1.41214 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output' for minibatches 420-429 is -0.104387 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output-xent' for minibatches 430-439 is -1.55483 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output' for minibatches 430-439 is -0.104543 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output-xent' for minibatches 440-449 is -1.43142 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output' for minibatches 440-449 is -0.107844 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output-xent' for minibatches 450-459 is -1.37586 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output' for minibatches 450-459 is -0.0906574 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output-xent' for minibatches 460-469 is -1.46715 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output' for minibatches 460-469 is -0.115013 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output-xent' for minibatches 470-479 is -1.38214 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output' for minibatches 470-479 is -0.0955951 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output-xent' for minibatches 480-489 is -1.42933 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output' for minibatches 480-489 is -0.100977 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output-xent' for minibatches 490-499 is -1.46679 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output' for minibatches 490-499 is -0.0900135 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output-xent' for minibatches 500-509 is -1.4639 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output' for minibatches 500-509 is -0.110051 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output-xent' for minibatches 510-519 is -1.49939 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output' for minibatches 510-519 is -0.108963 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output-xent' for minibatches 520-529 is -1.50717 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output' for minibatches 520-529 is -0.102077 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output-xent' for minibatches 530-539 is -1.47332 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output' for minibatches 530-539 is -0.10151 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output-xent' for minibatches 540-549 is -1.36737 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output' for minibatches 540-549 is -0.0926261 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output-xent' for minibatches 550-559 is -1.49462 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output' for minibatches 550-559 is -0.105615 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output-xent' for minibatches 560-569 is -1.49 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output' for minibatches 560-569 is -0.100114 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:UpdateNnetWithMaxChange():nnet-utils.cc:2189) Per-component max-change active on 1 / 32 Updatable Components. (Smallest factor=0.982164 on prefinal-l with max-change=0.75). 
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output-xent' for minibatches 570-579 is -1.41711 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output' for minibatches 570-579 is -0.115124 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output-xent' for minibatches 580-589 is -1.51416 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output' for minibatches 580-589 is -0.105521 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output-xent' for minibatches 590-599 is -1.44368 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output' for minibatches 590-599 is -0.1034 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output-xent' for minibatches 600-609 is -1.48873 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output' for minibatches 600-609 is -0.112981 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output-xent' for minibatches 610-619 is -1.51825 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output' for minibatches 610-619 is -0.108717 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output-xent' for minibatches 620-629 is -1.40229 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output' for minibatches 620-629 is -0.0976731 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output-xent' for minibatches 630-639 is -1.44118 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output' for minibatches 630-639 is -0.102585 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output-xent' for minibatches 640-649 is -1.32073 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output' for minibatches 640-649 is -0.0912351 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output-xent' for minibatches 650-659 is -1.47509 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output' for minibatches 650-659 is -0.100641 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output-xent' for minibatches 660-669 is -1.48583 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output' for minibatches 660-669 is -0.104465 over 10880 frames.
+LOG (nnet3-chain-copy-egs[5.5.646~1-cdf2]:main():nnet3-chain-copy-egs.cc:395) Read 48421 neural-network training examples, wrote 48421
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output-xent' for minibatches 670-679 is -1.48229 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output' for minibatches 670-679 is -0.09996 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output-xent' for minibatches 680-689 is -1.4347 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output' for minibatches 680-689 is -0.100251 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output-xent' for minibatches 690-699 is -1.40334 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output' for minibatches 690-699 is -0.0941733 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output-xent' for minibatches 700-709 is -1.48312 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output' for minibatches 700-709 is -0.0984973 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output-xent' for minibatches 710-719 is -1.46468 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output' for minibatches 710-719 is -0.113624 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output-xent' for minibatches 720-729 is -1.4635 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output' for minibatches 720-729 is -0.112648 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output-xent' for minibatches 730-739 is -1.45478 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output' for minibatches 730-739 is -0.106332 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output-xent' for minibatches 740-749 is -1.34723 over 10880 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintStatsForThisPhase():nnet-training.cc:278) Average objective function for 'output' for minibatches 740-749 is -0.0952974 over 10880 frames.
+LOG (nnet3-chain-shuffle-egs[5.5.646~1-cdf2]:main():nnet3-chain-shuffle-egs.cc:104) Shuffled order of 48421 neural-network training examples using a buffer (partial randomization)
+LOG (nnet3-chain-merge-egs[5.5.646~1-cdf2]:PrintSpecificStats():nnet-example-utils.cc:1143) Merged specific eg types as follows [format: <eg-size1>={<mb-size1>-><num-minibatches1>,<mbsize2>-><num-minibatches2>.../d=<num-discarded>},<egs-size2>={...},... (note,egs-size == number of input frames including context).
+LOG (nnet3-chain-merge-egs[5.5.646~1-cdf2]:PrintSpecificStats():nnet-example-utils.cc:1173) 391={64->756,d=37}
+LOG (nnet3-chain-merge-egs[5.5.646~1-cdf2]:PrintAggregateStats():nnet-example-utils.cc:1139) Processed 48421 egs of avg. size 391 into 756 minibatches, discarding 0.07641% of egs.  Avg minibatch size was 64, #distinct types of egs/minibatches was 1/1
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintTotalStats():nnet-training.cc:317) Overall average objective function for 'output' is -0.102699 over 822528 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintTotalStats():nnet-training.cc:324) [this line is to be parsed by a script:] log-prob-per-frame=-0.102699
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintTotalStats():nnet-training.cc:317) Overall average objective function for 'output-xent' is -1.45527 over 822528 frames.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:PrintTotalStats():nnet-training.cc:324) [this line is to be parsed by a script:] log-prob-per-frame=-1.45527
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:Print():nnet-utils.cc:2295) For prefinal-l, per-component max-change was enforced 0.132275 % of the time.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:~NnetChainTrainer():nnet-chain-training.cc:291) Wrote computation cache to exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/cache.264
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0654 seconds taken in nnet3 compilation total (breakdown: 0 compilation, 0 optimization, 0 shortcut expansion, 0 checking, 0 computing indexes, 0.0654 misc.) + 0.575 I/O.
+LOG (nnet3-chain-train[5.5.646~1-cdf2]:main():nnet3-chain-train.cc:101) Wrote raw model to exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/264.1.raw
+# Accounting: time=70 threads=1
+# Ended (code 0) at Mon Feb 24 12:36:52 CST 2020, elapsed time 70 seconds

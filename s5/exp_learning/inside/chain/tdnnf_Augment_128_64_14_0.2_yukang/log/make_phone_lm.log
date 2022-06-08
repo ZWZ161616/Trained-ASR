@@ -1,0 +1,17 @@
+# gunzip -c exp_learning/inside/nnet3/tri4_biphone_tree/ali.1.gz exp_learning/inside/nnet3/tri4_biphone_tree/ali.2.gz exp_learning/inside/nnet3/tri4_biphone_tree/ali.3.gz exp_learning/inside/nnet3/tri4_biphone_tree/ali.4.gz exp_learning/inside/nnet3/tri4_biphone_tree/ali.5.gz exp_learning/inside/nnet3/tri4_biphone_tree/ali.6.gz exp_learning/inside/nnet3/tri4_biphone_tree/ali.7.gz exp_learning/inside/nnet3/tri4_biphone_tree/ali.8.gz | ali-to-phones exp_learning/inside/nnet3/tri4_biphone_tree/final.mdl ark:- ark:- | chain-est-phone-lm --num-extra-lm-states=2000 ark:- exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/phone_lm.fst 
+# Started at Mon Feb 24 04:46:51 CST 2020
+#
+ali-to-phones exp_learning/inside/nnet3/tri4_biphone_tree/final.mdl ark:- ark:- 
+chain-est-phone-lm --num-extra-lm-states=2000 ark:- exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/phone_lm.fst 
+LOG (chain-est-phone-lm[5.5.646~1-cdf2]:main():chain-est-phone-lm.cc:62) Reading phone sequences
+LOG (ali-to-phones[5.5.646~1-cdf2]:main():ali-to-phones.cc:134) Done 153815 utterances.
+LOG (chain-est-phone-lm[5.5.646~1-cdf2]:main():chain-est-phone-lm.cc:67) Estimating phone LM
+LOG (chain-est-phone-lm[5.5.646~1-cdf2]:Estimate():language-model.cc:298) Estimating language model with --no-prune-ngram-order=3, --ngram-order=4, --num-extra-lm-states=2000
+LOG (chain-est-phone-lm[5.5.646~1-cdf2]:DoBackoff():language-model.cc:252) In LM [hard] backoff, target num states was 2254 + --num-extra-lm-states=2000 = 4254, pruned from 6755 to 4254
+LOG (chain-est-phone-lm[5.5.646~1-cdf2]:OutputToFst():language-model.cc:394) Total number of phone instances seen was 2368568
+LOG (chain-est-phone-lm[5.5.646~1-cdf2]:OutputToFst():language-model.cc:395) Perplexity on training data is: 2.49325
+LOG (chain-est-phone-lm[5.5.646~1-cdf2]:OutputToFst():language-model.cc:396) Note: perplexity on unseen data will be infinity as there is no smoothing.  This is by design, to reduce the number of arcs.
+LOG (chain-est-phone-lm[5.5.646~1-cdf2]:OutputToFst():language-model.cc:404) Created phone language model with 4254 states and 9765 arcs.
+LOG (chain-est-phone-lm[5.5.646~1-cdf2]:main():chain-est-phone-lm.cc:73) Estimated phone language model and wrote it to exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/phone_lm.fst
+# Accounting: time=7 threads=1
+# Ended (code 0) at Mon Feb 24 04:46:58 CST 2020, elapsed time 7 seconds

@@ -1,0 +1,5 @@
+# cat exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang_online/decode_inside/scoring_kaldi/penalty_0.0/9.chars.txt | compute-wer --text --mode=present ark:exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang_online/decode_inside/scoring_kaldi/test_filt.chars.txt ark,p:- >& exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang_online/decode_inside/cer_9_0.0 
+# Started at Mon Feb 24 13:44:44 CST 2020
+#
+# Accounting: time=0 threads=1
+# Ended (code 0) at Mon Feb 24 13:44:45 CST 2020, elapsed time 0 seconds

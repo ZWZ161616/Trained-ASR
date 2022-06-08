@@ -1,0 +1,8 @@
+# ivector-extractor-est --num-threads=4 exp_learning/inside/nnet3/extractor/0.ie exp_learning/inside/nnet3/extractor/acc.0 exp_learning/inside/nnet3/extractor/1.ie 
+# Started at Sun Feb 23 02:09:33 CST 2020
+#
+ivector-extractor-est --num-threads=4 exp_learning/inside/nnet3/extractor/0.ie exp_learning/inside/nnet3/extractor/acc.0 exp_learning/inside/nnet3/extractor/1.ie 
+LOG (ivector-extractor-est[5.5.646~1-cdf2]:main():ivector-extractor-est.cc:55) Reading model
+basic_filebuf::underflow error reading the file: iostream error
+# Accounting: time=0 threads=1
+# Ended (code 255) at Sun Feb 23 02:09:33 CST 2020, elapsed time 0 seconds

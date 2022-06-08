@@ -1,0 +1,650 @@
+# lattice-scale --inv-acoustic-scale=11 "ark:gunzip -c exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang_online/decode_Wang1/lat.*.gz|" ark:- | lattice-add-penalty --word-ins-penalty=0.5 ark:- ark:- | lattice-best-path --word-symbol-table=exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/graph/words.txt ark:- ark,t:- | utils/int2sym.pl -f 2- exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/graph/words.txt | local/wer_hyp_filter > exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang_online/decode_Wang1/scoring_kaldi/penalty_0.5/11.txt 
+# Started at Mon Feb 24 13:54:05 CST 2020
+#
+lattice-best-path --word-symbol-table=exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/graph/words.txt ark:- ark,t:- 
+lattice-scale --inv-acoustic-scale=11 'ark:gunzip -c exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang_online/decode_Wang1/lat.*.gz|' ark:- 
+lattice-add-penalty --word-ins-penalty=0.5 ark:- ark:- 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_1, best cost 116.373 + -285.831 = -169.459 over 131 frames.
+Wang_Mhint_S1_190919_S1_Wang_1 學期 需付 十塊 台幣 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_10, best cost 110.429 + -342.881 = -232.452 over 134 frames.
+Wang_Mhint_S1_190919_S1_Wang_10 秘書 在 幫 老闆 寫 文件 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_100, best cost 91.2912 + -308.644 = -217.353 over 105 frames.
+Wang_Mhint_S1_190919_S1_Wang_100 為 什麼 不接 聽 我 的 電話 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_101, best cost 130.782 + -414.605 = -283.822 over 166 frames.
+Wang_Mhint_S1_190919_S1_Wang_101 我 下午 約 好 朋友 踢足球 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_102, best cost 106.332 + -322.667 = -216.335 over 125 frames.
+Wang_Mhint_S1_190919_S1_Wang_102 他 幾乎 每個 月 都 要 出差 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_103, best cost 120.32 + -421.455 = -301.135 over 149 frames.
+Wang_Mhint_S1_190919_S1_Wang_103 他 最近 好像 掉 了 魂 似的 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_104, best cost 103.786 + -367.866 = -264.08 over 122 frames.
+Wang_Mhint_S1_190919_S1_Wang_104 我 今晚 要 去 奶奶家 吃 飯 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_105, best cost 107.227 + -381.441 = -274.213 over 134 frames.
+Wang_Mhint_S1_190919_S1_Wang_105 爸爸 明天 送 外婆 回老家 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_106, best cost 102.252 + -376.929 = -274.677 over 121 frames.
+Wang_Mhint_S1_190919_S1_Wang_106 退潮 時 他 撿 到 很多 貝殼 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_107, best cost 101.445 + -359.69 = -258.245 over 120 frames.
+Wang_Mhint_S1_190919_S1_Wang_107 工地 上 有 很多 建築 工人 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_108, best cost 93.401 + -329.141 = -235.74 over 112 frames.
+Wang_Mhint_S1_190919_S1_Wang_108 他 今天 去 醫院 探望 同事 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_109, best cost 92.8587 + -315.687 = -222.828 over 109 frames.
+Wang_Mhint_S1_190919_S1_Wang_109 我們 特別 想 去 參觀 故宮 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_11, best cost 114.185 + -286.594 = -172.409 over 144 frames.
+Wang_Mhint_S1_190919_S1_Wang_11 我 大年初一 向 爸爸 拜年 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_110, best cost 113.339 + -334.379 = -221.04 over 136 frames.
+Wang_Mhint_S1_190919_S1_Wang_110 他 幾天 前 配 了 一副 眼鏡 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_111, best cost 166.145 + -476.831 = -310.687 over 202 frames.
+Wang_Mhint_S1_190919_S1_Wang_111 記者 整夜 工作 趕 跳繩 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_112, best cost 116.16 + -370.598 = -254.437 over 146 frames.
+Wang_Mhint_S1_190919_S1_Wang_112 昨天晚上 聚會 他 喝醉 了 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_113, best cost 111.82 + -314.132 = -202.312 over 122 frames.
+Wang_Mhint_S1_190919_S1_Wang_113 請 叫 他們 經理 來 接電話 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_114, best cost 93.2455 + -271.785 = -178.539 over 95 frames.
+Wang_Mhint_S1_190919_S1_Wang_114 這 個 城市 有 很多 旅遊點 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_115, best cost 86.4825 + -280.697 = -194.214 over 101 frames.
+Wang_Mhint_S1_190919_S1_Wang_115 這個 行業 很 容易 找 工作 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_116, best cost 96.8287 + -321.048 = -224.219 over 117 frames.
+Wang_Mhint_S1_190919_S1_Wang_116 他 對 朋友 一向 很 守信用 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_117, best cost 99.7079 + -343.49 = -243.782 over 120 frames.
+Wang_Mhint_S1_190919_S1_Wang_117 庭院 裡 種 了 一些 向日葵 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_118, best cost 135.934 + -416.4 = -280.466 over 160 frames.
+Wang_Mhint_S1_190919_S1_Wang_118 夏天 牆 上 爬 滿 了 牽 牛花 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_119, best cost 111.107 + -385.09 = -273.983 over 132 frames.
+Wang_Mhint_S1_190919_S1_Wang_119 我 在 口袋 裡 找出 三十 元 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_12, best cost 125.612 + -372.762 = -247.15 over 154 frames.
+Wang_Mhint_S1_190919_S1_Wang_12 我 每天 早上 都 要 喝杯 茶 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_120, best cost 92.3402 + -325.19 = -232.849 over 104 frames.
+Wang_Mhint_S1_190919_S1_Wang_120 誰 都 喜歡 和 她 一起 工作 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_121, best cost 108.398 + -304.842 = -196.443 over 129 frames.
+Wang_Mhint_S1_190919_S1_Wang_121 他 今天 穿 了 一件 緊身 衣 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_122, best cost 101.097 + -331.003 = -229.906 over 124 frames.
+Wang_Mhint_S1_190919_S1_Wang_122 爸爸 每天晚上 要 看 新聞 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_123, best cost 130.224 + -446.425 = -316.201 over 161 frames.
+Wang_Mhint_S1_190919_S1_Wang_123 他 染上 了 吸煙 的 壞 習慣 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_124, best cost 112.132 + -399.244 = -287.112 over 138 frames.
+Wang_Mhint_S1_190919_S1_Wang_124 他 辭職 大家 覺得 很 意外 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_125, best cost 102.031 + -369.4 = -267.37 over 123 frames.
+Wang_Mhint_S1_190919_S1_Wang_125 我 在 桌子 下 看到 一枝 筆 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_126, best cost 100.064 + -289.436 = -189.372 over 108 frames.
+Wang_Mhint_S1_190919_S1_Wang_126 這 個 球 隊終 於 打入 決賽 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_127, best cost 82.9415 + -301.539 = -218.598 over 96 frames.
+Wang_Mhint_S1_190919_S1_Wang_127 媽媽 一大早 就 去 上班 了 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_128, best cost 93.8565 + -344.186 = -250.33 over 115 frames.
+Wang_Mhint_S1_190919_S1_Wang_128 爺爺 經常帶 小妹 出去玩 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_129, best cost 82.6065 + -289.48 = -206.873 over 92 frames.
+Wang_Mhint_S1_190919_S1_Wang_129 他們 下 周五 要 開 家長會 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_13, best cost 105.299 + -331.136 = -225.838 over 125 frames.
+Wang_Mhint_S1_190919_S1_Wang_13 他 的 名片 上 有 很多 頭銜 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_130, best cost 104.185 + -327.011 = -222.826 over 127 frames.
+Wang_Mhint_S1_190919_S1_Wang_130 這件 衣服 冬天 穿 很 合適 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_131, best cost 95.618 + -309.076 = -213.458 over 111 frames.
+Wang_Mhint_S1_190919_S1_Wang_131 他 倒 了 一杯 準備 吃藥 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_132, best cost 143.902 + -453.825 = -309.922 over 170 frames.
+Wang_Mhint_S1_190919_S1_Wang_132 他 覺得 外國 人人 名 很 難記 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_133, best cost 104.663 + -337.888 = -233.224 over 132 frames.
+Wang_Mhint_S1_190919_S1_Wang_133 爸爸 以前 是 籃球隊 隊員 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_134, best cost 99.0312 + -347.565 = -248.534 over 120 frames.
+Wang_Mhint_S1_190919_S1_Wang_134 醫生 說 他 需要 住院 治療 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_135, best cost 93.0958 + -326.8 = -233.704 over 110 frames.
+Wang_Mhint_S1_190919_S1_Wang_135 電視 上 經常 有 時裝 表演 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_136, best cost 98.0808 + -292.129 = -194.048 over 116 frames.
+Wang_Mhint_S1_190919_S1_Wang_136 他頭 上 的 傷口 縫 了 七針 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_137, best cost 90.5739 + -327.22 = -236.647 over 103 frames.
+Wang_Mhint_S1_190919_S1_Wang_137 所有 的 小朋友 都 在 吃 飯 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_138, best cost 89.3481 + -327.257 = -237.909 over 104 frames.
+Wang_Mhint_S1_190919_S1_Wang_138 小孩子 都 喜歡 吃 麥當勞 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_139, best cost 96.237 + -334.04 = -237.803 over 112 frames.
+Wang_Mhint_S1_190919_S1_Wang_139 這 個 城市 北邊 是 工業區 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_14, best cost 93.3964 + -316.421 = -223.025 over 111 frames.
+Wang_Mhint_S1_190919_S1_Wang_14 這個 超市 的 東西 很 便宜 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_140, best cost 98.8386 + -346.761 = -247.923 over 121 frames.
+Wang_Mhint_S1_190919_S1_Wang_140 學校 不准 學生 穿 高跟鞋 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_141, best cost 141.925 + -459.203 = -317.278 over 183 frames.
+Wang_Mhint_S1_190919_S1_Wang_141 因為 下 大雨 比賽 取消 了 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_142, best cost 110.79 + -365.186 = -254.396 over 138 frames.
+Wang_Mhint_S1_190919_S1_Wang_142 大家 正在 商量 這個 計劃 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_143, best cost 103.421 + -364.616 = -261.195 over 123 frames.
+Wang_Mhint_S1_190919_S1_Wang_143 他們 都 在 抱怨 物價 上 漲 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_145, best cost 95.6596 + -352.859 = -257.199 over 113 frames.
+Wang_Mhint_S1_190919_S1_Wang_145 那 家 超市 的 東西 不 便宜 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_146, best cost 101.448 + -363.779 = -262.332 over 123 frames.
+Wang_Mhint_S1_190919_S1_Wang_146 他 的 爸爸 在 大學 教數學 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_147, best cost 95.4377 + -317.93 = -222.493 over 114 frames.
+Wang_Mhint_S1_190919_S1_Wang_147 那家 餐廳 的 包子 很 有名 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_148, best cost 98.2556 + -362.76 = -264.505 over 121 frames.
+Wang_Mhint_S1_190919_S1_Wang_148 他們 部門 春節 放假 五天 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_149, best cost 88.7615 + -341.296 = -252.535 over 107 frames.
+Wang_Mhint_S1_190919_S1_Wang_149 那邊 的 公路 有 交通事故 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_15, best cost 99.7526 + -367.455 = -267.703 over 121 frames.
+Wang_Mhint_S1_190919_S1_Wang_15 我們 喜歡 看 電視 連續劇 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_150, best cost 93.5349 + -314.651 = -221.116 over 107 frames.
+Wang_Mhint_S1_190919_S1_Wang_150 大伯 的 孩子 們 都 很 孝順 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_151, best cost 111.903 + -348.459 = -236.556 over 127 frames.
+Wang_Mhint_S1_190919_S1_Wang_151 這 個 火車站 有 很多 遊客 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_152, best cost 99.8252 + -361.631 = -261.806 over 124 frames.
+Wang_Mhint_S1_190919_S1_Wang_152 奶奶 會講 好多 恐怖 故事 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_153, best cost 94.5149 + -327.762 = -233.247 over 114 frames.
+Wang_Mhint_S1_190919_S1_Wang_153 鄰 居家 經 常有 人 打麻將 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_154, best cost 92.9112 + -361.961 = -269.049 over 110 frames.
+Wang_Mhint_S1_190919_S1_Wang_154 我們 經常 一起 玩 撲克牌 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_155, best cost 100.876 + -351.258 = -250.382 over 106 frames.
+Wang_Mhint_S1_190919_S1_Wang_155 媽媽 每 天 都 幫 我 做 早點 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_156, best cost 90.6048 + -365.141 = -274.536 over 109 frames.
+Wang_Mhint_S1_190919_S1_Wang_156 媽媽 最 喜歡 做 麻婆豆腐 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_157, best cost 75.9091 + -272.152 = -196.243 over 88 frames.
+Wang_Mhint_S1_190919_S1_Wang_157 我 的 姊姊 最喜歡 逛書店 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_158, best cost 104.173 + -368.005 = -263.832 over 126 frames.
+Wang_Mhint_S1_190919_S1_Wang_158 樓下 的 叔叔 喜歡 聽 歌劇 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_159, best cost 97.6504 + -348.611 = -250.96 over 115 frames.
+Wang_Mhint_S1_190919_S1_Wang_159 廚房 裏 最近 發現 有 老鼠 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_16, best cost 102.463 + -344.713 = -242.251 over 126 frames.
+Wang_Mhint_S1_190919_S1_Wang_16 他們 非常 熟悉 中國 歷史 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_160, best cost 79.5626 + -252.028 = -172.466 over 87 frames.
+Wang_Mhint_S1_190919_S1_Wang_160 週末 我們 全家 去 看 電影 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_161, best cost 123.155 + -370.607 = -247.452 over 153 frames.
+Wang_Mhint_S1_190919_S1_Wang_161 放長 假 好多 人 出去 旅遊 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_162, best cost 91.295 + -310.414 = -219.119 over 110 frames.
+Wang_Mhint_S1_190919_S1_Wang_162 平常 應該 注意 個 人衛生 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_163, best cost 93.6247 + -334.169 = -240.545 over 112 frames.
+Wang_Mhint_S1_190919_S1_Wang_163 他 買 了 一本 厚厚的 字典 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_164, best cost 80.3812 + -243.786 = -163.405 over 95 frames.
+Wang_Mhint_S1_190919_S1_Wang_164 公佈欄 貼 著 一張 通緝令 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_165, best cost 94.9818 + -337.88 = -242.898 over 109 frames.
+Wang_Mhint_S1_190919_S1_Wang_165 他 每天 上班 都 要 打 領帶 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_166, best cost 105.771 + -393.054 = -287.283 over 129 frames.
+Wang_Mhint_S1_190919_S1_Wang_166 他 收到 一大 筆 海外 匯款 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_167, best cost 108.969 + -294.184 = -185.215 over 118 frames.
+Wang_Mhint_S1_190919_S1_Wang_167 那 壺 水 已經 開 了 好久 了 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_168, best cost 87.2936 + -351.381 = -264.087 over 103 frames.
+Wang_Mhint_S1_190919_S1_Wang_168 學校 今天 晚上 舉辦 舞會 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_169, best cost 120.485 + -366.33 = -245.844 over 138 frames.
+Wang_Mhint_S1_190919_S1_Wang_169 他 被 學習 參加 畢業 典禮 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_17, best cost 121.22 + -356.638 = -235.419 over 143 frames.
+Wang_Mhint_S1_190919_S1_Wang_17 這 個 人 看起來 彬彬有禮 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_170, best cost 74.4184 + -254.565 = -180.147 over 81 frames.
+Wang_Mhint_S1_190919_S1_Wang_170 他 買 了 一束 鮮花 送給 她 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_171, best cost 116.251 + -392.007 = -275.756 over 149 frames.
+Wang_Mhint_S1_190919_S1_Wang_171 今天 出門要 記得 帶雨傘 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_172, best cost 104.003 + -391.938 = -287.935 over 123 frames.
+Wang_Mhint_S1_190919_S1_Wang_172 樓下 的 小貓 整晚 都 在 叫 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_173, best cost 99.4948 + -360.166 = -260.671 over 121 frames.
+Wang_Mhint_S1_190919_S1_Wang_173 阿姨 送給 我 一包 水果糖 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_174, best cost 103.185 + -369.764 = -266.579 over 126 frames.
+Wang_Mhint_S1_190919_S1_Wang_174 我 在 星期天 常常 晚 起床 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_175, best cost 102.909 + -350.912 = -248.002 over 114 frames.
+Wang_Mhint_S1_190919_S1_Wang_175 他 每 天 都 要 工作 到 深夜 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_176, best cost 81.6863 + -280.648 = -198.962 over 93 frames.
+Wang_Mhint_S1_190919_S1_Wang_176 老師 很 關心 我們 的 生活 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_177, best cost 76.7999 + -260.669 = -183.869 over 87 frames.
+Wang_Mhint_S1_190919_S1_Wang_177 他 的 幾個 同事 是 電腦迷 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_178, best cost 101.565 + -390.197 = -288.632 over 126 frames.
+Wang_Mhint_S1_190919_S1_Wang_178 我們 部門 主任 經常 出國 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_179, best cost 85.4981 + -315.78 = -230.282 over 101 frames.
+Wang_Mhint_S1_190919_S1_Wang_179 他 下 星期一 要 參加會議 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_18, best cost 118.106 + -353.398 = -235.292 over 135 frames.
+Wang_Mhint_S1_190919_S1_Wang_18 他 的 臉 上長 了 很多 麻疹 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_180, best cost 88.2412 + -276.352 = -188.111 over 106 frames.
+Wang_Mhint_S1_190919_S1_Wang_180 這部 連續劇 的確 很 無聊 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_181, best cost 85.9664 + -268.924 = -182.958 over 103 frames.
+Wang_Mhint_S1_190919_S1_Wang_181 那間 餐廳 吃 早點 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_182, best cost 112.703 + -374.289 = -261.586 over 134 frames.
+Wang_Mhint_S1_190919_S1_Wang_182 她 們 家 的 寶寶 剛過 滿月 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_183, best cost 94.4233 + -337.885 = -243.461 over 113 frames.
+Wang_Mhint_S1_190919_S1_Wang_183 爸爸 去 幫 大家 買電 影票 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_184, best cost 108.913 + -377.49 = -268.577 over 133 frames.
+Wang_Mhint_S1_190919_S1_Wang_184 有 許多 家長 接 孩子 放學 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_185, best cost 105.197 + -388.896 = -283.699 over 129 frames.
+Wang_Mhint_S1_190919_S1_Wang_185 深夜 聽到 有人 在 彈鋼琴 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_186, best cost 98.576 + -344.417 = -245.841 over 116 frames.
+Wang_Mhint_S1_190919_S1_Wang_186 他 今天 帶 了 一條 金項 鍊 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_187, best cost 102.649 + -321.337 = -218.689 over 123 frames.
+Wang_Mhint_S1_190919_S1_Wang_187 這 班列 車 因故 被 取消 了 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_188, best cost 104.071 + -399.088 = -295.017 over 129 frames.
+Wang_Mhint_S1_190919_S1_Wang_188 今晚 有 棒球賽 實況 轉播 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_189, best cost 89.7709 + -259.807 = -170.036 over 104 frames.
+Wang_Mhint_S1_190919_S1_Wang_189 我 的 城裡 有 座 跨海 大橋 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_19, best cost 111.446 + -359.399 = -247.953 over 137 frames.
+Wang_Mhint_S1_190919_S1_Wang_19 他 今年 七月 要 參 加考 試 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_190, best cost 96.2236 + -340.928 = -244.704 over 115 frames.
+Wang_Mhint_S1_190919_S1_Wang_190 我們 都 參加 學校 合唱團 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_191, best cost 100.129 + -335.24 = -235.111 over 109 frames.
+Wang_Mhint_S1_190919_S1_Wang_191 我們 每 天 早上 都 要 跑步 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_192, best cost 92.7564 + -322.383 = -229.627 over 108 frames.
+Wang_Mhint_S1_190919_S1_Wang_192 我 發現 廚房裡 沒 有 鹽 了 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_193, best cost 100.364 + -355.992 = -255.627 over 119 frames.
+Wang_Mhint_S1_190919_S1_Wang_193 媽媽 明天 要 去 超市 買油 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_194, best cost 68.47 + -199.014 = -130.544 over 77 frames.
+Wang_Mhint_S1_190919_S1_Wang_194 爸爸 今天 買回 一個 西瓜 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_195, best cost 75.4513 + -263.242 = -187.79 over 87 frames.
+Wang_Mhint_S1_190919_S1_Wang_195 媽媽 做好 飯 等 爸爸 回來 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_196, best cost 100.927 + -309.172 = -208.244 over 107 frames.
+Wang_Mhint_S1_190919_S1_Wang_196 他 每 天 都 要 練習 彈 鋼琴 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_197, best cost 91.5134 + -323.57 = -232.057 over 107 frames.
+Wang_Mhint_S1_190919_S1_Wang_197 剛才 聽 到 隔壁家 在 吵架 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_198, best cost 96.9231 + -324.1 = -227.177 over 114 frames.
+Wang_Mhint_S1_190919_S1_Wang_198 爸爸 不 小心 把 茶 打翻 了 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_199, best cost 92.1655 + -335.697 = -243.531 over 113 frames.
+Wang_Mhint_S1_190919_S1_Wang_199 媽媽 經常寄些 錢給 外婆 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_2, best cost 112.595 + -365.255 = -252.661 over 143 frames.
+Wang_Mhint_S1_190919_S1_Wang_2 公司 接到 一份 國外 訂單 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_20, best cost 105.398 + -353.996 = -248.598 over 130 frames.
+Wang_Mhint_S1_190919_S1_Wang_20 他 特別 留意 看 天氣 預報 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_200, best cost 108.117 + -306.357 = -198.24 over 126 frames.
+Wang_Mhint_S1_190919_S1_Wang_200 遠遠 的 聽 到 有人 在 唱歌 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_201, best cost 122.243 + -367.15 = -244.907 over 152 frames.
+Wang_Mhint_S1_190919_S1_Wang_201 我 爸爸 最喜歡 喝 龍井茶 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_202, best cost 107.256 + -376.095 = -268.839 over 131 frames.
+Wang_Mhint_S1_190919_S1_Wang_202 我 剛剛 把 作業 交給 老師 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_203, best cost 105.701 + -425.732 = -320.031 over 132 frames.
+Wang_Mhint_S1_190919_S1_Wang_203 我 星期天 去 公園 放風箏 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_204, best cost 103.165 + -390.217 = -287.053 over 121 frames.
+Wang_Mhint_S1_190919_S1_Wang_204 我 經常 打電話 給 我 媽媽 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_205, best cost 72.8383 + -244.673 = -171.835 over 81 frames.
+Wang_Mhint_S1_190919_S1_Wang_205 爸爸 每年 都 送 禮物給 他 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_206, best cost 86.138 + -331.947 = -245.809 over 100 frames.
+Wang_Mhint_S1_190919_S1_Wang_206 我們 今天 晚上 要 看球賽 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_207, best cost 95.9081 + -324.507 = -228.599 over 111 frames.
+Wang_Mhint_S1_190919_S1_Wang_207 他 出門 前 忘 了 關 水龍頭 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_208, best cost 98.3363 + -348.83 = -250.494 over 118 frames.
+Wang_Mhint_S1_190919_S1_Wang_208 她 今天 收到 一個 大 包裹 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_209, best cost 80.2939 + -253.074 = -172.78 over 92 frames.
+Wang_Mhint_S1_190919_S1_Wang_209 我 昨天晚上 去 聽 演唱 會 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_21, best cost 122.129 + -327.253 = -205.123 over 150 frames.
+Wang_Mhint_S1_190919_S1_Wang_21 我 招待 會 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_210, best cost 87.6971 + -318.071 = -230.374 over 102 frames.
+Wang_Mhint_S1_190919_S1_Wang_210 上個 月 很多 人得 了 麻疹 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_211, best cost 109.758 + -352.046 = -242.288 over 129 frames.
+Wang_Mhint_S1_190919_S1_Wang_211 她 送給 爸爸 一 隻 防水 錶 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_212, best cost 130.148 + -385.685 = -255.537 over 146 frames.
+Wang_Mhint_S1_190919_S1_Wang_212 大家 都 習慣 叫 他 的 小 名 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_213, best cost 85.6371 + -334.423 = -248.786 over 104 frames.
+Wang_Mhint_S1_190919_S1_Wang_213 我們 班 男生 喜歡 踢足球 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_214, best cost 97.4676 + -321.497 = -224.03 over 116 frames.
+Wang_Mhint_S1_190919_S1_Wang_214 老師 說 下 一節 課 取消 了 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_215, best cost 91.9419 + -313.406 = -221.464 over 108 frames.
+Wang_Mhint_S1_190919_S1_Wang_215 他 的 錄取 資格 被 取消 了 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_216, best cost 93.3868 + -325.847 = -232.46 over 110 frames.
+Wang_Mhint_S1_190919_S1_Wang_216 三名 學生 被 學校 開 除了 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_217, best cost 79.4952 + -266.894 = -187.398 over 87 frames.
+Wang_Mhint_S1_190919_S1_Wang_217 今年 的 聯 考考 題 比 較 難 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_218, best cost 77.5536 + -243.586 = -166.032 over 88 frames.
+Wang_Mhint_S1_190919_S1_Wang_218 我們 明天 要 辦 慶祝 晚會 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_219, best cost 77.1104 + -242.518 = -165.408 over 87 frames.
+Wang_Mhint_S1_190919_S1_Wang_219 我 和 幾個 同學要 去 溜冰 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_22, best cost 100.697 + -307.012 = -206.314 over 120 frames.
+Wang_Mhint_S1_190919_S1_Wang_22 我 忘 了 把 參考書 帶給 你 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_220, best cost 83.6208 + -276.892 = -193.271 over 98 frames.
+Wang_Mhint_S1_190919_S1_Wang_220 鄰居家 的 小花 貓很可愛 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_221, best cost 114.84 + -311.081 = -196.241 over 139 frames.
+Wang_Mhint_S1_190919_S1_Wang_221 那裡 每年 春天 要 刮 大風 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_222, best cost 104.606 + -344.051 = -239.445 over 119 frames.
+Wang_Mhint_S1_190919_S1_Wang_222 這 隻 貓 把 床單 給 抓破 了 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_223, best cost 100.801 + -344.996 = -244.195 over 117 frames.
+Wang_Mhint_S1_190919_S1_Wang_223 我 朋友 在 郊區 買 了 房子 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_224, best cost 93.2038 + -348.233 = -255.029 over 112 frames.
+Wang_Mhint_S1_190919_S1_Wang_224 我 早上 在 火車站 遇到 他 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_225, best cost 91.136 + -267.439 = -176.303 over 100 frames.
+Wang_Mhint_S1_190919_S1_Wang_225 我 穿 那套 衣服 特別 合身 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_226, best cost 91.8115 + -342.989 = -251.177 over 106 frames.
+Wang_Mhint_S1_190919_S1_Wang_226 那 家 超市 最近 在 大 減價 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_227, best cost 78.9815 + -228.592 = -149.61 over 87 frames.
+Wang_Mhint_S1_190919_S1_Wang_227 我 開會時 碰到 老 同學 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_228, best cost 95.4654 + -380.822 = -285.356 over 117 frames.
+Wang_Mhint_S1_190919_S1_Wang_228 學校 經常 檢查 宿舍 衛生 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_229, best cost 85.4571 + -310.027 = -224.57 over 101 frames.
+Wang_Mhint_S1_190919_S1_Wang_229 運動員 在 操場 練習 投籃 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_23, best cost 104.917 + -369.152 = -264.235 over 128 frames.
+Wang_Mhint_S1_190919_S1_Wang_23 讓 我們 約 個 時間 見面 吧 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_230, best cost 89.9648 + -312.735 = -222.77 over 106 frames.
+Wang_Mhint_S1_190919_S1_Wang_230 鄰居家 最近 在 裝修 房子 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_231, best cost 118.765 + -385.01 = -266.245 over 149 frames.
+Wang_Mhint_S1_190919_S1_Wang_231 我 十點鐘 去 會議室 開會 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_232, best cost 109.794 + -344.842 = -235.049 over 135 frames.
+Wang_Mhint_S1_190919_S1_Wang_232 他們 是 多年 的 老朋友 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_233, best cost 106.664 + -375.988 = -269.324 over 130 frames.
+Wang_Mhint_S1_190919_S1_Wang_233 山頂 上 的 積雪 常年 不化 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_234, best cost 98.0461 + -340.143 = -242.097 over 119 frames.
+Wang_Mhint_S1_190919_S1_Wang_234 她 們 姐妹 兩個 是雙 胞胎 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_235, best cost 105.485 + -368.772 = -263.287 over 119 frames.
+Wang_Mhint_S1_190919_S1_Wang_235 這 個 寺 廟 是 唐代 的 建築 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_236, best cost 93.1194 + -319.227 = -226.108 over 109 frames.
+Wang_Mhint_S1_190919_S1_Wang_236 這裡 風景 美 得 像 一幅 畫 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_237, best cost 91.0135 + -298.301 = -207.287 over 93 frames.
+Wang_Mhint_S1_190919_S1_Wang_237 寄 幾 個 包裹 要 很多 錢 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_238, best cost 78.2239 + -276.631 = -198.407 over 91 frames.
+Wang_Mhint_S1_190919_S1_Wang_238 媽媽 做好 飯 等 爸爸 回來 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_239, best cost 86.0989 + -292.385 = -206.286 over 100 frames.
+Wang_Mhint_S1_190919_S1_Wang_239 他 在家 裡幫 媽媽 洗 廁所 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_24, best cost 104.231 + -345.602 = -241.37 over 125 frames.
+Wang_Mhint_S1_190919_S1_Wang_24 我 想 和 您 討論 那個 計劃 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_240, best cost 73.9435 + -268.694 = -194.751 over 87 frames.
+Wang_Mhint_S1_190919_S1_Wang_240 她 今天下午 突然 肚子痛 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_241, best cost 100.268 + -284.604 = -184.336 over 122 frames.
+Wang_Mhint_S1_190919_S1_Wang_241 再 十分 鐘火車 就要 開 了 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_242, best cost 90.0852 + -281.846 = -191.761 over 100 frames.
+Wang_Mhint_S1_190919_S1_Wang_242 哥哥 的 腳 長了 個 大 水泡 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_243, best cost 95.9047 + -332.621 = -236.716 over 113 frames.
+Wang_Mhint_S1_190919_S1_Wang_243 醫院 大門口 有 很多 花店 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_244, best cost 94.3142 + -322.114 = -227.799 over 107 frames.
+Wang_Mhint_S1_190919_S1_Wang_244 他們 經常 去 餐廳 吃飯 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_245, best cost 87.0315 + -309.65 = -222.618 over 100 frames.
+Wang_Mhint_S1_190919_S1_Wang_245 叔叔 家養 了 一大 缸 金魚 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_246, best cost 87.3032 + -277.291 = -189.988 over 99 frames.
+Wang_Mhint_S1_190919_S1_Wang_246 他 答應 要 請 我們 喝 喜酒 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_247, best cost 115.062 + -350.189 = -235.127 over 139 frames.
+Wang_Mhint_S1_190919_S1_Wang_247 下雨 後 馬路上 積滿 了 水 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_248, best cost 73.0629 + -235.383 = -162.321 over 81 frames.
+Wang_Mhint_S1_190919_S1_Wang_248 有人 送給 他 一盒 化妝品 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_249, best cost 88.102 + -287.18 = -199.078 over 104 frames.
+Wang_Mhint_S1_190919_S1_Wang_249 今年 國慶日 放 了 幾天 假 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_25, best cost 91.3066 + -329.174 = -237.868 over 106 frames.
+Wang_Mhint_S1_190919_S1_Wang_25 我 有事 要 和 你 們 經理談 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_250, best cost 91.29 + -300.396 = -209.106 over 106 frames.
+Wang_Mhint_S1_190919_S1_Wang_250 大家 元宵 節要 去 看 燈會 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_251, best cost 117.386 + -378.404 = -261.018 over 143 frames.
+Wang_Mhint_S1_190919_S1_Wang_251 她 學校 規定 學生 穿 制服 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_252, best cost 92.8236 + -265.793 = -172.97 over 109 frames.
+Wang_Mhint_S1_190919_S1_Wang_252 弟弟 非常 喜歡 穿 運動鞋 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_253, best cost 99.8953 + -343.379 = -243.484 over 116 frames.
+Wang_Mhint_S1_190919_S1_Wang_253 他 手 錶 慢 了 十五分 鐘 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_254, best cost 100.889 + -365.397 = -264.508 over 123 frames.
+Wang_Mhint_S1_190919_S1_Wang_254 周末 我 幫媽媽 打掃 房子 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_255, best cost 91.1935 + -339.635 = -248.442 over 105 frames.
+Wang_Mhint_S1_190919_S1_Wang_255 她 手上 戴 了 一只 玉手 環 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_256, best cost 110.172 + -426.059 = -315.887 over 136 frames.
+Wang_Mhint_S1_190919_S1_Wang_256 我 父母 希望 我 上 醫學院 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_257, best cost 97.7333 + -358.895 = -261.162 over 120 frames.
+Wang_Mhint_S1_190919_S1_Wang_257 那個 老奶奶 心地 很 善良 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_258, best cost 105.16 + -328.442 = -223.282 over 129 frames.
+Wang_Mhint_S1_190919_S1_Wang_258 他 發現 鋼筆 沒有 墨水 了 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_259, best cost 93.8152 + -333.649 = -239.834 over 107 frames.
+Wang_Mhint_S1_190919_S1_Wang_259 他 喜歡 跟 孩子 們 一起 玩 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_26, best cost 106.974 + -370.087 = -263.113 over 131 frames.
+Wang_Mhint_S1_190919_S1_Wang_26 我要 搭乘 本 周五 的 飛機 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_260, best cost 126.189 + -421.81 = -295.621 over 153 frames.
+Wang_Mhint_S1_190919_S1_Wang_260 我 替 他 向 老師 請 了 病假 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_261, best cost 126.554 + -406.104 = -279.55 over 161 frames.
+Wang_Mhint_S1_190919_S1_Wang_261 他 最近 好像 有什麼 心事 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_262, best cost 125.398 + -409.77 = -284.373 over 160 frames.
+Wang_Mhint_S1_190919_S1_Wang_262 她 今天 覺得頭 昏沉沉 的 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_263, best cost 112.441 + -392.711 = -280.269 over 139 frames.
+Wang_Mhint_S1_190919_S1_Wang_263 他 穿 了 一件 粉紅色 外套 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_264, best cost 114.218 + -361.754 = -247.536 over 128 frames.
+Wang_Mhint_S1_190919_S1_Wang_264 這 個 公園 有 兩 隻 大熊貓 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_265, best cost 102.119 + -326.224 = -224.105 over 123 frames.
+Wang_Mhint_S1_190919_S1_Wang_265 我們 中秋節 一起 去 賞月 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_266, best cost 119.224 + -407.177 = -287.953 over 143 frames.
+Wang_Mhint_S1_190919_S1_Wang_266 這段 公路 被 洪水 沖毀 了 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_267, best cost 120.96 + -442.025 = -321.065 over 148 frames.
+Wang_Mhint_S1_190919_S1_Wang_267 他 的 作文 在 比賽 中 獲獎 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_268, best cost 110.274 + -410.938 = -300.664 over 132 frames.
+Wang_Mhint_S1_190919_S1_Wang_268 他 買 了 一 大包 五香 瓜子 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_269, best cost 129.841 + -390.526 = -260.685 over 147 frames.
+Wang_Mhint_S1_190919_S1_Wang_269 弟弟 拿 了 相機 出去 照相 下 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_27, best cost 97.6066 + -302.372 = -204.765 over 119 frames.
+Wang_Mhint_S1_190919_S1_Wang_27 我要 預訂 三個 人 的 座位 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_270, best cost 102.405 + -350.742 = -248.337 over 114 frames.
+Wang_Mhint_S1_190919_S1_Wang_270 妹妹 上街 買 了 一 件 洋裝 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_271, best cost 117.004 + -397.776 = -280.772 over 142 frames.
+Wang_Mhint_S1_190919_S1_Wang_271 我們 都 笑 他 是 個 膽小鬼 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_272, best cost 107.46 + -424.193 = -316.733 over 129 frames.
+Wang_Mhint_S1_190919_S1_Wang_272 我們 幫 他 把 櫃子 搬 上樓 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_273, best cost 106.802 + -350.994 = -244.193 over 125 frames.
+Wang_Mhint_S1_190919_S1_Wang_273 這場 雨 整整 下 了 一 星期 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_274, best cost 94.705 + -293.867 = -199.162 over 111 frames.
+Wang_Mhint_S1_190919_S1_Wang_274 花園裡 的 雜草 長 得 很快 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_275, best cost 111.194 + -367.773 = -256.579 over 136 frames.
+Wang_Mhint_S1_190919_S1_Wang_275 護士 每天 給 病人 換床 單 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_276, best cost 106.191 + -365.444 = -259.253 over 130 frames.
+Wang_Mhint_S1_190919_S1_Wang_276 他 每天 要 幫媽媽 熬 中藥 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_277, best cost 106.798 + -379.06 = -272.262 over 133 frames.
+Wang_Mhint_S1_190919_S1_Wang_277 遊客們 都 愛買些 紀念品 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_278, best cost 102.72 + -372.615 = -269.895 over 122 frames.
+Wang_Mhint_S1_190919_S1_Wang_278 他們 合伙 開 了 一間 公司 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_279, best cost 104.127 + -357.14 = -253.013 over 123 frames.
+Wang_Mhint_S1_190919_S1_Wang_279 他 的 夢 想 是當 一名 記者 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_28, best cost 112.063 + -346.001 = -233.938 over 139 frames.
+Wang_Mhint_S1_190919_S1_Wang_28 把 這張 卡片 填好 交給 我 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_280, best cost 87.9409 + -275.8 = -187.859 over 99 frames.
+Wang_Mhint_S1_190919_S1_Wang_280 這 個 房間 的 電風扇 壞 了 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_281, best cost 134.617 + -418.069 = -283.452 over 157 frames.
+Wang_Mhint_S1_190919_S1_Wang_281 她 覺得 很多 衣物 給災區 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_282, best cost 127.737 + -397.41 = -269.673 over 157 frames.
+Wang_Mhint_S1_190919_S1_Wang_282 電視 報導 那 裡 發生 地震 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_283, best cost 119.207 + -413.566 = -294.36 over 149 frames.
+Wang_Mhint_S1_190919_S1_Wang_283 姊夫 修好 了 那個 收音 機 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_284, best cost 98.2748 + -382.651 = -284.376 over 113 frames.
+Wang_Mhint_S1_190919_S1_Wang_284 我 把 不用 的 傢俱 送人 了 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_285, best cost 104.739 + -364.033 = -259.294 over 123 frames.
+Wang_Mhint_S1_190919_S1_Wang_285 我 幫 她 把 雞 蛋 放入 冰箱 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_286, best cost 89.2619 + -297.577 = -208.315 over 105 frames.
+Wang_Mhint_S1_190919_S1_Wang_286 橘黃色 的 燈 顯得 很 溫馨 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_287, best cost 102.249 + -372.404 = -270.155 over 124 frames.
+Wang_Mhint_S1_190919_S1_Wang_287 那個 牆 上 掛著 一幅 油畫 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_288, best cost 108.771 + -371.221 = -262.45 over 131 frames.
+Wang_Mhint_S1_190919_S1_Wang_288 她 用 抹布 把 桌子 擦乾 淨 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_289, best cost 92.8008 + -331.982 = -239.181 over 115 frames.
+Wang_Mhint_S1_190919_S1_Wang_289 剛才 有人 打電話 給媽媽 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_29, best cost 93.7239 + -350.165 = -256.441 over 114 frames.
+Wang_Mhint_S1_190919_S1_Wang_29 每個 人 需要 付十塊 台幣 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_290, best cost 94.4516 + -295.018 = -200.566 over 113 frames.
+Wang_Mhint_S1_190919_S1_Wang_290 她 的 數學 成績 全班 第一 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_291, best cost 140.56 + -371.412 = -230.852 over 177 frames.
+Wang_Mhint_S1_190919_S1_Wang_291 他 有 治 氣喘 的 祖傳 秘方 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_292, best cost 137.287 + -411.838 = -274.55 over 160 frames.
+Wang_Mhint_S1_190919_S1_Wang_292 小妹 現在 自己 會 做飯 著 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_293, best cost 110.935 + -337.365 = -226.43 over 136 frames.
+Wang_Mhint_S1_190919_S1_Wang_293 清明節 下 了 一天 毛毛雨 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_294, best cost 90.6168 + -319.002 = -228.385 over 103 frames.
+Wang_Mhint_S1_190919_S1_Wang_294 昨天 他 向 我 借 了 三百 塊 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_295, best cost 94.6354 + -311.951 = -217.316 over 112 frames.
+Wang_Mhint_S1_190919_S1_Wang_295 廚師 在 節目裡 表演 拉 麵 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_296, best cost 97.2968 + -342.73 = -245.434 over 120 frames.
+Wang_Mhint_S1_190919_S1_Wang_296 他們 正往 樹上 噴灑 農藥 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_297, best cost 104.868 + -338.051 = -233.182 over 133 frames.
+Wang_Mhint_S1_190919_S1_Wang_297 交通警察 正在 疏導 人群 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_298, best cost 106.839 + -384.768 = -277.928 over 132 frames.
+Wang_Mhint_S1_190919_S1_Wang_298 他 仔細幫 病人 檢查 牙齒 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_299, best cost 87.5861 + -269.915 = -182.329 over 96 frames.
+Wang_Mhint_S1_190919_S1_Wang_299 草叢裡 有 隻 蟋蟀 在 叫 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_3, best cost 127.242 + -349.605 = -222.363 over 163 frames.
+Wang_Mhint_S1_190919_S1_Wang_3 他 在 禮堂 主持 開幕 典禮 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_30, best cost 122.621 + -324.371 = -201.749 over 137 frames.
+Wang_Mhint_S1_190919_S1_Wang_30 她 為 你 的 考試 簡單 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_300, best cost 89.8354 + -319.978 = -230.143 over 104 frames.
+Wang_Mhint_S1_190919_S1_Wang_300 他們 學校 有 很多 留學生 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_301, best cost 129.136 + -381.054 = -251.918 over 163 frames.
+Wang_Mhint_S1_190919_S1_Wang_301 小朋友 們 在 看 螞蟻 搬家 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_302, best cost 112.756 + -340.738 = -227.982 over 128 frames.
+Wang_Mhint_S1_190919_S1_Wang_302 這 個 池塘 裡 養 了 很多 魚 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_303, best cost 89.939 + -291.055 = -201.116 over 108 frames.
+Wang_Mhint_S1_190919_S1_Wang_303 這裡 將要 建 一座 發電廠 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_304, best cost 112.974 + -397.047 = -284.072 over 139 frames.
+Wang_Mhint_S1_190919_S1_Wang_304 他 下山 時 被 蛇 咬了一口 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_305, best cost 107.376 + -341.473 = -234.097 over 130 frames.
+Wang_Mhint_S1_190919_S1_Wang_305 他 計劃 今年 買 一台 電腦 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_306, best cost 94.1315 + -311.462 = -217.33 over 112 frames.
+Wang_Mhint_S1_190919_S1_Wang_306 這間 公司 要 招聘 工程 師 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_307, best cost 84.8506 + -244.157 = -159.306 over 101 frames.
+Wang_Mhint_S1_190919_S1_Wang_307 便衣警察 抓 到 一名 小偷 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_308, best cost 93.6286 + -329.813 = -236.185 over 112 frames.
+Wang_Mhint_S1_190919_S1_Wang_308 她 是 那座 大樓 的 設計師 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_309, best cost 90.3269 + -313.66 = -223.333 over 107 frames.
+Wang_Mhint_S1_190919_S1_Wang_309 他們 擺 好 姿勢 準備 拍照 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_31, best cost 111.786 + -283.322 = -171.536 over 129 frames.
+Wang_Mhint_S1_190919_S1_Wang_31 大多數 北方人 愛 吃 LOG (lattice-scale[5.5.646~1-cdf2]:main():lattice-scale.cc:107) Done 319 lattices.
+
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_310, best cost 87.5681 + -318.103 = -230.535 over 107 frames.
+Wang_Mhint_S1_190919_S1_Wang_310 今天 老師 宣布 提前 放學 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_311, best cost 115.386 + -331.616 = -216.23 over 139 frames.
+Wang_Mhint_S1_190919_S1_Wang_311 桌子 上 擺 了 一大 盤 瓜子 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_312, best cost 124.527 + -412.402 = -287.875 over 153 frames.
+Wang_Mhint_S1_190919_S1_Wang_312 中國 萬里長城 中外 名聞 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_313, best cost 92.8078 + -310.124 = -217.316 over 114 frames.
+Wang_Mhint_S1_190919_S1_Wang_313 那片 原始森林 發生 大火 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_314, best cost 91.6113 + -283.364 = -191.753 over 97 frames.
+Wang_Mhint_S1_190919_S1_Wang_314 棒球 飛過 來 打破 豐富 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_315, best cost 89.3229 + -257.326 = -168.003 over 103 frames.
+Wang_Mhint_S1_190919_S1_Wang_315 他 的 哥哥 養 了 一群 白鴿 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_316, best cost 102.106 + -333.687 = -231.581 over 117 frames.
+Wang_Mhint_S1_190919_S1_Wang_316 她 做 完 功課 才 上床 睡覺 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_317, best cost 91.3864 + -289.149 = -197.763 over 103 frames.
+Wang_Mhint_S1_190919_S1_Wang_317 一群 孩子 在 那裡 玩 跳 繩 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_318, best cost 89.4201 + -318.034 = -228.614 over 105 frames.
+Wang_Mhint_S1_190919_S1_Wang_318 這裡 的 風俗 習慣 很 特別 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_319, best cost 86.6133 + -290.364 = -203.75 over 101 frames.
+Wang_Mhint_S1_190919_S1_Wang_319 他 腰痛 的 老毛病 又 犯 了 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_32, best cost 123.776 + -351.06 = -227.284 over 158 frames.
+Wang_Mhint_S1_190919_S1_Wang_32 聖誕節 前 信箱 塞買 賀卡 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_320, best cost 93.0572 + -331.692 = -238.635 over 108 frames.
+Wang_Mhint_S1_190919_S1_Wang_320 她 不 小心 把 茶杯 碰翻 了 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_33, best cost 110.761 + -346.034 = -235.273 over 137 frames.
+Wang_Mhint_S1_190919_S1_Wang_33 這個 房間裡 的 燈光 很 暗 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_34, best cost 124.441 + -370.523 = -246.082 over 144 frames.
+Wang_Mhint_S1_190919_S1_Wang_34 花園 氣溫 是 零下 十度 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_35, best cost 105.117 + -354.92 = -249.804 over 127 frames.
+Wang_Mhint_S1_190919_S1_Wang_35 他 穿 了 一件 灰 格子 上衣 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_36, best cost 127.417 + -432.892 = -305.474 over 161 frames.
+Wang_Mhint_S1_190919_S1_Wang_36 他 裝修 房子 花 了 三萬塊 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_37, best cost 120.896 + -431.832 = -310.936 over 151 frames.
+Wang_Mhint_S1_190919_S1_Wang_37 學音樂 的 人 需要 些 天賦 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_38, best cost 103.979 + -386.886 = -282.907 over 127 frames.
+Wang_Mhint_S1_190919_S1_Wang_38 大家 有事 都 愛找 他 商量 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_39, best cost 103.725 + -370.134 = -266.409 over 126 frames.
+Wang_Mhint_S1_190919_S1_Wang_39 一大早 他 就 在 外面 掃地 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_4, best cost 131.223 + -377.75 = -246.528 over 171 frames.
+Wang_Mhint_S1_190919_S1_Wang_4 這家書店 今天 正式 營業 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_40, best cost 106.501 + -356.953 = -250.452 over 125 frames.
+Wang_Mhint_S1_190919_S1_Wang_40 你 出門 時 別 忘 了 帶 鑰匙 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_41, best cost 119.936 + -307.492 = -187.556 over 144 frames.
+Wang_Mhint_S1_190919_S1_Wang_41 他 一口 喝 了 三碗 豆漿 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_42, best cost 116.807 + -408.666 = -291.86 over 143 frames.
+Wang_Mhint_S1_190919_S1_Wang_42 他 好不容易 借到 五萬 元 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_43, best cost 110.213 + -375.438 = -265.226 over 135 frames.
+Wang_Mhint_S1_190919_S1_Wang_43 公園裡 有 很多 人 放風箏 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_44, best cost 115.667 + -423.838 = -308.171 over 140 frames.
+Wang_Mhint_S1_190919_S1_Wang_44 她 的 腳 被 汽車門 夾傷 了 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_45, best cost 114.092 + -391.899 = -277.807 over 141 frames.
+Wang_Mhint_S1_190919_S1_Wang_45 他 的 工作 經驗 十分 豐富 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_46, best cost 93.8373 + -325.283 = -231.446 over 113 frames.
+Wang_Mhint_S1_190919_S1_Wang_46 他 今天 覺得 有點 不 舒服 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_47, best cost 75.7945 + -253.081 = -177.287 over 85 frames.
+Wang_Mhint_S1_190919_S1_Wang_47 他 的 職業 是 圖書 管理 員 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_48, best cost 87.7159 + -300.951 = -213.235 over 101 frames.
+Wang_Mhint_S1_190919_S1_Wang_48 他 的 行為 讓 大家 很 反感 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_49, best cost 98.189 + -297.259 = -199.07 over 122 frames.
+Wang_Mhint_S1_190919_S1_Wang_49 這個 案子 明天 開庭 宣判 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_5, best cost 110.862 + -377.096 = -266.234 over 133 frames.
+Wang_Mhint_S1_190919_S1_Wang_5 今年 夏天 他 剃 了 個 光頭 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_50, best cost 86.0112 + -260.779 = -174.768 over 99 frames.
+Wang_Mhint_S1_190919_S1_Wang_50 這次 英語 考試 我 很 緊張 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_51, best cost 117.141 + -315.301 = -198.16 over 138 frames.
+Wang_Mhint_S1_190919_S1_Wang_51 我 正在 四處 找 那 張 收據 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_52, best cost 103.541 + -350.181 = -246.64 over 127 frames.
+Wang_Mhint_S1_190919_S1_Wang_52 今晚 我們 合唱 團要 彩排 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_53, best cost 106.657 + -354.199 = -247.542 over 132 frames.
+Wang_Mhint_S1_190919_S1_Wang_53 明天 我們 中學 同學 聚會 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_54, best cost 102.533 + -374.529 = -271.996 over 123 frames.
+Wang_Mhint_S1_190919_S1_Wang_54 我們 都 願意 選 他 作班長 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_55, best cost 86.5956 + -277.762 = -191.167 over 102 frames.
+Wang_Mhint_S1_190919_S1_Wang_55 老師 的 課 很 受 歡迎 
+LOG (lattice-add-penalty[5.5.646~1-cdf2]:main():lattice-add-penalty.cc:62) Done adding word insertion penalty to 319 lattices.
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_56, best cost 90.8505 + -337.457 = -246.607 over 111 frames.
+Wang_Mhint_S1_190919_S1_Wang_56 大家 晚上 睡覺 要點 蚊香 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_57, best cost 79.7174 + -281.655 = -201.938 over 94 frames.
+Wang_Mhint_S1_190919_S1_Wang_57 他們 是 籃球 校隊 的 隊員 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_58, best cost 84.9655 + -304.684 = -219.718 over 98 frames.
+Wang_Mhint_S1_190919_S1_Wang_58 他 參加 學校 的 歌唱 比賽 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_59, best cost 104.078 + -325.686 = -221.608 over 120 frames.
+Wang_Mhint_S1_190919_S1_Wang_59 她 每天 都 在 聽 英文 廣播 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_6, best cost 117.133 + -377.468 = -260.335 over 145 frames.
+Wang_Mhint_S1_190919_S1_Wang_6 這群 訪客 都 帶 著識 別證 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_60, best cost 111.124 + -371.483 = -260.359 over 136 frames.
+Wang_Mhint_S1_190919_S1_Wang_60 他 特別 喜歡 看 足球 比賽 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_61, best cost 129.306 + -427.553 = -298.247 over 165 frames.
+Wang_Mhint_S1_190919_S1_Wang_61 爸爸 戴 老花眼 鏡看 報紙 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_62, best cost 113.818 + -366.579 = -252.761 over 136 frames.
+Wang_Mhint_S1_190919_S1_Wang_62 這位 醫生 手術 做 得 很 好 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_63, best cost 108.025 + -352.828 = -244.803 over 134 frames.
+Wang_Mhint_S1_190919_S1_Wang_63 婆婆 今天 炒菜 放多 了 鹽 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_64, best cost 113.13 + -369.44 = -256.31 over 134 frames.
+Wang_Mhint_S1_190919_S1_Wang_64 他 去 書店 買 了 好 幾本書 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_65, best cost 89.4365 + -289.468 = -200.032 over 106 frames.
+Wang_Mhint_S1_190919_S1_Wang_65 全家人 都 非常 喜歡 吃魚 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_66, best cost 111.841 + -439.19 = -327.349 over 134 frames.
+Wang_Mhint_S1_190919_S1_Wang_66 她 喜歡 去 麵 包店 買 蛋糕 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_67, best cost 100.339 + -356.042 = -255.703 over 118 frames.
+Wang_Mhint_S1_190919_S1_Wang_67 他 騎車 太快 小心 撞 到 人 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_68, best cost 81.0516 + -275.8 = -194.748 over 93 frames.
+Wang_Mhint_S1_190919_S1_Wang_68 醫院 南邊 有 一個 小花 園 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_69, best cost 80.5814 + -290.038 = -209.456 over 95 frames.
+Wang_Mhint_S1_190919_S1_Wang_69 最近 的 電費 好像 增加 了 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_7, best cost 108.002 + -370.378 = -262.376 over 128 frames.
+Wang_Mhint_S1_190919_S1_Wang_7 她 聽 到 這個 消息 很 傷心 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_70, best cost 92.1586 + -301.013 = -208.854 over 104 frames.
+Wang_Mhint_S1_190919_S1_Wang_70 她 說 昨天 做 了 一個 怪 夢 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_71, best cost 122.241 + -327.211 = -204.97 over 133 frames.
+Wang_Mhint_S1_190919_S1_Wang_71 他們 都 喜歡 這 個 小 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_72, best cost 110.305 + -404.59 = -294.285 over 136 frames.
+Wang_Mhint_S1_190919_S1_Wang_72 我們 全家 都 喜歡 八寶粥 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_73, best cost 119.748 + -372.977 = -253.229 over 151 frames.
+Wang_Mhint_S1_190919_S1_Wang_73 他們 會 背誦 李白 的 詩詞 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_74, best cost 104.729 + -352.82 = -248.091 over 127 frames.
+Wang_Mhint_S1_190919_S1_Wang_74 我 肯定 明天 上午 有 大雨 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_75, best cost 108.975 + -394.815 = -285.841 over 129 frames.
+Wang_Mhint_S1_190919_S1_Wang_75 我 很 相信 她 的 決策 能力 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_76, best cost 88.3145 + -305.021 = -216.706 over 101 frames.
+Wang_Mhint_S1_190919_S1_Wang_76 我們 的 市長 是 有 遠 見 的 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_77, best cost 96.9577 + -318.015 = -221.058 over 112 frames.
+Wang_Mhint_S1_190919_S1_Wang_77 他 在 比賽 中 獲得 第一 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_78, best cost 98.3113 + -318.014 = -219.703 over 116 frames.
+Wang_Mhint_S1_190919_S1_Wang_78 他們 在 這家 飯店 等 你 嗎 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_79, best cost 92.7874 + -303.361 = -210.574 over 109 frames.
+Wang_Mhint_S1_190919_S1_Wang_79 我 完全 同意 你們 的 觀點 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_8, best cost 101.772 + -316.145 = -214.373 over 118 frames.
+Wang_Mhint_S1_190919_S1_Wang_8 他 在 扭傷 的 腳 上 敷 冰塊 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_80, best cost 97.3604 + -324.036 = -226.676 over 115 frames.
+Wang_Mhint_S1_190919_S1_Wang_80 我們 在 看法 上 是 一致 的 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_81, best cost 111.017 + -328.397 = -217.38 over 138 frames.
+Wang_Mhint_S1_190919_S1_Wang_81 那個 牌子 的 電器 非常 好 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_82, best cost 139.29 + -420.092 = -280.802 over 163 frames.
+Wang_Mhint_S1_190919_S1_Wang_82 那 隻 大 狼 狗 正在 啃 骨頭 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_83, best cost 106.365 + -371.973 = -265.608 over 132 frames.
+Wang_Mhint_S1_190919_S1_Wang_83 貨 架上 擺滿 了 各種 水果 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_84, best cost 125.033 + -364.601 = -239.568 over 157 frames.
+Wang_Mhint_S1_190919_S1_Wang_84 今天 晚上 的 月亮 非常 圓 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_85, best cost 105.251 + -370.114 = -264.863 over 130 frames.
+Wang_Mhint_S1_190919_S1_Wang_85 她 剛才 講話 時 吞吞吐吐 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_86, best cost 114.808 + -373.118 = -258.31 over 124 frames.
+Wang_Mhint_S1_190919_S1_Wang_86 全家人 圍 在 一起 吃 水餃 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_87, best cost 115.132 + -354.395 = -239.263 over 139 frames.
+Wang_Mhint_S1_190919_S1_Wang_87 她 盼望 著 能 和 親人 團聚 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_88, best cost 97.5902 + -347.23 = -249.64 over 118 frames.
+Wang_Mhint_S1_190919_S1_Wang_88 辦理 入學 手續 非常 簡單 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_89, best cost 92.7805 + -314.832 = -222.051 over 114 frames.
+Wang_Mhint_S1_190919_S1_Wang_89 買車 可以 申請 銀行 貸款 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_9, best cost 93.7698 + -296.046 = -202.276 over 114 frames.
+Wang_Mhint_S1_190919_S1_Wang_9 這兩個 寺 廟 的 香火很盛 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_90, best cost 93.1195 + -319.888 = -226.768 over 104 frames.
+Wang_Mhint_S1_190919_S1_Wang_90 這 個 國家 旅遊業 很 發達 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_91, best cost 122.954 + -363.574 = -240.619 over 156 frames.
+Wang_Mhint_S1_190919_S1_Wang_91 我們 公司 福利待遇 很 好 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_92, best cost 117.13 + -347.68 = -230.549 over 140 frames.
+Wang_Mhint_S1_190919_S1_Wang_92 大家 對 他 的 演講 很 滿意 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_93, best cost 121.644 + -428.457 = -306.814 over 151 frames.
+Wang_Mhint_S1_190919_S1_Wang_93 我們 都 在 學習 電腦 打字 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_94, best cost 107.931 + -388.11 = -280.179 over 133 frames.
+Wang_Mhint_S1_190919_S1_Wang_94 爸爸 的 同事 今天 過 生日 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_95, best cost 110.377 + -353.152 = -242.775 over 136 frames.
+Wang_Mhint_S1_190919_S1_Wang_95 我 自信 能 獲得 這個 職位 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_96, best cost 87.8156 + -309.116 = -221.3 over 105 frames.
+Wang_Mhint_S1_190919_S1_Wang_96 恐怕 我 真的 不 擅長 讀書 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_97, best cost 85.3704 + -303.018 = -217.648 over 100 frames.
+Wang_Mhint_S1_190919_S1_Wang_97 他們 全家 非常 喜歡 登山 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_98, best cost 91.3035 + -304.104 = -212.801 over 107 frames.
+Wang_Mhint_S1_190919_S1_Wang_98 我 非常 喜歡 明媚 的 春天 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Wang_Mhint_S1_190919_S1_Wang_99, best cost 95.2436 + -343.28 = -248.037 over 113 frames.
+Wang_Mhint_S1_190919_S1_Wang_99 我 買 了 一包 熱帶魚 飼料 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:124) Overall cost per frame is -1.95245 = 0.839261 [graph] + -2.79171 [acoustic] over 38890 frames.
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:128) Done 319 lattices, failed for 0
+# Accounting: time=1 threads=1
+# Ended (code 0) at Mon Feb 24 13:54:06 CST 2020, elapsed time 1 seconds

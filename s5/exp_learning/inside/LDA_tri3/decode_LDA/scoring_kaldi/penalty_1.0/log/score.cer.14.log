@@ -1,0 +1,5 @@
+# cat exp_learning/inside/LDA_tri3/decode_LDA/scoring_kaldi/penalty_1.0/14.chars.txt | compute-wer --text --mode=present ark:exp_learning/inside/LDA_tri3/decode_LDA/scoring_kaldi/test_filt.chars.txt ark,p:- >& exp_learning/inside/LDA_tri3/decode_LDA/cer_14_1.0 
+# Started at Sat Feb 22 13:27:05 CST 2020
+#
+# Accounting: time=2 threads=1
+# Ended (code 0) at Sat Feb 22 13:27:08 CST 2020, elapsed time 2 seconds

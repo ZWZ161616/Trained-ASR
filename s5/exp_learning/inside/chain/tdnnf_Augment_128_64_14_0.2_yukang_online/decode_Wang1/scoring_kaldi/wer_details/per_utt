@@ -1,0 +1,1276 @@
+Wang_Mhint_S1_190919_S1_Wang_1 ref   這   學期   學校  有  書法   比   賽
+Wang_Mhint_S1_190919_S1_Wang_1 hyp  ***  學期  ***  吸  書法  ***  暗
+Wang_Mhint_S1_190919_S1_Wang_1 op    D    C   D   S   C   D   S
+Wang_Mhint_S1_190919_S1_Wang_1 #csid 2 2 0 3
+Wang_Mhint_S1_190919_S1_Wang_10 ref  秘書  在  幫  老闆  寫  文件
+Wang_Mhint_S1_190919_S1_Wang_10 hyp  秘書  在  幫  老闆  寫  文件
+Wang_Mhint_S1_190919_S1_Wang_10 op    C  C  C   C  C   C
+Wang_Mhint_S1_190919_S1_Wang_10 #csid 6 0 0 0
+Wang_Mhint_S1_190919_S1_Wang_100 ref  ***  為什麼   不  接聽  我  的  電話
+Wang_Mhint_S1_190919_S1_Wang_100 hyp   為    什麼  不接   聽  我  的  電話
+Wang_Mhint_S1_190919_S1_Wang_100 op    I    S    S   S  C  C   C
+Wang_Mhint_S1_190919_S1_Wang_100 #csid 3 3 1 0
+Wang_Mhint_S1_190919_S1_Wang_101 ref  我  下午  約  好朋友   踢   足球
+Wang_Mhint_S1_190919_S1_Wang_101 hyp  我  下午  約   好   朋友  踢足球
+Wang_Mhint_S1_190919_S1_Wang_101 op   C   C  C   S    S   S 
+Wang_Mhint_S1_190919_S1_Wang_101 #csid 3 3 0 0
+Wang_Mhint_S1_190919_S1_Wang_102 ref  他  幾乎   每    個  月  都  要   出    差
+Wang_Mhint_S1_190919_S1_Wang_102 hyp  他  幾乎  ***  每個  月  都  要  ***  出差
+Wang_Mhint_S1_190919_S1_Wang_102 op   C   C   D    S  C  C  C   D    S
+Wang_Mhint_S1_190919_S1_Wang_102 #csid 5 2 0 2
+Wang_Mhint_S1_190919_S1_Wang_103 ref  他  最近  好像  掉  了  魂  似的
+Wang_Mhint_S1_190919_S1_Wang_103 hyp  他  最近  好像  掉  了  魂  似的
+Wang_Mhint_S1_190919_S1_Wang_103 op   C   C   C  C  C  C   C
+Wang_Mhint_S1_190919_S1_Wang_103 #csid 7 0 0 0
+Wang_Mhint_S1_190919_S1_Wang_104 ref  我  今晚  要  去   奶奶  家  吃飯
+Wang_Mhint_S1_190919_S1_Wang_104 hyp  我  今晚  要  去  奶奶家  吃   飯
+Wang_Mhint_S1_190919_S1_Wang_104 op   C   C  C  C   S   S   S
+Wang_Mhint_S1_190919_S1_Wang_104 #csid 4 3 0 0
+Wang_Mhint_S1_190919_S1_Wang_105 ref  爸爸  明天  送  外婆   回    老家
+Wang_Mhint_S1_190919_S1_Wang_105 hyp  爸爸  明天  送  外婆  ***  回老家
+Wang_Mhint_S1_190919_S1_Wang_105 op    C   C  C   C   D    S 
+Wang_Mhint_S1_190919_S1_Wang_105 #csid 4 1 0 1
+Wang_Mhint_S1_190919_S1_Wang_106 ref  退潮  時  他  ***  撿到  很多  貝殼
+Wang_Mhint_S1_190919_S1_Wang_106 hyp  退潮  時  他   撿    到  很多  貝殼
+Wang_Mhint_S1_190919_S1_Wang_106 op    C  C  C   I    S   C   C
+Wang_Mhint_S1_190919_S1_Wang_106 #csid 5 1 1 0
+Wang_Mhint_S1_190919_S1_Wang_107 ref  工地  上  有  很多  建築  工人
+Wang_Mhint_S1_190919_S1_Wang_107 hyp  工地  上  有  很多  建築  工人
+Wang_Mhint_S1_190919_S1_Wang_107 op    C  C  C   C   C   C
+Wang_Mhint_S1_190919_S1_Wang_107 #csid 6 0 0 0
+Wang_Mhint_S1_190919_S1_Wang_108 ref  他  今天  去  醫院  探望  同事
+Wang_Mhint_S1_190919_S1_Wang_108 hyp  他  今天  去  醫院  探望  同事
+Wang_Mhint_S1_190919_S1_Wang_108 op   C   C  C   C   C   C
+Wang_Mhint_S1_190919_S1_Wang_108 #csid 6 0 0 0
+Wang_Mhint_S1_190919_S1_Wang_109 ref  我們  特別  想  去  參觀  故宮
+Wang_Mhint_S1_190919_S1_Wang_109 hyp  我們  特別  想  去  參觀  故宮
+Wang_Mhint_S1_190919_S1_Wang_109 op    C   C  C  C   C   C
+Wang_Mhint_S1_190919_S1_Wang_109 #csid 6 0 0 0
+Wang_Mhint_S1_190919_S1_Wang_11 ref  我  今年  初一  向  爸爸  拜年
+Wang_Mhint_S1_190919_S1_Wang_11 hyp  我  下午  初一  向  爸爸  拜年
+Wang_Mhint_S1_190919_S1_Wang_11 op   C   S   C  C   C   C
+Wang_Mhint_S1_190919_S1_Wang_11 #csid 5 1 0 0
+Wang_Mhint_S1_190919_S1_Wang_110 ref  他   幾    天  前  配  了  一  副  眼鏡
+Wang_Mhint_S1_190919_S1_Wang_110 hyp  他  ***  幾天  前  配  了  一  副  眼鏡
+Wang_Mhint_S1_190919_S1_Wang_110 op   C   D    S  C  C  C  C  C   C
+Wang_Mhint_S1_190919_S1_Wang_110 #csid 7 1 0 1
+Wang_Mhint_S1_190919_S1_Wang_111 ref  記者   整    夜  工作  趕截  稿   日
+Wang_Mhint_S1_190919_S1_Wang_111 hyp  記者  ***  整夜  工作   趕  幾  跳繩
+Wang_Mhint_S1_190919_S1_Wang_111 op    C   D    S   C   S  S   S
+Wang_Mhint_S1_190919_S1_Wang_111 #csid 2 4 0 1
+Wang_Mhint_S1_190919_S1_Wang_112 ref  昨天  晚上  聚會  他  喝醉  了
+Wang_Mhint_S1_190919_S1_Wang_112 hyp  昨天  晚上  聚會  他  喝醉  了
+Wang_Mhint_S1_190919_S1_Wang_112 op    C   C   C  C   C  C
+Wang_Mhint_S1_190919_S1_Wang_112 #csid 6 0 0 0
+Wang_Mhint_S1_190919_S1_Wang_113 ref  請  叫  他們  經理  來   接    電話
+Wang_Mhint_S1_190919_S1_Wang_113 hyp  請  叫  他們  經理  來  ***  接電話
+Wang_Mhint_S1_190919_S1_Wang_113 op   C  C   C   C  C   D    S 
+Wang_Mhint_S1_190919_S1_Wang_113 #csid 5 1 0 1
+Wang_Mhint_S1_190919_S1_Wang_114 ref  這  個  城市  有  很多   旅遊   點 
+Wang_Mhint_S1_190919_S1_Wang_114 hyp  這  個  城市  有  很多  ***  旅遊點
+Wang_Mhint_S1_190919_S1_Wang_114 op   C  C   C  C   C   D    S 
+Wang_Mhint_S1_190919_S1_Wang_114 #csid 5 1 0 1
+Wang_Mhint_S1_190919_S1_Wang_115 ref  這  個  行業  很  容易  找  工作
+Wang_Mhint_S1_190919_S1_Wang_115 hyp  這  個  行業  很  容易  找  工作
+Wang_Mhint_S1_190919_S1_Wang_115 op   C  C   C  C   C  C   C
+Wang_Mhint_S1_190919_S1_Wang_115 #csid 7 0 0 0
+Wang_Mhint_S1_190919_S1_Wang_116 ref  他  對  朋友  一向  很   有    信用
+Wang_Mhint_S1_190919_S1_Wang_116 hyp  他  對  朋友  一向  很  ***  守信用
+Wang_Mhint_S1_190919_S1_Wang_116 op   C  C   C   C  C   D    S 
+Wang_Mhint_S1_190919_S1_Wang_116 #csid 5 1 0 1
+Wang_Mhint_S1_190919_S1_Wang_117 ref  庭院  裡  種  了  一些  向日葵
+Wang_Mhint_S1_190919_S1_Wang_117 hyp  庭院  裡  種  了  一些  向日葵
+Wang_Mhint_S1_190919_S1_Wang_117 op    C  C  C  C   C   C 
+Wang_Mhint_S1_190919_S1_Wang_117 #csid 6 0 0 0
+Wang_Mhint_S1_190919_S1_Wang_118 ref  夏天  牆  上  ***  爬滿  了  牽  牛花
+Wang_Mhint_S1_190919_S1_Wang_118 hyp  夏天  牆  上   爬    滿  了  牽  牛花
+Wang_Mhint_S1_190919_S1_Wang_118 op    C  C  C   I    S  C  C   C
+Wang_Mhint_S1_190919_S1_Wang_118 #csid 6 1 1 0
+Wang_Mhint_S1_190919_S1_Wang_119 ref  我  在  口袋  裡  找出  三十  元
+Wang_Mhint_S1_190919_S1_Wang_119 hyp  我  在  口袋  裡  找出  三十  元
+Wang_Mhint_S1_190919_S1_Wang_119 op   C  C   C  C   C   C  C
+Wang_Mhint_S1_190919_S1_Wang_119 #csid 7 0 0 0
+Wang_Mhint_S1_190919_S1_Wang_12 ref  我  每  天  早上  都  要   喝    杯  茶
+Wang_Mhint_S1_190919_S1_Wang_12 hyp  我  每  天  早上  都  要  ***  喝杯  茶
+Wang_Mhint_S1_190919_S1_Wang_12 op   C  C  C   C  C  C   D    S  C
+Wang_Mhint_S1_190919_S1_Wang_12 #csid 7 1 0 1
+Wang_Mhint_S1_190919_S1_Wang_120 ref  誰  都  喜歡  和  他  一起  工作
+Wang_Mhint_S1_190919_S1_Wang_120 hyp  誰  都  喜歡  和  她  一起  工作
+Wang_Mhint_S1_190919_S1_Wang_120 op   C  C   C  C  S   C   C
+Wang_Mhint_S1_190919_S1_Wang_120 #csid 6 1 0 0
+Wang_Mhint_S1_190919_S1_Wang_121 ref  他  今天  穿  了  一  件  緊身  衣
+Wang_Mhint_S1_190919_S1_Wang_121 hyp  他  今天  穿  了  一  件  緊身  衣
+Wang_Mhint_S1_190919_S1_Wang_121 op   C   C  C  C  C  C   C  C
+Wang_Mhint_S1_190919_S1_Wang_121 #csid 8 0 0 0
+Wang_Mhint_S1_190919_S1_Wang_122 ref  爸爸   每    天    晚上   要  看  新聞
+Wang_Mhint_S1_190919_S1_Wang_122 hyp  爸爸  ***  ***  每天晚上  要  看  新聞
+Wang_Mhint_S1_190919_S1_Wang_122 op    C   D    D     S   C  C   C
+Wang_Mhint_S1_190919_S1_Wang_122 #csid 4 1 0 2
+Wang_Mhint_S1_190919_S1_Wang_123 ref  他  染上  了  吸菸  的  壞  習慣
+Wang_Mhint_S1_190919_S1_Wang_123 hyp  他  染上  了  吸煙  的  壞  習慣
+Wang_Mhint_S1_190919_S1_Wang_123 op   C   C  C   S  C  C   C
+Wang_Mhint_S1_190919_S1_Wang_123 #csid 6 1 0 0
+Wang_Mhint_S1_190919_S1_Wang_124 ref  他  辭職  大家  覺得  很  意外
+Wang_Mhint_S1_190919_S1_Wang_124 hyp  他  辭職  大家  覺得  很  意外
+Wang_Mhint_S1_190919_S1_Wang_124 op   C   C   C   C  C   C
+Wang_Mhint_S1_190919_S1_Wang_124 #csid 6 0 0 0
+Wang_Mhint_S1_190919_S1_Wang_125 ref  我  在  桌子  下  看到   一    枝  筆
+Wang_Mhint_S1_190919_S1_Wang_125 hyp  我  在  桌子  下  看到  ***  一枝  筆
+Wang_Mhint_S1_190919_S1_Wang_125 op   C  C   C  C   C   D    S  C
+Wang_Mhint_S1_190919_S1_Wang_125 #csid 6 1 0 1
+Wang_Mhint_S1_190919_S1_Wang_126 ref  這  個  ***  球隊  終於  打入  決賽
+Wang_Mhint_S1_190919_S1_Wang_126 hyp  這  個   球   隊終   於  打入  決賽
+Wang_Mhint_S1_190919_S1_Wang_126 op   C  C   I    S   S   C   C
+Wang_Mhint_S1_190919_S1_Wang_126 #csid 4 2 1 0
+Wang_Mhint_S1_190919_S1_Wang_127 ref  媽媽  一大早  就  去  上班  了
+Wang_Mhint_S1_190919_S1_Wang_127 hyp  媽媽  一大早  就  去  上班  了
+Wang_Mhint_S1_190919_S1_Wang_127 op    C   C   C  C   C  C
+Wang_Mhint_S1_190919_S1_Wang_127 #csid 6 0 0 0
+Wang_Mhint_S1_190919_S1_Wang_128 ref  爺爺   經常   帶   小妹   出去   玩 
+Wang_Mhint_S1_190919_S1_Wang_128 hyp  爺爺  ***  經常帶  小妹  ***  出去玩
+Wang_Mhint_S1_190919_S1_Wang_128 op    C   D    S    C   D    S 
+Wang_Mhint_S1_190919_S1_Wang_128 #csid 2 2 0 2
+Wang_Mhint_S1_190919_S1_Wang_129 ref  他們  下   周    五  要  開  家長會
+Wang_Mhint_S1_190919_S1_Wang_129 hyp  他們  下  ***  周五  要  開  家長會
+Wang_Mhint_S1_190919_S1_Wang_129 op    C  C   D    S  C  C   C 
+Wang_Mhint_S1_190919_S1_Wang_129 #csid 5 1 0 1
+Wang_Mhint_S1_190919_S1_Wang_13 ref  他  的  名片  上  有  很多  頭銜
+Wang_Mhint_S1_190919_S1_Wang_13 hyp  他  的  名片  上  有  很多  頭銜
+Wang_Mhint_S1_190919_S1_Wang_13 op   C  C   C  C  C   C   C
+Wang_Mhint_S1_190919_S1_Wang_13 #csid 7 0 0 0
+Wang_Mhint_S1_190919_S1_Wang_130 ref   這    件  衣服  冬天  穿  很  合適
+Wang_Mhint_S1_190919_S1_Wang_130 hyp  ***  這件  衣服  冬天  穿  很  合適
+Wang_Mhint_S1_190919_S1_Wang_130 op    D    S   C   C  C  C   C
+Wang_Mhint_S1_190919_S1_Wang_130 #csid 5 1 0 1
+Wang_Mhint_S1_190919_S1_Wang_131 ref  他  倒  了   一    杯   水準備   吃   藥
+Wang_Mhint_S1_190919_S1_Wang_131 hyp  他  倒  了  ***  ***   一杯  準備  吃藥
+Wang_Mhint_S1_190919_S1_Wang_131 op   C  C  C   D    D    S    S   S
+Wang_Mhint_S1_190919_S1_Wang_131 #csid 3 3 0 2
+Wang_Mhint_S1_190919_S1_Wang_132 ref  他  覺得  外國  ***  人名  很  難  記
+Wang_Mhint_S1_190919_S1_Wang_132 hyp  他  覺得  外國   人人   名  很  難  記
+Wang_Mhint_S1_190919_S1_Wang_132 op   C   C   C   I    S  C  C  C
+Wang_Mhint_S1_190919_S1_Wang_132 #csid 6 1 1 0
+Wang_Mhint_S1_190919_S1_Wang_133 ref  爸爸  以前  是  籃球隊  隊員
+Wang_Mhint_S1_190919_S1_Wang_133 hyp  爸爸  以前  是  籃球隊  隊員
+Wang_Mhint_S1_190919_S1_Wang_133 op    C   C  C   C    C
+Wang_Mhint_S1_190919_S1_Wang_133 #csid 5 0 0 0
+Wang_Mhint_S1_190919_S1_Wang_134 ref  醫生  說  他  需要  住院  治療
+Wang_Mhint_S1_190919_S1_Wang_134 hyp  醫生  說  他  需要  住院  治療
+Wang_Mhint_S1_190919_S1_Wang_134 op    C  C  C   C   C   C
+Wang_Mhint_S1_190919_S1_Wang_134 #csid 6 0 0 0
+Wang_Mhint_S1_190919_S1_Wang_135 ref  電視  上  經常  有  時裝  表演
+Wang_Mhint_S1_190919_S1_Wang_135 hyp  電視  上  經常  有  時裝  表演
+Wang_Mhint_S1_190919_S1_Wang_135 op    C  C   C  C   C   C
+Wang_Mhint_S1_190919_S1_Wang_135 #csid 6 0 0 0
+Wang_Mhint_S1_190919_S1_Wang_136 ref   他    頭  上  的  傷口  縫  了   七    針
+Wang_Mhint_S1_190919_S1_Wang_136 hyp  ***  他頭  上  的  傷口  縫  了  ***  七針
+Wang_Mhint_S1_190919_S1_Wang_136 op    D    S  C  C   C  C  C   D    S
+Wang_Mhint_S1_190919_S1_Wang_136 #csid 5 2 0 2
+Wang_Mhint_S1_190919_S1_Wang_137 ref  所有  的  小朋友  都  在  ***  吃飯
+Wang_Mhint_S1_190919_S1_Wang_137 hyp  所有  的  小朋友  都  在   吃    飯
+Wang_Mhint_S1_190919_S1_Wang_137 op    C  C   C   C  C   I    S
+Wang_Mhint_S1_190919_S1_Wang_137 #csid 5 1 1 0
+Wang_Mhint_S1_190919_S1_Wang_138 ref  小孩子  都  喜歡  吃  麥當勞
+Wang_Mhint_S1_190919_S1_Wang_138 hyp  小孩子  都  喜歡  吃  麥當勞
+Wang_Mhint_S1_190919_S1_Wang_138 op    C   C   C  C   C 
+Wang_Mhint_S1_190919_S1_Wang_138 #csid 5 0 0 0
+Wang_Mhint_S1_190919_S1_Wang_139 ref  這  個  城市  北邊  是  工業區
+Wang_Mhint_S1_190919_S1_Wang_139 hyp  這  個  城市  北邊  是  工業區
+Wang_Mhint_S1_190919_S1_Wang_139 op   C  C   C   C  C   C 
+Wang_Mhint_S1_190919_S1_Wang_139 #csid 6 0 0 0
+Wang_Mhint_S1_190919_S1_Wang_14 ref  這  個  超市  的  東西  很  便宜
+Wang_Mhint_S1_190919_S1_Wang_14 hyp  這  個  超市  的  東西  很  便宜
+Wang_Mhint_S1_190919_S1_Wang_14 op   C  C   C  C   C  C   C
+Wang_Mhint_S1_190919_S1_Wang_14 #csid 7 0 0 0
+Wang_Mhint_S1_190919_S1_Wang_140 ref  學校  不准  學生  穿   高跟   鞋 
+Wang_Mhint_S1_190919_S1_Wang_140 hyp  學校  不准  學生  穿  ***  高跟鞋
+Wang_Mhint_S1_190919_S1_Wang_140 op    C   C   C  C   D    S 
+Wang_Mhint_S1_190919_S1_Wang_140 #csid 4 1 0 1
+Wang_Mhint_S1_190919_S1_Wang_141 ref  因為  下  大雨  比賽  取消  了
+Wang_Mhint_S1_190919_S1_Wang_141 hyp  因為  下  大雨  比賽  取消  了
+Wang_Mhint_S1_190919_S1_Wang_141 op    C  C   C   C   C  C
+Wang_Mhint_S1_190919_S1_Wang_141 #csid 6 0 0 0
+Wang_Mhint_S1_190919_S1_Wang_142 ref  大家  正在  商量   這    個  計劃
+Wang_Mhint_S1_190919_S1_Wang_142 hyp  大家  正在  商量  ***  這個  計劃
+Wang_Mhint_S1_190919_S1_Wang_142 op    C   C   C   D    S   C
+Wang_Mhint_S1_190919_S1_Wang_142 #csid 4 1 0 1
+Wang_Mhint_S1_190919_S1_Wang_143 ref  他們  都  在  抱怨  物價  上  漲
+Wang_Mhint_S1_190919_S1_Wang_143 hyp  他們  都  在  抱怨  物價  上  漲
+Wang_Mhint_S1_190919_S1_Wang_143 op    C  C  C   C   C  C  C
+Wang_Mhint_S1_190919_S1_Wang_143 #csid 7 0 0 0
+Wang_Mhint_S1_190919_S1_Wang_145 ref  那  家  超市  的  東西  ***  不便宜
+Wang_Mhint_S1_190919_S1_Wang_145 hyp  那  家  超市  的  東西   不    便宜
+Wang_Mhint_S1_190919_S1_Wang_145 op   C  C   C  C   C   I    S 
+Wang_Mhint_S1_190919_S1_Wang_145 #csid 5 1 1 0
+Wang_Mhint_S1_190919_S1_Wang_146 ref  他  的  爸爸  在  大學   教    數學
+Wang_Mhint_S1_190919_S1_Wang_146 hyp  他  的  爸爸  在  大學  ***  教數學
+Wang_Mhint_S1_190919_S1_Wang_146 op   C  C   C  C   C   D    S 
+Wang_Mhint_S1_190919_S1_Wang_146 #csid 5 1 0 1
+Wang_Mhint_S1_190919_S1_Wang_147 ref   那    家  餐廳  的  包子  很   有    名
+Wang_Mhint_S1_190919_S1_Wang_147 hyp  ***  那家  餐廳  的  包子  很  ***  有名
+Wang_Mhint_S1_190919_S1_Wang_147 op    D    S   C  C   C  C   D    S
+Wang_Mhint_S1_190919_S1_Wang_147 #csid 4 2 0 2
+Wang_Mhint_S1_190919_S1_Wang_148 ref  他們  部門  春節  放假  五  天
+Wang_Mhint_S1_190919_S1_Wang_148 hyp  他們  部門  春節  放假  五  天
+Wang_Mhint_S1_190919_S1_Wang_148 op    C   C   C   C  C  C
+Wang_Mhint_S1_190919_S1_Wang_148 #csid 6 0 0 0
+Wang_Mhint_S1_190919_S1_Wang_149 ref  那邊  的  公路  有   交通   事故 
+Wang_Mhint_S1_190919_S1_Wang_149 hyp  那邊  的  公路  有  ***  交通事故
+Wang_Mhint_S1_190919_S1_Wang_149 op    C  C   C  C   D     S 
+Wang_Mhint_S1_190919_S1_Wang_149 #csid 4 1 0 1
+Wang_Mhint_S1_190919_S1_Wang_15 ref  我們  喜歡  看  電視   連續   劇 
+Wang_Mhint_S1_190919_S1_Wang_15 hyp  我們  喜歡  看  電視  ***  連續劇
+Wang_Mhint_S1_190919_S1_Wang_15 op    C   C  C   C   D    S 
+Wang_Mhint_S1_190919_S1_Wang_15 #csid 4 1 0 1
+Wang_Mhint_S1_190919_S1_Wang_150 ref  大伯  的  孩子  們  都  很  孝順
+Wang_Mhint_S1_190919_S1_Wang_150 hyp  大伯  的  孩子  們  都  很  孝順
+Wang_Mhint_S1_190919_S1_Wang_150 op    C  C   C  C  C  C   C
+Wang_Mhint_S1_190919_S1_Wang_150 #csid 7 0 0 0
+Wang_Mhint_S1_190919_S1_Wang_151 ref  這  個  火車站  有  很多  遊客
+Wang_Mhint_S1_190919_S1_Wang_151 hyp  這  個  火車站  有  很多  遊客
+Wang_Mhint_S1_190919_S1_Wang_151 op   C  C   C   C   C   C
+Wang_Mhint_S1_190919_S1_Wang_151 #csid 6 0 0 0
+Wang_Mhint_S1_190919_S1_Wang_152 ref  奶奶   會    講  好多  恐怖  故事
+Wang_Mhint_S1_190919_S1_Wang_152 hyp  奶奶  ***  會講  好多  恐怖  故事
+Wang_Mhint_S1_190919_S1_Wang_152 op    C   D    S   C   C   C
+Wang_Mhint_S1_190919_S1_Wang_152 #csid 4 1 0 1
+Wang_Mhint_S1_190919_S1_Wang_153 ref  鄰居   家  經常   有  人  打麻將
+Wang_Mhint_S1_190919_S1_Wang_153 hyp   鄰  居家   經  常有  人  打麻將
+Wang_Mhint_S1_190919_S1_Wang_153 op    S   S   S   S  C   C 
+Wang_Mhint_S1_190919_S1_Wang_153 #csid 2 4 0 0
+Wang_Mhint_S1_190919_S1_Wang_154 ref  我們  經常  一起  玩  撲克牌
+Wang_Mhint_S1_190919_S1_Wang_154 hyp  我們  經常  一起  玩  撲克牌
+Wang_Mhint_S1_190919_S1_Wang_154 op    C   C   C  C   C 
+Wang_Mhint_S1_190919_S1_Wang_154 #csid 5 0 0 0
+Wang_Mhint_S1_190919_S1_Wang_155 ref  媽媽  每  天  都  幫  我  做  早點
+Wang_Mhint_S1_190919_S1_Wang_155 hyp  媽媽  每  天  都  幫  我  做  早點
+Wang_Mhint_S1_190919_S1_Wang_155 op    C  C  C  C  C  C  C   C
+Wang_Mhint_S1_190919_S1_Wang_155 #csid 8 0 0 0
+Wang_Mhint_S1_190919_S1_Wang_156 ref  媽媽  最  喜歡  做  麻婆  豆腐
+Wang_Mhint_S1_190919_S1_Wang_156 hyp  媽媽  最  喜歡  做  麻婆  豆腐
+Wang_Mhint_S1_190919_S1_Wang_156 op    C  C   C  C   C   C
+Wang_Mhint_S1_190919_S1_Wang_156 #csid 6 0 0 0
+Wang_Mhint_S1_190919_S1_Wang_157 ref  我  的  姊姊   最    喜歡   逛    書店
+Wang_Mhint_S1_190919_S1_Wang_157 hyp  我  的  姊姊  ***  ***  最喜歡  逛書店
+Wang_Mhint_S1_190919_S1_Wang_157 op   C  C   C   D    D    S    S 
+Wang_Mhint_S1_190919_S1_Wang_157 #csid 3 2 0 2
+Wang_Mhint_S1_190919_S1_Wang_158 ref  樓下  的  叔叔  喜歡  聽  歌劇
+Wang_Mhint_S1_190919_S1_Wang_158 hyp  樓下  的  叔叔  喜歡  聽  歌劇
+Wang_Mhint_S1_190919_S1_Wang_158 op    C  C   C   C  C   C
+Wang_Mhint_S1_190919_S1_Wang_158 #csid 6 0 0 0
+Wang_Mhint_S1_190919_S1_Wang_159 ref  廚房  裏  最近  發現  有  老鼠
+Wang_Mhint_S1_190919_S1_Wang_159 hyp  廚房  裏  最近  發現  有  老鼠
+Wang_Mhint_S1_190919_S1_Wang_159 op    C  C   C   C  C   C
+Wang_Mhint_S1_190919_S1_Wang_159 #csid 6 0 0 0
+Wang_Mhint_S1_190919_S1_Wang_16 ref  他們  非常  熟悉  中國  歷史
+Wang_Mhint_S1_190919_S1_Wang_16 hyp  他們  非常  熟悉  中國  歷史
+Wang_Mhint_S1_190919_S1_Wang_16 op    C   C   C   C   C
+Wang_Mhint_S1_190919_S1_Wang_16 #csid 5 0 0 0
+Wang_Mhint_S1_190919_S1_Wang_160 ref  週末  我們   全    家  去  看  電影
+Wang_Mhint_S1_190919_S1_Wang_160 hyp  週末  我們  ***  全家  去  看  電影
+Wang_Mhint_S1_190919_S1_Wang_160 op    C   C   D    S  C  C   C
+Wang_Mhint_S1_190919_S1_Wang_160 #csid 5 1 0 1
+Wang_Mhint_S1_190919_S1_Wang_161 ref  放  長假  好多  人  出去  旅遊
+Wang_Mhint_S1_190919_S1_Wang_161 hyp  她  參加  好多  人  出去  旅遊
+Wang_Mhint_S1_190919_S1_Wang_161 op   S   S   C  C   C   C
+Wang_Mhint_S1_190919_S1_Wang_161 #csid 4 2 0 0
+Wang_Mhint_S1_190919_S1_Wang_162 ref  平常  應該  注意  個人   衛生
+Wang_Mhint_S1_190919_S1_Wang_162 hyp  平常  應該  注意   個  人衛生
+Wang_Mhint_S1_190919_S1_Wang_162 op    C   C   C   S   S 
+Wang_Mhint_S1_190919_S1_Wang_162 #csid 3 2 0 0
+Wang_Mhint_S1_190919_S1_Wang_163 ref  他  買  了   一    本   厚厚   的   字典
+Wang_Mhint_S1_190919_S1_Wang_163 hyp  他  買  了  ***  ***  一本  厚厚的  字典
+Wang_Mhint_S1_190919_S1_Wang_163 op   C  C  C   D    D    S   S    C
+Wang_Mhint_S1_190919_S1_Wang_163 #csid 4 2 0 2
+Wang_Mhint_S1_190919_S1_Wang_164 ref  公佈欄  貼  著  一  張  通緝令
+Wang_Mhint_S1_190919_S1_Wang_164 hyp  公佈欄  貼  著  一  張  通緝令
+Wang_Mhint_S1_190919_S1_Wang_164 op    C   C  C  C  C   C 
+Wang_Mhint_S1_190919_S1_Wang_164 #csid 6 0 0 0
+Wang_Mhint_S1_190919_S1_Wang_165 ref  他   每    天  上班  都  要  ***  打領帶
+Wang_Mhint_S1_190919_S1_Wang_165 hyp  他  ***  每天  上班  都  要   打    領帶
+Wang_Mhint_S1_190919_S1_Wang_165 op   C   D    S   C  C  C   I    S 
+Wang_Mhint_S1_190919_S1_Wang_165 #csid 4 2 1 1
+Wang_Mhint_S1_190919_S1_Wang_166 ref  他  收到   一    大  筆  海外  匯款
+Wang_Mhint_S1_190919_S1_Wang_166 hyp  他  收到  ***  一大  筆  海外  匯款
+Wang_Mhint_S1_190919_S1_Wang_166 op   C   C   D    S  C   C   C
+Wang_Mhint_S1_190919_S1_Wang_166 #csid 5 1 0 1
+Wang_Mhint_S1_190919_S1_Wang_167 ref  那  壺  水  已經  開  了   很    久  了
+Wang_Mhint_S1_190919_S1_Wang_167 hyp  那  壺  水  已經  開  了  ***  很久  了
+Wang_Mhint_S1_190919_S1_Wang_167 op   C  C  C   C  C  C   D    S  C
+Wang_Mhint_S1_190919_S1_Wang_167 #csid 7 1 0 1
+Wang_Mhint_S1_190919_S1_Wang_168 ref  學校  今天  晚上  舉辦  舞會
+Wang_Mhint_S1_190919_S1_Wang_168 hyp  學校  今天  晚上  舉辦  舞會
+Wang_Mhint_S1_190919_S1_Wang_168 op    C   C   C   C   C
+Wang_Mhint_S1_190919_S1_Wang_168 #csid 5 0 0 0
+Wang_Mhint_S1_190919_S1_Wang_169 ref  他  被  學習  參加  ***  畢業典禮
+Wang_Mhint_S1_190919_S1_Wang_169 hyp  他  被  學習  參加   畢業   典禮 
+Wang_Mhint_S1_190919_S1_Wang_169 op   C  C   C   C   I     S 
+Wang_Mhint_S1_190919_S1_Wang_169 #csid 4 1 1 0
+Wang_Mhint_S1_190919_S1_Wang_17 ref  這  個  人  看起來  彬彬有禮
+Wang_Mhint_S1_190919_S1_Wang_17 hyp  這  個  人  看起來  彬彬有禮
+Wang_Mhint_S1_190919_S1_Wang_17 op   C  C  C   C     C 
+Wang_Mhint_S1_190919_S1_Wang_17 #csid 5 0 0 0
+Wang_Mhint_S1_190919_S1_Wang_170 ref  他  買  了   一    束  鮮花  送給  她
+Wang_Mhint_S1_190919_S1_Wang_170 hyp  他  買  了  ***  一束  鮮花  送給  她
+Wang_Mhint_S1_190919_S1_Wang_170 op   C  C  C   D    S   C   C  C
+Wang_Mhint_S1_190919_S1_Wang_170 #csid 6 1 0 1
+Wang_Mhint_S1_190919_S1_Wang_171 ref  今天  出門   要   記得  帶   雨傘
+Wang_Mhint_S1_190919_S1_Wang_171 hyp  今天  出門  ***  相機  的  帶雨傘
+Wang_Mhint_S1_190919_S1_Wang_171 op    C   C   D    S  S   S 
+Wang_Mhint_S1_190919_S1_Wang_171 #csid 2 3 0 1
+Wang_Mhint_S1_190919_S1_Wang_172 ref  樓下  的   小    貓    整   晚  都  在  叫
+Wang_Mhint_S1_190919_S1_Wang_172 hyp  樓下  的  ***  ***  小貓  整晚  都  在  叫
+Wang_Mhint_S1_190919_S1_Wang_172 op    C  C   D    D    S   S  C  C  C
+Wang_Mhint_S1_190919_S1_Wang_172 #csid 5 2 0 2
+Wang_Mhint_S1_190919_S1_Wang_173 ref  阿姨  送給  我   一    包   水果   糖 
+Wang_Mhint_S1_190919_S1_Wang_173 hyp  阿姨  送給  我  ***  ***  一包  水果糖
+Wang_Mhint_S1_190919_S1_Wang_173 op    C   C  C   D    D    S   S 
+Wang_Mhint_S1_190919_S1_Wang_173 #csid 3 2 0 2
+Wang_Mhint_S1_190919_S1_Wang_174 ref  我  在  星期天  常常  晚   起    床
+Wang_Mhint_S1_190919_S1_Wang_174 hyp  我  在  星期天  常常  晚  ***  起床
+Wang_Mhint_S1_190919_S1_Wang_174 op   C  C   C    C  C   D    S
+Wang_Mhint_S1_190919_S1_Wang_174 #csid 5 1 0 1
+Wang_Mhint_S1_190919_S1_Wang_175 ref  他  每  天  都  要  工作  到  深夜
+Wang_Mhint_S1_190919_S1_Wang_175 hyp  他  每  天  都  要  工作  到  深夜
+Wang_Mhint_S1_190919_S1_Wang_175 op   C  C  C  C  C   C  C   C
+Wang_Mhint_S1_190919_S1_Wang_175 #csid 8 0 0 0
+Wang_Mhint_S1_190919_S1_Wang_176 ref  老師  很  關心  我們  的  生活
+Wang_Mhint_S1_190919_S1_Wang_176 hyp  老師  很  關心  我們  的  生活
+Wang_Mhint_S1_190919_S1_Wang_176 op    C  C   C   C  C   C
+Wang_Mhint_S1_190919_S1_Wang_176 #csid 6 0 0 0
+Wang_Mhint_S1_190919_S1_Wang_177 ref  他  的   幾    個  同事  是   電腦   迷 
+Wang_Mhint_S1_190919_S1_Wang_177 hyp  他  的  ***  幾個  同事  是  ***  電腦迷
+Wang_Mhint_S1_190919_S1_Wang_177 op   C  C   D    S   C  C   D    S 
+Wang_Mhint_S1_190919_S1_Wang_177 #csid 4 2 0 2
+Wang_Mhint_S1_190919_S1_Wang_178 ref  我們  部門  主任  經常  出國
+Wang_Mhint_S1_190919_S1_Wang_178 hyp  我們  部門  主任  經常  出國
+Wang_Mhint_S1_190919_S1_Wang_178 op    C   C   C   C   C
+Wang_Mhint_S1_190919_S1_Wang_178 #csid 5 0 0 0
+Wang_Mhint_S1_190919_S1_Wang_179 ref  他  下  星期一  要   參加   會議 
+Wang_Mhint_S1_190919_S1_Wang_179 hyp  他  下  星期一  要  ***  參加會議
+Wang_Mhint_S1_190919_S1_Wang_179 op   C  C   C   C   D     S 
+Wang_Mhint_S1_190919_S1_Wang_179 #csid 4 1 0 1
+Wang_Mhint_S1_190919_S1_Wang_18 ref  他  的  臉  上  長  了  很多  麻疹
+Wang_Mhint_S1_190919_S1_Wang_18 hyp  他  的  臉  上  長  了  很多  麻疹
+Wang_Mhint_S1_190919_S1_Wang_18 op   C  C  C  C  C  C   C   C
+Wang_Mhint_S1_190919_S1_Wang_18 #csid 8 0 0 0
+Wang_Mhint_S1_190919_S1_Wang_180 ref   這    部  電視劇  的確  很  無聊
+Wang_Mhint_S1_190919_S1_Wang_180 hyp  ***  這部  連續劇  的確  很  無聊
+Wang_Mhint_S1_190919_S1_Wang_180 op    D    S   S    C  C   C
+Wang_Mhint_S1_190919_S1_Wang_180 #csid 3 2 0 1
+Wang_Mhint_S1_190919_S1_Wang_181 ref   那    間  餐廳  吃  早點
+Wang_Mhint_S1_190919_S1_Wang_181 hyp  ***  那間  餐廳  吃  早點
+Wang_Mhint_S1_190919_S1_Wang_181 op    D    S   C  C   C
+Wang_Mhint_S1_190919_S1_Wang_181 #csid 3 1 0 1
+Wang_Mhint_S1_190919_S1_Wang_182 ref  ***  他們  家  的  寶寶   剛    過  滿月
+Wang_Mhint_S1_190919_S1_Wang_182 hyp   她    們  家  的  寶寶  ***  剛過  滿月
+Wang_Mhint_S1_190919_S1_Wang_182 op    I    S  C  C   C   D    S   C
+Wang_Mhint_S1_190919_S1_Wang_182 #csid 4 2 1 1
+Wang_Mhint_S1_190919_S1_Wang_183 ref  爸爸  去  幫  大家   買   電影   票
+Wang_Mhint_S1_190919_S1_Wang_183 hyp  爸爸  去  幫  大家  ***  買電  影票
+Wang_Mhint_S1_190919_S1_Wang_183 op    C  C  C   C   D    S   S
+Wang_Mhint_S1_190919_S1_Wang_183 #csid 4 2 0 1
+Wang_Mhint_S1_190919_S1_Wang_184 ref  有  許多  家長  接  孩子  放學
+Wang_Mhint_S1_190919_S1_Wang_184 hyp  有  許多  家長  接  孩子  放學
+Wang_Mhint_S1_190919_S1_Wang_184 op   C   C   C  C   C   C
+Wang_Mhint_S1_190919_S1_Wang_184 #csid 6 0 0 0
+Wang_Mhint_S1_190919_S1_Wang_185 ref  深夜  聽到   有    人  在   彈    鋼琴
+Wang_Mhint_S1_190919_S1_Wang_185 hyp  深夜  聽到  ***  有人  在  ***  彈鋼琴
+Wang_Mhint_S1_190919_S1_Wang_185 op    C   C   D    S  C   D    S 
+Wang_Mhint_S1_190919_S1_Wang_185 #csid 3 2 0 2
+Wang_Mhint_S1_190919_S1_Wang_186 ref  他  今天  帶  了  一  條  金項鍊
+Wang_Mhint_S1_190919_S1_Wang_186 hyp  他  今天  帶  了  一  條  金項鍊
+Wang_Mhint_S1_190919_S1_Wang_186 op   C   C  C  C  C  C   C 
+Wang_Mhint_S1_190919_S1_Wang_186 #csid 7 0 0 0
+Wang_Mhint_S1_190919_S1_Wang_187 ref  這   班  列車  因故  被  取消  了
+Wang_Mhint_S1_190919_S1_Wang_187 hyp  這  班列   車  因故  被  取消  了
+Wang_Mhint_S1_190919_S1_Wang_187 op   C   S   S   C  C   C  C
+Wang_Mhint_S1_190919_S1_Wang_187 #csid 5 2 0 0
+Wang_Mhint_S1_190919_S1_Wang_188 ref  今晚  有  棒球賽  實況  轉播
+Wang_Mhint_S1_190919_S1_Wang_188 hyp  今晚  有  棒球賽  實況  轉播
+Wang_Mhint_S1_190919_S1_Wang_188 op    C  C   C    C   C
+Wang_Mhint_S1_190919_S1_Wang_188 #csid 5 0 0 0
+Wang_Mhint_S1_190919_S1_Wang_189 ref  我  的   城    裡  有  著  跨海   大    橋
+Wang_Mhint_S1_190919_S1_Wang_189 hyp  我  的  ***  城裡  有  座  跨海  ***  大橋
+Wang_Mhint_S1_190919_S1_Wang_189 op   C  C   D    S  C  S   C   D    S
+Wang_Mhint_S1_190919_S1_Wang_189 #csid 4 3 0 2
+Wang_Mhint_S1_190919_S1_Wang_19 ref  他  今年  七月  要  ***  參加  考試
+Wang_Mhint_S1_190919_S1_Wang_19 hyp  他  今年  七月  要   參   加考   試
+Wang_Mhint_S1_190919_S1_Wang_19 op   C   C   C  C   I    S   S
+Wang_Mhint_S1_190919_S1_Wang_19 #csid 4 2 1 0
+Wang_Mhint_S1_190919_S1_Wang_190 ref  我們  都  參加  學校  合唱團
+Wang_Mhint_S1_190919_S1_Wang_190 hyp  我們  都  參加  學校  合唱團
+Wang_Mhint_S1_190919_S1_Wang_190 op    C  C   C   C   C 
+Wang_Mhint_S1_190919_S1_Wang_190 #csid 5 0 0 0
+Wang_Mhint_S1_190919_S1_Wang_191 ref  我們  每  天  早上  都  要   跑    步
+Wang_Mhint_S1_190919_S1_Wang_191 hyp  我們  每  天  早上  都  要  ***  跑步
+Wang_Mhint_S1_190919_S1_Wang_191 op    C  C  C   C  C  C   D    S
+Wang_Mhint_S1_190919_S1_Wang_191 #csid 6 1 0 1
+Wang_Mhint_S1_190919_S1_Wang_192 ref  我  發現   廚房  裡  沒有  鹽  了
+Wang_Mhint_S1_190919_S1_Wang_192 hyp  我  發現  廚房裡  沒   有  鹽  了
+Wang_Mhint_S1_190919_S1_Wang_192 op   C   C   S   S   S  C  C
+Wang_Mhint_S1_190919_S1_Wang_192 #csid 4 3 0 0
+Wang_Mhint_S1_190919_S1_Wang_193 ref  媽媽  明天  要  去  超市   買    油
+Wang_Mhint_S1_190919_S1_Wang_193 hyp  媽媽  明天  要  去  超市  ***  買油
+Wang_Mhint_S1_190919_S1_Wang_193 op    C   C  C  C   C   D    S
+Wang_Mhint_S1_190919_S1_Wang_193 #csid 5 1 0 1
+Wang_Mhint_S1_190919_S1_Wang_194 ref  爸爸  今天   買    了    一   個  西瓜
+Wang_Mhint_S1_190919_S1_Wang_194 hyp  爸爸  今天  ***  ***  買回  一個  西瓜
+Wang_Mhint_S1_190919_S1_Wang_194 op    C   C   D    D    S   S   C
+Wang_Mhint_S1_190919_S1_Wang_194 #csid 3 2 0 2
+Wang_Mhint_S1_190919_S1_Wang_195 ref  媽媽  做好  飯  等  爸爸  回來
+Wang_Mhint_S1_190919_S1_Wang_195 hyp  媽媽  做好  飯  等  爸爸  回來
+Wang_Mhint_S1_190919_S1_Wang_195 op    C   C  C  C   C   C
+Wang_Mhint_S1_190919_S1_Wang_195 #csid 6 0 0 0
+Wang_Mhint_S1_190919_S1_Wang_196 ref  他  每  天  都  要  練習  ***  彈鋼琴
+Wang_Mhint_S1_190919_S1_Wang_196 hyp  他  每  天  都  要  練習   彈    鋼琴
+Wang_Mhint_S1_190919_S1_Wang_196 op   C  C  C  C  C   C   I    S 
+Wang_Mhint_S1_190919_S1_Wang_196 #csid 6 1 1 0
+Wang_Mhint_S1_190919_S1_Wang_197 ref  剛才  聽到  隔壁   家   在  吵架
+Wang_Mhint_S1_190919_S1_Wang_197 hyp  剛才   聽   到  隔壁家  在  吵架
+Wang_Mhint_S1_190919_S1_Wang_197 op    C   S   S   S   C   C
+Wang_Mhint_S1_190919_S1_Wang_197 #csid 3 3 0 0
+Wang_Mhint_S1_190919_S1_Wang_198 ref  爸爸  不  小心  把  茶  打翻  了
+Wang_Mhint_S1_190919_S1_Wang_198 hyp  爸爸  不  小心  把  茶  打翻  了
+Wang_Mhint_S1_190919_S1_Wang_198 op    C  C   C  C  C   C  C
+Wang_Mhint_S1_190919_S1_Wang_198 #csid 7 0 0 0
+Wang_Mhint_S1_190919_S1_Wang_199 ref  媽媽  經常   寄    些  錢  給  外婆
+Wang_Mhint_S1_190919_S1_Wang_199 hyp  媽媽  經常  ***  寄些  錢  給  外婆
+Wang_Mhint_S1_190919_S1_Wang_199 op    C   C   D    S  C  C   C
+Wang_Mhint_S1_190919_S1_Wang_199 #csid 5 1 0 1
+Wang_Mhint_S1_190919_S1_Wang_2 ref  公司  接到  一  份  國外  訂單
+Wang_Mhint_S1_190919_S1_Wang_2 hyp  公司  接到  一  份  國外  訂單
+Wang_Mhint_S1_190919_S1_Wang_2 op    C   C  C  C   C   C
+Wang_Mhint_S1_190919_S1_Wang_2 #csid 6 0 0 0
+Wang_Mhint_S1_190919_S1_Wang_20 ref  他  特別  留意  看  天氣  預報
+Wang_Mhint_S1_190919_S1_Wang_20 hyp  他  特別  留意  看  天氣  預報
+Wang_Mhint_S1_190919_S1_Wang_20 op   C   C   C  C   C   C
+Wang_Mhint_S1_190919_S1_Wang_20 #csid 6 0 0 0
+Wang_Mhint_S1_190919_S1_Wang_200 ref  ***  遠遠的  聽到  有   人  在  唱歌
+Wang_Mhint_S1_190919_S1_Wang_200 hyp   遠遠   的    聽  到  有人  在  唱歌
+Wang_Mhint_S1_190919_S1_Wang_200 op    I    S    S  S   S  C   C
+Wang_Mhint_S1_190919_S1_Wang_200 #csid 2 4 1 0
+Wang_Mhint_S1_190919_S1_Wang_201 ref  我  爸爸  最  喜歡   喝  龍井茶
+Wang_Mhint_S1_190919_S1_Wang_201 hyp  我  爸爸  最  喜歡  東西   他 
+Wang_Mhint_S1_190919_S1_Wang_201 op   C   C  C   C   S   S 
+Wang_Mhint_S1_190919_S1_Wang_201 #csid 4 2 0 0
+Wang_Mhint_S1_190919_S1_Wang_202 ref  我  剛剛  把  作業  交給  老師
+Wang_Mhint_S1_190919_S1_Wang_202 hyp  我  剛剛  把  作業  交給  老師
+Wang_Mhint_S1_190919_S1_Wang_202 op   C   C  C   C   C   C
+Wang_Mhint_S1_190919_S1_Wang_202 #csid 6 0 0 0
+Wang_Mhint_S1_190919_S1_Wang_203 ref  我  星期天  去  公園  放風箏
+Wang_Mhint_S1_190919_S1_Wang_203 hyp  我  星期天  去  公園  放風箏
+Wang_Mhint_S1_190919_S1_Wang_203 op   C   C   C   C   C 
+Wang_Mhint_S1_190919_S1_Wang_203 #csid 5 0 0 0
+Wang_Mhint_S1_190919_S1_Wang_204 ref  我  經常  打電話  給  我  媽媽
+Wang_Mhint_S1_190919_S1_Wang_204 hyp  我  經常  打電話  給  我  媽媽
+Wang_Mhint_S1_190919_S1_Wang_204 op   C   C   C   C  C   C
+Wang_Mhint_S1_190919_S1_Wang_204 #csid 6 0 0 0
+Wang_Mhint_S1_190919_S1_Wang_205 ref  爸爸   每    年  都  送  禮  給  他
+Wang_Mhint_S1_190919_S1_Wang_205 hyp  爸爸  ***  每年  都  送  禮  給  他
+Wang_Mhint_S1_190919_S1_Wang_205 op    C   D    S  C  C  C  C  C
+Wang_Mhint_S1_190919_S1_Wang_205 #csid 6 1 0 1
+Wang_Mhint_S1_190919_S1_Wang_206 ref  我們  今天  晚上  要   看    球賽
+Wang_Mhint_S1_190919_S1_Wang_206 hyp  我們  今天  晚上  要  ***  看球賽
+Wang_Mhint_S1_190919_S1_Wang_206 op    C   C   C  C   D    S 
+Wang_Mhint_S1_190919_S1_Wang_206 #csid 4 1 0 1
+Wang_Mhint_S1_190919_S1_Wang_207 ref  他  出門  前  忘  了  關  水龍頭
+Wang_Mhint_S1_190919_S1_Wang_207 hyp  他  出門  前  忘  了  關  水龍頭
+Wang_Mhint_S1_190919_S1_Wang_207 op   C   C  C  C  C  C   C 
+Wang_Mhint_S1_190919_S1_Wang_207 #csid 7 0 0 0
+Wang_Mhint_S1_190919_S1_Wang_208 ref  他  今天  收到   一    個  大  包裹
+Wang_Mhint_S1_190919_S1_Wang_208 hyp  她  今天  收到  ***  一個  大  包裹
+Wang_Mhint_S1_190919_S1_Wang_208 op   S   C   C   D    S  C   C
+Wang_Mhint_S1_190919_S1_Wang_208 #csid 4 2 0 1
+Wang_Mhint_S1_190919_S1_Wang_209 ref  我   ***  昨天  晚上   去  演唱會
+Wang_Mhint_S1_190919_S1_Wang_209 hyp  我  昨天晚上   去   聽  演唱   會 
+Wang_Mhint_S1_190919_S1_Wang_209 op   C    I    S   S   S   S 
+Wang_Mhint_S1_190919_S1_Wang_209 #csid 1 4 1 0
+Wang_Mhint_S1_190919_S1_Wang_21 ref  我   昨天   沒    能  參加  招待會
+Wang_Mhint_S1_190919_S1_Wang_21 hyp  我  ***  ***  東西  招待   會 
+Wang_Mhint_S1_190919_S1_Wang_21 op   C   D    D    S   S   S 
+Wang_Mhint_S1_190919_S1_Wang_21 #csid 1 3 0 2
+Wang_Mhint_S1_190919_S1_Wang_210 ref   上    個  月  很多   人    得  了  麻疹
+Wang_Mhint_S1_190919_S1_Wang_210 hyp  ***  上個  月  很多  ***  人得  了  麻疹
+Wang_Mhint_S1_190919_S1_Wang_210 op    D    S  C   C   D    S  C   C
+Wang_Mhint_S1_190919_S1_Wang_210 #csid 4 2 0 2
+Wang_Mhint_S1_190919_S1_Wang_211 ref  他  送給  爸爸  一  支  防水  錶
+Wang_Mhint_S1_190919_S1_Wang_211 hyp  她  送給  爸爸  一  隻  防水  錶
+Wang_Mhint_S1_190919_S1_Wang_211 op   S   C   C  C  S   C  C
+Wang_Mhint_S1_190919_S1_Wang_211 #csid 5 2 0 0
+Wang_Mhint_S1_190919_S1_Wang_212 ref  大家  都  習慣  叫  他  的  小  名
+Wang_Mhint_S1_190919_S1_Wang_212 hyp  大家  都  習慣  叫  他  的  小  名
+Wang_Mhint_S1_190919_S1_Wang_212 op    C  C   C  C  C  C  C  C
+Wang_Mhint_S1_190919_S1_Wang_212 #csid 8 0 0 0
+Wang_Mhint_S1_190919_S1_Wang_213 ref  我們  班  男生  喜歡  踢  足球
+Wang_Mhint_S1_190919_S1_Wang_213 hyp  我們  班  男生  喜歡  踢  足球
+Wang_Mhint_S1_190919_S1_Wang_213 op    C  C   C   C  C   C
+Wang_Mhint_S1_190919_S1_Wang_213 #csid 6 0 0 0
+Wang_Mhint_S1_190919_S1_Wang_214 ref  老師  說  下   一    節  課  取消  了
+Wang_Mhint_S1_190919_S1_Wang_214 hyp  老師  說  下  ***  一節  課  取消  了
+Wang_Mhint_S1_190919_S1_Wang_214 op    C  C  C   D    S  C   C  C
+Wang_Mhint_S1_190919_S1_Wang_214 #csid 6 1 0 1
+Wang_Mhint_S1_190919_S1_Wang_215 ref  他  的  錄取  資格  被  取消  了
+Wang_Mhint_S1_190919_S1_Wang_215 hyp  他  的  錄取  資格  被  取消  了
+Wang_Mhint_S1_190919_S1_Wang_215 op   C  C   C   C  C   C  C
+Wang_Mhint_S1_190919_S1_Wang_215 #csid 7 0 0 0
+Wang_Mhint_S1_190919_S1_Wang_216 ref   三    名  學生  被  學校  開除   了
+Wang_Mhint_S1_190919_S1_Wang_216 hyp  ***  三名  學生  被  學校   開  除了
+Wang_Mhint_S1_190919_S1_Wang_216 op    D    S   C  C   C   S   S
+Wang_Mhint_S1_190919_S1_Wang_216 #csid 3 3 0 1
+Wang_Mhint_S1_190919_S1_Wang_217 ref  今年  的  ***  ***  聯考  考題  比較  難
+Wang_Mhint_S1_190919_S1_Wang_217 hyp  今年  的   聯    考考   題   比   較  難
+Wang_Mhint_S1_190919_S1_Wang_217 op    C  C   I    I    S   S   S  C
+Wang_Mhint_S1_190919_S1_Wang_217 #csid 3 3 2 0
+Wang_Mhint_S1_190919_S1_Wang_218 ref  我們  明天  要  辦  慶祝  晚會
+Wang_Mhint_S1_190919_S1_Wang_218 hyp  我們  明天  要  辦  慶祝  晚會
+Wang_Mhint_S1_190919_S1_Wang_218 op    C   C  C  C   C   C
+Wang_Mhint_S1_190919_S1_Wang_218 #csid 6 0 0 0
+Wang_Mhint_S1_190919_S1_Wang_219 ref  我  和   幾    個   同學   要   去  溜冰
+Wang_Mhint_S1_190919_S1_Wang_219 hyp  我  和  ***  ***  幾個  同學要  去  溜冰
+Wang_Mhint_S1_190919_S1_Wang_219 op   C  C   D    D    S   S   C   C
+Wang_Mhint_S1_190919_S1_Wang_219 #csid 4 2 0 2
+Wang_Mhint_S1_190919_S1_Wang_22 ref  我  忘  了  把  ***  參考書  帶給  你
+Wang_Mhint_S1_190919_S1_Wang_22 hyp  我  忘  了  把   參考   書   帶給  你
+Wang_Mhint_S1_190919_S1_Wang_22 op   C  C  C  C   I    S    C  C
+Wang_Mhint_S1_190919_S1_Wang_22 #csid 6 1 1 0
+Wang_Mhint_S1_190919_S1_Wang_220 ref   鄰居   家   的   小    花貓   很   可愛 
+Wang_Mhint_S1_190919_S1_Wang_220 hyp  ***  鄰居家  的  ***  ***  小花  貓很可愛
+Wang_Mhint_S1_190919_S1_Wang_220 op    D    S   C   D    D    S    S 
+Wang_Mhint_S1_190919_S1_Wang_220 #csid 1 3 0 3
+Wang_Mhint_S1_190919_S1_Wang_221 ref  那裡   每    年  春天  要  刮  大  風
+Wang_Mhint_S1_190919_S1_Wang_221 hyp  那裡  ***  每年  春天  要  刮  大  風
+Wang_Mhint_S1_190919_S1_Wang_221 op    C   D    S   C  C  C  C  C
+Wang_Mhint_S1_190919_S1_Wang_221 #csid 6 1 0 1
+Wang_Mhint_S1_190919_S1_Wang_222 ref  這  隻  貓  把  床單  給  抓破  了
+Wang_Mhint_S1_190919_S1_Wang_222 hyp  這  隻  貓  把  床單  給  抓破  了
+Wang_Mhint_S1_190919_S1_Wang_222 op   C  C  C  C   C  C   C  C
+Wang_Mhint_S1_190919_S1_Wang_222 #csid 8 0 0 0
+Wang_Mhint_S1_190919_S1_Wang_223 ref  我  朋友  在  郊區  買  了  房子
+Wang_Mhint_S1_190919_S1_Wang_223 hyp  我  朋友  在  郊區  買  了  房子
+Wang_Mhint_S1_190919_S1_Wang_223 op   C   C  C   C  C  C   C
+Wang_Mhint_S1_190919_S1_Wang_223 #csid 7 0 0 0
+Wang_Mhint_S1_190919_S1_Wang_224 ref  我  早上  在  火車站  遇到  他
+Wang_Mhint_S1_190919_S1_Wang_224 hyp  我  早上  在  火車站  遇到  他
+Wang_Mhint_S1_190919_S1_Wang_224 op   C   C  C   C    C  C
+Wang_Mhint_S1_190919_S1_Wang_224 #csid 6 0 0 0
+Wang_Mhint_S1_190919_S1_Wang_225 ref  我  穿   那    套  衣服  特別  合身
+Wang_Mhint_S1_190919_S1_Wang_225 hyp  我  穿  ***  那套  衣服  特別  合身
+Wang_Mhint_S1_190919_S1_Wang_225 op   C  C   D    S   C   C   C
+Wang_Mhint_S1_190919_S1_Wang_225 #csid 5 1 0 1
+Wang_Mhint_S1_190919_S1_Wang_226 ref  那  家  超市  最近  在  ***  大減價
+Wang_Mhint_S1_190919_S1_Wang_226 hyp  那  家  超市  最近  在   大    減價
+Wang_Mhint_S1_190919_S1_Wang_226 op   C  C   C   C  C   I    S 
+Wang_Mhint_S1_190919_S1_Wang_226 #csid 5 1 1 0
+Wang_Mhint_S1_190919_S1_Wang_227 ref  我   開會   時   碰到  老  同學
+Wang_Mhint_S1_190919_S1_Wang_227 hyp  我  ***  開會時  碰到  老  同學
+Wang_Mhint_S1_190919_S1_Wang_227 op   C   D    S    C  C   C
+Wang_Mhint_S1_190919_S1_Wang_227 #csid 4 1 0 1
+Wang_Mhint_S1_190919_S1_Wang_228 ref  學校  經常  檢查  宿舍  衛生
+Wang_Mhint_S1_190919_S1_Wang_228 hyp  學校  經常  檢查  宿舍  衛生
+Wang_Mhint_S1_190919_S1_Wang_228 op    C   C   C   C   C
+Wang_Mhint_S1_190919_S1_Wang_228 #csid 5 0 0 0
+Wang_Mhint_S1_190919_S1_Wang_229 ref  運動員  在  操場  練習  投籃
+Wang_Mhint_S1_190919_S1_Wang_229 hyp  運動員  在  操場  練習  投籃
+Wang_Mhint_S1_190919_S1_Wang_229 op    C   C   C   C   C
+Wang_Mhint_S1_190919_S1_Wang_229 #csid 5 0 0 0
+Wang_Mhint_S1_190919_S1_Wang_23 ref  讓  我們  約  個  時間  見面  吧
+Wang_Mhint_S1_190919_S1_Wang_23 hyp  讓  我們  約  個  時間  見面  吧
+Wang_Mhint_S1_190919_S1_Wang_23 op   C   C  C  C   C   C  C
+Wang_Mhint_S1_190919_S1_Wang_23 #csid 7 0 0 0
+Wang_Mhint_S1_190919_S1_Wang_230 ref   鄰居   家   最近  在  裝修  房子
+Wang_Mhint_S1_190919_S1_Wang_230 hyp  ***  鄰居家  最近  在  裝修  房子
+Wang_Mhint_S1_190919_S1_Wang_230 op    D    S    C  C   C   C
+Wang_Mhint_S1_190919_S1_Wang_230 #csid 4 1 0 1
+Wang_Mhint_S1_190919_S1_Wang_231 ref  我  十點鐘  去  會議室  開會
+Wang_Mhint_S1_190919_S1_Wang_231 hyp  我  十點鐘  去  會議室  開會
+Wang_Mhint_S1_190919_S1_Wang_231 op   C   C   C   C    C
+Wang_Mhint_S1_190919_S1_Wang_231 #csid 5 0 0 0
+Wang_Mhint_S1_190919_S1_Wang_232 ref  他們  是   多    年  的  老朋友
+Wang_Mhint_S1_190919_S1_Wang_232 hyp  他們  是  ***  多年  的  老朋友
+Wang_Mhint_S1_190919_S1_Wang_232 op    C  C   D    S  C   C 
+Wang_Mhint_S1_190919_S1_Wang_232 #csid 4 1 0 1
+Wang_Mhint_S1_190919_S1_Wang_233 ref  山頂  上  的  積雪   長年   不   化
+Wang_Mhint_S1_190919_S1_Wang_233 hyp  山頂  上  的  積雪  ***  常年  不化
+Wang_Mhint_S1_190919_S1_Wang_233 op    C  C  C   C   D    S   S
+Wang_Mhint_S1_190919_S1_Wang_233 #csid 4 2 0 1
+Wang_Mhint_S1_190919_S1_Wang_234 ref  她們  姊妹  兩  個  是  雙胞胎
+Wang_Mhint_S1_190919_S1_Wang_234 hyp  她們  姊妹  兩  個  是  雙胞胎
+Wang_Mhint_S1_190919_S1_Wang_234 op    C   C  C  C  C   C 
+Wang_Mhint_S1_190919_S1_Wang_234 #csid 6 0 0 0
+Wang_Mhint_S1_190919_S1_Wang_235 ref  這  個  ***  寺廟  是  唐代  的  建築
+Wang_Mhint_S1_190919_S1_Wang_235 hyp  這  個   寺    廟  是  唐代  的  建築
+Wang_Mhint_S1_190919_S1_Wang_235 op   C  C   I    S  C   C  C   C
+Wang_Mhint_S1_190919_S1_Wang_235 #csid 6 1 1 0
+Wang_Mhint_S1_190919_S1_Wang_236 ref  這裡  風景  美  得  像  一  幅  畫
+Wang_Mhint_S1_190919_S1_Wang_236 hyp  這裡  風景  美  得  像  一  幅  畫
+Wang_Mhint_S1_190919_S1_Wang_236 op    C   C  C  C  C  C  C  C
+Wang_Mhint_S1_190919_S1_Wang_236 #csid 8 0 0 0
+Wang_Mhint_S1_190919_S1_Wang_237 ref  寄  幾  個  包裹  要  很多  錢
+Wang_Mhint_S1_190919_S1_Wang_237 hyp  寄  幾  個  包裹  要  很多  錢
+Wang_Mhint_S1_190919_S1_Wang_237 op   C  C  C   C  C   C  C
+Wang_Mhint_S1_190919_S1_Wang_237 #csid 7 0 0 0
+Wang_Mhint_S1_190919_S1_Wang_238 ref  媽媽  做好  飯  等  爸爸  回來
+Wang_Mhint_S1_190919_S1_Wang_238 hyp  媽媽  做好  飯  等  爸爸  回來
+Wang_Mhint_S1_190919_S1_Wang_238 op    C   C  C  C   C   C
+Wang_Mhint_S1_190919_S1_Wang_238 #csid 6 0 0 0
+Wang_Mhint_S1_190919_S1_Wang_239 ref  他   在    家   裡   幫  媽媽  洗廁所
+Wang_Mhint_S1_190919_S1_Wang_239 hyp  他  ***  在家  裡幫  媽媽   洗   廁所
+Wang_Mhint_S1_190919_S1_Wang_239 op   C   D    S   S   S   S   S 
+Wang_Mhint_S1_190919_S1_Wang_239 #csid 1 5 0 1
+Wang_Mhint_S1_190919_S1_Wang_24 ref  我  想  和  您  討論   那    個  計劃
+Wang_Mhint_S1_190919_S1_Wang_24 hyp  我  想  和  您  討論  ***  那個  計劃
+Wang_Mhint_S1_190919_S1_Wang_24 op   C  C  C  C   C   D    S   C
+Wang_Mhint_S1_190919_S1_Wang_24 #csid 6 1 0 1
+Wang_Mhint_S1_190919_S1_Wang_240 ref   他   今天   下午   突然   肚子   痛 
+Wang_Mhint_S1_190919_S1_Wang_240 hyp  ***   她  今天下午  突然  ***  肚子痛
+Wang_Mhint_S1_190919_S1_Wang_240 op    D    S    S    C   D    S 
+Wang_Mhint_S1_190919_S1_Wang_240 #csid 1 3 0 2
+Wang_Mhint_S1_190919_S1_Wang_241 ref  再   十    分鐘  火車   就    要  開  了
+Wang_Mhint_S1_190919_S1_Wang_241 hyp  再  ***  ***  十分  鐘火車  就要  開  了
+Wang_Mhint_S1_190919_S1_Wang_241 op   C   D    D    S   S    S  C  C
+Wang_Mhint_S1_190919_S1_Wang_241 #csid 3 3 0 2
+Wang_Mhint_S1_190919_S1_Wang_242 ref  哥哥  的  腳   長    了  個  大  水泡
+Wang_Mhint_S1_190919_S1_Wang_242 hyp  哥哥  的  腳  ***  長了  個  大  水泡
+Wang_Mhint_S1_190919_S1_Wang_242 op    C  C  C   D    S  C  C   C
+Wang_Mhint_S1_190919_S1_Wang_242 #csid 6 1 0 1
+Wang_Mhint_S1_190919_S1_Wang_243 ref  醫院   大門   口   有  很多  花店
+Wang_Mhint_S1_190919_S1_Wang_243 hyp  醫院  ***  大門口  有  很多  花店
+Wang_Mhint_S1_190919_S1_Wang_243 op    C   D    S   C   C   C
+Wang_Mhint_S1_190919_S1_Wang_243 #csid 4 1 0 1
+Wang_Mhint_S1_190919_S1_Wang_244 ref  他們  經常  去  餐廳  吃飯
+Wang_Mhint_S1_190919_S1_Wang_244 hyp  他們  經常  去  餐廳  吃飯
+Wang_Mhint_S1_190919_S1_Wang_244 op    C   C  C   C   C
+Wang_Mhint_S1_190919_S1_Wang_244 #csid 5 0 0 0
+Wang_Mhint_S1_190919_S1_Wang_245 ref  叔叔   家    養  了   一    大  缸  金魚
+Wang_Mhint_S1_190919_S1_Wang_245 hyp  叔叔  ***  家養  了  ***  一大  缸  金魚
+Wang_Mhint_S1_190919_S1_Wang_245 op    C   D    S  C   D    S  C   C
+Wang_Mhint_S1_190919_S1_Wang_245 #csid 4 2 0 2
+Wang_Mhint_S1_190919_S1_Wang_246 ref  他  答應  要  請  我們  喝  喜酒
+Wang_Mhint_S1_190919_S1_Wang_246 hyp  他  答應  要  請  我們  喝  喜酒
+Wang_Mhint_S1_190919_S1_Wang_246 op   C   C  C  C   C  C   C
+Wang_Mhint_S1_190919_S1_Wang_246 #csid 7 0 0 0
+Wang_Mhint_S1_190919_S1_Wang_247 ref  下雨  後   馬路   上   積滿  了  水
+Wang_Mhint_S1_190919_S1_Wang_247 hyp  下雨  後  ***  馬路上  積滿  了  水
+Wang_Mhint_S1_190919_S1_Wang_247 op    C  C   D    S    C  C  C
+Wang_Mhint_S1_190919_S1_Wang_247 #csid 5 1 0 1
+Wang_Mhint_S1_190919_S1_Wang_248 ref   有    人  送給  他   一    盒  化妝品
+Wang_Mhint_S1_190919_S1_Wang_248 hyp  ***  有人  送給  他  ***  一盒  化妝品
+Wang_Mhint_S1_190919_S1_Wang_248 op    D    S   C  C   D    S   C 
+Wang_Mhint_S1_190919_S1_Wang_248 #csid 3 2 0 2
+Wang_Mhint_S1_190919_S1_Wang_249 ref  今年  國慶日  放  了   幾    天  假
+Wang_Mhint_S1_190919_S1_Wang_249 hyp  今年  國慶日  放  了  ***  幾天  假
+Wang_Mhint_S1_190919_S1_Wang_249 op    C   C   C  C   D    S  C
+Wang_Mhint_S1_190919_S1_Wang_249 #csid 5 1 0 1
+Wang_Mhint_S1_190919_S1_Wang_25 ref  我  有事  要  和  你們  經理   談 
+Wang_Mhint_S1_190919_S1_Wang_25 hyp  我  有事  要  和   你   們  經理談
+Wang_Mhint_S1_190919_S1_Wang_25 op   C   C  C  C   S   S   S 
+Wang_Mhint_S1_190919_S1_Wang_25 #csid 4 3 0 0
+Wang_Mhint_S1_190919_S1_Wang_250 ref  大家  元宵節   要  去  看  燈會
+Wang_Mhint_S1_190919_S1_Wang_250 hyp  大家   元宵  節要  去  看  燈會
+Wang_Mhint_S1_190919_S1_Wang_250 op    C   S    S  C  C   C
+Wang_Mhint_S1_190919_S1_Wang_250 #csid 4 2 0 0
+Wang_Mhint_S1_190919_S1_Wang_251 ref  他  學校  規定  學生  穿制   服
+Wang_Mhint_S1_190919_S1_Wang_251 hyp  她  學校  規定  學生   穿  制服
+Wang_Mhint_S1_190919_S1_Wang_251 op   S   C   C   C   S   S
+Wang_Mhint_S1_190919_S1_Wang_251 #csid 3 3 0 0
+Wang_Mhint_S1_190919_S1_Wang_252 ref  弟弟  非常  喜歡  穿   運動   鞋 
+Wang_Mhint_S1_190919_S1_Wang_252 hyp  弟弟  非常  喜歡  穿  ***  運動鞋
+Wang_Mhint_S1_190919_S1_Wang_252 op    C   C   C  C   D    S 
+Wang_Mhint_S1_190919_S1_Wang_252 #csid 4 1 0 1
+Wang_Mhint_S1_190919_S1_Wang_253 ref  他  ***  手錶  慢  了   十五  分鐘
+Wang_Mhint_S1_190919_S1_Wang_253 hyp  他   手    錶  慢  了  十五分   鐘
+Wang_Mhint_S1_190919_S1_Wang_253 op   C   I    S  C  C   S    S
+Wang_Mhint_S1_190919_S1_Wang_253 #csid 3 3 1 0
+Wang_Mhint_S1_190919_S1_Wang_254 ref   周    末  我   幫    媽媽  打掃  房子
+Wang_Mhint_S1_190919_S1_Wang_254 hyp  ***  周末  我  ***  幫媽媽  打掃  房子
+Wang_Mhint_S1_190919_S1_Wang_254 op    D    S  C   D    S    C   C
+Wang_Mhint_S1_190919_S1_Wang_254 #csid 3 2 0 2
+Wang_Mhint_S1_190919_S1_Wang_255 ref   他   手   上  戴  了   一   只  玉手環
+Wang_Mhint_S1_190919_S1_Wang_255 hyp  ***  她  手上  戴  了  一只  玉手   環 
+Wang_Mhint_S1_190919_S1_Wang_255 op    D   S   S  C  C   S   S   S 
+Wang_Mhint_S1_190919_S1_Wang_255 #csid 2 5 0 1
+Wang_Mhint_S1_190919_S1_Wang_256 ref  我  父母  希望  我  上  醫學院
+Wang_Mhint_S1_190919_S1_Wang_256 hyp  我  父母  希望  我  上  醫學院
+Wang_Mhint_S1_190919_S1_Wang_256 op   C   C   C  C  C   C 
+Wang_Mhint_S1_190919_S1_Wang_256 #csid 6 0 0 0
+Wang_Mhint_S1_190919_S1_Wang_257 ref   那    個  老奶奶  心地  很  善良
+Wang_Mhint_S1_190919_S1_Wang_257 hyp  ***  那個  老奶奶  心地  很  善良
+Wang_Mhint_S1_190919_S1_Wang_257 op    D    S   C    C  C   C
+Wang_Mhint_S1_190919_S1_Wang_257 #csid 4 1 0 1
+Wang_Mhint_S1_190919_S1_Wang_258 ref  他  發現  鋼筆  沒有  墨水  了
+Wang_Mhint_S1_190919_S1_Wang_258 hyp  他  發現  鋼筆  沒有  墨水  了
+Wang_Mhint_S1_190919_S1_Wang_258 op   C   C   C   C   C  C
+Wang_Mhint_S1_190919_S1_Wang_258 #csid 6 0 0 0
+Wang_Mhint_S1_190919_S1_Wang_259 ref  他  喜歡  跟  孩子  們  一起  玩
+Wang_Mhint_S1_190919_S1_Wang_259 hyp  他  喜歡  跟  孩子  們  一起  玩
+Wang_Mhint_S1_190919_S1_Wang_259 op   C   C  C   C  C   C  C
+Wang_Mhint_S1_190919_S1_Wang_259 #csid 7 0 0 0
+Wang_Mhint_S1_190919_S1_Wang_26 ref   我    要  搭乘  本   周    五  的  飛機
+Wang_Mhint_S1_190919_S1_Wang_26 hyp  ***  我要  搭乘  本  ***  周五  的  飛機
+Wang_Mhint_S1_190919_S1_Wang_26 op    D    S   C  C   D    S  C   C
+Wang_Mhint_S1_190919_S1_Wang_26 #csid 4 2 0 2
+Wang_Mhint_S1_190919_S1_Wang_260 ref  我  替  他  向  老師  請  了  病假
+Wang_Mhint_S1_190919_S1_Wang_260 hyp  我  替  他  向  老師  請  了  病假
+Wang_Mhint_S1_190919_S1_Wang_260 op   C  C  C  C   C  C  C   C
+Wang_Mhint_S1_190919_S1_Wang_260 #csid 8 0 0 0
+Wang_Mhint_S1_190919_S1_Wang_261 ref  他  最近  好像   有    什麼  心事
+Wang_Mhint_S1_190919_S1_Wang_261 hyp  他  最近  好像  ***  有什麼  心事
+Wang_Mhint_S1_190919_S1_Wang_261 op   C   C   C   D    S    C
+Wang_Mhint_S1_190919_S1_Wang_261 #csid 4 1 0 1
+Wang_Mhint_S1_190919_S1_Wang_262 ref  他  今天   覺得   頭   昏昏沉沉  的
+Wang_Mhint_S1_190919_S1_Wang_262 hyp  她  今天  ***  覺得頭   昏沉沉  的
+Wang_Mhint_S1_190919_S1_Wang_262 op   S   C   D    S     S   C
+Wang_Mhint_S1_190919_S1_Wang_262 #csid 2 3 0 1
+Wang_Mhint_S1_190919_S1_Wang_263 ref  他  穿  了   一    件  粉紅色  外套
+Wang_Mhint_S1_190919_S1_Wang_263 hyp  他  穿  了  ***  一件  粉紅色  外套
+Wang_Mhint_S1_190919_S1_Wang_263 op   C  C  C   D    S   C    C
+Wang_Mhint_S1_190919_S1_Wang_263 #csid 5 1 0 1
+Wang_Mhint_S1_190919_S1_Wang_264 ref  這  個  公園  有  兩  隻   大    熊貓
+Wang_Mhint_S1_190919_S1_Wang_264 hyp  這  個  公園  有  兩  隻  ***  大熊貓
+Wang_Mhint_S1_190919_S1_Wang_264 op   C  C   C  C  C  C   D    S 
+Wang_Mhint_S1_190919_S1_Wang_264 #csid 6 1 0 1
+Wang_Mhint_S1_190919_S1_Wang_265 ref  我們  中秋節  一起  去   賞    月
+Wang_Mhint_S1_190919_S1_Wang_265 hyp  我們  中秋節  一起  去  ***  賞月
+Wang_Mhint_S1_190919_S1_Wang_265 op    C   C    C  C   D    S
+Wang_Mhint_S1_190919_S1_Wang_265 #csid 4 1 0 1
+Wang_Mhint_S1_190919_S1_Wang_266 ref   這    段  公路  被  洪水  沖毀  了
+Wang_Mhint_S1_190919_S1_Wang_266 hyp  ***  這段  公路  被  洪水  沖毀  了
+Wang_Mhint_S1_190919_S1_Wang_266 op    D    S   C  C   C   C  C
+Wang_Mhint_S1_190919_S1_Wang_266 #csid 5 1 0 1
+Wang_Mhint_S1_190919_S1_Wang_267 ref  他  的  作文  在  比賽  中  獲獎
+Wang_Mhint_S1_190919_S1_Wang_267 hyp  他  的  作文  在  比賽  中  獲獎
+Wang_Mhint_S1_190919_S1_Wang_267 op   C  C   C  C   C  C   C
+Wang_Mhint_S1_190919_S1_Wang_267 #csid 7 0 0 0
+Wang_Mhint_S1_190919_S1_Wang_268 ref  他  買  了  一   大    包  五香  瓜子
+Wang_Mhint_S1_190919_S1_Wang_268 hyp  他  買  了  一  ***  大包  五香  瓜子
+Wang_Mhint_S1_190919_S1_Wang_268 op   C  C  C  C   D    S   C   C
+Wang_Mhint_S1_190919_S1_Wang_268 #csid 6 1 0 1
+Wang_Mhint_S1_190919_S1_Wang_269 ref  弟弟  拿  了  相機  出去  ***  照相
+Wang_Mhint_S1_190919_S1_Wang_269 hyp  弟弟  拿  了  相機  出去   找    下
+Wang_Mhint_S1_190919_S1_Wang_269 op    C  C  C   C   C   I    S
+Wang_Mhint_S1_190919_S1_Wang_269 #csid 5 1 1 0
+Wang_Mhint_S1_190919_S1_Wang_27 ref   我    要   預定   三   個  人  的  座位
+Wang_Mhint_S1_190919_S1_Wang_27 hyp  ***  ***  我要  預訂  三個  人  的  座位
+Wang_Mhint_S1_190919_S1_Wang_27 op    D    D    S   S   S  C  C   C
+Wang_Mhint_S1_190919_S1_Wang_27 #csid 3 3 0 2
+Wang_Mhint_S1_190919_S1_Wang_270 ref  妹妹  上街  買  了  一  件  洋裝
+Wang_Mhint_S1_190919_S1_Wang_270 hyp  妹妹  上街  買  了  一  件  洋裝
+Wang_Mhint_S1_190919_S1_Wang_270 op    C   C  C  C  C  C   C
+Wang_Mhint_S1_190919_S1_Wang_270 #csid 7 0 0 0
+Wang_Mhint_S1_190919_S1_Wang_271 ref  我們  都  笑  他  是  個  膽小鬼
+Wang_Mhint_S1_190919_S1_Wang_271 hyp  我們  都  笑  他  是  個  膽小鬼
+Wang_Mhint_S1_190919_S1_Wang_271 op    C  C  C  C  C  C   C 
+Wang_Mhint_S1_190919_S1_Wang_271 #csid 7 0 0 0
+Wang_Mhint_S1_190919_S1_Wang_272 ref  我們  幫  他  把  櫃子  搬上  樓
+Wang_Mhint_S1_190919_S1_Wang_272 hyp  我們  幫  他  把  櫃子  搬上  樓
+Wang_Mhint_S1_190919_S1_Wang_272 op    C  C  C  C   C   C  C
+Wang_Mhint_S1_190919_S1_Wang_272 #csid 7 0 0 0
+Wang_Mhint_S1_190919_S1_Wang_273 ref  這  場  雨  整整  下  了  一  星期
+Wang_Mhint_S1_190919_S1_Wang_273 hyp  這  場  雨  整整  下  了  一  星期
+Wang_Mhint_S1_190919_S1_Wang_273 op   C  C  C   C  C  C  C   C
+Wang_Mhint_S1_190919_S1_Wang_273 #csid 8 0 0 0
+Wang_Mhint_S1_190919_S1_Wang_274 ref   花園   裡   的  雜草  長  得   很    快
+Wang_Mhint_S1_190919_S1_Wang_274 hyp  ***  花園裡  的  雜草  長  得  ***  很快
+Wang_Mhint_S1_190919_S1_Wang_274 op    D    S   C   C  C  C   D    S
+Wang_Mhint_S1_190919_S1_Wang_274 #csid 4 2 0 2
+Wang_Mhint_S1_190919_S1_Wang_275 ref  護士   每    天  給  病人  換  床單
+Wang_Mhint_S1_190919_S1_Wang_275 hyp  護士  ***  每天  給  病人  換  床單
+Wang_Mhint_S1_190919_S1_Wang_275 op    C   D    S  C   C  C   C
+Wang_Mhint_S1_190919_S1_Wang_275 #csid 5 1 0 1
+Wang_Mhint_S1_190919_S1_Wang_276 ref  他   每    天  要   幫   媽媽  熬中藥
+Wang_Mhint_S1_190919_S1_Wang_276 hyp  他  ***  每天  要  幫媽媽   熬   中藥
+Wang_Mhint_S1_190919_S1_Wang_276 op   C   D    S  C   S    S   S 
+Wang_Mhint_S1_190919_S1_Wang_276 #csid 2 4 0 1
+Wang_Mhint_S1_190919_S1_Wang_277 ref   遊客   們   都   愛    買    些   紀念品
+Wang_Mhint_S1_190919_S1_Wang_277 hyp  ***  遊客們  都  ***  ***  愛買些  紀念品
+Wang_Mhint_S1_190919_S1_Wang_277 op    D    S   C   D    D    S    C 
+Wang_Mhint_S1_190919_S1_Wang_277 #csid 2 2 0 3
+Wang_Mhint_S1_190919_S1_Wang_278 ref  他們  合夥  開  了   一    間  公司
+Wang_Mhint_S1_190919_S1_Wang_278 hyp  他們  合伙  開  了  ***  一間  公司
+Wang_Mhint_S1_190919_S1_Wang_278 op    C   S  C  C   D    S   C
+Wang_Mhint_S1_190919_S1_Wang_278 #csid 4 2 0 1
+Wang_Mhint_S1_190919_S1_Wang_279 ref  他  的   夢想  是  當   一   名  記者
+Wang_Mhint_S1_190919_S1_Wang_279 hyp  他  的  ***  夢  想  是當  一名  記者
+Wang_Mhint_S1_190919_S1_Wang_279 op   C  C   D   S  S   S   S   C
+Wang_Mhint_S1_190919_S1_Wang_279 #csid 3 4 0 1
+Wang_Mhint_S1_190919_S1_Wang_28 ref  把   這    張  卡片  填好  交給  我
+Wang_Mhint_S1_190919_S1_Wang_28 hyp  把  ***  這張  卡片  填好  交給  我
+Wang_Mhint_S1_190919_S1_Wang_28 op   C   D    S   C   C   C  C
+Wang_Mhint_S1_190919_S1_Wang_28 #csid 5 1 0 1
+Wang_Mhint_S1_190919_S1_Wang_280 ref  這  個  房間  的  電風扇  壞  了
+Wang_Mhint_S1_190919_S1_Wang_280 hyp  這  個  房間  的  電風扇  壞  了
+Wang_Mhint_S1_190919_S1_Wang_280 op   C  C   C  C   C   C  C
+Wang_Mhint_S1_190919_S1_Wang_280 #csid 7 0 0 0
+Wang_Mhint_S1_190919_S1_Wang_281 ref   他   捐   了  很多  衣物   給    災區
+Wang_Mhint_S1_190919_S1_Wang_281 hyp  ***  她  覺得  很多  衣物  ***  給災區
+Wang_Mhint_S1_190919_S1_Wang_281 op    D   S   S   C   C   D    S 
+Wang_Mhint_S1_190919_S1_Wang_281 #csid 2 3 0 2
+Wang_Mhint_S1_190919_S1_Wang_282 ref  電視  報導  ***  那裏  發生  地震
+Wang_Mhint_S1_190919_S1_Wang_282 hyp  電視  報導   那    裡  發生  地震
+Wang_Mhint_S1_190919_S1_Wang_282 op    C   C   I    S   C   C
+Wang_Mhint_S1_190919_S1_Wang_282 #csid 4 1 1 0
+Wang_Mhint_S1_190919_S1_Wang_283 ref  姊夫  修好  了   那   個  收音機
+Wang_Mhint_S1_190919_S1_Wang_283 hyp  姊夫  修好  了  那個  收音   機 
+Wang_Mhint_S1_190919_S1_Wang_283 op    C   C  C   S   S   S 
+Wang_Mhint_S1_190919_S1_Wang_283 #csid 3 3 0 0
+Wang_Mhint_S1_190919_S1_Wang_284 ref  我  把   不    用  的   家具   送   人  了
+Wang_Mhint_S1_190919_S1_Wang_284 hyp  我  把  ***  不用  的  ***  傢俱  送人  了
+Wang_Mhint_S1_190919_S1_Wang_284 op   C  C   D    S  C   D    S   S  C
+Wang_Mhint_S1_190919_S1_Wang_284 #csid 4 3 0 2
+Wang_Mhint_S1_190919_S1_Wang_285 ref  我  幫  他  把  ***  雞蛋  放入  冰箱
+Wang_Mhint_S1_190919_S1_Wang_285 hyp  我  幫  她  把   雞    蛋  放入  冰箱
+Wang_Mhint_S1_190919_S1_Wang_285 op   C  C  S  C   I    S   C   C
+Wang_Mhint_S1_190919_S1_Wang_285 #csid 5 2 1 0
+Wang_Mhint_S1_190919_S1_Wang_286 ref  橘黃色  的  燈  顯得  很  溫馨
+Wang_Mhint_S1_190919_S1_Wang_286 hyp  橘黃色  的  燈  顯得  很  溫馨
+Wang_Mhint_S1_190919_S1_Wang_286 op    C   C  C   C  C   C
+Wang_Mhint_S1_190919_S1_Wang_286 #csid 6 0 0 0
+Wang_Mhint_S1_190919_S1_Wang_287 ref   那    個  牆  上   掛    著    一   幅  油畫
+Wang_Mhint_S1_190919_S1_Wang_287 hyp  ***  那個  牆  上  ***  ***  掛著  一幅  油畫
+Wang_Mhint_S1_190919_S1_Wang_287 op    D    S  C  C   D    D    S   S   C
+Wang_Mhint_S1_190919_S1_Wang_287 #csid 3 3 0 3
+Wang_Mhint_S1_190919_S1_Wang_288 ref  他  用  抹布  把  桌子  ***  擦乾淨
+Wang_Mhint_S1_190919_S1_Wang_288 hyp  她  用  抹布  把  桌子   擦乾   淨 
+Wang_Mhint_S1_190919_S1_Wang_288 op   S  C   C  C   C   I    S 
+Wang_Mhint_S1_190919_S1_Wang_288 #csid 4 2 1 0
+Wang_Mhint_S1_190919_S1_Wang_289 ref  剛才   有    人  打電話   給    媽媽
+Wang_Mhint_S1_190919_S1_Wang_289 hyp  剛才  ***  有人  打電話  ***  給媽媽
+Wang_Mhint_S1_190919_S1_Wang_289 op    C   D    S   C    D    S 
+Wang_Mhint_S1_190919_S1_Wang_289 #csid 2 2 0 2
+Wang_Mhint_S1_190919_S1_Wang_29 ref   每    個  人  需要   付    十    塊   台幣
+Wang_Mhint_S1_190919_S1_Wang_29 hyp  ***  每個  人  需要  ***  ***  付十塊  台幣
+Wang_Mhint_S1_190919_S1_Wang_29 op    D    S  C   C   D    D    S    C
+Wang_Mhint_S1_190919_S1_Wang_29 #csid 3 2 0 3
+Wang_Mhint_S1_190919_S1_Wang_290 ref  他  的  數學  成績   全    班  第一
+Wang_Mhint_S1_190919_S1_Wang_290 hyp  她  的  數學  成績  ***  全班  第一
+Wang_Mhint_S1_190919_S1_Wang_290 op   S  C   C   C   D    S   C
+Wang_Mhint_S1_190919_S1_Wang_290 #csid 4 2 0 1
+Wang_Mhint_S1_190919_S1_Wang_291 ref  他  ***  ***  有  治  氣喘  的  祖傳  秘方
+Wang_Mhint_S1_190919_S1_Wang_291 hyp  他   剃    了   有  治  氣喘  的  祖傳  秘方
+Wang_Mhint_S1_190919_S1_Wang_291 op   C   I    I   C  C   C  C   C   C
+Wang_Mhint_S1_190919_S1_Wang_291 #csid 7 0 2 0
+Wang_Mhint_S1_190919_S1_Wang_292 ref  小妹  現在  自己  會  做飯  了
+Wang_Mhint_S1_190919_S1_Wang_292 hyp  小妹  現在  自己  會  做飯  著
+Wang_Mhint_S1_190919_S1_Wang_292 op    C   C   C  C   C  S
+Wang_Mhint_S1_190919_S1_Wang_292 #csid 5 1 0 0
+Wang_Mhint_S1_190919_S1_Wang_293 ref  清明節  下  了   一    天  毛毛雨
+Wang_Mhint_S1_190919_S1_Wang_293 hyp  清明節  下  了  ***  一天  毛毛雨
+Wang_Mhint_S1_190919_S1_Wang_293 op    C   C  C   D    S   C 
+Wang_Mhint_S1_190919_S1_Wang_293 #csid 4 1 0 1
+Wang_Mhint_S1_190919_S1_Wang_294 ref  昨天  他  向  我  借  了  三百  塊
+Wang_Mhint_S1_190919_S1_Wang_294 hyp  昨天  他  向  我  借  了  三百  塊
+Wang_Mhint_S1_190919_S1_Wang_294 op    C  C  C  C  C  C   C  C
+Wang_Mhint_S1_190919_S1_Wang_294 #csid 8 0 0 0
+Wang_Mhint_S1_190919_S1_Wang_295 ref  廚師  在   節目   裡  表演  拉麵
+Wang_Mhint_S1_190919_S1_Wang_295 hyp  廚師  在  節目裡  表演   拉   麵
+Wang_Mhint_S1_190919_S1_Wang_295 op    C  C   S    S   S   S
+Wang_Mhint_S1_190919_S1_Wang_295 #csid 2 4 0 0
+Wang_Mhint_S1_190919_S1_Wang_296 ref  他們   正    往    樹   上  噴灑  農藥
+Wang_Mhint_S1_190919_S1_Wang_296 hyp  他們  ***  ***  正往  樹上  噴灑  農藥
+Wang_Mhint_S1_190919_S1_Wang_296 op    C   D    D    S   S   C   C
+Wang_Mhint_S1_190919_S1_Wang_296 #csid 3 2 0 2
+Wang_Mhint_S1_190919_S1_Wang_297 ref   交通   警察   正在  疏導  人群
+Wang_Mhint_S1_190919_S1_Wang_297 hyp  ***  交通警察  正在  疏導  人群
+Wang_Mhint_S1_190919_S1_Wang_297 op    D     S    C   C   C
+Wang_Mhint_S1_190919_S1_Wang_297 #csid 3 1 0 1
+Wang_Mhint_S1_190919_S1_Wang_298 ref  他   仔細   幫   病人  檢查  牙齒
+Wang_Mhint_S1_190919_S1_Wang_298 hyp  他  ***  仔細幫  病人  檢查  牙齒
+Wang_Mhint_S1_190919_S1_Wang_298 op   C   D    S    C   C   C
+Wang_Mhint_S1_190919_S1_Wang_298 #csid 4 1 0 1
+Wang_Mhint_S1_190919_S1_Wang_299 ref   草叢   裡   有  隻  蟋蟀  在  叫
+Wang_Mhint_S1_190919_S1_Wang_299 hyp  ***  草叢裡  有  隻  蟋蟀  在  叫
+Wang_Mhint_S1_190919_S1_Wang_299 op    D    S   C  C   C  C  C
+Wang_Mhint_S1_190919_S1_Wang_299 #csid 5 1 0 1
+Wang_Mhint_S1_190919_S1_Wang_3 ref  他  在  禮堂  主持  ***  開幕典禮
+Wang_Mhint_S1_190919_S1_Wang_3 hyp  他  在  禮堂  主持   開幕   典禮 
+Wang_Mhint_S1_190919_S1_Wang_3 op   C  C   C   C   I     S 
+Wang_Mhint_S1_190919_S1_Wang_3 #csid 4 1 1 0
+Wang_Mhint_S1_190919_S1_Wang_30 ref  他  為  你  的  考試   成績  擔心
+Wang_Mhint_S1_190919_S1_Wang_30 hyp  她  為  你  的  考試  ***  簡單
+Wang_Mhint_S1_190919_S1_Wang_30 op   S  C  C  C   C   D    S
+Wang_Mhint_S1_190919_S1_Wang_30 #csid 4 2 0 1
+Wang_Mhint_S1_190919_S1_Wang_300 ref  他們  學校  有  很多  留學生
+Wang_Mhint_S1_190919_S1_Wang_300 hyp  他們  學校  有  很多  留學生
+Wang_Mhint_S1_190919_S1_Wang_300 op    C   C  C   C   C 
+Wang_Mhint_S1_190919_S1_Wang_300 #csid 5 0 0 0
+Wang_Mhint_S1_190919_S1_Wang_301 ref  小朋友  們  在  看  螞蟻  搬家
+Wang_Mhint_S1_190919_S1_Wang_301 hyp  小朋友  們  在  看  螞蟻  搬家
+Wang_Mhint_S1_190919_S1_Wang_301 op    C   C  C  C   C   C
+Wang_Mhint_S1_190919_S1_Wang_301 #csid 6 0 0 0
+Wang_Mhint_S1_190919_S1_Wang_302 ref  這  個  池塘  裡  養  了  很多  魚
+Wang_Mhint_S1_190919_S1_Wang_302 hyp  這  個  池塘  裡  養  了  很多  魚
+Wang_Mhint_S1_190919_S1_Wang_302 op   C  C   C  C  C  C   C  C
+Wang_Mhint_S1_190919_S1_Wang_302 #csid 8 0 0 0
+Wang_Mhint_S1_190919_S1_Wang_303 ref  這  理  將要  建   一    座  發電廠
+Wang_Mhint_S1_190919_S1_Wang_303 hyp  這  理  將要  建  ***  一座  發電廠
+Wang_Mhint_S1_190919_S1_Wang_303 op   C  C   C  C   D    S   C 
+Wang_Mhint_S1_190919_S1_Wang_303 #csid 5 1 0 1
+Wang_Mhint_S1_190919_S1_Wang_304 ref  他  下山  時  被  蛇  咬  了  一  口
+Wang_Mhint_S1_190919_S1_Wang_304 hyp  他  下山  時  被  蛇  咬  了  一  口
+Wang_Mhint_S1_190919_S1_Wang_304 op   C   C  C  C  C  C  C  C  C
+Wang_Mhint_S1_190919_S1_Wang_304 #csid 9 0 0 0
+Wang_Mhint_S1_190919_S1_Wang_305 ref  他  計畫  今年  買   一    台  電腦
+Wang_Mhint_S1_190919_S1_Wang_305 hyp  他  計劃  今年  買  ***  一台  電腦
+Wang_Mhint_S1_190919_S1_Wang_305 op   C   S   C  C   D    S   C
+Wang_Mhint_S1_190919_S1_Wang_305 #csid 4 2 0 1
+Wang_Mhint_S1_190919_S1_Wang_306 ref   這    間  公司  要  招聘  ***  工程師
+Wang_Mhint_S1_190919_S1_Wang_306 hyp  ***  這間  公司  要  招聘   工程   師 
+Wang_Mhint_S1_190919_S1_Wang_306 op    D    S   C  C   C   I    S 
+Wang_Mhint_S1_190919_S1_Wang_306 #csid 3 2 1 1
+Wang_Mhint_S1_190919_S1_Wang_307 ref   便    依    警察   抓到  一   名  小偷
+Wang_Mhint_S1_190919_S1_Wang_307 hyp  ***  ***  便衣警察   抓  到  一名  小偷
+Wang_Mhint_S1_190919_S1_Wang_307 op    D    D     S    S  S   S   C
+Wang_Mhint_S1_190919_S1_Wang_307 #csid 1 4 0 2
+Wang_Mhint_S1_190919_S1_Wang_308 ref  他  是   那    座  大樓  的  設計師
+Wang_Mhint_S1_190919_S1_Wang_308 hyp  她  是  ***  那座  大樓  的  設計師
+Wang_Mhint_S1_190919_S1_Wang_308 op   S  C   D    S   C  C   C 
+Wang_Mhint_S1_190919_S1_Wang_308 #csid 4 2 0 1
+Wang_Mhint_S1_190919_S1_Wang_309 ref  他們  ***  擺好  姿勢  準備  拍照
+Wang_Mhint_S1_190919_S1_Wang_309 hyp  他們   擺    好  姿勢  準備  拍照
+Wang_Mhint_S1_190919_S1_Wang_309 op    C   I    S   C   C   C
+Wang_Mhint_S1_190919_S1_Wang_309 #csid 4 1 1 0
+Wang_Mhint_S1_190919_S1_Wang_31 ref  大多數  北方人   愛    吃   水餃
+Wang_Mhint_S1_190919_S1_Wang_31 hyp  大多數  北方人  ***  ***  愛吃
+Wang_Mhint_S1_190919_S1_Wang_31 op    C    C    D    D    S
+Wang_Mhint_S1_190919_S1_Wang_31 #csid 2 1 0 2
+Wang_Mhint_S1_190919_S1_Wang_310 ref  今天  老師  宣布  提前  放學
+Wang_Mhint_S1_190919_S1_Wang_310 hyp  今天  老師  宣布  提前  放學
+Wang_Mhint_S1_190919_S1_Wang_310 op    C   C   C   C   C
+Wang_Mhint_S1_190919_S1_Wang_310 #csid 5 0 0 0
+Wang_Mhint_S1_190919_S1_Wang_311 ref  桌子  上  擺  了   一    大  盤  瓜子
+Wang_Mhint_S1_190919_S1_Wang_311 hyp  桌子  上  擺  了  ***  一大  盤  瓜子
+Wang_Mhint_S1_190919_S1_Wang_311 op    C  C  C  C   D    S  C   C
+Wang_Mhint_S1_190919_S1_Wang_311 #csid 6 1 0 1
+Wang_Mhint_S1_190919_S1_Wang_312 ref  中國  萬里長城  中外  名聞
+Wang_Mhint_S1_190919_S1_Wang_312 hyp  中國  萬里長城  中外  名聞
+Wang_Mhint_S1_190919_S1_Wang_312 op    C    C    C   C
+Wang_Mhint_S1_190919_S1_Wang_312 #csid 4 0 0 0
+Wang_Mhint_S1_190919_S1_Wang_313 ref   那    片   原始   森林   發生  大火
+Wang_Mhint_S1_190919_S1_Wang_313 hyp  ***  ***  那片  原始森林  發生  大火
+Wang_Mhint_S1_190919_S1_Wang_313 op    D    D    S    S    C   C
+Wang_Mhint_S1_190919_S1_Wang_313 #csid 2 2 0 2
+Wang_Mhint_S1_190919_S1_Wang_314 ref  棒球  飛過來  打破   了  窗戶
+Wang_Mhint_S1_190919_S1_Wang_314 hyp  棒球   飛過   來  打破  豐富
+Wang_Mhint_S1_190919_S1_Wang_314 op    C   S    S   S   S
+Wang_Mhint_S1_190919_S1_Wang_314 #csid 1 4 0 0
+Wang_Mhint_S1_190919_S1_Wang_315 ref  他  的  哥哥  養  了   一    群    白   鴿
+Wang_Mhint_S1_190919_S1_Wang_315 hyp  他  的  哥哥  養  了  ***  ***  一群  白鴿
+Wang_Mhint_S1_190919_S1_Wang_315 op   C  C   C  C  C   D    D    S   S
+Wang_Mhint_S1_190919_S1_Wang_315 #csid 5 2 0 2
+Wang_Mhint_S1_190919_S1_Wang_316 ref  ***  他  做完  功課  才  上床  睡覺
+Wang_Mhint_S1_190919_S1_Wang_316 hyp   她   做   完  功課  才  上床  睡覺
+Wang_Mhint_S1_190919_S1_Wang_316 op    I   S   S   C  C   C   C
+Wang_Mhint_S1_190919_S1_Wang_316 #csid 4 2 1 0
+Wang_Mhint_S1_190919_S1_Wang_317 ref   一    群  孩子  在  那裏  玩  ***  跳繩
+Wang_Mhint_S1_190919_S1_Wang_317 hyp  ***  一群  孩子  在  那裡  玩   跳    繩
+Wang_Mhint_S1_190919_S1_Wang_317 op    D    S   C  C   S  C   I    S
+Wang_Mhint_S1_190919_S1_Wang_317 #csid 3 3 1 1
+Wang_Mhint_S1_190919_S1_Wang_318 ref  這裏  的  風俗  習慣  很  特別
+Wang_Mhint_S1_190919_S1_Wang_318 hyp  這裡  的  風俗  習慣  很  特別
+Wang_Mhint_S1_190919_S1_Wang_318 op    S  C   C   C  C   C
+Wang_Mhint_S1_190919_S1_Wang_318 #csid 5 1 0 0
+Wang_Mhint_S1_190919_S1_Wang_319 ref  他   腰    痛  的  老毛病  又  犯  了
+Wang_Mhint_S1_190919_S1_Wang_319 hyp  他  ***  腰痛  的  老毛病  又  犯  了
+Wang_Mhint_S1_190919_S1_Wang_319 op   C   D    S  C   C   C  C  C
+Wang_Mhint_S1_190919_S1_Wang_319 #csid 6 1 0 1
+Wang_Mhint_S1_190919_S1_Wang_32 ref  聖誕節  前  信箱  塞滿  賀卡
+Wang_Mhint_S1_190919_S1_Wang_32 hyp  聖誕節  前  信箱  塞買  賀卡
+Wang_Mhint_S1_190919_S1_Wang_32 op    C   C   C   S   C
+Wang_Mhint_S1_190919_S1_Wang_32 #csid 4 1 0 0
+Wang_Mhint_S1_190919_S1_Wang_320 ref  他  不  小心  把  茶杯  碰翻  了
+Wang_Mhint_S1_190919_S1_Wang_320 hyp  她  不  小心  把  茶杯  碰翻  了
+Wang_Mhint_S1_190919_S1_Wang_320 op   S  C   C  C   C   C  C
+Wang_Mhint_S1_190919_S1_Wang_320 #csid 6 1 0 0
+Wang_Mhint_S1_190919_S1_Wang_33 ref  這  個  房間  裡  的  燈光  很  暗
+Wang_Mhint_S1_190919_S1_Wang_33 hyp  這  個  房間  裡  的  燈光  很  暗
+Wang_Mhint_S1_190919_S1_Wang_33 op   C  C   C  C  C   C  C  C
+Wang_Mhint_S1_190919_S1_Wang_33 #csid 8 0 0 0
+Wang_Mhint_S1_190919_S1_Wang_34 ref   外面   的  氣溫  是  零下   十    度
+Wang_Mhint_S1_190919_S1_Wang_34 hyp  ***  花園  氣溫  是  零下  ***  十度
+Wang_Mhint_S1_190919_S1_Wang_34 op    D    S   C  C   C   D    S
+Wang_Mhint_S1_190919_S1_Wang_34 #csid 3 2 0 2
+Wang_Mhint_S1_190919_S1_Wang_35 ref  他  穿  了   一    件  灰  格子   上    衣
+Wang_Mhint_S1_190919_S1_Wang_35 hyp  他  穿  了  ***  一件  灰  格子  ***  上衣
+Wang_Mhint_S1_190919_S1_Wang_35 op   C  C  C   D    S  C   C   D    S
+Wang_Mhint_S1_190919_S1_Wang_35 #csid 5 2 0 2
+Wang_Mhint_S1_190919_S1_Wang_36 ref  他  裝修   房子  花  了   三萬   塊 
+Wang_Mhint_S1_190919_S1_Wang_36 hyp  他   都  修房子  花  了  ***  三萬塊
+Wang_Mhint_S1_190919_S1_Wang_36 op   C   S   S   C  C   D    S 
+Wang_Mhint_S1_190919_S1_Wang_36 #csid 3 3 0 1
+Wang_Mhint_S1_190919_S1_Wang_37 ref   學    音樂  的  人  需要  些  天賦
+Wang_Mhint_S1_190919_S1_Wang_37 hyp  ***  學音樂  的  人  需要  些  天賦
+Wang_Mhint_S1_190919_S1_Wang_37 op    D    S   C  C   C  C   C
+Wang_Mhint_S1_190919_S1_Wang_37 #csid 5 1 0 1
+Wang_Mhint_S1_190919_S1_Wang_38 ref  大家  有事  都   愛    找  他  商量
+Wang_Mhint_S1_190919_S1_Wang_38 hyp  大家  有事  都  ***  愛找  他  商量
+Wang_Mhint_S1_190919_S1_Wang_38 op    C   C  C   D    S  C   C
+Wang_Mhint_S1_190919_S1_Wang_38 #csid 5 1 0 1
+Wang_Mhint_S1_190919_S1_Wang_39 ref  一大早  他  就  在  外面  掃地
+Wang_Mhint_S1_190919_S1_Wang_39 hyp  一大早  他  就  在  外面  掃地
+Wang_Mhint_S1_190919_S1_Wang_39 op    C   C  C  C   C   C
+Wang_Mhint_S1_190919_S1_Wang_39 #csid 6 0 0 0
+Wang_Mhint_S1_190919_S1_Wang_4 ref   這    家    書店   今天  正式  營業
+Wang_Mhint_S1_190919_S1_Wang_4 hyp  ***  ***  這家書店  今天  正式  營業
+Wang_Mhint_S1_190919_S1_Wang_4 op    D    D     S    C   C   C
+Wang_Mhint_S1_190919_S1_Wang_4 #csid 3 1 0 2
+Wang_Mhint_S1_190919_S1_Wang_40 ref  你  出門  時  別  忘  了  帶  鑰匙
+Wang_Mhint_S1_190919_S1_Wang_40 hyp  你  出門  時  別  忘  了  帶  鑰匙
+Wang_Mhint_S1_190919_S1_Wang_40 op   C   C  C  C  C  C  C   C
+Wang_Mhint_S1_190919_S1_Wang_40 #csid 8 0 0 0
+Wang_Mhint_S1_190919_S1_Wang_41 ref  他  一口氣  喝  了   三    碗  豆漿
+Wang_Mhint_S1_190919_S1_Wang_41 hyp  他   一口  喝  了  ***  三碗  豆漿
+Wang_Mhint_S1_190919_S1_Wang_41 op   C   S   C  C   D    S   C
+Wang_Mhint_S1_190919_S1_Wang_41 #csid 4 2 0 1
+Wang_Mhint_S1_190919_S1_Wang_42 ref  他  好不容易  借到  五萬  元
+Wang_Mhint_S1_190919_S1_Wang_42 hyp  他  好不容易  借到  五萬  元
+Wang_Mhint_S1_190919_S1_Wang_42 op   C    C    C   C  C
+Wang_Mhint_S1_190919_S1_Wang_42 #csid 5 0 0 0
+Wang_Mhint_S1_190919_S1_Wang_43 ref   公園   裡   有  很多  人  放風箏
+Wang_Mhint_S1_190919_S1_Wang_43 hyp  ***  公園裡  有  很多  人  放風箏
+Wang_Mhint_S1_190919_S1_Wang_43 op    D    S   C   C  C   C 
+Wang_Mhint_S1_190919_S1_Wang_43 #csid 4 1 0 1
+Wang_Mhint_S1_190919_S1_Wang_44 ref  他  的  腳  被  汽車門  夾傷  了
+Wang_Mhint_S1_190919_S1_Wang_44 hyp  她  的  腳  被  汽車門  夾傷  了
+Wang_Mhint_S1_190919_S1_Wang_44 op   S  C  C  C   C    C  C
+Wang_Mhint_S1_190919_S1_Wang_44 #csid 6 1 0 0
+Wang_Mhint_S1_190919_S1_Wang_45 ref  他  的  工作  經驗  十分  豐富
+Wang_Mhint_S1_190919_S1_Wang_45 hyp  他  的  工作  經驗  十分  豐富
+Wang_Mhint_S1_190919_S1_Wang_45 op   C  C   C   C   C   C
+Wang_Mhint_S1_190919_S1_Wang_45 #csid 6 0 0 0
+Wang_Mhint_S1_190919_S1_Wang_46 ref  他  今天  覺得  有點  不  舒服
+Wang_Mhint_S1_190919_S1_Wang_46 hyp  他  今天  覺得  有點  不  舒服
+Wang_Mhint_S1_190919_S1_Wang_46 op   C   C   C   C  C   C
+Wang_Mhint_S1_190919_S1_Wang_46 #csid 6 0 0 0
+Wang_Mhint_S1_190919_S1_Wang_47 ref  他  的  職業  是  ***  ***  圖書館員
+Wang_Mhint_S1_190919_S1_Wang_47 hyp  他  的  職業  是   圖書   管理    員 
+Wang_Mhint_S1_190919_S1_Wang_47 op   C  C   C  C   I    I     S 
+Wang_Mhint_S1_190919_S1_Wang_47 #csid 4 1 2 0
+Wang_Mhint_S1_190919_S1_Wang_48 ref  他  的  行為  讓  大家  很  反感
+Wang_Mhint_S1_190919_S1_Wang_48 hyp  他  的  行為  讓  大家  很  反感
+Wang_Mhint_S1_190919_S1_Wang_48 op   C  C   C  C   C  C   C
+Wang_Mhint_S1_190919_S1_Wang_48 #csid 7 0 0 0
+Wang_Mhint_S1_190919_S1_Wang_49 ref  這  個  案子  明天  開庭  宣判
+Wang_Mhint_S1_190919_S1_Wang_49 hyp  這  個  案子  明天  開庭  宣判
+Wang_Mhint_S1_190919_S1_Wang_49 op   C  C   C   C   C   C
+Wang_Mhint_S1_190919_S1_Wang_49 #csid 6 0 0 0
+Wang_Mhint_S1_190919_S1_Wang_5 ref  今年  夏天  他  剃  了  個  光頭
+Wang_Mhint_S1_190919_S1_Wang_5 hyp  今年  夏天  他  剃  了  個  光頭
+Wang_Mhint_S1_190919_S1_Wang_5 op    C   C  C  C  C  C   C
+Wang_Mhint_S1_190919_S1_Wang_5 #csid 7 0 0 0
+Wang_Mhint_S1_190919_S1_Wang_50 ref   這    次  英文  考試  我  很  緊張
+Wang_Mhint_S1_190919_S1_Wang_50 hyp  ***  這次  英文  考試  我  很  緊張
+Wang_Mhint_S1_190919_S1_Wang_50 op    D    S   C   C  C  C   C
+Wang_Mhint_S1_190919_S1_Wang_50 #csid 5 1 0 1
+Wang_Mhint_S1_190919_S1_Wang_51 ref  我  正在  四處  找  那  張  收據
+Wang_Mhint_S1_190919_S1_Wang_51 hyp  我  正在  四處  找  那  張  收據
+Wang_Mhint_S1_190919_S1_Wang_51 op   C   C   C  C  C  C   C
+Wang_Mhint_S1_190919_S1_Wang_51 #csid 7 0 0 0
+Wang_Mhint_S1_190919_S1_Wang_52 ref  今晚  我們  合唱團   要   彩   排
+Wang_Mhint_S1_190919_S1_Wang_52 hyp  今晚  我們  ***  合唱  團要  彩排
+Wang_Mhint_S1_190919_S1_Wang_52 op    C   C   D    S   S   S
+Wang_Mhint_S1_190919_S1_Wang_52 #csid 2 3 0 1
+Wang_Mhint_S1_190919_S1_Wang_53 ref  明天  我們  中學  同學  聚會
+Wang_Mhint_S1_190919_S1_Wang_53 hyp  明天  我們  中學  同學  聚會
+Wang_Mhint_S1_190919_S1_Wang_53 op    C   C   C   C   C
+Wang_Mhint_S1_190919_S1_Wang_53 #csid 5 0 0 0
+Wang_Mhint_S1_190919_S1_Wang_54 ref  我們  都  願意  選  他   作    班長
+Wang_Mhint_S1_190919_S1_Wang_54 hyp  我們  都  願意  選  他  ***  作班長
+Wang_Mhint_S1_190919_S1_Wang_54 op    C  C   C  C  C   D    S 
+Wang_Mhint_S1_190919_S1_Wang_54 #csid 5 1 0 1
+Wang_Mhint_S1_190919_S1_Wang_55 ref  這  個  老師  的  課  很  受  歡迎
+Wang_Mhint_S1_190919_S1_Wang_55 hyp  這  個  老師  的  課  很  受  歡迎
+Wang_Mhint_S1_190919_S1_Wang_55 op   C  C   C  C  C  C  C   C
+Wang_Mhint_S1_190919_S1_Wang_55 #csid 8 0 0 0
+Wang_Mhint_S1_190919_S1_Wang_56 ref  大家  晚上  睡覺  要點   蚊    香
+Wang_Mhint_S1_190919_S1_Wang_56 hyp  大家  晚上  睡覺  要點  ***  蚊香
+Wang_Mhint_S1_190919_S1_Wang_56 op    C   C   C   C   D    S
+Wang_Mhint_S1_190919_S1_Wang_56 #csid 4 1 0 1
+Wang_Mhint_S1_190919_S1_Wang_57 ref  他們  是  籃球  校隊  的  隊員
+Wang_Mhint_S1_190919_S1_Wang_57 hyp  他們  是  籃球  校隊  的  隊員
+Wang_Mhint_S1_190919_S1_Wang_57 op    C  C   C   C  C   C
+Wang_Mhint_S1_190919_S1_Wang_57 #csid 6 0 0 0
+Wang_Mhint_S1_190919_S1_Wang_58 ref  他  參加  學校  的  歌唱  比賽
+Wang_Mhint_S1_190919_S1_Wang_58 hyp  他  參加  學校  的  歌唱  比賽
+Wang_Mhint_S1_190919_S1_Wang_58 op   C   C   C  C   C   C
+Wang_Mhint_S1_190919_S1_Wang_58 #csid 6 0 0 0
+Wang_Mhint_S1_190919_S1_Wang_59 ref  他  每  天  都  在  聽  英文  廣播
+Wang_Mhint_S1_190919_S1_Wang_59 hyp  他  每  天  都  在  聽  英文  廣播
+Wang_Mhint_S1_190919_S1_Wang_59 op   C  C  C  C  C  C   C   C
+Wang_Mhint_S1_190919_S1_Wang_59 #csid 8 0 0 0
+Wang_Mhint_S1_190919_S1_Wang_6 ref  這  群  訪客  都  帶   著   識別   證
+Wang_Mhint_S1_190919_S1_Wang_6 hyp  這  群  訪客  都  帶  ***  著識  別證
+Wang_Mhint_S1_190919_S1_Wang_6 op   C  C   C  C  C   D    S   S
+Wang_Mhint_S1_190919_S1_Wang_6 #csid 5 2 0 1
+Wang_Mhint_S1_190919_S1_Wang_60 ref  他  特別  喜歡  看  足球  比賽
+Wang_Mhint_S1_190919_S1_Wang_60 hyp  他  特別  喜歡  看  足球  比賽
+Wang_Mhint_S1_190919_S1_Wang_60 op   C   C   C  C   C   C
+Wang_Mhint_S1_190919_S1_Wang_60 #csid 6 0 0 0
+Wang_Mhint_S1_190919_S1_Wang_61 ref  爸爸  戴  老花眼鏡   看  報紙
+Wang_Mhint_S1_190919_S1_Wang_61 hyp  爸爸  戴   老花眼  鏡看  報紙
+Wang_Mhint_S1_190919_S1_Wang_61 op    C  C    S    S   C
+Wang_Mhint_S1_190919_S1_Wang_61 #csid 3 2 0 0
+Wang_Mhint_S1_190919_S1_Wang_62 ref   這    位  醫生  手術  做  得  很  好
+Wang_Mhint_S1_190919_S1_Wang_62 hyp  ***  這位  醫生  手術  做  得  很  好
+Wang_Mhint_S1_190919_S1_Wang_62 op    D    S   C   C  C  C  C  C
+Wang_Mhint_S1_190919_S1_Wang_62 #csid 6 1 0 1
+Wang_Mhint_S1_190919_S1_Wang_63 ref  婆婆  今天   炒    菜  放  多  鹽
+Wang_Mhint_S1_190919_S1_Wang_63 hyp  婆婆  今天  ***  炒菜  放  多  鹽
+Wang_Mhint_S1_190919_S1_Wang_63 op    C   C   D    S  C  C  C
+Wang_Mhint_S1_190919_S1_Wang_63 #csid 5 1 0 1
+Wang_Mhint_S1_190919_S1_Wang_64 ref  他  去  書店  買  了   好幾  本   書 
+Wang_Mhint_S1_190919_S1_Wang_64 hyp  他  去  書店  買  了  ***  好  幾本書
+Wang_Mhint_S1_190919_S1_Wang_64 op   C  C   C  C  C   D   S   S 
+Wang_Mhint_S1_190919_S1_Wang_64 #csid 5 2 0 1
+Wang_Mhint_S1_190919_S1_Wang_65 ref   全    家人  都  非常  喜歡   吃    魚
+Wang_Mhint_S1_190919_S1_Wang_65 hyp  ***  全家人  都  非常  喜歡  ***  吃魚
+Wang_Mhint_S1_190919_S1_Wang_65 op    D    S   C   C   C   D    S
+Wang_Mhint_S1_190919_S1_Wang_65 #csid 3 2 0 2
+Wang_Mhint_S1_190919_S1_Wang_66 ref  他  喜歡  去  ***  麵包店  買  蛋糕
+Wang_Mhint_S1_190919_S1_Wang_66 hyp  她  喜歡  去   麵    包店  買  蛋糕
+Wang_Mhint_S1_190919_S1_Wang_66 op   S   C  C   I    S   C   C
+Wang_Mhint_S1_190919_S1_Wang_66 #csid 4 2 1 0
+Wang_Mhint_S1_190919_S1_Wang_67 ref  他  騎車   太   快  小心  撞到  人
+Wang_Mhint_S1_190919_S1_Wang_67 hyp  他  騎車  太快  小心   撞   到  人
+Wang_Mhint_S1_190919_S1_Wang_67 op   C   C   S   S   S   S  C
+Wang_Mhint_S1_190919_S1_Wang_67 #csid 3 4 0 0
+Wang_Mhint_S1_190919_S1_Wang_68 ref  醫院  南邊  有   個   小  花園
+Wang_Mhint_S1_190919_S1_Wang_68 hyp  醫院  南邊  有  一個  小花   園
+Wang_Mhint_S1_190919_S1_Wang_68 op    C   C  C   S   S   S
+Wang_Mhint_S1_190919_S1_Wang_68 #csid 3 3 0 0
+Wang_Mhint_S1_190919_S1_Wang_69 ref  最近  的  電費  好像  增加  了
+Wang_Mhint_S1_190919_S1_Wang_69 hyp  最近  的  電費  好像  增加  了
+Wang_Mhint_S1_190919_S1_Wang_69 op    C  C   C   C   C  C
+Wang_Mhint_S1_190919_S1_Wang_69 #csid 6 0 0 0
+Wang_Mhint_S1_190919_S1_Wang_7 ref  他  聽到  這   個  消息  很  傷心
+Wang_Mhint_S1_190919_S1_Wang_7 hyp  她   聽  到  這個  消息  很  傷心
+Wang_Mhint_S1_190919_S1_Wang_7 op   S   S  S   S   C  C   C
+Wang_Mhint_S1_190919_S1_Wang_7 #csid 3 4 0 0
+Wang_Mhint_S1_190919_S1_Wang_70 ref  他  說  昨天  做  了   一    個  怪  夢
+Wang_Mhint_S1_190919_S1_Wang_70 hyp  她  說  昨天  做  了  ***  一個  怪  夢
+Wang_Mhint_S1_190919_S1_Wang_70 op   S  C   C  C  C   D    S  C  C
+Wang_Mhint_S1_190919_S1_Wang_70 #csid 6 2 0 1
+Wang_Mhint_S1_190919_S1_Wang_71 ref  他們  都  喜歡  這  個   新   老師
+Wang_Mhint_S1_190919_S1_Wang_71 hyp  他們  都  喜歡  這  個  ***   小
+Wang_Mhint_S1_190919_S1_Wang_71 op    C  C   C  C  C   D    S
+Wang_Mhint_S1_190919_S1_Wang_71 #csid 5 1 0 1
+Wang_Mhint_S1_190919_S1_Wang_72 ref  我們   全    家  都  喜歡   八寶   粥 
+Wang_Mhint_S1_190919_S1_Wang_72 hyp  我們  ***  全家  都  喜歡  ***  八寶粥
+Wang_Mhint_S1_190919_S1_Wang_72 op    C   D    S  C   C   D    S 
+Wang_Mhint_S1_190919_S1_Wang_72 #csid 3 2 0 2
+Wang_Mhint_S1_190919_S1_Wang_73 ref  他們  會  背誦  李白  的  詞詩
+Wang_Mhint_S1_190919_S1_Wang_73 hyp  他們  會  背誦  李白  的  詩詞
+Wang_Mhint_S1_190919_S1_Wang_73 op    C  C   C   C  C   S
+Wang_Mhint_S1_190919_S1_Wang_73 #csid 5 1 0 0
+Wang_Mhint_S1_190919_S1_Wang_74 ref  我  肯定  明天  上午  有  大雨
+Wang_Mhint_S1_190919_S1_Wang_74 hyp  我  肯定  明天  上午  有  大雨
+Wang_Mhint_S1_190919_S1_Wang_74 op   C   C   C   C  C   C
+Wang_Mhint_S1_190919_S1_Wang_74 #csid 6 0 0 0
+Wang_Mhint_S1_190919_S1_Wang_75 ref  我  很  相信  他  的  決策  能力
+Wang_Mhint_S1_190919_S1_Wang_75 hyp  我  很  相信  她  的  決策  能力
+Wang_Mhint_S1_190919_S1_Wang_75 op   C  C   C  S  C   C   C
+Wang_Mhint_S1_190919_S1_Wang_75 #csid 6 1 0 0
+Wang_Mhint_S1_190919_S1_Wang_76 ref  我們  的  市長  是  有  ***  遠見  的
+Wang_Mhint_S1_190919_S1_Wang_76 hyp  我們  的  市長  是  有   遠    見  的
+Wang_Mhint_S1_190919_S1_Wang_76 op    C  C   C  C  C   I    S  C
+Wang_Mhint_S1_190919_S1_Wang_76 #csid 6 1 1 0
+Wang_Mhint_S1_190919_S1_Wang_77 ref  他  在  比賽  中  獲得  第一
+Wang_Mhint_S1_190919_S1_Wang_77 hyp  他  在  比賽  中  獲得  第一
+Wang_Mhint_S1_190919_S1_Wang_77 op   C  C   C  C   C   C
+Wang_Mhint_S1_190919_S1_Wang_77 #csid 6 0 0 0
+Wang_Mhint_S1_190919_S1_Wang_78 ref  他們  在   這    家  飯店  等  你  嗎
+Wang_Mhint_S1_190919_S1_Wang_78 hyp  他們  在  ***  這家  飯店  等  你  嗎
+Wang_Mhint_S1_190919_S1_Wang_78 op    C  C   D    S   C  C  C  C
+Wang_Mhint_S1_190919_S1_Wang_78 #csid 6 1 0 1
+Wang_Mhint_S1_190919_S1_Wang_79 ref  我  完全  同意  你們  的  觀點
+Wang_Mhint_S1_190919_S1_Wang_79 hyp  我  完全  同意  你們  的  觀點
+Wang_Mhint_S1_190919_S1_Wang_79 op   C   C   C   C  C   C
+Wang_Mhint_S1_190919_S1_Wang_79 #csid 6 0 0 0
+Wang_Mhint_S1_190919_S1_Wang_8 ref  他  在  扭傷  的  腳  上  敷  冰塊
+Wang_Mhint_S1_190919_S1_Wang_8 hyp  他  在  扭傷  的  腳  上  敷  冰塊
+Wang_Mhint_S1_190919_S1_Wang_8 op   C  C   C  C  C  C  C   C
+Wang_Mhint_S1_190919_S1_Wang_8 #csid 8 0 0 0
+Wang_Mhint_S1_190919_S1_Wang_80 ref  我們  在  看法  上  是  一致  的
+Wang_Mhint_S1_190919_S1_Wang_80 hyp  我們  在  看法  上  是  一致  的
+Wang_Mhint_S1_190919_S1_Wang_80 op    C  C   C  C  C   C  C
+Wang_Mhint_S1_190919_S1_Wang_80 #csid 7 0 0 0
+Wang_Mhint_S1_190919_S1_Wang_81 ref   那    個  牌子  的  電器  非常  好
+Wang_Mhint_S1_190919_S1_Wang_81 hyp  ***  那個  牌子  的  電器  非常  好
+Wang_Mhint_S1_190919_S1_Wang_81 op    D    S   C  C   C   C  C
+Wang_Mhint_S1_190919_S1_Wang_81 #csid 5 1 0 1
+Wang_Mhint_S1_190919_S1_Wang_82 ref  那  隻  大  狼  狗  正在  啃  骨頭
+Wang_Mhint_S1_190919_S1_Wang_82 hyp  那  隻  大  狼  狗  正在  啃  骨頭
+Wang_Mhint_S1_190919_S1_Wang_82 op   C  C  C  C  C   C  C   C
+Wang_Mhint_S1_190919_S1_Wang_82 #csid 8 0 0 0
+Wang_Mhint_S1_190919_S1_Wang_83 ref  貨架   上  擺滿  了   各    種  水果
+Wang_Mhint_S1_190919_S1_Wang_83 hyp   貨  架上  擺滿  了  ***  各種  水果
+Wang_Mhint_S1_190919_S1_Wang_83 op    S   S   C  C   D    S   C
+Wang_Mhint_S1_190919_S1_Wang_83 #csid 3 3 0 1
+Wang_Mhint_S1_190919_S1_Wang_84 ref  今天  晚上  的  月亮  非常  圓
+Wang_Mhint_S1_190919_S1_Wang_84 hyp  今天  晚上  的  月亮  非常  圓
+Wang_Mhint_S1_190919_S1_Wang_84 op    C   C  C   C   C  C
+Wang_Mhint_S1_190919_S1_Wang_84 #csid 6 0 0 0
+Wang_Mhint_S1_190919_S1_Wang_85 ref  他  剛才  講話  時   吞吞   吐吐 
+Wang_Mhint_S1_190919_S1_Wang_85 hyp  她  剛才  講話  時  ***  吞吞吐吐
+Wang_Mhint_S1_190919_S1_Wang_85 op   S   C   C  C   D     S 
+Wang_Mhint_S1_190919_S1_Wang_85 #csid 3 2 0 1
+Wang_Mhint_S1_190919_S1_Wang_86 ref   全   家人  圍  在一起  吃  水餃
+Wang_Mhint_S1_190919_S1_Wang_86 hyp  全家人   圍  在   一起  吃  水餃
+Wang_Mhint_S1_190919_S1_Wang_86 op    S    S  S   S   C   C
+Wang_Mhint_S1_190919_S1_Wang_86 #csid 2 4 0 0
+Wang_Mhint_S1_190919_S1_Wang_87 ref  他  盼望  著  能  和  親人團  聚
+Wang_Mhint_S1_190919_S1_Wang_87 hyp  她  盼望  著  能  和  親人團  聚
+Wang_Mhint_S1_190919_S1_Wang_87 op   S   C  C  C  C   C   C
+Wang_Mhint_S1_190919_S1_Wang_87 #csid 6 1 0 0
+Wang_Mhint_S1_190919_S1_Wang_88 ref  辦理  入學  手續  非常  簡單
+Wang_Mhint_S1_190919_S1_Wang_88 hyp  辦理  入學  手續  非常  簡單
+Wang_Mhint_S1_190919_S1_Wang_88 op    C   C   C   C   C
+Wang_Mhint_S1_190919_S1_Wang_88 #csid 5 0 0 0
+Wang_Mhint_S1_190919_S1_Wang_89 ref   買    車  可以  申請  銀行  貸款
+Wang_Mhint_S1_190919_S1_Wang_89 hyp  ***  買車  可以  申請  銀行  貸款
+Wang_Mhint_S1_190919_S1_Wang_89 op    D    S   C   C   C   C
+Wang_Mhint_S1_190919_S1_Wang_89 #csid 4 1 0 1
+Wang_Mhint_S1_190919_S1_Wang_9 ref  這  兩  個   寺廟  的  香火  很    盛 
+Wang_Mhint_S1_190919_S1_Wang_9 hyp  這  兩  個  ***  寺   廟  的  香火很盛
+Wang_Mhint_S1_190919_S1_Wang_9 op   C  C  C   D   S   S  S    S 
+Wang_Mhint_S1_190919_S1_Wang_9 #csid 3 4 0 1
+Wang_Mhint_S1_190919_S1_Wang_90 ref  這  個  國家  旅遊業  很  發達
+Wang_Mhint_S1_190919_S1_Wang_90 hyp  這  個  國家  旅遊業  很  發達
+Wang_Mhint_S1_190919_S1_Wang_90 op   C  C   C   C   C   C
+Wang_Mhint_S1_190919_S1_Wang_90 #csid 6 0 0 0
+Wang_Mhint_S1_190919_S1_Wang_91 ref  我們  公司   福利   待遇   很  好
+Wang_Mhint_S1_190919_S1_Wang_91 hyp  我們  公司  ***  福利待遇  很  好
+Wang_Mhint_S1_190919_S1_Wang_91 op    C   C   D     S   C  C
+Wang_Mhint_S1_190919_S1_Wang_91 #csid 4 1 0 1
+Wang_Mhint_S1_190919_S1_Wang_92 ref  大家  對  他  的  演講  很  滿意
+Wang_Mhint_S1_190919_S1_Wang_92 hyp  大家  對  他  的  演講  很  滿意
+Wang_Mhint_S1_190919_S1_Wang_92 op    C  C  C  C   C  C   C
+Wang_Mhint_S1_190919_S1_Wang_92 #csid 7 0 0 0
+Wang_Mhint_S1_190919_S1_Wang_93 ref  我們  都  在  學習  電腦  打字
+Wang_Mhint_S1_190919_S1_Wang_93 hyp  我們  都  在  學習  電腦  打字
+Wang_Mhint_S1_190919_S1_Wang_93 op    C  C  C   C   C   C
+Wang_Mhint_S1_190919_S1_Wang_93 #csid 6 0 0 0
+Wang_Mhint_S1_190919_S1_Wang_94 ref  爸爸  的  同事  今天  ***  過生日
+Wang_Mhint_S1_190919_S1_Wang_94 hyp  爸爸  的  同事  今天   過    生日
+Wang_Mhint_S1_190919_S1_Wang_94 op    C  C   C   C   I    S 
+Wang_Mhint_S1_190919_S1_Wang_94 #csid 4 1 1 0
+Wang_Mhint_S1_190919_S1_Wang_95 ref  我  自信  能  獲得  這  個  職位
+Wang_Mhint_S1_190919_S1_Wang_95 hyp  我  自信  能  獲得  這  個  職位
+Wang_Mhint_S1_190919_S1_Wang_95 op   C   C  C   C  C  C   C
+Wang_Mhint_S1_190919_S1_Wang_95 #csid 7 0 0 0
+Wang_Mhint_S1_190919_S1_Wang_96 ref  恐怕  我  真的  不  擅長  讀書
+Wang_Mhint_S1_190919_S1_Wang_96 hyp  恐怕  我  真的  不  擅長  讀書
+Wang_Mhint_S1_190919_S1_Wang_96 op    C  C   C  C   C   C
+Wang_Mhint_S1_190919_S1_Wang_96 #csid 6 0 0 0
+Wang_Mhint_S1_190919_S1_Wang_97 ref  他們   全    家  非常  喜歡  登山
+Wang_Mhint_S1_190919_S1_Wang_97 hyp  他們  ***  全家  非常  喜歡  登山
+Wang_Mhint_S1_190919_S1_Wang_97 op    C   D    S   C   C   C
+Wang_Mhint_S1_190919_S1_Wang_97 #csid 4 1 0 1
+Wang_Mhint_S1_190919_S1_Wang_98 ref  我  非常  喜歡  明媚  的  春天
+Wang_Mhint_S1_190919_S1_Wang_98 hyp  我  非常  喜歡  明媚  的  春天
+Wang_Mhint_S1_190919_S1_Wang_98 op   C   C   C   C  C   C
+Wang_Mhint_S1_190919_S1_Wang_98 #csid 6 0 0 0
+Wang_Mhint_S1_190919_S1_Wang_99 ref  我  買  了   一    包  熱帶魚  飼料
+Wang_Mhint_S1_190919_S1_Wang_99 hyp  我  買  了  ***  一包  熱帶魚  飼料
+Wang_Mhint_S1_190919_S1_Wang_99 op   C  C  C   D    S   C    C
+Wang_Mhint_S1_190919_S1_Wang_99 #csid 5 1 0 1

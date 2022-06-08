@@ -1,0 +1,15 @@
+# nnet3-chain-compute-prob --l2-regularize=0.0 --leaky-hmm-coefficient=0.1 --xent-regularize=0.1 exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/57.mdl exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/den.fst "ark,bg:nnet3-chain-copy-egs  ark:exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/egs/train_diagnostic.cegs                     ark:- | nnet3-chain-merge-egs --minibatch-size=1:64 ark:- ark:- |" 
+# Started at Mon Feb 24 07:10:49 CST 2020
+#
+nnet3-chain-compute-prob --l2-regularize=0.0 --leaky-hmm-coefficient=0.1 --xent-regularize=0.1 exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/57.mdl exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/den.fst 'ark,bg:nnet3-chain-copy-egs  ark:exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/egs/train_diagnostic.cegs                     ark:- | nnet3-chain-merge-egs --minibatch-size=1:64 ark:- ark:- |' 
+nnet3-chain-merge-egs --minibatch-size=1:64 ark:- ark:- 
+nnet3-chain-copy-egs ark:exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/egs/train_diagnostic.cegs ark:- 
+LOG (nnet3-chain-copy-egs[5.5.646~1-cdf2]:main():nnet3-chain-copy-egs.cc:395) Read 400 neural-network training examples, wrote 400
+LOG (nnet3-chain-merge-egs[5.5.646~1-cdf2]:PrintSpecificStats():nnet-example-utils.cc:1143) Merged specific eg types as follows [format: <eg-size1>={<mb-size1>-><num-minibatches1>,<mbsize2>-><num-minibatches2>.../d=<num-discarded>},<egs-size2>={...},... (note,egs-size == number of input frames including context).
+LOG (nnet3-chain-merge-egs[5.5.646~1-cdf2]:PrintSpecificStats():nnet-example-utils.cc:1173) 391={16->1,64->6,d=0}
+LOG (nnet3-chain-merge-egs[5.5.646~1-cdf2]:PrintAggregateStats():nnet-example-utils.cc:1139) Processed 400 egs of avg. size 391 into 7 minibatches, discarding 0% of egs.  Avg minibatch size was 57.14, #distinct types of egs/minibatches was 1/2
+LOG (nnet3-chain-compute-prob[5.5.646~1-cdf2]:PrintTotalStats():nnet-chain-diagnostics.cc:194) Overall log-probability for 'output-xent' is -1.58733 per frame, over 6800 frames.
+LOG (nnet3-chain-compute-prob[5.5.646~1-cdf2]:PrintTotalStats():nnet-chain-diagnostics.cc:194) Overall log-probability for 'output' is -0.129609 per frame, over 6800 frames.
+LOG (nnet3-chain-compute-prob[5.5.646~1-cdf2]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.318 seconds taken in nnet3 compilation total (breakdown: 0.225 compilation, 0.00225 optimization, 0.0816 shortcut expansion, 0.000704 checking, 0.00186 computing indexes, 0.00674 misc.) + 0 I/O.
+# Accounting: time=6 threads=1
+# Ended (code 0) at Mon Feb 24 07:10:55 CST 2020, elapsed time 6 seconds

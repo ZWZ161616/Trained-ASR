@@ -1,0 +1,10 @@
+# cat exp_learning/inside/SAT_tri4/decode_SAT/scoring_kaldi/penalty_0.0/14.chars.txt | align-text --special-symbol='***' ark:exp_learning/inside/SAT_tri4/decode_SAT/scoring_kaldi/test_filt.chars.txt ark:- ark,t:- | utils/scoring/wer_per_utt_details.pl --special-symbol '***' | tee exp_learning/inside/SAT_tri4/decode_SAT/scoring_kaldi/cer_details/per_utt | utils/scoring/wer_per_spk_details.pl data/inside//utt2spk > exp_learning/inside/SAT_tri4/decode_SAT/scoring_kaldi/cer_details/per_spk 
+# Started at Sat Feb 22 22:16:01 CST 2020
+#
+align-text '--special-symbol=***' ark:exp_learning/inside/SAT_tri4/decode_SAT/scoring_kaldi/test_filt.chars.txt ark:- ark,t:- 
+LOG (align-text[5.5.646~1-cdf2]:main():align-text.cc:135) Done 2500 sentences, failed for 0
+utils/scoring/wer_per_utt_details.pl: Note: handling as utf-8 text
+utils/scoring/wer_per_spk_details.pl: Note: handling as utf-8 text
+utils/scoring/wer_per_spk_details.pl: Note: handling as utf-8 text
+# Accounting: time=0 threads=1
+# Ended (code 0) at Sat Feb 22 22:16:01 CST 2020, elapsed time 0 seconds

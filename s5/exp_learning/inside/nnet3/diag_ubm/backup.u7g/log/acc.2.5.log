@@ -1,0 +1,18 @@
+# gmm-global-acc-stats "--gselect=ark,s,cs:gunzip -c exp_learning/inside/nnet3/diag_ubm/gselect.5.gz|" exp_learning/inside/nnet3/diag_ubm/2.dubm "ark,s,cs:apply-cmvn-online --config=conf/online_cmvn.conf --spk2utt=ark:data/train/iv_nopitch/split8/5/spk2utt exp_learning/inside/nnet3/diag_ubm/global_cmvn.stats scp:data/train/iv_nopitch/split8/5/feats.scp ark:- | splice-feats --left-context=3 --right-context=3 ark:- ark:- | transform-feats exp_learning/inside/nnet3/diag_ubm/final.mat ark:- ark:- | subsample-feats --n=2 ark:- ark:- |" exp_learning/inside/nnet3/diag_ubm/2.5.acc 
+# Started at Sun Feb 23 01:42:31 CST 2020
+#
+gmm-global-acc-stats '--gselect=ark,s,cs:gunzip -c exp_learning/inside/nnet3/diag_ubm/gselect.5.gz|' exp_learning/inside/nnet3/diag_ubm/2.dubm 'ark,s,cs:apply-cmvn-online --config=conf/online_cmvn.conf --spk2utt=ark:data/train/iv_nopitch/split8/5/spk2utt exp_learning/inside/nnet3/diag_ubm/global_cmvn.stats scp:data/train/iv_nopitch/split8/5/feats.scp ark:- | splice-feats --left-context=3 --right-context=3 ark:- ark:- | transform-feats exp_learning/inside/nnet3/diag_ubm/final.mat ark:- ark:- | subsample-feats --n=2 ark:- ark:- |' exp_learning/inside/nnet3/diag_ubm/2.5.acc 
+transform-feats exp_learning/inside/nnet3/diag_ubm/final.mat ark:- ark:- 
+apply-cmvn-online --config=conf/online_cmvn.conf --spk2utt=ark:data/train/iv_nopitch/split8/5/spk2utt exp_learning/inside/nnet3/diag_ubm/global_cmvn.stats scp:data/train/iv_nopitch/split8/5/feats.scp ark:- 
+subsample-feats --n=2 ark:- ark:- 
+splice-feats --left-context=3 --right-context=3 ark:- ark:- 
+LOG (apply-cmvn-online[5.5.646~1-cdf2]:main():apply-cmvn-online.cc:133) Applied online CMVN to 20128 files, or 6455919 frames.
+LOG (transform-feats[5.5.646~1-cdf2]:main():transform-feats.cc:158) Overall average [pseudo-]logdet is -120.109 over 6.45592e+06 frames.
+LOG (transform-feats[5.5.646~1-cdf2]:main():transform-feats.cc:161) Applied transform to 20128 utterances; 0 had errors.
+LOG (subsample-feats[5.5.646~1-cdf2]:main():subsample-feats.cc:115) Processed 20128 feature matrices; 0 with errors.
+LOG (subsample-feats[5.5.646~1-cdf2]:main():subsample-feats.cc:117) Processed 6455919 input frames and 3232980 output frames.
+LOG (gmm-global-acc-stats[5.5.646~1-cdf2]:main():gmm-global-acc-stats.cc:148) Done 20128 files; 0 with errors.
+LOG (gmm-global-acc-stats[5.5.646~1-cdf2]:main():gmm-global-acc-stats.cc:150) Overall likelihood per frame = -48.3498 over 3.23298e+06 (weighted) frames.
+LOG (gmm-global-acc-stats[5.5.646~1-cdf2]:main():gmm-global-acc-stats.cc:155) Written accs to exp_learning/inside/nnet3/diag_ubm/2.5.acc
+# Accounting: time=318 threads=1
+# Ended (code 0) at Sun Feb 23 01:47:49 CST 2020, elapsed time 318 seconds

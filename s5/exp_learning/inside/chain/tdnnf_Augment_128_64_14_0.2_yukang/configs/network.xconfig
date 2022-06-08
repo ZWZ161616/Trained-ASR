@@ -1,0 +1,33 @@
+  input dim=100 name=ivector
+  input dim=40 name=input
+
+  fixed-affine-layer name=lda input=Append(-1,0,1,ReplaceIndex(ivector, t, 0)) affine-transform-file=exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/configs/lda.mat
+  #idct-layer name=idct input=input dim=40 cepstral-lifter=22 affine-transform-file=exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/configs/idct.mat
+  #batchnorm-component name=batchnorm0 input=idct
+  #spec-augment-layer name=spec-augment freq-max-proportion=0.5 time-zeroed-proportion=0.2 time-mask-max-frames=20
+  #delta-layer name=delta input=spec-augment
+  #no-op-component name=input2 input=Append(delta, Scale(0.4, ReplaceIndex(ivector, t, 0)))
+
+  
+  relu-batchnorm-dropout-layer name=tdnn1 l2-regularize=0.0005 dropout-proportion=0.5 dropout-per-dim=true dropout-per-dim-continuous=true dim=128
+  tdnnf-layer name=tdnnf2 l2-regularize=0.0005 dropout-proportion=0.5 bypass-scale=0.75 dim=128 bottleneck-dim=64 time-stride=14
+  tdnnf-layer name=tdnnf3 l2-regularize=0.0005 dropout-proportion=0.5 bypass-scale=0.75 dim=128 bottleneck-dim=64 time-stride=14
+  tdnnf-layer name=tdnnf4 l2-regularize=0.0005 dropout-proportion=0.5 bypass-scale=0.75 dim=128 bottleneck-dim=64 time-stride=14
+  tdnnf-layer name=tdnnf5 l2-regularize=0.0005 dropout-proportion=0.5 bypass-scale=0.75 dim=128 bottleneck-dim=64 time-stride=14
+  tdnnf-layer name=tdnnf6 l2-regularize=0.0005 dropout-proportion=0.5 bypass-scale=0.75 dim=128 bottleneck-dim=64 time-stride=14
+  tdnnf-layer name=tdnnf7 l2-regularize=0.0005 dropout-proportion=0.5 bypass-scale=0.75 dim=128 bottleneck-dim=64 time-stride=14
+  tdnnf-layer name=tdnnf8 l2-regularize=0.0005 dropout-proportion=0.5 bypass-scale=0.75 dim=128 bottleneck-dim=64 time-stride=14
+  tdnnf-layer name=tdnnf9 l2-regularize=0.0005 dropout-proportion=0.5 bypass-scale=0.75 dim=128 bottleneck-dim=64 time-stride=14
+  tdnnf-layer name=tdnnf10 l2-regularize=0.0005 dropout-proportion=0.5 bypass-scale=0.75 dim=128 bottleneck-dim=64 time-stride=14
+  tdnnf-layer name=tdnnf11 l2-regularize=0.0005 dropout-proportion=0.5 bypass-scale=0.75 dim=128 bottleneck-dim=64 time-stride=14
+  tdnnf-layer name=tdnnf12 l2-regularize=0.0005 dropout-proportion=0.5 bypass-scale=0.75 dim=128 bottleneck-dim=64 time-stride=14
+  tdnnf-layer name=tdnnf13 l2-regularize=0.0005 dropout-proportion=0.5 bypass-scale=0.75 dim=128 bottleneck-dim=64 time-stride=14
+  
+
+  linear-component name=prefinal-l dim=64 l2-regularize=0.005 orthonormal-constraint=-1.0
+  
+  prefinal-layer name=prefinal-chain input=prefinal-l l2-regularize=0.0005 big-dim=128 small-dim=64
+  output-layer name=output include-log-softmax=false dim=4040 l2-regularize=0.00005
+  
+  prefinal-layer name=prefinal-xent input=prefinal-l l2-regularize=0.0005 big-dim=128 small-dim=64
+  output-layer name=output-xent dim=4040 learning-rate-factor=5.0 l2-regularize=0.00005

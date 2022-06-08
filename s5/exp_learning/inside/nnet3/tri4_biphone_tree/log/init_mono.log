@@ -1,0 +1,192 @@
+# gmm-init-mono --shared-phones=data/lang_chain/phones/sets.int "--train-feats=ark,s,cs:apply-cmvn  --utt2spk=ark:data/train/iv_nopitch/split8/1/utt2spk scp:data/train/iv_nopitch/split8/1/cmvn.scp scp:data/train/iv_nopitch/split8/1/feats.scp ark:- | splice-feats  ark:- ark:- | transform-feats exp_learning/inside/SAT_tri4_ali/final.mat ark:- ark:- | transform-feats --utt2spk=ark:data/train/iv_nopitch/split8/1/utt2spk ark,s,cs:exp_learning/inside/SAT_tri4_ali/trans.1 ark:- ark:- | subsample-feats --n=3 ark:- ark:- | subset-feats --n=10 ark:- ark:-|" data/lang_chain/topo 40 exp_learning/inside/nnet3/tri4_biphone_tree/mono.mdl exp_learning/inside/nnet3/tri4_biphone_tree/mono.tree 
+# Started at Mon Feb 24 04:43:53 CST 2020
+#
+gmm-init-mono --shared-phones=data/lang_chain/phones/sets.int '--train-feats=ark,s,cs:apply-cmvn  --utt2spk=ark:data/train/iv_nopitch/split8/1/utt2spk scp:data/train/iv_nopitch/split8/1/cmvn.scp scp:data/train/iv_nopitch/split8/1/feats.scp ark:- | splice-feats  ark:- ark:- | transform-feats exp_learning/inside/SAT_tri4_ali/final.mat ark:- ark:- | transform-feats --utt2spk=ark:data/train/iv_nopitch/split8/1/utt2spk ark,s,cs:exp_learning/inside/SAT_tri4_ali/trans.1 ark:- ark:- | subsample-feats --n=3 ark:- ark:- | subset-feats --n=10 ark:- ark:-|' data/lang_chain/topo 40 exp_learning/inside/nnet3/tri4_biphone_tree/mono.mdl exp_learning/inside/nnet3/tri4_biphone_tree/mono.tree 
+transform-feats exp_learning/inside/SAT_tri4_ali/final.mat ark:- ark:- 
+subsample-feats --n=3 ark:- ark:- 
+transform-feats --utt2spk=ark:data/train/iv_nopitch/split8/1/utt2spk ark,s,cs:exp_learning/inside/SAT_tri4_ali/trans.1 ark:- ark:- 
+apply-cmvn --utt2spk=ark:data/train/iv_nopitch/split8/1/utt2spk scp:data/train/iv_nopitch/split8/1/cmvn.scp scp:data/train/iv_nopitch/split8/1/feats.scp ark:- 
+subset-feats --n=10 ark:- ark:- 
+splice-feats ark:- ark:- 
+ERROR (subsample-feats[5.5.646~1-cdf2]:Write():kaldi-matrix.cc:1404) Failed to write matrix to stream
+
+[ Stack-Trace: ]
+/home/asdfghjk0117/CCC/kaldi/src/lib/libkaldi-base.so(kaldi::MessageLogger::LogMessage() const+0xb42) [0x7fa5b86816a2]
+subsample-feats(kaldi::MessageLogger::LogAndThrow::operator=(kaldi::MessageLogger const&)+0x21) [0x55e48b8d9205]
+/home/asdfghjk0117/CCC/kaldi/src/lib/libkaldi-matrix.so(kaldi::MatrixBase<float>::Write(std::ostream&, bool) const+0x2cb) [0x7fa5b88c827b]
+subsample-feats(kaldi::TableWriterArchiveImpl<kaldi::KaldiObjectHolder<kaldi::MatrixBase<float> > >::Write(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, kaldi::MatrixBase<float> const&)+0x23d) [0x55e48b8d99fb]
+subsample-feats(main+0x66c) [0x55e48b8d80c6]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7) [0x7fa5b7aebb97]
+subsample-feats(_start+0x2a) [0x55e48b8d797a]
+
+WARNING (subsample-feats[5.5.646~1-cdf2]:Write():util/kaldi-holder-inl.h:57) Exception caught writing Table object. kaldi::KaldiFatalError
+WARNING (subsample-feats[5.5.646~1-cdf2]:Write():util/kaldi-table-inl.h:1057) Write failure to standard output
+ERROR (subsample-feats[5.5.646~1-cdf2]:Write():util/kaldi-table-inl.h:1515) Error in TableWriter::Write
+
+[ Stack-Trace: ]
+/home/asdfghjk0117/CCC/kaldi/src/lib/libkaldi-base.so(kaldi::MessageLogger::LogMessage() const+0xb42) [0x7fa5b86816a2]
+subsample-feats(kaldi::MessageLogger::LogAndThrow::operator=(kaldi::MessageLogger const&)+0x21) [0x55e48b8d9205]
+subsample-feats(main+0x6f8) [0x55e48b8d8152]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7) [0x7fa5b7aebb97]
+subsample-feats(_start+0x2a) [0x55e48b8d797a]
+
+WARNING (subsample-feats[5.5.646~1-cdf2]:Close():util/kaldi-table-inl.h:1089) Error closing stream: wspecifier is ark:-
+ERROR (subsample-feats[5.5.646~1-cdf2]:~TableWriter():util/kaldi-table-inl.h:1539) Error closing TableWriter [in destructor].
+
+[ Stack-Trace: ]
+/home/asdfghjk0117/CCC/kaldi/src/lib/libkaldi-base.so(kaldi::MessageLogger::LogMessage() const+0xb42) [0x7fa5b86816a2]
+subsample-feats(kaldi::MessageLogger::LogAndThrow::operator=(kaldi::MessageLogger const&)+0x21) [0x55e48b8d9205]
+subsample-feats(kaldi::TableWriter<kaldi::KaldiObjectHolder<kaldi::MatrixBase<float> > >::~TableWriter()+0x89) [0x55e48b8de61d]
+subsample-feats(main+0xbd7) [0x55e48b8d8631]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7) [0x7fa5b7aebb97]
+subsample-feats(_start+0x2a) [0x55e48b8d797a]
+
+terminate called after throwing an instance of 'kaldi::KaldiFatalError'
+  what():  kaldi::KaldiFatalError
+ERROR (transform-feats[5.5.646~1-cdf2]:Write():kaldi-matrix.cc:1381) Failed to write matrix to stream: stream not good
+
+[ Stack-Trace: ]
+/home/asdfghjk0117/CCC/kaldi/src/lib/libkaldi-base.so(kaldi::MessageLogger::LogMessage() const+0xb42) [0x7fb5fba2b6a2]
+transform-feats(kaldi::MessageLogger::LogAndThrow::operator=(kaldi::MessageLogger const&)+0x21) [0x56119bfbb939]
+/home/asdfghjk0117/CCC/kaldi/src/lib/libkaldi-matrix.so(kaldi::MatrixBase<float>::Write(std::ostream&, bool) const+0x157) [0x7fb5fbc72107]
+transform-feats(kaldi::KaldiObjectHolder<kaldi::MatrixBase<float> >::Write(std::ostream&, bool, kaldi::MatrixBase<float> const&)+0x54) [0x56119bfc3968]
+transform-feats(kaldi::TableWriterArchiveImpl<kaldi::KaldiObjectHolder<kaldi::MatrixBase<float> > >::Write(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, kaldi::MatrixBase<float> const&)+0x167) [0x56119bfc3bbf]
+transform-feats(main+0xab4) [0x56119bfba45e]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7) [0x7fb5fae95b97]
+transform-feats(_start+0x2a) [0x56119bfb98ca]
+
+WARNING (transform-feats[5.5.646~1-cdf2]:Write():util/kaldi-holder-inl.h:57) Exception caught writing Table object. kaldi::KaldiFatalError
+WARNING (transform-feats[5.5.646~1-cdf2]:Write():util/kaldi-table-inl.h:1057) Write failure to standard output
+ERROR (transform-feats[5.5.646~1-cdf2]:Write():util/kaldi-table-inl.h:1515) Error in TableWriter::Write
+
+[ Stack-Trace: ]
+/home/asdfghjk0117/CCC/kaldi/src/lib/libkaldi-base.so(kaldi::MessageLogger::LogMessage() const+0xb42) [0x7fb5fba2b6a2]
+transform-feats(kaldi::MessageLogger::LogAndThrow::operator=(kaldi::MessageLogger const&)+0x21) [0x56119bfbb939]
+transform-feats(main+0xb31) [0x56119bfba4db]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7) [0x7fb5fae95b97]
+transform-feats(_start+0x2a) [0x56119bfb98ca]
+
+WARNING (transform-feats[5.5.646~1-cdf2]:Close():util/kaldi-table-inl.h:1089) Error closing stream: wspecifier is ark:-
+ERROR (transform-feats[5.5.646~1-cdf2]:~TableWriter():util/kaldi-table-inl.h:1539) Error closing TableWriter [in destructor].
+
+[ Stack-Trace: ]
+/home/asdfghjk0117/CCC/kaldi/src/lib/libkaldi-base.so(kaldi::MessageLogger::LogMessage() const+0xb42) [0x7fb5fba2b6a2]
+transform-feats(kaldi::MessageLogger::LogAndThrow::operator=(kaldi::MessageLogger const&)+0x21) [0x56119bfbb939]
+transform-feats(kaldi::TableWriter<kaldi::KaldiObjectHolder<kaldi::MatrixBase<float> > >::~TableWriter()+0x89) [0x56119bfbfd5d]
+transform-feats(main+0x43a) [0x56119bfb9de4]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7) [0x7fb5fae95b97]
+transform-feats(_start+0x2a) [0x56119bfb98ca]
+
+terminate called after throwing an instance of 'kaldi::KaldiFatalError'
+  what():  kaldi::KaldiFatalError
+ERROR (transform-feats[5.5.646~1-cdf2]:Write():kaldi-matrix.cc:1404) Failed to write matrix to stream
+
+[ Stack-Trace: ]
+/home/asdfghjk0117/CCC/kaldi/src/lib/libkaldi-base.so(kaldi::MessageLogger::LogMessage() const+0xb42) [0x7f7edfa5c6a2]
+transform-feats(kaldi::MessageLogger::LogAndThrow::operator=(kaldi::MessageLogger const&)+0x21) [0x556055684939]
+/home/asdfghjk0117/CCC/kaldi/src/lib/libkaldi-matrix.so(kaldi::MatrixBase<float>::Write(std::ostream&, bool) const+0x2cb) [0x7f7edfca327b]
+transform-feats(kaldi::KaldiObjectHolder<kaldi::MatrixBase<float> >::Write(std::ostream&, bool, kaldi::MatrixBase<float> const&)+0x54) [0x55605568c968]
+transform-feats(kaldi::TableWriterArchiveImpl<kaldi::KaldiObjectHolder<kaldi::MatrixBase<float> > >::Write(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, kaldi::MatrixBase<float> const&)+0x167) [0x55605568cbbf]
+transform-feats(main+0xab4) [0x55605568345e]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7) [0x7f7edeec6b97]
+transform-feats(_start+0x2a) [0x5560556828ca]
+
+WARNING (transform-feats[5.5.646~1-cdf2]:Write():util/kaldi-holder-inl.h:57) Exception caught writing Table object. kaldi::KaldiFatalError
+WARNING (transform-feats[5.5.646~1-cdf2]:Write():util/kaldi-table-inl.h:1057) Write failure to standard output
+ERROR (transform-feats[5.5.646~1-cdf2]:Write():util/kaldi-table-inl.h:1515) Error in TableWriter::Write
+
+[ Stack-Trace: ]
+/home/asdfghjk0117/CCC/kaldi/src/lib/libkaldi-base.so(kaldi::MessageLogger::LogMessage() const+0xb42) [0x7f7edfa5c6a2]
+transform-feats(kaldi::MessageLogger::LogAndThrow::operator=(kaldi::MessageLogger const&)+0x21) [0x556055684939]
+transform-feats(main+0xb31) [0x5560556834db]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7) [0x7f7edeec6b97]
+transform-feats(_start+0x2a) [0x5560556828ca]
+
+WARNING (transform-feats[5.5.646~1-cdf2]:Close():util/kaldi-table-inl.h:1089) Error closing stream: wspecifier is ark:-
+ERROR (transform-feats[5.5.646~1-cdf2]:~TableWriter():util/kaldi-table-inl.h:1539) Error closing TableWriter [in destructor].
+
+[ Stack-Trace: ]
+/home/asdfghjk0117/CCC/kaldi/src/lib/libkaldi-base.so(kaldi::MessageLogger::LogMessage() const+0xb42) [0x7f7edfa5c6a2]
+transform-feats(kaldi::MessageLogger::LogAndThrow::operator=(kaldi::MessageLogger const&)+0x21) [0x556055684939]
+transform-feats(kaldi::TableWriter<kaldi::KaldiObjectHolder<kaldi::MatrixBase<float> > >::~TableWriter()+0x89) [0x556055688d5d]
+transform-feats(main+0x43a) [0x556055682de4]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7) [0x7f7edeec6b97]
+transform-feats(_start+0x2a) [0x5560556828ca]
+
+terminate called after throwing an instance of 'kaldi::KaldiFatalError'
+  what():  kaldi::KaldiFatalError
+ERROR (splice-feats[5.5.646~1-cdf2]:Write():kaldi-matrix.cc:1404) Failed to write matrix to stream
+
+[ Stack-Trace: ]
+/home/asdfghjk0117/CCC/kaldi/src/lib/libkaldi-base.so(kaldi::MessageLogger::LogMessage() const+0xb42) [0x7f2f418746a2]
+splice-feats(kaldi::MessageLogger::LogAndThrow::operator=(kaldi::MessageLogger const&)+0x21) [0x55ae585a9947]
+/home/asdfghjk0117/CCC/kaldi/src/lib/libkaldi-matrix.so(kaldi::MatrixBase<float>::Write(std::ostream&, bool) const+0x2cb) [0x7f2f41abb27b]
+splice-feats(kaldi::TableWriterArchiveImpl<kaldi::KaldiObjectHolder<kaldi::MatrixBase<float> > >::Write(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, kaldi::MatrixBase<float> const&)+0x23d) [0x55ae585ab599]
+splice-feats(main+0x29d) [0x55ae585a8be7]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7) [0x7f2f40cdeb97]
+splice-feats(_start+0x2a) [0x55ae585a886a]
+
+WARNING (splice-feats[5.5.646~1-cdf2]:Write():util/kaldi-holder-inl.h:57) Exception caught writing Table object. kaldi::KaldiFatalError
+WARNING (splice-feats[5.5.646~1-cdf2]:Write():util/kaldi-table-inl.h:1057) Write failure to standard output
+ERROR (splice-feats[5.5.646~1-cdf2]:Write():util/kaldi-table-inl.h:1515) Error in TableWriter::Write
+
+[ Stack-Trace: ]
+/home/asdfghjk0117/CCC/kaldi/src/lib/libkaldi-base.so(kaldi::MessageLogger::LogMessage() const+0xb42) [0x7f2f418746a2]
+splice-feats(kaldi::MessageLogger::LogAndThrow::operator=(kaldi::MessageLogger const&)+0x21) [0x55ae585a9947]
+splice-feats(main+0x314) [0x55ae585a8c5e]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7) [0x7f2f40cdeb97]
+splice-feats(_start+0x2a) [0x55ae585a886a]
+
+WARNING (splice-feats[5.5.646~1-cdf2]:Close():util/kaldi-table-inl.h:1089) Error closing stream: wspecifier is ark:-
+ERROR (splice-feats[5.5.646~1-cdf2]:~TableWriter():util/kaldi-table-inl.h:1539) Error closing TableWriter [in destructor].
+
+[ Stack-Trace: ]
+/home/asdfghjk0117/CCC/kaldi/src/lib/libkaldi-base.so(kaldi::MessageLogger::LogMessage() const+0xb42) [0x7f2f418746a2]
+splice-feats(kaldi::MessageLogger::LogAndThrow::operator=(kaldi::MessageLogger const&)+0x21) [0x55ae585a9947]
+splice-feats(kaldi::TableWriter<kaldi::KaldiObjectHolder<kaldi::MatrixBase<float> > >::~TableWriter()+0x89) [0x55ae585aed5f]
+splice-feats(main+0x35f) [0x55ae585a8ca9]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7) [0x7f2f40cdeb97]
+splice-feats(_start+0x2a) [0x55ae585a886a]
+
+terminate called after throwing an instance of 'kaldi::KaldiFatalError'
+  what():  kaldi::KaldiFatalError
+ERROR (apply-cmvn[5.5.646~1-cdf2]:Write():kaldi-matrix.cc:1404) Failed to write matrix to stream
+
+[ Stack-Trace: ]
+/home/asdfghjk0117/CCC/kaldi/src/lib/libkaldi-base.so(kaldi::MessageLogger::LogMessage() const+0xb42) [0x7f72bebdd6a2]
+apply-cmvn(kaldi::MessageLogger::LogAndThrow::operator=(kaldi::MessageLogger const&)+0x21) [0x55eb876b4f4f]
+/home/asdfghjk0117/CCC/kaldi/src/lib/libkaldi-matrix.so(kaldi::MatrixBase<float>::Write(std::ostream&, bool) const+0x2cb) [0x7f72bee2427b]
+apply-cmvn(kaldi::KaldiObjectHolder<kaldi::MatrixBase<float> >::Write(std::ostream&, bool, kaldi::MatrixBase<float> const&)+0x54) [0x55eb876c0a3d]
+apply-cmvn(kaldi::TableWriterArchiveImpl<kaldi::KaldiObjectHolder<kaldi::MatrixBase<float> > >::Write(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, kaldi::MatrixBase<float> const&)+0x167) [0x55eb876c0c95]
+apply-cmvn(kaldi::TableWriter<kaldi::KaldiObjectHolder<kaldi::MatrixBase<float> > >::Write(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, kaldi::MatrixBase<float> const&) const+0x3b) [0x55eb876bcbb7]
+apply-cmvn(main+0xa78) [0x55eb876b2c82]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7) [0x7f72be047b97]
+apply-cmvn(_start+0x2a) [0x55eb876b212a]
+
+WARNING (apply-cmvn[5.5.646~1-cdf2]:Write():util/kaldi-holder-inl.h:57) Exception caught writing Table object. kaldi::KaldiFatalError
+WARNING (apply-cmvn[5.5.646~1-cdf2]:Write():util/kaldi-table-inl.h:1057) Write failure to standard output
+ERROR (apply-cmvn[5.5.646~1-cdf2]:Write():util/kaldi-table-inl.h:1515) Error in TableWriter::Write
+
+[ Stack-Trace: ]
+/home/asdfghjk0117/CCC/kaldi/src/lib/libkaldi-base.so(kaldi::MessageLogger::LogMessage() const+0xb42) [0x7f72bebdd6a2]
+apply-cmvn(kaldi::MessageLogger::LogAndThrow::operator=(kaldi::MessageLogger const&)+0x21) [0x55eb876b4f4f]
+apply-cmvn(kaldi::TableWriter<kaldi::KaldiObjectHolder<kaldi::MatrixBase<float> > >::Write(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, kaldi::MatrixBase<float> const&) const+0xa3) [0x55eb876bcc1f]
+apply-cmvn(main+0xa78) [0x55eb876b2c82]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7) [0x7f72be047b97]
+apply-cmvn(_start+0x2a) [0x55eb876b212a]
+
+WARNING (apply-cmvn[5.5.646~1-cdf2]:Close():util/kaldi-table-inl.h:1089) Error closing stream: wspecifier is ark:-
+ERROR (apply-cmvn[5.5.646~1-cdf2]:~TableWriter():util/kaldi-table-inl.h:1539) Error closing TableWriter [in destructor].
+
+[ Stack-Trace: ]
+/home/asdfghjk0117/CCC/kaldi/src/lib/libkaldi-base.so(kaldi::MessageLogger::LogMessage() const+0xb42) [0x7f72bebdd6a2]
+apply-cmvn(kaldi::MessageLogger::LogAndThrow::operator=(kaldi::MessageLogger const&)+0x21) [0x55eb876b4f4f]
+apply-cmvn(kaldi::TableWriter<kaldi::KaldiObjectHolder<kaldi::MatrixBase<float> > >::~TableWriter()+0x89) [0x55eb876bc711]
+apply-cmvn(main+0x1104) [0x55eb876b330e]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7) [0x7f72be047b97]
+apply-cmvn(_start+0x2a) [0x55eb876b212a]
+
+terminate called after throwing an instance of 'kaldi::KaldiFatalError'
+  what():  kaldi::KaldiFatalError
+# Accounting: time=0 threads=1
+# Ended (code 0) at Mon Feb 24 04:43:53 CST 2020, elapsed time 0 seconds

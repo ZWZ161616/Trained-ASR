@@ -1,0 +1,319 @@
+Ho_source_2_S_10_1 我 常去 那間 餐廳 吃 早點 
+Ho_source_2_S_10_10 他們 都 參加 學校 合唱團 
+Ho_source_2_S_10_11 我們 每天 早上 都 要 跑步 
+Ho_source_2_S_10_12 我 發現 廚房裡 沒 有 鹽 了 
+Ho_source_2_S_10_13 媽媽 明天 要 去 超市 買油 
+Ho_source_2_S_10_14 爸爸 今天 買 了 一個 西瓜 
+Ho_source_2_S_10_15 媽媽 做好 飯 後 爸爸 回來 
+Ho_source_2_S_10_16 她 每天 都 要 練習 彈 鋼琴 
+Ho_source_2_S_10_17 剛才 聽 到 隔壁家 在 吵架 
+Ho_source_2_S_10_18 爸爸 不 小心 把 茶 翻倒 了 
+Ho_source_2_S_10_19 媽媽 經常 寄些 錢 給 外婆 
+Ho_source_2_S_10_2 他們 家 的 寶寶 剛過 滿月 
+Ho_source_2_S_10_20 遠遠 的 聽 到 有人 在 唱歌 
+Ho_source_2_S_10_3 爸爸 去 幫 大家 買 電影票 
+Ho_source_2_S_10_4 有 許多 家長 接 孩子 放學 
+Ho_source_2_S_10_5 深夜 聽到 有人 在 彈 鋼琴 
+Ho_source_2_S_10_6 他 今天 帶 了 一條 金 項鍊 
+Ho_source_2_S_10_7 這班 列車 因故 被 取消 了 
+Ho_source_2_S_10_8 今晚 有 棒球 比賽 實況 轉播 
+Ho_source_2_S_10_9 我 的 城裡 有 座 跨海 大橋 
+Ho_source_2_S_11_1 我 爸爸 最喜歡 喝 龍井茶 
+Ho_source_2_S_11_10 上個月 有 許多 人 得 麻疹 
+Ho_source_2_S_11_11 她 送給 爸爸 一隻 防水 錶 
+Ho_source_2_S_11_12 大家 都 習慣 叫 他 的 小名 
+Ho_source_2_S_11_13 我們 班 男生 都 喜歡 踢 足球 
+Ho_source_2_S_11_14 老師 說 下 一節 課 取消 了 
+Ho_source_2_S_11_15 他 的 錄取 資格 被 取消 了 
+Ho_source_2_S_11_16 三名 學生 被 學校 開除 了 
+Ho_source_2_S_11_17 今年 的 聯考 考題 比較 難 
+Ho_source_2_S_11_18 我們 明天 要 辦 慶祝 晚會 
+Ho_source_2_S_11_19 我 和 幾個 同學要 去 溜冰 
+Ho_source_2_S_11_2 我 剛剛 把 作業 交給 老師 
+Ho_source_2_S_11_20 鄰居家 的 小花 貓 很 可愛 
+Ho_source_2_S_11_3 我 星期天 去 公園 放風箏 
+Ho_source_2_S_11_4 他 經常 打電話 給 我 媽媽 
+Ho_source_2_S_11_5 爸爸 每年 都 送 禮物 給 他 
+Ho_source_2_S_11_6 我們 今天 晚上 要 看 球賽 
+Ho_source_2_S_11_7 他 出門 前 忘 了 關 水龍頭 
+Ho_source_2_S_11_8 她 今天 收到 一個 大 包裹 
+Ho_source_2_S_11_9 我 昨天晚上 去 聽 演唱會 
+Ho_source_2_S_12_1 那裡 每年 春天 要 刮 大風 
+Ho_source_2_S_12_10 鄰居家 最近 在 裝修 房子 
+Ho_source_2_S_12_11 我 十點鐘 去 會議室 開會 
+Ho_source_2_S_12_12 他們 是 多年 的 老朋友 了 
+Ho_source_2_S_12_13 山頂上 的 積雪 長年 不化 
+Ho_source_2_S_12_14 她們 姐妹 兩個 是 雙胞胎 
+Ho_source_2_S_12_15 這個 寺廟 是 唐代 的 建築 
+Ho_source_2_S_12_16 這裡 風景 美 得 像 一幅 畫 
+Ho_source_2_S_12_17 寄 這幾個 包裹 要 很多 錢 
+Ho_source_2_S_12_18 媽媽 做好 飯 等 爸爸 回來 
+Ho_source_2_S_12_19 他 在 家裡 幫 媽媽 洗 廁所 
+Ho_source_2_S_12_2 這隻 貓 把 床單 給 抓破 了 
+Ho_source_2_S_12_20 他 今天 下午 突然 肚子痛 
+Ho_source_2_S_12_3 我 朋友 在 郊區 買 了 房子 
+Ho_source_2_S_12_4 我 早上 在 火車站 遇到 他 
+Ho_source_2_S_12_5 他 穿 那套 衣服 特別 合身 
+Ho_source_2_S_12_6 那 家 超市 最近 在 大 減價 
+Ho_source_2_S_12_7 我 開會時 碰到 了 老同學 
+Ho_source_2_S_12_8 學校 經常 檢查 宿舍 衛生 
+Ho_source_2_S_12_9 運動員 在 操場 練習 投籃 
+Ho_source_2_S_13_1 再 十分鐘 火車 就要 開 了 
+Ho_source_2_S_13_10 大家 元宵節 要 去 看 燈會 
+Ho_source_2_S_13_11 她 學校 規定 學生 穿 制服 
+Ho_source_2_S_13_12 弟弟 非常 喜歡 穿 運動鞋 
+Ho_source_2_S_13_13 他 的 手錶 慢 了 十五 分鐘 
+Ho_source_2_S_13_14 周末 我 幫媽媽 打掃 房子 
+Ho_source_2_S_13_15 她 手上 戴 了 一只 玉 手環 
+Ho_source_2_S_13_16 我 父母 希望 我 上 醫學院 
+Ho_source_2_S_13_17 那個 老奶奶 心地 很 善良 
+Ho_source_2_S_13_18 他 發現 鋼筆 沒有 墨水 了 
+Ho_source_2_S_13_19 他 喜歡 跟 孩子們 一起 玩 
+Ho_source_2_S_13_2 哥哥 的 腳 長了 個 大 水泡 
+Ho_source_2_S_13_20 有 替 他 向 老師 請 了 病假 
+Ho_source_2_S_13_3 醫院 大門口 有 很多 花店 
+Ho_source_2_S_13_4 他們 經常 去 餐廳 吃 晚飯 
+Ho_source_2_S_13_5 叔叔 家 養 了 一大 缸 金魚 
+Ho_source_2_S_13_6 他 答應 要 請 我們 喝 喜酒 
+Ho_source_2_S_13_8 有人 送給 他 一盒 化妝品 
+Ho_source_2_S_13_9 今年 國慶日 放 了 幾天 假 
+Ho_source_2_S_14_1 他 最近 好像 有 什麼 心事 
+Ho_source_2_S_14_10 妹妹 上街 買 了 一件 洋裝 
+Ho_source_2_S_14_11 我們 都 笑 他 是 個 膽小鬼 
+Ho_source_2_S_14_12 我們 幫 他 把 櫃子 搬 上樓 
+Ho_source_2_S_14_13 這場 雨 整整 下 了 一 星期 
+Ho_source_2_S_14_14 花園裡 的 雜草 長 得 很快 
+Ho_source_2_S_14_15 護士 每天 給 病人 換 床單 
+Ho_source_2_S_14_16 他 每天 要 幫媽媽 熬 中藥 
+Ho_source_2_S_14_17 遊客們 都 愛買些 紀念品 
+Ho_source_2_S_14_18 他們 合伙 開 了 一間 公司 
+Ho_source_2_S_14_19 他 的 夢想 是 當 一名 記者 
+Ho_source_2_S_14_2 他 今天 覺得 頭 昏沉沉 的 
+Ho_source_2_S_14_20 這個 房間 的 電風扇 壞 了 
+Ho_source_2_S_14_3 他 穿 了 一件 粉紅色 外套 
+Ho_source_2_S_14_4 這個 公園 有 兩 隻 大熊貓 
+Ho_source_2_S_14_5 我們 中秋節 一起 去 賞月 
+Ho_source_2_S_14_6 這段 公路 被 洪水 沖 毀了 
+Ho_source_2_S_14_7 他 的 作文 在 比賽 中 獲獎 
+Ho_source_2_S_14_8 他 買 了 一 大包 五香 瓜子 
+Ho_source_2_S_14_9 弟弟 拿 了 相機 出去 照相 
+Ho_source_2_S_15_1 他 捐 了 很多 衣物 給 災區 
+Ho_source_2_S_15_10 她 的 數學 成績 全班 第一 
+Ho_source_2_S_15_11 他 有 治 氣喘 的 祖傳 秘方 
+Ho_source_2_S_15_12 小妹 現在 自己 會 做 飯 了 
+Ho_source_2_S_15_13 清明節 下 了 一天 毛毛雨 
+Ho_source_2_S_15_14 昨天 他 向 我 借 了 三百 塊 
+Ho_source_2_S_15_15 廚師 在 節目裡 表演 拉 麵 
+Ho_source_2_S_15_16 他們 正往 樹上 噴灑 農藥 
+Ho_source_2_S_15_17 交通警察 正在 疏導 人群 
+Ho_source_2_S_15_18 他 仔細 幫 病人 檢查 牙齒 
+Ho_source_2_S_15_19 草叢裡 有 一 隻 蟋蟀 在 叫 
+Ho_source_2_S_15_2 電視 報導 那 裡 發生 地震 
+Ho_source_2_S_15_20 他們 學校 有 很多 留學生 
+Ho_source_2_S_15_3 姐夫 修好 了 那個 收音 機 
+Ho_source_2_S_15_4 我 把 不用 的 傢俱 送人 了 
+Ho_source_2_S_15_5 我 幫 他 把 雞蛋 放入 冰箱 
+Ho_source_2_S_15_6 橘黃色 的 燈 顯得 很 溫馨 
+Ho_source_2_S_15_7 那個 牆 上 掛著 一幅 油畫 
+Ho_source_2_S_15_8 她 用 抹布 把 桌子 擦乾淨 
+Ho_source_2_S_15_9 剛才 有人 打電話 給媽媽 
+Ho_source_2_S_16_1 小朋友 們 在 看 螞蟻 搬家 
+Ho_source_2_S_16_10 今天 老師 宣布 提前 放學 
+Ho_source_2_S_16_11 桌子 上 擺 了 一大 盤 瓜子 
+Ho_source_2_S_16_12 中國 萬里長城 中外聞名 
+Ho_source_2_S_16_13 那片 原始森林 發生 大火 
+Ho_source_2_S_16_14 棒球 飛過 來 打破 了 窗戶 
+Ho_source_2_S_16_15 我 的 哥哥 養 了 一群 白鴿 
+Ho_source_2_S_16_16 她 做 完 功課 才 上床 睡覺 
+Ho_source_2_S_16_17 一群 孩子 在 那 裡 玩 跳繩 
+Ho_source_2_S_16_18 這 裡 的 風俗 習慣 很 特別 
+Ho_source_2_S_16_19 他 腰痛 的 老毛病 又 犯 了 
+Ho_source_2_S_16_2 這個 池塘 裡 養 了 很多 魚 
+Ho_source_2_S_16_20 她 不 小心 把 茶杯 碰翻 了 
+Ho_source_2_S_16_3 這裡 將要 建 一座 發電廠 
+Ho_source_2_S_16_4 他 下山 時 被 蛇 咬了一口 
+Ho_source_2_S_16_5 他 計劃 今年 買 一台 電腦 
+Ho_source_2_S_16_6 這間 公司 要 招聘 工程師 
+Ho_source_2_S_16_7 便衣警察 抓 到 一名 小偷 
+Ho_source_2_S_16_8 她 是 那座 大樓 的 設計師 
+Ho_source_2_S_16_9 他們 擺 好 姿勢 準備 拍照 
+Ho_source_2_S_1_1 這學期 學校 有書法 比賽 
+Ho_source_2_S_1_10 秘書 在 幫 老闆 撰寫 文件 
+Ho_source_2_S_1_11 我 大年初一 向 爸爸 拜年 
+Ho_source_2_S_1_12 我 每天 早上 都 喝杯 茶 
+Ho_source_2_S_1_13 他 的 名片 上 有 很多 頭銜 
+Ho_source_2_S_1_14 這個 超市 的 東西 很 便宜 
+Ho_source_2_S_1_15 我們 喜歡 看 電視 連續劇 
+Ho_source_2_S_1_16 他們 非常 熟悉 中國 歷史 
+Ho_source_2_S_1_17 這個 人 看起來 彬彬有禮 
+Ho_source_2_S_1_18 他 的 臉 上 長了 很多 疹子 
+Ho_source_2_S_1_19 他 今年 七月 要 參加 考試 
+Ho_source_2_S_1_2 公司 接到 一份 國外 訂單 
+Ho_source_2_S_1_20 他 特別 留意 看 天氣 預報 
+Ho_source_2_S_1_3 他 在 禮堂 主持 開幕 典禮 
+Ho_source_2_S_1_4 這家書店 今天 正式 營業 
+Ho_source_2_S_1_5 這群 訪客 都 戴著 識別證 
+Ho_source_2_S_1_6 今年 夏天 他 剃 了 個 光頭 
+Ho_source_2_S_1_7 她 聽 到 這個 消息 很 傷心 
+Ho_source_2_S_1_8 他 在 扭傷 的 腳 上 敷 冰塊 
+Ho_source_2_S_1_9 這兩個 寺廟 的 香火 很盛 
+Ho_source_2_S_2_1 我 昨天 沒能 參加 招待會 
+Ho_source_2_S_2_10 她 為 你 的 考試 成績 擔心 
+Ho_source_2_S_2_11 大多 數 北方 人 愛吃 餃子 
+Ho_source_2_S_2_12 聖誕節 前 信箱 塞滿 賀卡 
+Ho_source_2_S_2_13 這個 房間裡 的 燈光 很 暗 
+Ho_source_2_S_2_14 外面 的 氣溫 是 零下 十度 
+Ho_source_2_S_2_15 他 穿 了 一件 灰 格子 上衣 
+Ho_source_2_S_2_16 他 裝修 房子 花 了 三萬塊 
+Ho_source_2_S_2_17 學音樂 的 人 需要 些 天賦 
+Ho_source_2_S_2_18 大家 有事 都 愛找 他 商量 
+Ho_source_2_S_2_19 一大早 他 就 在 外面 掃地 
+Ho_source_2_S_2_2 我 忘 了 把 參考書 帶給 你 
+Ho_source_2_S_2_20 你 出門 時 別 忘 了 帶 鑰匙 
+Ho_source_2_S_2_3 讓 我們 約 個 時間 見面 吧 
+Ho_source_2_S_2_4 我 想 和 您 討論 那個 計劃 
+Ho_source_2_S_2_5 我 有事 要 和 你們 經理 談 
+Ho_source_2_S_2_6 我要 搭乘 本週 五 的 飛機 
+Ho_source_2_S_2_7 我要 預訂 三個 人 的 座位 
+Ho_source_2_S_2_8 把 這張 卡片 填好 交給 我 
+Ho_source_2_S_2_9 每個 人 需要 付十塊 台幣 
+Ho_source_2_S_3_1 他 一口 氣喝 了 三碗 豆漿 
+Ho_source_2_S_3_10 這次 英語 考試 我 很 緊張 
+Ho_source_2_S_3_11 他 正在 四處 找 那 張 收據 
+Ho_source_2_S_3_12 今晚 我們 合唱團 要 彩排 
+Ho_source_2_S_3_13 明天 我們 中學 同學 聚會 
+Ho_source_2_S_3_14 我們 都 願意 選 他 作班長 
+Ho_source_2_S_3_15 這個 老師 的 課 很 受 歡迎 
+Ho_source_2_S_3_16 大家 晚上 睡覺 要點 蚊香 
+Ho_source_2_S_3_17 他們 是 籃球 校隊 的 隊員 
+Ho_source_2_S_3_18 他 參加 學校 的 唱歌 比賽 
+Ho_source_2_S_3_19 她 每天 都 在 聽 英語 廣播 
+Ho_source_2_S_3_2 他 好不容易 借到 五萬元 
+Ho_source_2_S_3_20 他 特別 喜歡 看 足球 比賽 
+Ho_source_2_S_3_3 公園裡 有 很多 人 放風箏 
+Ho_source_2_S_3_4 她 的 腳 被 汽車門 夾傷 了 
+Ho_source_2_S_3_5 他 的 工作 經驗 十分 豐富 
+Ho_source_2_S_3_6 他 今天 覺得 有點 不 舒服 
+Ho_source_2_S_3_7 他 的 職業 是 圖書 管理員 
+Ho_source_2_S_3_8 他 的 行為 讓 大家 很 反感 
+Ho_source_2_S_3_9 今天 的 案子 明天 開庭 宣判 
+Ho_source_2_S_4_1 爸爸 戴 老花 眼鏡 看 報紙 
+Ho_source_2_S_4_10 她 說 昨天 做 了 一個 怪 夢 
+Ho_source_2_S_4_11 他們 都 喜歡 這個 新 老師 
+Ho_source_2_S_4_12 我們 全家 都 喜歡 八寶粥 
+Ho_source_2_S_4_13 他們 會 背誦 李白 的 詩詞 
+Ho_source_2_S_4_14 我 肯定 明天 上午 有 大雨 
+Ho_source_2_S_4_15 他 很 相信 她 的 決策 能力 
+Ho_source_2_S_4_16 我們 的 市長 是 有 遠 見 的 
+Ho_source_2_S_4_17 他 會 在 比賽 中 獲得 第一 
+Ho_source_2_S_4_18 他們 在 這家 飯店 等 你 嗎 
+Ho_source_2_S_4_19 我 完全 同意 你們 的 觀點 
+Ho_source_2_S_4_2 這位 醫生 手術 做 得 很 好 
+Ho_source_2_S_4_20 我們 在 看法 上 是 一致 的 
+Ho_source_2_S_4_3 婆婆 今天 炒菜 放多 了 鹽 
+Ho_source_2_S_4_4 他 去 書店 買 了 好 幾本書 
+Ho_source_2_S_4_5 全家人 都 非常 喜歡 吃魚 
+Ho_source_2_S_4_6 她 喜歡 去 麵包店 買 蛋糕 
+Ho_source_2_S_4_7 他 騎車 太快 小心 撞 到 
+Ho_source_2_S_4_8 醫院 南邊 有 一個 小花 園 
+Ho_source_2_S_4_9 最近 的 電費 好像 增加 了 
+Ho_source_2_S_5_1 那個 牌子 的 電器 非常 好 
+Ho_source_2_S_5_10 這個 國家 旅遊業 很 發達 
+Ho_source_2_S_5_11 我們 公司 福利待遇 很 好 
+Ho_source_2_S_5_12 大家 對 他 的 演講 很 滿意 
+Ho_source_2_S_5_13 我們 都 在 學習 電腦 打字 
+Ho_source_2_S_5_14 爸爸 的 同事 今天 過 生日 
+Ho_source_2_S_5_15 我 自信 能 獲得 這個 職位 
+Ho_source_2_S_5_16 恐怕 我 真的 不 擅長 讀書 
+Ho_source_2_S_5_17 他們 全家 非常 喜歡 登山 
+Ho_source_2_S_5_18 我 非常 喜歡 明媚 的 春天 
+Ho_source_2_S_5_19 我 買 了 一包 熱帶魚 飼料 
+Ho_source_2_S_5_2 那 隻 大 狼狗 正在 啃 骨頭 
+Ho_source_2_S_5_20 為什麼 不 接聽 我 的 電話 
+Ho_source_2_S_5_3 貨架 上 擺滿 了 各種 水果 
+Ho_source_2_S_5_4 今天 晚上 的 月亮 非常 圓 
+Ho_source_2_S_5_5 她 剛才 講話 時 吞吞吐吐 
+Ho_source_2_S_5_6 全家人 圍 在 一起 包 水餃 
+Ho_source_2_S_5_7 她 盼望 著 能 和 親人 團聚 
+Ho_source_2_S_5_8 辦理 入學 手續 非常 簡單 
+Ho_source_2_S_5_9 買車 可以 申請 銀行 貸款 
+Ho_source_2_S_6_1 我 下午 約 好 朋友 踢足球 
+Ho_source_2_S_6_10 他 幾天 前 配 了 一副 眼鏡 
+Ho_source_2_S_6_11 記者 整夜 工作 趕 截稿 日 
+Ho_source_2_S_6_12 昨天晚上 聚會 他 喝醉 了 
+Ho_source_2_S_6_13 請教 你們 經理 來 接電話 
+Ho_source_2_S_6_14 這個 城市 有 許多 旅遊點 
+Ho_source_2_S_6_15 這個 行業 很 容易 找 工作 
+Ho_source_2_S_6_16 他 對 朋友 一向 很 守信用 
+Ho_source_2_S_6_17 庭院 裡 種 了 一些 向日葵 
+Ho_source_2_S_6_18 夏天 牆上 爬 滿 了 牽牛花 
+Ho_source_2_S_6_19 我 在 口袋 裡 找出 三十 塊 
+Ho_source_2_S_6_2 他 幾乎 每個 月 都 要 出差 
+Ho_source_2_S_6_20 誰 都 喜歡 和 她 一起 工作 
+Ho_source_2_S_6_3 他 最近 好像 掉 了 魂 似的 
+Ho_source_2_S_6_4 我 今晚 要 去 奶奶家 吃 飯 
+Ho_source_2_S_6_5 爸爸 明天 送 外婆 回老家 
+Ho_source_2_S_6_6 退潮 時 他 撿 到 很多 貝殼 
+Ho_source_2_S_6_7 工地 上 有 很多 建築 工人 
+Ho_source_2_S_6_8 他 今天 去 醫院 探望 同事 
+Ho_source_2_S_6_9 他們 特別 想 去 參觀 故宮 
+Ho_source_2_S_7_1 他 今天 穿 了 一件 緊身 衣 
+Ho_source_2_S_7_10 這件 衣服 冬天 穿 很 合適 
+Ho_source_2_S_7_11 他 倒 了 一杯 水準備 吃藥 
+Ho_source_2_S_7_12 他 覺得 外國 人名 很 難記 
+Ho_source_2_S_7_13 爸爸 以前 是 籃球隊 隊員 
+Ho_source_2_S_7_14 醫生 說 他 需要 住院 治療 
+Ho_source_2_S_7_15 電視 上 經常 有 時裝 表演 
+Ho_source_2_S_7_16 他 頭 上 的 傷口 縫 了 七針 
+Ho_source_2_S_7_17 所有 的 小朋友 都 在 吃 飯 
+Ho_source_2_S_7_18 小朋友 都 喜歡 吃 麥當勞 
+Ho_source_2_S_7_19 這個 城市 北邊 是 工業區 
+Ho_source_2_S_7_2 爸爸 每天 晚上 要 看 新聞 
+Ho_source_2_S_7_20 學校 不准 學生 穿 高跟鞋 
+Ho_source_2_S_7_3 他 染上 了 吸煙 的 壞 習慣 
+Ho_source_2_S_7_4 他 辭職 大家 覺得 很 意外 
+Ho_source_2_S_7_5 我 在 桌子 下 看到 一枝 筆 
+Ho_source_2_S_7_6 這個 球隊 終於 打入 決賽 
+Ho_source_2_S_7_7 媽媽 一大早 就 去 上班 了 
+Ho_source_2_S_7_8 爺爺 經常帶 小妹 出去玩 
+Ho_source_2_S_7_9 他們 下 周五 要 開 家長會 
+Ho_source_2_S_8_1 因為 下 大雨 比賽 取消 了 
+Ho_source_2_S_8_10 大伯 的 孩子 們 都 很 孝順 
+Ho_source_2_S_8_11 這個 火車站 有 很多 遊客 
+Ho_source_2_S_8_12 奶奶 會講 好多 恐怖 故事 
+Ho_source_2_S_8_13 鄰居家 經常 有 人 打麻將 
+Ho_source_2_S_8_14 我們 經常 一起 玩 撲克牌 
+Ho_source_2_S_8_15 媽媽 每天 都 幫 我 做 早點 
+Ho_source_2_S_8_16 媽媽 最 喜歡 做 麻婆豆腐 
+Ho_source_2_S_8_17 我 的 姊姊 最喜歡 逛書店 
+Ho_source_2_S_8_18 樓下 的 叔叔 喜歡 聽 歌劇 
+Ho_source_2_S_8_19 廚房裡 最近 發現 有 老鼠 
+Ho_source_2_S_8_2 大家 正在 商量 這個 計劃 
+Ho_source_2_S_8_20 週末 我們 全家 去 看 電影 
+Ho_source_2_S_8_3 他們 都 在 抱怨 物價 上 漲 
+Ho_source_2_S_8_4 我 明天 上午 九點 有 約 會 
+Ho_source_2_S_8_5 那 家 超市 的 東西 不 便宜 
+Ho_source_2_S_8_6 他 的 爸爸 在 大學 教數學 
+Ho_source_2_S_8_7 那家 餐廳 的 包子 很 有名 
+Ho_source_2_S_8_8 他們 部門 春節 放假 五天 
+Ho_source_2_S_8_9 那邊 的 公路 有 交通事故 
+Ho_source_2_S_9_1 放 長假 好多 人 出去 旅遊 
+Ho_source_2_S_9_10 他 買 了 一束 鮮花 送給 她 
+Ho_source_2_S_9_11 今天 出門要 記得 帶雨傘 
+Ho_source_2_S_9_12 樓下 的 小貓 整晚 都 在 叫 
+Ho_source_2_S_9_13 阿姨 送給 我 一包 水果糖 
+Ho_source_2_S_9_14 我 在 星期天 常常 晚 起床 
+Ho_source_2_S_9_15 她 每天 都 要 工作 到 深夜 
+Ho_source_2_S_9_16 老師 很 關心 我們 的 生活 
+Ho_source_2_S_9_17 他 的 幾個 同事 是 電腦迷 
+Ho_source_2_S_9_18 我們 部門 主任 經常 出國 
+Ho_source_2_S_9_19 他 下 星期一 要 參加會議 
+Ho_source_2_S_9_2 平常 應該 注意 個人 衛生 
+Ho_source_2_S_9_20 這部 連續劇 的確 很 無聊 
+Ho_source_2_S_9_3 他 買 了 一本 厚厚的 字典 
+Ho_source_2_S_9_4 公 佈 欄 貼 著 一張 通緝令 
+Ho_source_2_S_9_5 他 每天 上班 都 要 打 領帶 
+Ho_source_2_S_9_6 他 收到 一大 筆 海外 匯款 
+Ho_source_2_S_9_7 那壺 水 已經 開 了 好久 了 
+Ho_source_2_S_9_8 學校 今天 晚上 舉辦 舞會 
+Ho_source_2_S_9_9 他 被 邀請 參加 畢業 典禮 

@@ -1,0 +1,7 @@
+# compile-train-graphs --read-disambig-syms=data/lang_test_learning/phones/disambig.int --transition-scale=1.0 --self-loop-scale=0.1 exp_learning/inside/lats/tree exp_learning/inside/lats/final.mdl data/lang_test_learning/L.fst "ark:utils/sym2int.pl --map-oov 1 -f 2- data/lang_test_learning/words.txt data/train/iv_nopitch/split8/8/text|" "ark:|gzip -c >exp_learning/inside/lats/fsts.8.gz" 
+# Started at Mon Feb 24 02:57:22 CST 2020
+#
+compile-train-graphs --read-disambig-syms=data/lang_test_learning/phones/disambig.int --transition-scale=1.0 --self-loop-scale=0.1 exp_learning/inside/lats/tree exp_learning/inside/lats/final.mdl data/lang_test_learning/L.fst 'ark:utils/sym2int.pl --map-oov 1 -f 2- data/lang_test_learning/words.txt data/train/iv_nopitch/split8/8/text|' 'ark:|gzip -c >exp_learning/inside/lats/fsts.8.gz' 
+LOG (compile-train-graphs[5.5.646~1-cdf2]:main():compile-train-graphs.cc:147) compile-train-graphs: succeeded for 20004 graphs, failed for 0
+# Accounting: time=30 threads=1
+# Ended (code 0) at Mon Feb 24 02:57:52 CST 2020, elapsed time 30 seconds

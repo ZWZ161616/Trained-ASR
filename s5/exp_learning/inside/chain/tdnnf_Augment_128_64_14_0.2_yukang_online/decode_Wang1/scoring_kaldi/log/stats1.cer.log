@@ -1,0 +1,11 @@
+# cat exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang_online/decode_Wang1/scoring_kaldi/penalty_0.5/17.chars.txt | align-text --special-symbol='***' ark:exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang_online/decode_Wang1/scoring_kaldi/test_filt.chars.txt ark:- ark,t:- | utils/scoring/wer_per_utt_details.pl --special-symbol '***' | tee exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang_online/decode_Wang1/scoring_kaldi/cer_details/per_utt | utils/scoring/wer_per_spk_details.pl data/Wang1/iv_nopitch/utt2spk > exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang_online/decode_Wang1/scoring_kaldi/cer_details/per_spk 
+# Started at Mon Feb 24 13:54:13 CST 2020
+#
+align-text '--special-symbol=***' ark:exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang_online/decode_Wang1/scoring_kaldi/test_filt.chars.txt ark:- ark,t:- 
+WARNING (align-text[5.5.646~1-cdf2]:main():align-text.cc:88) Key Wang_Mhint_S1_190919_S1_Wang_144 is in ark:exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang_online/decode_Wang1/scoring_kaldi/test_filt.chars.txt, but not in ark:-
+LOG (align-text[5.5.646~1-cdf2]:main():align-text.cc:135) Done 319 sentences, failed for 1
+utils/scoring/wer_per_spk_details.pl: Note: handling as utf-8 text
+utils/scoring/wer_per_utt_details.pl: Note: handling as utf-8 text
+utils/scoring/wer_per_spk_details.pl: Note: handling as utf-8 text
+# Accounting: time=0 threads=1
+# Ended (code 0) at Mon Feb 24 13:54:13 CST 2020, elapsed time 0 seconds

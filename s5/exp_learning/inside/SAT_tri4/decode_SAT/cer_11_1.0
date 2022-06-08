@@ -1,0 +1,4 @@
+compute-wer --text --mode=present ark:exp_learning/inside/SAT_tri4/decode_SAT/scoring_kaldi/test_filt.chars.txt ark,p:- 
+%WER 1.35 [ 167 / 12343, 42 ins, 18 del, 107 sub ]
+%SER 4.48 [ 112 / 2500 ]
+Scored 2500 sentences, 0 not present in hyp.

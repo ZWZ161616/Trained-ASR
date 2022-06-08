@@ -1,0 +1,6 @@
+# cat exp_learning/inside/SAT_tri4/decode_SAT/scoring_kaldi/cer_details/per_utt | utils/scoring/wer_ops_details.pl --special-symbol '***' | sort -b -i -k 1,1 -k 4,4rn -k 2,2 -k 3,3 > exp_learning/inside/SAT_tri4/decode_SAT/scoring_kaldi/cer_details/ops 
+# Started at Sat Feb 22 22:16:02 CST 2020
+#
+utils/scoring/wer_ops_details.pl: Note: handling as utf-8 text
+# Accounting: time=0 threads=1
+# Ended (code 0) at Sat Feb 22 22:16:02 CST 2020, elapsed time 0 seconds

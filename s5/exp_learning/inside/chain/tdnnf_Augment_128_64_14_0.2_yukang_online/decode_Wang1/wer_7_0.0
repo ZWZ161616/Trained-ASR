@@ -1,0 +1,4 @@
+compute-wer --text --mode=present ark:exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang_online/decode_Wang1/scoring_kaldi/test_filt.txt ark,p:- 
+%WER 27.87 [ 592 / 2124, 43 ins, 198 del, 351 sub ] [PARTIAL]
+%SER 63.95 [ 204 / 319 ]
+Scored 319 sentences, 1 not present in hyp.

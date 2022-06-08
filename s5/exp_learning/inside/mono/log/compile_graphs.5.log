@@ -1,0 +1,7 @@
+# compile-train-graphs --read-disambig-syms=data/lang_test_learning/phones/disambig.int exp_learning/inside/mono/tree exp_learning/inside/mono/0.mdl data/lang_test_learning/L.fst "ark:sym2int.pl --map-oov 1 -f 2- data/lang_test_learning/words.txt < data/train/split8/5/text|" "ark:|gzip -c >exp_learning/inside/mono/fsts.5.gz" 
+# Started at Sat Feb 22 03:09:41 CST 2020
+#
+compile-train-graphs --read-disambig-syms=data/lang_test_learning/phones/disambig.int exp_learning/inside/mono/tree exp_learning/inside/mono/0.mdl data/lang_test_learning/L.fst 'ark:sym2int.pl --map-oov 1 -f 2- data/lang_test_learning/words.txt < data/train/split8/5/text|' 'ark:|gzip -c >exp_learning/inside/mono/fsts.5.gz' 
+LOG (compile-train-graphs[5.5.646~1-cdf2]:main():compile-train-graphs.cc:147) compile-train-graphs: succeeded for 20128 graphs, failed for 0
+# Accounting: time=50 threads=1
+# Ended (code 0) at Sat Feb 22 03:10:31 CST 2020, elapsed time 50 seconds

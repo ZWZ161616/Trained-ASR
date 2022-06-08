@@ -1,0 +1,6 @@
+# cat exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang_online/decode_inside/scoring_kaldi/wer_details/per_utt | utils/scoring/wer_ops_details.pl --special-symbol '***' | sort -b -i -k 1,1 -k 4,4rn -k 2,2 -k 3,3 > exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang_online/decode_inside/scoring_kaldi/wer_details/ops 
+# Started at Mon Feb 24 13:44:43 CST 2020
+#
+utils/scoring/wer_ops_details.pl: Note: handling as utf-8 text
+# Accounting: time=0 threads=1
+# Ended (code 0) at Mon Feb 24 13:44:43 CST 2020, elapsed time 0 seconds

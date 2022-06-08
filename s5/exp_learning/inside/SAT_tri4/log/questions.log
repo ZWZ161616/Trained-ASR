@@ -1,0 +1,2 @@
+cluster-phones exp_learning/inside/SAT_tri4/treeacc data/lang_test_learning/phones/sets.int exp_learning/inside/SAT_tri4/questions.int 
+LOG (cluster-phones[5.5.646~1-cdf2]:main():cluster-phones.cc:129) Wrote questions to exp_learning/inside/SAT_tri4/questions.int

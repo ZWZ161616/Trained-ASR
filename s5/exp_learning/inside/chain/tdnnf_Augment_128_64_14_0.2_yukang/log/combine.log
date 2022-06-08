@@ -1,0 +1,119 @@
+# nnet3-chain-combine --max-objective-evaluations=30 --l2-regularize=0.0 --leaky-hmm-coefficient=0.1 --verbose=3 --use-gpu=yes exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/den.fst exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/315.mdl exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/314.mdl exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/313.mdl exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/312.mdl exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/311.mdl exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/310.mdl exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/309.mdl exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/308.mdl exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/307.mdl exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/306.mdl exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/305.mdl exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/304.mdl exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/303.mdl exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/302.mdl exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/301.mdl exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/300.mdl exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/299.mdl exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/298.mdl exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/297.mdl exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/296.mdl exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/295.mdl exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/294.mdl exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/293.mdl exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/292.mdl exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/291.mdl exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/290.mdl exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/289.mdl exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/288.mdl exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/287.mdl exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/286.mdl exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/285.mdl exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/284.mdl "ark,bg:nnet3-chain-copy-egs  ark:exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/egs/combine.cegs ark:- |                     nnet3-chain-merge-egs --minibatch-size=64                     ark:- ark:- |" - | nnet3-am-copy --set-raw-nnet=- exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/315.mdl exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/final.mdl 
+# Started at Mon Feb 24 13:41:49 CST 2020
+#
+nnet3-am-copy --set-raw-nnet=- exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/315.mdl exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/final.mdl 
+nnet3-chain-combine --max-objective-evaluations=30 --l2-regularize=0.0 --leaky-hmm-coefficient=0.1 --verbose=3 --use-gpu=yes exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/den.fst exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/315.mdl exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/314.mdl exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/313.mdl exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/312.mdl exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/311.mdl exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/310.mdl exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/309.mdl exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/308.mdl exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/307.mdl exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/306.mdl exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/305.mdl exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/304.mdl exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/303.mdl exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/302.mdl exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/301.mdl exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/300.mdl exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/299.mdl exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/298.mdl exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/297.mdl exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/296.mdl exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/295.mdl exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/294.mdl exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/293.mdl exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/292.mdl exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/291.mdl exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/290.mdl exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/289.mdl exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/288.mdl exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/287.mdl exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/286.mdl exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/285.mdl exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/284.mdl 'ark,bg:nnet3-chain-copy-egs  ark:exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/egs/combine.cegs ark:- |                     nnet3-chain-merge-egs --minibatch-size=64                     ark:- ark:- |' - 
+WARNING (nnet3-chain-combine[5.5.646~1-cdf2]:SelectGpuId():cu-device.cc:228) Not in compute-exclusive mode.  Suggestion: use 'nvidia-smi -c 3' to set compute exclusive mode
+LOG (nnet3-chain-combine[5.5.646~1-cdf2]:SelectGpuIdAuto():cu-device.cc:408) Selecting from 1 GPUs
+LOG (nnet3-chain-combine[5.5.646~1-cdf2]:SelectGpuIdAuto():cu-device.cc:423) cudaSetDevice(0): Tesla V100-SXM2-32GB	free:32161M, used:318M, total:32480M, free/total:0.99019
+LOG (nnet3-chain-combine[5.5.646~1-cdf2]:SelectGpuIdAuto():cu-device.cc:471) Device: 0, mem_ratio: 0.99019
+LOG (nnet3-chain-combine[5.5.646~1-cdf2]:SelectGpuId():cu-device.cc:352) Trying to select device: 0
+LOG (nnet3-chain-combine[5.5.646~1-cdf2]:SelectGpuIdAuto():cu-device.cc:481) Success selecting device 0 free mem ratio: 0.99019
+LOG (nnet3-chain-combine[5.5.646~1-cdf2]:FinalizeActiveGpu():cu-device.cc:308) The active GPU is [0]: Tesla V100-SXM2-32GB	free:31883M, used:596M, total:32480M, free/total:0.981631 version 7.0
+nnet3-chain-copy-egs ark:exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/egs/combine.cegs ark:- 
+nnet3-chain-merge-egs --minibatch-size=64 ark:- ark:- 
+LOG (nnet3-chain-copy-egs[5.5.646~1-cdf2]:main():nnet3-chain-copy-egs.cc:395) Read 1000 neural-network training examples, wrote 1000
+LOG (nnet3-chain-merge-egs[5.5.646~1-cdf2]:PrintSpecificStats():nnet-example-utils.cc:1143) Merged specific eg types as follows [format: <eg-size1>={<mb-size1>-><num-minibatches1>,<mbsize2>-><num-minibatches2>.../d=<num-discarded>},<egs-size2>={...},... (note,egs-size == number of input frames including context).
+LOG (nnet3-chain-merge-egs[5.5.646~1-cdf2]:PrintSpecificStats():nnet-example-utils.cc:1173) 391={64->15,d=40}
+LOG (nnet3-chain-merge-egs[5.5.646~1-cdf2]:PrintAggregateStats():nnet-example-utils.cc:1139) Processed 1000 egs of avg. size 391 into 15 minibatches, discarding 4% of egs.  Avg minibatch size was 64, #distinct types of egs/minibatches was 1/1
+LOG (nnet3-chain-combine[5.5.646~1-cdf2]:main():nnet3-chain-combine.cc:165) Read 15 examples.
+LOG (nnet3-chain-combine[5.5.646~1-cdf2]:Optimize():nnet-optimize.cc:507) Before optimization, max memory use (bytes) = 31185088
+LOG (nnet3-chain-combine[5.5.646~1-cdf2]:Optimize():nnet-optimize.cc:629) After optimization, max memory use (bytes) = 1411072
+LOG (nnet3-chain-combine[5.5.646~1-cdf2]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.189 seconds taken in nnet3 compilation total (breakdown: 0.126 compilation, 0.00559 optimization, 0.0455 shortcut expansion, 0.000656 checking, 0.00203 computing indexes, 0.00946 misc.) + 0 I/O.
+LOG (nnet3-chain-combine[5.5.646~1-cdf2]:main():nnet3-chain-combine.cc:175) objective function using the last model is -0.0904763
+LOG (nnet3-chain-combine[5.5.646~1-cdf2]:Optimize():nnet-optimize.cc:507) Before optimization, max memory use (bytes) = 31185088
+LOG (nnet3-chain-combine[5.5.646~1-cdf2]:Optimize():nnet-optimize.cc:629) After optimization, max memory use (bytes) = 1411072
+LOG (nnet3-chain-combine[5.5.646~1-cdf2]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.174 seconds taken in nnet3 compilation total (breakdown: 0.124 compilation, 0.00552 optimization, 0.033 shortcut expansion, 0.0006 checking, 0.00187 computing indexes, 0.0091 misc.) + 0 I/O.
+LOG (nnet3-chain-combine[5.5.646~1-cdf2]:main():nnet3-chain-combine.cc:192) Combining last 3 models, objective function is -0.0657686
+LOG (nnet3-chain-combine[5.5.646~1-cdf2]:Optimize():nnet-optimize.cc:507) Before optimization, max memory use (bytes) = 31185088
+LOG (nnet3-chain-combine[5.5.646~1-cdf2]:Optimize():nnet-optimize.cc:629) After optimization, max memory use (bytes) = 1411072
+LOG (nnet3-chain-combine[5.5.646~1-cdf2]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.197 seconds taken in nnet3 compilation total (breakdown: 0.131 compilation, 0.00563 optimization, 0.0464 shortcut expansion, 0.000627 checking, 0.00194 computing indexes, 0.0111 misc.) + 0 I/O.
+LOG (nnet3-chain-combine[5.5.646~1-cdf2]:main():nnet3-chain-combine.cc:192) Combining last 5 models, objective function is -0.0625697
+LOG (nnet3-chain-combine[5.5.646~1-cdf2]:Optimize():nnet-optimize.cc:507) Before optimization, max memory use (bytes) = 31185088
+LOG (nnet3-chain-combine[5.5.646~1-cdf2]:Optimize():nnet-optimize.cc:629) After optimization, max memory use (bytes) = 1411072
+LOG (nnet3-chain-combine[5.5.646~1-cdf2]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.159 seconds taken in nnet3 compilation total (breakdown: 0.117 compilation, 0.00558 optimization, 0.0247 shortcut expansion, 0.000591 checking, 0.00188 computing indexes, 0.00947 misc.) + 0 I/O.
+LOG (nnet3-chain-combine[5.5.646~1-cdf2]:main():nnet3-chain-combine.cc:192) Combining last 7 models, objective function is -0.0609368
+LOG (nnet3-chain-combine[5.5.646~1-cdf2]:Optimize():nnet-optimize.cc:507) Before optimization, max memory use (bytes) = 31185088
+LOG (nnet3-chain-combine[5.5.646~1-cdf2]:Optimize():nnet-optimize.cc:629) After optimization, max memory use (bytes) = 1411072
+LOG (nnet3-chain-combine[5.5.646~1-cdf2]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.199 seconds taken in nnet3 compilation total (breakdown: 0.129 compilation, 0.00569 optimization, 0.0505 shortcut expansion, 0.00062 checking, 0.00188 computing indexes, 0.0106 misc.) + 0 I/O.
+LOG (nnet3-chain-combine[5.5.646~1-cdf2]:main():nnet3-chain-combine.cc:192) Combining last 9 models, objective function is -0.0604913
+LOG (nnet3-chain-combine[5.5.646~1-cdf2]:Optimize():nnet-optimize.cc:507) Before optimization, max memory use (bytes) = 31185088
+LOG (nnet3-chain-combine[5.5.646~1-cdf2]:Optimize():nnet-optimize.cc:629) After optimization, max memory use (bytes) = 1411072
+LOG (nnet3-chain-combine[5.5.646~1-cdf2]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.191 seconds taken in nnet3 compilation total (breakdown: 0.139 compilation, 0.00547 optimization, 0.0354 shortcut expansion, 0.000593 checking, 0.00183 computing indexes, 0.00885 misc.) + 0 I/O.
+LOG (nnet3-chain-combine[5.5.646~1-cdf2]:main():nnet3-chain-combine.cc:192) Combining last 11 models, objective function is -0.0607835
+LOG (nnet3-chain-combine[5.5.646~1-cdf2]:Optimize():nnet-optimize.cc:507) Before optimization, max memory use (bytes) = 31185088
+LOG (nnet3-chain-combine[5.5.646~1-cdf2]:Optimize():nnet-optimize.cc:629) After optimization, max memory use (bytes) = 1411072
+LOG (nnet3-chain-combine[5.5.646~1-cdf2]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.198 seconds taken in nnet3 compilation total (breakdown: 0.143 compilation, 0.00571 optimization, 0.0326 shortcut expansion, 0.000625 checking, 0.00196 computing indexes, 0.014 misc.) + 0 I/O.
+LOG (nnet3-chain-combine[5.5.646~1-cdf2]:main():nnet3-chain-combine.cc:192) Combining last 13 models, objective function is -0.0611096
+LOG (nnet3-chain-combine[5.5.646~1-cdf2]:Optimize():nnet-optimize.cc:507) Before optimization, max memory use (bytes) = 31185088
+LOG (nnet3-chain-combine[5.5.646~1-cdf2]:Optimize():nnet-optimize.cc:629) After optimization, max memory use (bytes) = 1411072
+LOG (nnet3-chain-combine[5.5.646~1-cdf2]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.17 seconds taken in nnet3 compilation total (breakdown: 0.12 compilation, 0.00554 optimization, 0.0333 shortcut expansion, 0.000616 checking, 0.00187 computing indexes, 0.0092 misc.) + 0 I/O.
+LOG (nnet3-chain-combine[5.5.646~1-cdf2]:main():nnet3-chain-combine.cc:192) Combining last 15 models, objective function is -0.0611089
+LOG (nnet3-chain-combine[5.5.646~1-cdf2]:Optimize():nnet-optimize.cc:507) Before optimization, max memory use (bytes) = 31185088
+LOG (nnet3-chain-combine[5.5.646~1-cdf2]:Optimize():nnet-optimize.cc:629) After optimization, max memory use (bytes) = 1411072
+LOG (nnet3-chain-combine[5.5.646~1-cdf2]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.206 seconds taken in nnet3 compilation total (breakdown: 0.151 compilation, 0.00578 optimization, 0.035 shortcut expansion, 0.000649 checking, 0.00176 computing indexes, 0.0115 misc.) + 0 I/O.
+LOG (nnet3-chain-combine[5.5.646~1-cdf2]:main():nnet3-chain-combine.cc:192) Combining last 17 models, objective function is -0.0612222
+LOG (nnet3-chain-combine[5.5.646~1-cdf2]:Optimize():nnet-optimize.cc:507) Before optimization, max memory use (bytes) = 31185088
+LOG (nnet3-chain-combine[5.5.646~1-cdf2]:Optimize():nnet-optimize.cc:629) After optimization, max memory use (bytes) = 1411072
+LOG (nnet3-chain-combine[5.5.646~1-cdf2]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.176 seconds taken in nnet3 compilation total (breakdown: 0.129 compilation, 0.0055 optimization, 0.0285 shortcut expansion, 0.00061 checking, 0.00187 computing indexes, 0.00993 misc.) + 0 I/O.
+LOG (nnet3-chain-combine[5.5.646~1-cdf2]:main():nnet3-chain-combine.cc:192) Combining last 19 models, objective function is -0.0613658
+LOG (nnet3-chain-combine[5.5.646~1-cdf2]:Optimize():nnet-optimize.cc:507) Before optimization, max memory use (bytes) = 31185088
+LOG (nnet3-chain-combine[5.5.646~1-cdf2]:Optimize():nnet-optimize.cc:629) After optimization, max memory use (bytes) = 1411072
+LOG (nnet3-chain-combine[5.5.646~1-cdf2]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.21 seconds taken in nnet3 compilation total (breakdown: 0.155 compilation, 0.00681 optimization, 0.0309 shortcut expansion, 0.000752 checking, 0.00191 computing indexes, 0.0141 misc.) + 0 I/O.
+LOG (nnet3-chain-combine[5.5.646~1-cdf2]:main():nnet3-chain-combine.cc:192) Combining last 21 models, objective function is -0.0613876
+LOG (nnet3-chain-combine[5.5.646~1-cdf2]:Optimize():nnet-optimize.cc:507) Before optimization, max memory use (bytes) = 31185088
+LOG (nnet3-chain-combine[5.5.646~1-cdf2]:Optimize():nnet-optimize.cc:629) After optimization, max memory use (bytes) = 1411072
+LOG (nnet3-chain-combine[5.5.646~1-cdf2]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.208 seconds taken in nnet3 compilation total (breakdown: 0.149 compilation, 0.00713 optimization, 0.0329 shortcut expansion, 0.00323 checking, 0.00184 computing indexes, 0.0139 misc.) + 0 I/O.
+LOG (nnet3-chain-combine[5.5.646~1-cdf2]:main():nnet3-chain-combine.cc:192) Combining last 23 models, objective function is -0.0614769
+LOG (nnet3-chain-combine[5.5.646~1-cdf2]:Optimize():nnet-optimize.cc:507) Before optimization, max memory use (bytes) = 31185088
+LOG (nnet3-chain-combine[5.5.646~1-cdf2]:Optimize():nnet-optimize.cc:629) After optimization, max memory use (bytes) = 1411072
+LOG (nnet3-chain-combine[5.5.646~1-cdf2]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.184 seconds taken in nnet3 compilation total (breakdown: 0.144 compilation, 0.0057 optimization, 0.0215 shortcut expansion, 0.000621 checking, 0.00168 computing indexes, 0.0105 misc.) + 0 I/O.
+LOG (nnet3-chain-combine[5.5.646~1-cdf2]:main():nnet3-chain-combine.cc:192) Combining last 25 models, objective function is -0.061497
+LOG (nnet3-chain-combine[5.5.646~1-cdf2]:Optimize():nnet-optimize.cc:507) Before optimization, max memory use (bytes) = 31185088
+LOG (nnet3-chain-combine[5.5.646~1-cdf2]:Optimize():nnet-optimize.cc:629) After optimization, max memory use (bytes) = 1411072
+LOG (nnet3-chain-combine[5.5.646~1-cdf2]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.226 seconds taken in nnet3 compilation total (breakdown: 0.147 compilation, 0.00668 optimization, 0.0567 shortcut expansion, 0.000693 checking, 0.00172 computing indexes, 0.0126 misc.) + 0 I/O.
+LOG (nnet3-chain-combine[5.5.646~1-cdf2]:main():nnet3-chain-combine.cc:192) Combining last 27 models, objective function is -0.061787
+LOG (nnet3-chain-combine[5.5.646~1-cdf2]:Optimize():nnet-optimize.cc:507) Before optimization, max memory use (bytes) = 31185088
+LOG (nnet3-chain-combine[5.5.646~1-cdf2]:Optimize():nnet-optimize.cc:629) After optimization, max memory use (bytes) = 1411072
+LOG (nnet3-chain-combine[5.5.646~1-cdf2]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.216 seconds taken in nnet3 compilation total (breakdown: 0.141 compilation, 0.00568 optimization, 0.0573 shortcut expansion, 0.000657 checking, 0.00165 computing indexes, 0.0102 misc.) + 0 I/O.
+LOG (nnet3-chain-combine[5.5.646~1-cdf2]:main():nnet3-chain-combine.cc:192) Combining last 29 models, objective function is -0.0620411
+LOG (nnet3-chain-combine[5.5.646~1-cdf2]:Optimize():nnet-optimize.cc:507) Before optimization, max memory use (bytes) = 31185088
+LOG (nnet3-chain-combine[5.5.646~1-cdf2]:Optimize():nnet-optimize.cc:629) After optimization, max memory use (bytes) = 1411072
+LOG (nnet3-chain-combine[5.5.646~1-cdf2]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.189 seconds taken in nnet3 compilation total (breakdown: 0.137 compilation, 0.00578 optimization, 0.033 shortcut expansion, 0.000644 checking, 0.00166 computing indexes, 0.0109 misc.) + 0 I/O.
+LOG (nnet3-chain-combine[5.5.646~1-cdf2]:main():nnet3-chain-combine.cc:192) Combining last 31 models, objective function is -0.062341
+LOG (nnet3-chain-combine[5.5.646~1-cdf2]:Optimize():nnet-optimize.cc:507) Before optimization, max memory use (bytes) = 31185088
+LOG (nnet3-chain-combine[5.5.646~1-cdf2]:Optimize():nnet-optimize.cc:629) After optimization, max memory use (bytes) = 1411072
+LOG (nnet3-chain-combine[5.5.646~1-cdf2]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.183 seconds taken in nnet3 compilation total (breakdown: 0.135 compilation, 0.00556 optimization, 0.0303 shortcut expansion, 0.000601 checking, 0.00166 computing indexes, 0.0102 misc.) + 0 I/O.
+LOG (nnet3-chain-combine[5.5.646~1-cdf2]:main():nnet3-chain-combine.cc:192) Combining last 32 models, objective function is -0.0624364
+LOG (nnet3-chain-combine[5.5.646~1-cdf2]:main():nnet3-chain-combine.cc:201) Combining 9 nnets, objective function changed from -0.0904763 to -0.0604913
+LOG (nnet3-chain-combine[5.5.646~1-cdf2]:RecomputeStats():nnet-chain-diagnostics.cc:252) Recomputing stats on nnet (affects batch-norm)
+LOG (nnet3-chain-combine[5.5.646~1-cdf2]:Optimize():nnet-optimize.cc:507) Before optimization, max memory use (bytes) = 33530816
+LOG (nnet3-chain-combine[5.5.646~1-cdf2]:Optimize():nnet-optimize.cc:629) After optimization, max memory use (bytes) = 1411072
+LOG (nnet3-chain-combine[5.5.646~1-cdf2]:PrintTotalStats():nnet-chain-diagnostics.cc:194) Overall log-probability for 'output-xent' is -1.01526 per frame, over 16320 frames.
+LOG (nnet3-chain-combine[5.5.646~1-cdf2]:PrintTotalStats():nnet-chain-diagnostics.cc:194) Overall log-probability for 'output' is -0.0604904 per frame, over 16320 frames.
+LOG (nnet3-chain-combine[5.5.646~1-cdf2]:RecomputeStats():nnet-chain-diagnostics.cc:270) Done recomputing stats.
+LOG (nnet3-chain-combine[5.5.646~1-cdf2]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.186 seconds taken in nnet3 compilation total (breakdown: 0.133 compilation, 0.00587 optimization, 0.0318 shortcut expansion, 0.000665 checking, 0.00165 computing indexes, 0.0129 misc.) + 0 I/O.
+LOG (nnet3-chain-combine[5.5.646~1-cdf2]:PrintProfile():cu-device.cc:533) -----
+[cudevice profile]
+AddVecToRows	0.0803897s
+MulColsVec	0.0859394s
+Floor	0.0875623s
+AlphaGeneralFrame	0.0901101s
+CopyRowsFromVec	0.0910861s
+CopyFromVec	0.110091s
+AddMat	0.114164s
+AddDiagMatMat	0.143172s
+CuMatrix::Resize	0.145592s
+Scale	0.211989s
+CuMatrix::SetZero	0.221544s
+AddRowSumMat	0.295584s
+CopyRows	0.359294s
+CuMatrixBase::CopyFromMat(from CPU)	0.525905s
+AddMatMat	0.65771s
+Total GPU time:	3.70584s (may involve some double-counting)
+-----
+LOG (nnet3-chain-combine[5.5.646~1-cdf2]:PrintMemoryUsage():cu-allocator.cc:368) Memory usage: 13403136/16716398592 bytes currently allocated/total-held; 397/1 blocks currently allocated/free; largest free/allocated block sizes are 1083136/16702995456; time taken total/cudaMalloc is 0.0445065/0.015439, synchronized the GPU 0 times out of 19433 frees; device memory info: free:15941M, used:16538M, total:32480M, free/total:0.490814maximum allocated: 117693952current allocated: 13403136
+LOG (nnet3-chain-combine[5.5.646~1-cdf2]:main():nnet3-chain-combine.cc:213) Finished combining neural nets, wrote model to -
+LOG (nnet3-am-copy[5.5.646~1-cdf2]:main():nnet3-am-copy.cc:160) Copied neural net from exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/315.mdl to exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/final.mdl
+# Accounting: time=28 threads=1
+# Ended (code 0) at Mon Feb 24 13:42:17 CST 2020, elapsed time 28 seconds

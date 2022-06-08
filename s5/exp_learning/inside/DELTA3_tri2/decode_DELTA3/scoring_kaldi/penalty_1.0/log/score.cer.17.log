@@ -1,0 +1,5 @@
+# cat exp_learning/inside/DELTA3_tri2/decode_DELTA3/scoring_kaldi/penalty_1.0/17.chars.txt | compute-wer --text --mode=present ark:exp_learning/inside/DELTA3_tri2/decode_DELTA3/scoring_kaldi/test_filt.chars.txt ark,p:- >& exp_learning/inside/DELTA3_tri2/decode_DELTA3/cer_17_1.0 
+# Started at Sat Feb 22 11:35:21 CST 2020
+#
+# Accounting: time=3 threads=1
+# Ended (code 0) at Sat Feb 22 11:35:24 CST 2020, elapsed time 3 seconds

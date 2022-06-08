@@ -1,0 +1,7 @@
+# cluster-phones --context-width=2 --central-position=1 exp_learning/inside/nnet3/tri4_biphone_tree/treeacc data/lang_chain/phones/sets.int exp_learning/inside/nnet3/tri4_biphone_tree/questions.int 
+# Started at Mon Feb 24 04:45:58 CST 2020
+#
+cluster-phones --context-width=2 --central-position=1 exp_learning/inside/nnet3/tri4_biphone_tree/treeacc data/lang_chain/phones/sets.int exp_learning/inside/nnet3/tri4_biphone_tree/questions.int 
+LOG (cluster-phones[5.5.646~1-cdf2]:main():cluster-phones.cc:129) Wrote questions to exp_learning/inside/nnet3/tri4_biphone_tree/questions.int
+# Accounting: time=0 threads=1
+# Ended (code 0) at Mon Feb 24 04:45:58 CST 2020, elapsed time 0 seconds

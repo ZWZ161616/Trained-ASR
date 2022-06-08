@@ -1,0 +1,7 @@
+# compile-train-graphs --read-disambig-syms=data/lang_test_learning/phones/disambig.int exp_learning/inside/SAT_tri4/tree exp_learning/inside/SAT_tri4/1.mdl data/lang_test_learning/L.fst "ark:utils/sym2int.pl --map-oov 1 -f 2- data/lang_test_learning/words.txt < data/train/split8/6/text |" "ark:|gzip -c >exp_learning/inside/SAT_tri4/fsts.6.gz" 
+# Started at Sat Feb 22 14:09:35 CST 2020
+#
+compile-train-graphs --read-disambig-syms=data/lang_test_learning/phones/disambig.int exp_learning/inside/SAT_tri4/tree exp_learning/inside/SAT_tri4/1.mdl data/lang_test_learning/L.fst 'ark:utils/sym2int.pl --map-oov 1 -f 2- data/lang_test_learning/words.txt < data/train/split8/6/text |' 'ark:|gzip -c >exp_learning/inside/SAT_tri4/fsts.6.gz' 
+LOG (compile-train-graphs[5.5.646~1-cdf2]:main():compile-train-graphs.cc:147) compile-train-graphs: succeeded for 20094 graphs, failed for 0
+# Accounting: time=181 threads=1
+# Ended (code 0) at Sat Feb 22 14:12:36 CST 2020, elapsed time 181 seconds

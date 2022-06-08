@@ -1,0 +1,5 @@
+SPEAKER         id       #SENT      #WORD       Corr        Sub        Ins        Del        Err      S.Err
+Wang            raw        319       2124       1568        365         36        191        592        204
+Wang            sys        319       2124      73.82      17.18       1.69       8.99      27.87      63.95
+SUM             raw        319       2124       1568        365         36        191        592        204
+SUM             sys        319       2124      73.82      17.18       1.69       8.99      27.87      63.95

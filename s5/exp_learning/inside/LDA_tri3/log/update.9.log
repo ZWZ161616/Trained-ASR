@@ -1,0 +1,19 @@
+# gmm-est --write-occs=exp_learning/inside/LDA_tri3/10.occs --mix-up=8100 --power=0.25 exp_learning/inside/LDA_tri3/9.mdl "gmm-sum-accs - exp_learning/inside/LDA_tri3/9.*.acc |" exp_learning/inside/LDA_tri3/10.mdl 
+# Started at Sat Feb 22 12:05:25 CST 2020
+#
+gmm-est --write-occs=exp_learning/inside/LDA_tri3/10.occs --mix-up=8100 --power=0.25 exp_learning/inside/LDA_tri3/9.mdl 'gmm-sum-accs - exp_learning/inside/LDA_tri3/9.*.acc |' exp_learning/inside/LDA_tri3/10.mdl 
+gmm-sum-accs - exp_learning/inside/LDA_tri3/9.1.acc exp_learning/inside/LDA_tri3/9.2.acc exp_learning/inside/LDA_tri3/9.3.acc exp_learning/inside/LDA_tri3/9.4.acc exp_learning/inside/LDA_tri3/9.5.acc exp_learning/inside/LDA_tri3/9.6.acc exp_learning/inside/LDA_tri3/9.7.acc exp_learning/inside/LDA_tri3/9.8.acc 
+LOG (gmm-sum-accs[5.5.646~1-cdf2]:main():gmm-sum-accs.cc:63) Summed 8 stats, total count 4.99192e+07, avg like/frame -45.6393
+LOG (gmm-sum-accs[5.5.646~1-cdf2]:main():gmm-sum-accs.cc:66) Total count of stats is 4.99192e+07
+LOG (gmm-sum-accs[5.5.646~1-cdf2]:main():gmm-sum-accs.cc:67) Written stats to -
+LOG (gmm-est[5.5.646~1-cdf2]:MleUpdate():transition-model.cc:528) TransitionModel::Update, objf change is 0 per frame over 4.99193e+07 frames. 
+LOG (gmm-est[5.5.646~1-cdf2]:MleUpdate():transition-model.cc:531) 44 probabilities floored, 4734 out of 7770 transition-states skipped due to insuffient data (it is normal to have some skipped.)
+LOG (gmm-est[5.5.646~1-cdf2]:main():gmm-est.cc:102) Transition model update: Overall 0 log-like improvement per frame over 4.99193e+07 frames.
+LOG (gmm-est[5.5.646~1-cdf2]:MleAmDiagGmmUpdate():mle-am-diag-gmm.cc:225) 0 variance elements floored in 0 Gaussians, out of 7400
+LOG (gmm-est[5.5.646~1-cdf2]:MleAmDiagGmmUpdate():mle-am-diag-gmm.cc:229) Removed 0 Gaussians due to counts < --min-gaussian-occupancy=10 and --remove-low-count-gaussians=true
+LOG (gmm-est[5.5.646~1-cdf2]:main():gmm-est.cc:113) GMM update: Overall 0.159969 objective function improvement per frame over 4.99192e+07 frames
+LOG (gmm-est[5.5.646~1-cdf2]:main():gmm-est.cc:116) GMM update: Overall avg like per frame = -45.6393 over 4.99192e+07 frames.
+LOG (gmm-est[5.5.646~1-cdf2]:SplitByCount():am-diag-gmm.cc:116) Split 1984 states with target = 8100, power = 0.25, perturb_factor = 0.01 and min_count = 20, split #Gauss from 7400 to 8100
+LOG (gmm-est[5.5.646~1-cdf2]:main():gmm-est.cc:146) Written model to exp_learning/inside/LDA_tri3/10.mdl
+# Accounting: time=2 threads=1
+# Ended (code 0) at Sat Feb 22 12:05:27 CST 2020, elapsed time 2 seconds

@@ -1,0 +1,19 @@
+# chain-make-den-fst exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/tree exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/0.trans_mdl exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/phone_lm.fst exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/den.fst exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/normalization.fst 
+# Started at Mon Feb 24 04:46:59 CST 2020
+#
+chain-make-den-fst exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/tree exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/0.trans_mdl exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/phone_lm.fst exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/den.fst exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/normalization.fst 
+LOG (chain-make-den-fst[5.5.646~1-cdf2]:CreateDenominatorFst():chain-den-graph.cc:306) Number of states and arcs in phone-LM FST is 4254 and 9765
+LOG (chain-make-den-fst[5.5.646~1-cdf2]:CreateDenominatorFst():chain-den-graph.cc:335) Number of states and arcs in context-dependent LM FST is 4254 and 9765
+LOG (chain-make-den-fst[5.5.646~1-cdf2]:CreateDenominatorFst():chain-den-graph.cc:371) Number of states and arcs in transition-id FST is 8507 and 18271
+LOG (chain-make-den-fst[5.5.646~1-cdf2]:CreateDenominatorFst():chain-den-graph.cc:379) Number of states and arcs in transition-id FST after removing epsilons is 4254 and 14018
+LOG (chain-make-den-fst[5.5.646~1-cdf2]:DenGraphMinimizeWrapper():chain-den-graph.cc:228) Number of states and arcs in transition-id FST after reversed minimization is 4256 and 14392 (pass 1)
+LOG (chain-make-den-fst[5.5.646~1-cdf2]:DenGraphMinimizeWrapper():chain-den-graph.cc:233) Number of states and arcs in transition-id FST after regular minimization is 4096 and 14072 (pass 1)
+LOG (chain-make-den-fst[5.5.646~1-cdf2]:DenGraphMinimizeWrapper():chain-den-graph.cc:228) Number of states and arcs in transition-id FST after reversed minimization is 4098 and 14074 (pass 2)
+LOG (chain-make-den-fst[5.5.646~1-cdf2]:DenGraphMinimizeWrapper():chain-den-graph.cc:233) Number of states and arcs in transition-id FST after regular minimization is 4098 and 14074 (pass 2)
+LOG (chain-make-den-fst[5.5.646~1-cdf2]:DenGraphMinimizeWrapper():chain-den-graph.cc:228) Number of states and arcs in transition-id FST after reversed minimization is 4100 and 14076 (pass 3)
+LOG (chain-make-den-fst[5.5.646~1-cdf2]:DenGraphMinimizeWrapper():chain-den-graph.cc:233) Number of states and arcs in transition-id FST after regular minimization is 4100 and 14076 (pass 3)
+LOG (chain-make-den-fst[5.5.646~1-cdf2]:DenGraphMinimizeWrapper():chain-den-graph.cc:238) Number of states and arcs in transition-id FST after removing any epsilons introduced by reversal is 4094 and 13716
+LOG (chain-make-den-fst[5.5.646~1-cdf2]:PrintDenGraphStats():chain-den-graph.cc:269) Number of states is 4094 and arcs 13716; number of states with in-degree <= 3 is 3019 and with out-degree <= 3 is 3004
+LOG (chain-make-den-fst[5.5.646~1-cdf2]:main():chain-make-den-fst.cc:78) Write denominator FST to exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/den.fst and normalization FST to exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/normalization.fst
+# Accounting: time=1 threads=1
+# Ended (code 0) at Mon Feb 24 04:47:00 CST 2020, elapsed time 1 seconds

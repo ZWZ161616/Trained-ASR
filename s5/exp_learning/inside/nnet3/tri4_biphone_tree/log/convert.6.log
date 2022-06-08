@@ -1,0 +1,9 @@
+# convert-ali --repeat-frames=false --frame-subsampling-factor=3 exp_learning/inside/SAT_tri4_ali/final.mdl exp_learning/inside/nnet3/tri4_biphone_tree/1.mdl exp_learning/inside/nnet3/tri4_biphone_tree/tree "ark:gunzip -c exp_learning/inside/SAT_tri4_ali/ali.6.gz|" "ark:|gzip -c >exp_learning/inside/nnet3/tri4_biphone_tree/ali.6.gz" 
+# Started at Mon Feb 24 04:46:07 CST 2020
+#
+convert-ali --repeat-frames=false --frame-subsampling-factor=3 exp_learning/inside/SAT_tri4_ali/final.mdl exp_learning/inside/nnet3/tri4_biphone_tree/1.mdl exp_learning/inside/nnet3/tri4_biphone_tree/tree 'ark:gunzip -c exp_learning/inside/SAT_tri4_ali/ali.6.gz|' 'ark:|gzip -c >exp_learning/inside/nnet3/tri4_biphone_tree/ali.6.gz' 
+WARNING (convert-ali[5.5.646~1-cdf2]:main():convert-ali.cc:89) Toplogies of models are not equal: conversion may not be correct or may fail.
+WARNING (convert-ali[5.5.646~1-cdf2]:ConvertAlignmentForPhone():hmm-utils.cc:765) Topology mismatch detected; automatically converting. Won't warn again.
+LOG (convert-ali[5.5.646~1-cdf2]:main():convert-ali.cc:120) Succeeded converting alignments for 20092 files, failed for 0
+# Accounting: time=36 threads=1
+# Ended (code 0) at Mon Feb 24 04:46:43 CST 2020, elapsed time 36 seconds

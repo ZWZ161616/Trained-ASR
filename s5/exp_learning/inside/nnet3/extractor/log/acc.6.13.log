@@ -1,0 +1,19 @@
+# ivector-extractor-sum-accs --parallel=true "ivector-extractor-acc-stats --num-threads=4 exp_learning/inside/nnet3/extractor/6.ie 'ark,s,cs:splice-feats --left-context=3 --right-context=3 scp:data/train/iv_nopitch/split36/13/feats.scp ark:- | transform-feats exp_learning/inside/nnet3/extractor/final.mat ark:- ark:- | subsample-feats --n=2 ark:- ark:- |' 'ark,s,cs:gunzip -c exp_learning/inside/nnet3/extractor/post.13.gz|' -|" exp_learning/inside/nnet3/extractor/acc.6.13 
+# Started at Sun Feb 23 22:35:50 CST 2020
+#
+ivector-extractor-sum-accs --parallel=true "ivector-extractor-acc-stats --num-threads=4 exp_learning/inside/nnet3/extractor/6.ie 'ark,s,cs:splice-feats --left-context=3 --right-context=3 scp:data/train/iv_nopitch/split36/13/feats.scp ark:- | transform-feats exp_learning/inside/nnet3/extractor/final.mat ark:- ark:- | subsample-feats --n=2 ark:- ark:- |' 'ark,s,cs:gunzip -c exp_learning/inside/nnet3/extractor/post.13.gz|' -|" exp_learning/inside/nnet3/extractor/acc.6.13 
+ivector-extractor-acc-stats --num-threads=4 exp_learning/inside/nnet3/extractor/6.ie 'ark,s,cs:splice-feats --left-context=3 --right-context=3 scp:data/train/iv_nopitch/split36/13/feats.scp ark:- | transform-feats exp_learning/inside/nnet3/extractor/final.mat ark:- ark:- | subsample-feats --n=2 ark:- ark:- |' 'ark,s,cs:gunzip -c exp_learning/inside/nnet3/extractor/post.13.gz|' - 
+subsample-feats --n=2 ark:- ark:- 
+splice-feats --left-context=3 --right-context=3 scp:data/train/iv_nopitch/split36/13/feats.scp ark:- 
+transform-feats exp_learning/inside/nnet3/extractor/final.mat ark:- ark:- 
+LOG (ivector-extractor-acc-stats[5.5.646~1-cdf2]:ComputeDerivedVars():ivector-extractor.cc:183) Computing derived variables for iVector extractor
+LOG (ivector-extractor-acc-stats[5.5.646~1-cdf2]:ComputeDerivedVars():ivector-extractor.cc:204) Done.
+LOG (transform-feats[5.5.646~1-cdf2]:main():transform-feats.cc:158) Overall average [pseudo-]logdet is -120.109 over 1.67913e+06 frames.
+LOG (transform-feats[5.5.646~1-cdf2]:main():transform-feats.cc:161) Applied transform to 4434 utterances; 0 had errors.
+LOG (subsample-feats[5.5.646~1-cdf2]:main():subsample-feats.cc:115) Processed 4434 feature matrices; 0 with errors.
+LOG (subsample-feats[5.5.646~1-cdf2]:main():subsample-feats.cc:117) Processed 1679129 input frames and 840665 output frames.
+LOG (ivector-extractor-acc-stats[5.5.646~1-cdf2]:main():ivector-extractor-acc-stats.cc:151) Done 4434 files, 0 with errors.  Total frames 840665
+LOG (ivector-extractor-acc-stats[5.5.646~1-cdf2]:main():ivector-extractor-acc-stats.cc:159) Wrote stats to -
+LOG (ivector-extractor-sum-accs[5.5.646~1-cdf2]:main():ivector-extractor-sum-accs.cc:83) Wrote summed stats to exp_learning/inside/nnet3/extractor/acc.6.13
+# Accounting: time=1199 threads=1
+# Ended (code 0) at Sun Feb 23 22:55:51 CST 2020, elapsed time 1199 seconds

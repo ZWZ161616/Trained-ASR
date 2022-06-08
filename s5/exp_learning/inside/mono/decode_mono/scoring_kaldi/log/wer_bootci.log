@@ -1,0 +1,6 @@
+# compute-wer-bootci --mode=present ark:exp_learning/inside/mono/decode_mono/scoring_kaldi/test_filt.txt ark:exp_learning/inside/mono/decode_mono/scoring_kaldi/penalty_0.0/17.txt > exp_learning/inside/mono/decode_mono/scoring_kaldi/wer_details/wer_bootci 
+# Started at Sat Feb 22 07:01:38 CST 2020
+#
+compute-wer-bootci --mode=present ark:exp_learning/inside/mono/decode_mono/scoring_kaldi/test_filt.txt ark:exp_learning/inside/mono/decode_mono/scoring_kaldi/penalty_0.0/17.txt 
+# Accounting: time=2 threads=1
+# Ended (code 0) at Sat Feb 22 07:01:40 CST 2020, elapsed time 2 seconds

@@ -1,0 +1,6 @@
+# cat exp_learning/inside/DELTA3_tri2/decode_DELTA3/scoring_kaldi/cer_details/per_utt | utils/scoring/wer_ops_details.pl --special-symbol '***' | sort -b -i -k 1,1 -k 4,4rn -k 2,2 -k 3,3 > exp_learning/inside/DELTA3_tri2/decode_DELTA3/scoring_kaldi/cer_details/ops 
+# Started at Sat Feb 22 11:35:33 CST 2020
+#
+utils/scoring/wer_ops_details.pl: Note: handling as utf-8 text
+# Accounting: time=2 threads=1
+# Ended (code 0) at Sat Feb 22 11:35:36 CST 2020, elapsed time 2 seconds

@@ -1,0 +1,3 @@
+gmm-init-model --write-occs=exp_learning/inside/LDA_tri3/1.occs exp_learning/inside/LDA_tri3/tree exp_learning/inside/LDA_tri3/treeacc data/lang_test_learning/topo exp_learning/inside/LDA_tri3/1.mdl 
+LOG (gmm-init-model[5.5.646~1-cdf2]:main():gmm-init-model.cc:271) Number of separate statistics is 17522
+LOG (gmm-init-model[5.5.646~1-cdf2]:main():gmm-init-model.cc:306) Wrote model.

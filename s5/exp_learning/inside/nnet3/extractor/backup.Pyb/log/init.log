@@ -1,0 +1,11 @@
+# ivector-extractor-init --ivector-dim=100 --use-weights=false "gmm-global-to-fgmm exp_learning/inside/nnet3/extractor/final.dubm -|" exp_learning/inside/nnet3/extractor/0.ie 
+# Started at Sun Feb 23 01:54:18 CST 2020
+#
+ivector-extractor-init --ivector-dim=100 --use-weights=false 'gmm-global-to-fgmm exp_learning/inside/nnet3/extractor/final.dubm -|' exp_learning/inside/nnet3/extractor/0.ie 
+gmm-global-to-fgmm exp_learning/inside/nnet3/extractor/final.dubm - 
+LOG (gmm-global-to-fgmm[5.5.646~1-cdf2]:main():gmm-global-to-fgmm.cc:58) Written full GMM to -
+LOG (ivector-extractor-init[5.5.646~1-cdf2]:ComputeDerivedVars():ivector-extractor.cc:183) Computing derived variables for iVector extractor
+LOG (ivector-extractor-init[5.5.646~1-cdf2]:ComputeDerivedVars():ivector-extractor.cc:204) Done.
+LOG (ivector-extractor-init[5.5.646~1-cdf2]:main():ivector-extractor-init.cc:62) Initialized iVector extractor with iVector dimension 100 and wrote it to exp_learning/inside/nnet3/extractor/0.ie
+# Accounting: time=1 threads=1
+# Ended (code 0) at Sun Feb 23 01:54:19 CST 2020, elapsed time 1 seconds

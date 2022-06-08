@@ -1,0 +1,650 @@
+# lattice-scale --inv-acoustic-scale=10 "ark:gunzip -c exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang_online/decode_Ho2/lat.*.gz|" ark:- | lattice-add-penalty --word-ins-penalty=1.0 ark:- ark:- | lattice-best-path --word-symbol-table=exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/graph/words.txt ark:- ark,t:- | utils/int2sym.pl -f 2- exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/graph/words.txt | local/wer_hyp_filter > exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang_online/decode_Ho2/scoring_kaldi/penalty_1.0/10.txt 
+# Started at Mon Feb 24 13:55:34 CST 2020
+#
+lattice-scale --inv-acoustic-scale=10 'ark:gunzip -c exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang_online/decode_Ho2/lat.*.gz|' ark:- 
+lattice-best-path --word-symbol-table=exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/graph/words.txt ark:- ark,t:- 
+lattice-add-penalty --word-ins-penalty=1.0 ark:- ark:- 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_10_1, best cost 132.331 + -591.229 = -458.897 over 161 frames.
+Ho_source_2_S_10_1 我 常去 那間 餐廳 吃 早點 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_10_10, best cost 134.111 + -646.668 = -512.557 over 160 frames.
+Ho_source_2_S_10_10 他們 都 參加 學校 合唱團 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_10_11, best cost 117.774 + -588.896 = -471.121 over 138 frames.
+Ho_source_2_S_10_11 我們 每天 早上 都 要 跑步 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_10_12, best cost 127.448 + -605.273 = -477.826 over 153 frames.
+Ho_source_2_S_10_12 我 發現 廚房裡 沒 有 鹽 了 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_10_13, best cost 132.477 + -669.73 = -537.253 over 161 frames.
+Ho_source_2_S_10_13 媽媽 明天 要 去 超市 買油 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_10_14, best cost 117.25 + -590.861 = -473.611 over 132 frames.
+Ho_source_2_S_10_14 爸爸 今天 買 了 一個 西瓜 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_10_15, best cost 133.301 + -653.167 = -519.866 over 153 frames.
+Ho_source_2_S_10_15 媽媽 做好 飯 後 爸爸 回來 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_10_16, best cost 126.064 + -573.106 = -447.041 over 144 frames.
+Ho_source_2_S_10_16 她 每天 都 要 練習 彈 鋼琴 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_10_17, best cost 118.078 + -583.395 = -465.316 over 141 frames.
+Ho_source_2_S_10_17 剛才 聽 到 隔壁家 在 吵架 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_10_18, best cost 135.594 + -644.785 = -509.191 over 159 frames.
+Ho_source_2_S_10_18 爸爸 不 小心 把 茶 翻倒 了 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_10_19, best cost 128.932 + -681.53 = -552.599 over 156 frames.
+Ho_source_2_S_10_19 媽媽 經常 寄些 錢 給 外婆 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_10_2, best cost 128.454 + -581.598 = -453.144 over 152 frames.
+Ho_source_2_S_10_2 他們 家 的 寶寶 剛過 滿月 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_10_20, best cost 138.651 + -637.666 = -499.015 over 165 frames.
+Ho_source_2_S_10_20 遠遠 的 聽 到 有人 在 唱歌 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_10_3, best cost 118.64 + -562.113 = -443.473 over 140 frames.
+Ho_source_2_S_10_3 爸爸 去 幫 大家 買 電影票 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_10_4, best cost 127.163 + -658.138 = -530.974 over 155 frames.
+Ho_source_2_S_10_4 有 許多 家長 接 孩子 放學 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_10_5, best cost 124.099 + -570.216 = -446.117 over 148 frames.
+Ho_source_2_S_10_5 深夜 聽到 有人 在 彈 鋼琴 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_10_6, best cost 124.709 + -608.907 = -484.198 over 145 frames.
+Ho_source_2_S_10_6 他 今天 帶 了 一條 金 項鍊 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_10_7, best cost 118.77 + -586.375 = -467.606 over 142 frames.
+Ho_source_2_S_10_7 這班 列車 因故 被 取消 了 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_10_8, best cost 140.212 + -648.524 = -508.312 over 162 frames.
+Ho_source_2_S_10_8 今晚 有 棒球 比賽 實況 轉播 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_10_9, best cost 120.304 + -555.133 = -434.829 over 143 frames.
+Ho_source_2_S_10_9 我 的 城裡 有 座 跨海 大橋 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_11_1, best cost 135.137 + -685.611 = -550.473 over 167 frames.
+Ho_source_2_S_11_1 我 爸爸 最喜歡 喝 龍井茶 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_11_10, best cost 139.741 + -568.413 = -428.672 over 150 frames.
+Ho_source_2_S_11_10 上個月 有 許多 人 得 麻疹 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_11_11, best cost 116.398 + -583.315 = -466.917 over 140 frames.
+Ho_source_2_S_11_11 她 送給 爸爸 一隻 防水 錶 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_11_12, best cost 116.993 + -540.214 = -423.221 over 135 frames.
+Ho_source_2_S_11_12 大家 都 習慣 叫 他 的 小名 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_11_13, best cost 134.817 + -614.702 = -479.885 over 151 frames.
+Ho_source_2_S_11_13 我們 班 男生 都 喜歡 踢 足球 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_11_14, best cost 123.148 + -592.356 = -469.208 over 148 frames.
+Ho_source_2_S_11_14 老師 說 下 一節 課 取消 了 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_11_15, best cost 121.088 + -566.829 = -445.741 over 145 frames.
+Ho_source_2_S_11_15 他 的 錄取 資格 被 取消 了 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_11_16, best cost 124.25 + -566.192 = -441.943 over 149 frames.
+Ho_source_2_S_11_16 三名 學生 被 學校 開除 了 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_11_17, best cost 124.437 + -581.089 = -456.652 over 152 frames.
+Ho_source_2_S_11_17 今年 的 聯考 考題 比較 難 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_11_18, best cost 123.529 + -658.775 = -535.247 over 150 frames.
+Ho_source_2_S_11_18 我們 明天 要 辦 慶祝 晚會 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_11_19, best cost 118.927 + -532.874 = -413.947 over 143 frames.
+Ho_source_2_S_11_19 我 和 幾個 同學要 去 溜冰 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_11_2, best cost 128.278 + -624.876 = -496.598 over 157 frames.
+Ho_source_2_S_11_2 我 剛剛 把 作業 交給 老師 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_11_20, best cost 132.427 + -650.531 = -518.104 over 156 frames.
+Ho_source_2_S_11_20 鄰居家 的 小花 貓 很 可愛 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_11_3, best cost 122.828 + -577.782 = -454.954 over 146 frames.
+Ho_source_2_S_11_3 我 星期天 去 公園 放 風箏 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_11_4, best cost 122.597 + -571.784 = -449.187 over 138 frames.
+Ho_source_2_S_11_4 他 經常 打電話 給 我 媽媽 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_11_5, best cost 122.158 + -506.295 = -384.137 over 143 frames.
+Ho_source_2_S_11_5 爸爸 每年 都 送 禮物 給 他 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_11_6, best cost 119.528 + -578.638 = -459.11 over 139 frames.
+Ho_source_2_S_11_6 我們 今天 晚上 要 看 球賽 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_11_7, best cost 131.284 + -583.264 = -451.98 over 159 frames.
+Ho_source_2_S_11_7 他 出門 前 忘 了 關水龍頭 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_11_8, best cost 104.11 + -509.705 = -405.595 over 122 frames.
+Ho_source_2_S_11_8 她 今天 收到 一個 大 包裹 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_11_9, best cost 124.987 + -648.645 = -523.658 over 153 frames.
+Ho_source_2_S_11_9 我 昨天晚上 去 聽 演唱會 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_12_1, best cost 128.931 + -558.746 = -429.815 over 155 frames.
+Ho_source_2_S_12_1 那裡 每年 春天 要 刮 大風 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_12_10, best cost 110.488 + -495.907 = -385.419 over 132 frames.
+Ho_source_2_S_12_10 鄰居家 最近 在 裝修 房子 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_12_11, best cost 111.56 + -558.613 = -447.053 over 135 frames.
+Ho_source_2_S_12_11 我 十點鐘 去 會議室 開會 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_12_12, best cost 105.177 + -453.9 = -348.724 over 125 frames.
+Ho_source_2_S_12_12 他們 是 多年 的 老朋友 了 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_12_13, best cost 127.034 + -594.805 = -467.771 over 156 frames.
+Ho_source_2_S_12_13 山頂上 的 積雪 長年 不化 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_12_14, best cost 121.214 + -526.631 = -405.417 over 143 frames.
+Ho_source_2_S_12_14 她們 姐妹 兩個 是 雙胞胎 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_12_15, best cost 119.844 + -499.343 = -379.499 over 142 frames.
+Ho_source_2_S_12_15 這個 寺廟 是 唐代 的 建築 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_12_16, best cost 122.265 + -583.584 = -461.32 over 146 frames.
+Ho_source_2_S_12_16 這裡 風景 美 得 像 一幅 畫 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_12_17, best cost 107.11 + -487.414 = -380.305 over 127 frames.
+Ho_source_2_S_12_17 寄 這幾個 包裹 要 很多 錢 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_12_18, best cost 113.802 + -609.962 = -496.16 over 138 frames.
+Ho_source_2_S_12_18 媽媽 做好 飯 等 爸爸 回來 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_12_19, best cost 128.727 + -611.483 = -482.756 over 151 frames.
+Ho_source_2_S_12_19 他 在 家裡 幫 媽媽 洗 廁所 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_12_2, best cost 112.48 + -494.195 = -381.715 over 128 frames.
+Ho_source_2_S_12_2 這隻 貓 把 床單 給 抓破 了 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_12_20, best cost 118.052 + -599.925 = -481.873 over 144 frames.
+Ho_source_2_S_12_20 他 今天 下午 突然 肚子痛 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_12_3, best cost 120.937 + -614.895 = -493.958 over 141 frames.
+Ho_source_2_S_12_3 我 朋友 在 郊區 買 了 房子 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_12_4, best cost 110.76 + -531.376 = -420.616 over 133 frames.
+Ho_source_2_S_12_4 我 早上 在 火車站 遇到 他 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_12_5, best cost 116.786 + -533.172 = -416.386 over 141 frames.
+Ho_source_2_S_12_5 他 穿 那套 衣服 特別 合身 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_12_6, best cost 110.07 + -475.429 = -365.359 over 121 frames.
+Ho_source_2_S_12_6 那 家 超市 最近 在 減價 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_12_7, best cost 110.162 + -530.353 = -420.19 over 133 frames.
+Ho_source_2_S_12_7 我 開會時 碰到 了 老同學 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_12_8, best cost 119.452 + -622.49 = -503.038 over 148 frames.
+Ho_source_2_S_12_8 學校 經常 檢查 宿舍 衛生 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_12_9, best cost 126.08 + -628.305 = -502.225 over 156 frames.
+Ho_source_2_S_12_9 運動員 在 操場 練習 投籃 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_13_1, best cost 120.526 + -567.764 = -447.238 over 146 frames.
+Ho_source_2_S_13_1 再 十分鐘 火車 就要 開 了 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_13_10, best cost 107.876 + -520.504 = -412.628 over 124 frames.
+Ho_source_2_S_13_10 大家 元宵節 要 去 看 燈會 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_13_11, best cost 117.612 + -538.765 = -421.153 over 139 frames.
+Ho_source_2_S_13_11 她 學校 規定 學生 穿 制服 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_13_12, best cost 118.89 + -591.102 = -472.212 over 143 frames.
+Ho_source_2_S_13_12 弟弟 非常 喜歡 穿 運動鞋 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_13_13, best cost 121.679 + -575.031 = -453.352 over 143 frames.
+Ho_source_2_S_13_13 他 的 手錶 慢 了 十五 分鐘 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_13_14, best cost 118.638 + -590.099 = -471.461 over 145 frames.
+Ho_source_2_S_13_14 周末 我 幫媽媽 打掃 房子 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_13_15, best cost 121.253 + -528.888 = -407.635 over 139 frames.
+Ho_source_2_S_13_15 她 手上 戴 了 一只 玉 手環 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_13_16, best cost 114.557 + -542.218 = -427.661 over 138 frames.
+Ho_source_2_S_13_16 我 父母 希望 我 上 醫學院 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_13_17, best cost 126.574 + -606.615 = -480.041 over 158 frames.
+Ho_source_2_S_13_17 那個 老奶奶 心地 很 善良 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_13_18, best cost 106.083 + -461.871 = -355.789 over 126 frames.
+Ho_source_2_S_13_18 他 發現 鋼筆 沒有 墨水 了 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_13_19, best cost 125.693 + -581.889 = -456.196 over 150 frames.
+Ho_source_2_S_13_19 他 喜歡 跟 孩子們 一起 玩 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_13_2, best cost 121.311 + -501.284 = -379.973 over 140 frames.
+Ho_source_2_S_13_2 哥哥 的 腳 長了 個 大 水泡 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_13_20, best cost 132.086 + -556.2 = -424.114 over 149 frames.
+Ho_source_2_S_13_20 有 替 他 向 老師 請 了 病假 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_13_3, best cost 108.802 + -531.888 = -423.086 over 128 frames.
+Ho_source_2_S_13_3 醫院 大門口 有 很多 花店 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_13_4, best cost 120.548 + -567.287 = -446.738 over 141 frames.
+Ho_source_2_S_13_4 他們 經常 去 餐廳 吃 晚飯 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_13_5, best cost 119.954 + -539.787 = -419.834 over 136 frames.
+Ho_source_2_S_13_5 叔叔 家 養 了 一大 缸 金魚 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_13_6, best cost 128.233 + -580.91 = -452.677 over 153 frames.
+Ho_source_2_S_13_6 他 答應 要 請 我們 喝 喜酒 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_13_8, best cost 124.776 + -580.859 = -456.083 over 152 frames.
+Ho_source_2_S_13_8 有人 送給 他 一盒 化妝品 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_13_9, best cost 108.431 + -531.283 = -422.852 over 129 frames.
+Ho_source_2_S_13_9 今年 國慶日 放 了 幾天 假 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_14_1, best cost 128.986 + -590.595 = -461.608 over 157 frames.
+Ho_source_2_S_14_1 他 最近 好像 有 什麼 心事 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_14_10, best cost 122.837 + -595.061 = -472.224 over 145 frames.
+Ho_source_2_S_14_10 妹妹 上街 買 了 一件 洋裝 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_14_11, best cost 114.959 + -529.287 = -414.328 over 134 frames.
+Ho_source_2_S_14_11 我們 都 笑 他 是 個 膽小鬼 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_14_12, best cost 119.277 + -556.841 = -437.564 over 141 frames.
+Ho_source_2_S_14_12 我們 幫 他 把 櫃子 搬 上樓 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_14_13, best cost 122.777 + -576.341 = -453.564 over 143 frames.
+Ho_source_2_S_14_13 這場 雨 整整 下 了 一 星期 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_14_14, best cost 110.182 + -535.007 = -424.825 over 129 frames.
+Ho_source_2_S_14_14 花園裡 的 雜草 長 得 很快 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_14_15, best cost 113.673 + -518.254 = -404.581 over 133 frames.
+Ho_source_2_S_14_15 護士 每天 給 病人 換 床單 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_14_16, best cost 116.122 + -549.516 = -433.394 over 140 frames.
+Ho_source_2_S_14_16 他 每天 要 幫媽媽 熬 中藥 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_14_17, best cost 117.115 + -543.777 = -426.662 over 145 frames.
+Ho_source_2_S_14_17 遊客們 都 愛買些 紀念品 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_14_18, best cost 107.8 + -494.105 = -386.305 over 125 frames.
+Ho_source_2_S_14_18 他們 合伙 開 了 一間 公司 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_14_19, best cost 115.34 + -494.053 = -378.713 over 136 frames.
+Ho_source_2_S_14_19 他 的 夢想 是 當 一名 記者 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_14_2, best cost 117.197 + -575.835 = -458.639 over 140 frames.
+Ho_source_2_S_14_2 他 今天 覺得 頭 昏沉沉 的 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_14_20, best cost 102.892 + -475.655 = -372.763 over 121 frames.
+Ho_source_2_S_14_20 這個 房間 的 電風扇 壞 了 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_14_3, best cost 110.59 + -529.541 = -418.951 over 132 frames.
+Ho_source_2_S_14_3 他 穿 了 一件 粉紅色 外套 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_14_4, best cost 130.346 + -607.103 = -476.757 over 157 frames.
+Ho_source_2_S_14_4 這個 公園 有 兩 隻 大熊貓 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_14_5, best cost 96.9958 + -438.363 = -341.367 over 112 frames.
+Ho_source_2_S_14_5 我們 中秋節 一起 去 賞月 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_14_6, best cost 115.718 + -547.016 = -431.299 over 139 frames.
+Ho_source_2_S_14_6 這段 公路 被 洪水 沖 毀了 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_14_7, best cost 115.45 + -515.891 = -400.441 over 135 frames.
+Ho_source_2_S_14_7 他 的 作文 在 比賽 中 獲獎 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_14_8, best cost 116.545 + -506.72 = -390.174 over 136 frames.
+Ho_source_2_S_14_8 他 買 了 一 大包 五香 瓜子 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_14_9, best cost 110.994 + -469.474 = -358.48 over 132 frames.
+Ho_source_2_S_14_9 弟弟 拿 了 相機 出去 照相 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_15_1, best cost 128.115 + -603.935 = -475.821 over 150 frames.
+Ho_source_2_S_15_1 他 捐 了 很多 衣物 給 災區 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_15_10, best cost 102.304 + -470.545 = -368.241 over 120 frames.
+Ho_source_2_S_15_10 她 的 數學 成績 全班 第一 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_15_11, best cost 117.718 + -556.832 = -439.115 over 139 frames.
+Ho_source_2_S_15_11 他 有 治 氣喘 的 祖傳 秘方 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_15_12, best cost 103.521 + -490.183 = -386.662 over 118 frames.
+Ho_source_2_S_15_12 小妹 現在 自己 會 做 飯 了 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_15_13, best cost 123.831 + -620.213 = -496.381 over 151 frames.
+Ho_source_2_S_15_13 清明節 下 了 一天 毛毛雨 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_15_14, best cost 119.57 + -575.056 = -455.486 over 139 frames.
+Ho_source_2_S_15_14 昨天 他 向 我 借 了 三百 塊 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_15_15, best cost 116.349 + -567.875 = -451.526 over 139 frames.
+Ho_source_2_S_15_15 廚師 在 節目裡 表演 拉 麵 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_15_16, best cost 108.115 + -539.922 = -431.807 over 132 frames.
+Ho_source_2_S_15_16 他們 正往 樹上 噴灑 農藥 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_15_17, best cost 100.63 + -474.953 = -374.323 over 124 frames.
+Ho_source_2_S_15_17 交通警察 正在 疏導 人群 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_15_18, best cost 116.889 + -517.633 = -400.744 over 138 frames.
+Ho_source_2_S_15_18 他 仔細 幫 病人 檢查 牙齒 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_15_19, best cost 112.28 + -518.536 = -406.255 over 129 frames.
+Ho_source_2_S_15_19 草叢裡 有 一 隻 蟋蟀 在 叫 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_15_2, best cost 114.794 + -515.015 = -400.221 over 134 frames.
+Ho_source_2_S_15_2 電視 報導 那 裡 發生 地震 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_15_20, best cost 123.527 + -594.385 = -470.858 over 149 frames.
+Ho_source_2_S_15_20 他們 學校 有 很多 留學生 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_15_3, best cost 106.292 + -468.127 = -361.835 over 127 frames.
+Ho_source_2_S_15_3 姐夫 修好 了 那個 收音 機 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_15_4, best cost 120.49 + -547.636 = -427.147 over 140 frames.
+Ho_source_2_S_15_4 我 把 不用 的 傢俱 送人 了 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_15_5, best cost 111.828 + -518.566 = -406.738 over 130 frames.
+Ho_source_2_S_15_5 我 幫 他 把 雞蛋 放入 冰箱 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_15_6, best cost 113.056 + -479.853 = -366.797 over 135 frames.
+Ho_source_2_S_15_6 橘黃色 的 燈 顯得 很 溫馨 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_15_7, best cost 114.26 + -552.231 = -437.971 over 137 frames.
+Ho_source_2_S_15_7 那個 牆 上 掛著 一幅 油畫 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_15_8, best cost 105.618 + -479.882 = -374.264 over 122 frames.
+Ho_source_2_S_15_8 她 用 抹布 把 桌子 擦乾淨 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_15_9, best cost 112.129 + -562.3 = -450.17 over 140 frames.
+Ho_source_2_S_15_9 剛才 有人 打電話 給媽媽 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_16_1, best cost 130.058 + -622.645 = -492.588 over 160 frames.
+Ho_source_2_S_16_1 小朋友 們 在 看 螞蟻 搬家 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_16_10, best cost 99.7732 + -482.466 = -382.693 over 121 frames.
+Ho_source_2_S_16_10 今天 老師 宣布 提前 放學 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_16_11, best cost 116.805 + -557.249 = -440.444 over 136 frames.
+Ho_source_2_S_16_11 桌子 上 擺 了 一大 盤 瓜子 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_16_12, best cost 121.55 + -573.754 = -452.205 over 153 frames.
+Ho_source_2_S_16_12 中國 萬里長城 中外聞名 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_16_13, best cost 112.134 + -562.978 = -450.845 over 139 frames.
+Ho_source_2_S_16_13 那片 原始森林 發生 大火 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_16_14, best cost 112.658 + -516.563 = -403.906 over 136 frames.
+Ho_source_2_S_16_14 棒球 飛過 來 打破 了 窗戶 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_16_15, best cost 126.54 + -520.608 = -394.068 over 145 frames.
+Ho_source_2_S_16_15 我 的 哥哥 養 了 一群 白鴿 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_16_16, best cost 120.853 + -509.342 = -388.489 over 139 frames.
+Ho_source_2_S_16_16 她 做 完 功課 才 上床 睡覺 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_16_17, best cost 129.591 + -589.2 = -459.609 over 152 frames.
+Ho_source_2_S_16_17 一群 孩子 在 那 裡 玩 跳繩 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_16_18, best cost 122.089 + -515.54 = -393.451 over 142 frames.
+Ho_source_2_S_16_18 這 裡 的 風俗 習慣 很 特別 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_16_19, best cost 115.76 + -561.496 = -445.736 over 138 frames.
+Ho_source_2_S_16_19 他 腰痛 的 老毛病 又 犯 了 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_16_2, best cost 128.048 + -629.209 = -501.161 over 154 frames.
+Ho_source_2_S_16_2 這個 池塘 裡 養 了 很多 魚 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_16_20, best cost 113.192 + -540.256 = -427.064 over 132 frames.
+Ho_source_2_S_16_20 她 不 小心 把 茶杯 碰翻 了 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_16_3, best cost 123.629 + -573.809 = -450.18 over 153 frames.
+Ho_source_2_S_16_3 這裡 將要 建 一座 發電廠 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_16_4, best cost 116.668 + -580.551 = -463.883 over 140 frames.
+Ho_source_2_S_16_4 他 下山 時 被 蛇 咬了一口 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_16_5, best cost 124.237 + -638.739 = -514.502 over 150 frames.
+Ho_source_2_S_16_5 他 計劃 今年 買 一台 電腦 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_16_6, best cost 112.656 + -539.602 = -426.946 over 135 frames.
+Ho_source_2_S_16_6 這間 公司 要 招聘 工程師 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_16_7, best cost 107.451 + -497.901 = -390.45 over 130 frames.
+Ho_source_2_S_16_7 便衣警察 抓 到 一名 小偷 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_16_8, best cost 99.4012 + -404.049 = -304.648 over 116 frames.
+Ho_source_2_S_16_8 她 是 那座 大樓 的 設計師 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_16_9, best cost 106.496 + -488.019 = -381.523 over 126 frames.
+Ho_source_2_S_16_9 他們 擺 好 姿勢 準備 拍照 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_1_1, best cost 152.712 + -755.852 = -603.141 over 198 frames.
+Ho_source_2_S_1_1 這學期 學校 有書法 比賽 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_1_10, best cost 108.825 + -506.041 = -397.216 over 130 frames.
+Ho_source_2_S_1_10 秘書 在 幫 老闆 撰寫 文件 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_1_11, best cost 122.922 + -611.104 = -488.183 over 153 frames.
+Ho_source_2_S_1_11 我 大年初一 向 爸爸 拜年 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_1_12, best cost 109.566 + -509.553 = -399.987 over 121 frames.
+Ho_source_2_S_1_12 我 每天 早上 都 喝杯 茶 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_1_13, best cost 129.594 + -603.54 = -473.946 over 155 frames.
+Ho_source_2_S_1_13 他 的 名片 上 有 很多 頭銜 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_1_14, best cost 114.417 + -551.053 = -436.636 over 137 frames.
+Ho_source_2_S_1_14 這個 超市 的 東西 很 便宜 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_1_15, best cost 120.274 + -593.349 = -473.074 over 147 frames.
+Ho_source_2_S_1_15 我們 喜歡 看 電視 連續劇 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_1_16, best cost 145.163 + -760.983 = -615.82 over 184 frames.
+Ho_source_2_S_1_16 他們 非常 熟悉 中國 歷史 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_1_17, best cost 124.355 + -571.073 = -446.719 over 155 frames.
+Ho_source_2_S_1_17 這個 人 看起來 彬彬有禮 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_1_18, best cost 124.328 + -495.809 = -371.481 over 140 frames.
+Ho_source_2_S_1_18 他 的 臉 上 長了 很多 疹子 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_1_19, best cost 131.848 + -671.879 = -540.031 over 159 frames.
+Ho_source_2_S_1_19 他 今年 七月 要 參加 考試 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_1_2, best cost 142.128 + -695.165 = -553.037 over 182 frames.
+Ho_source_2_S_1_2 公司 接到 一份 國外 訂單 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_1_20, best cost 125.034 + -566.062 = -441.028 over 154 frames.
+Ho_source_2_S_1_20 他 特別 留意 看 天氣 預報 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_1_3, best cost 138.559 + -641.12 = -502.561 over 175 frames.
+Ho_source_2_S_1_3 他 在 禮堂 主持 開幕 典禮 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_1_4, best cost 128.37 + -630.339 = -501.968 over 164 frames.
+Ho_source_2_S_1_4 這家書店 今天 正式 營業 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_1_5, best cost 130.194 + -651.907 = -521.713 over 163 frames.
+Ho_source_2_S_1_5 這群 訪客 都 戴著 識別證 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_1_6, best cost 151.099 + -706.88 = -555.781 over 186 frames.
+Ho_source_2_S_1_6 今年 夏天 他 剃 了 個 光頭 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_1_7, best cost 130.217 + -613.918 = -483.701 over 155 frames.
+Ho_source_2_S_1_7 她 聽 到 這個 消息 很 傷心 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_1_8, best cost 141.815 + -664.677 = -522.862 over 170 frames.
+Ho_source_2_S_1_8 他 在 扭傷 的 腳 上 敷 冰塊 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_1_9, best cost 129.253 + -616.382 = -487.129 over 159 frames.
+Ho_source_2_S_1_9 這兩個 寺廟 的 香火 很盛 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_2_1, best cost 137.392 + -654.968 = -517.576 over 171 frames.
+Ho_source_2_S_2_1 我 昨天 沒能 參加 招待會 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_2_10, best cost 136.824 + -631.184 = -494.36 over 167 frames.
+Ho_source_2_S_2_10 她 為 你 的 考試 成績 擔心 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_2_11, best cost 128.891 + -604.615 = -475.724 over 152 frames.
+Ho_source_2_S_2_11 大多 數 北方 人 愛吃 餃子 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_2_12, best cost 129.942 + -617.88 = -487.938 over 163 frames.
+Ho_source_2_S_2_12 聖誕節 前 信箱 塞滿 賀卡 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_2_13, best cost 131.089 + -619.099 = -488.01 over 162 frames.
+Ho_source_2_S_2_13 這個 房間裡 的 燈光 很 暗 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_2_14, best cost 128.886 + -614.919 = -486.033 over 159 frames.
+Ho_source_2_S_2_14 外面 的 氣溫 是 零下 十度 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_2_15, best cost 137.035 + -638.405 = -501.371 over 168 frames.
+Ho_source_2_S_2_15 他 穿 了 一件 灰 格子 上衣 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_2_16, best cost 138.042 + -701.067 = -563.026 over 172 frames.
+Ho_source_2_S_2_16 他 裝修 房子 花 了 三萬塊 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_2_17, best cost 135.678 + -661.018 = -525.34 over 168 frames.
+Ho_source_2_S_2_17 學音樂 的 人 需要 些 天賦 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_2_18, best cost 132.625 + -656.223 = -523.597 over 164 frames.
+Ho_source_2_S_2_18 大家 有事 都 愛找 他 商量 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_2_19, best cost 124.054 + -588.752 = -464.698 over 151 frames.
+Ho_source_2_S_2_19 一大早 他 就 在 外面 掃地 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_2_2, best cost 134 + -639.853 = -505.854 over 163 frames.
+Ho_source_2_S_2_2 我 忘 了 把 參考書 帶給 你 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_2_20, best cost 145.852 + -594.519 = -448.666 over 176 frames.
+Ho_source_2_S_2_20 你 出門 時 別 忘 了 帶 鑰匙 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_2_3, best cost 113.269 + -553.038 = -439.769 over 135 frames.
+Ho_source_2_S_2_3 讓 我們 約 個 時間 見面 吧 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_2_4, best cost 131.991 + -622.779 = -490.787 over 160 frames.
+Ho_source_2_S_2_4 我 想 和 您 討論 那個 計劃 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_2_5, best cost 141.709 + -620.895 = -479.186 over 171 frames.
+Ho_source_2_S_2_5 我 有事 要 和 你們 經理 談 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_2_6, best cost 149.271 + -688.309 = -539.038 over 187 frames.
+Ho_source_2_S_2_6 我要 搭乘 本週 五 的 飛機 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_2_7, best cost 123.48 + -583.291 = -459.81 over 152 frames.
+Ho_source_2_S_2_7 我要 預訂 三個 人 的 座位 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_2_8, best cost 128.234 + -623.252 = -495.018 over 158 frames.
+Ho_source_2_S_2_8 把 這張 卡片 填好 交給 我 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_2_9, best cost 130.188 + -612.903 = -482.715 over 163 frames.
+Ho_source_2_S_2_9 每個 人 需要 付十塊 台幣 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_3_1, best cost 143.126 + -648.739 = -505.613 over 180 frames.
+Ho_source_2_S_3_1 他 一口 氣喝 了 三碗 豆漿 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_3_10, best cost 132.68 + -615.242 = -482.562 over 162 frames.
+Ho_source_2_S_3_10 這次 英語 考試 我 很 緊張 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_3_11, best cost 119.802 + -580.496 = -460.693 over 144 frames.
+Ho_source_2_S_3_11 他 正在 四處 找 那 張 收據 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_3_12, best cost 133.699 + -671.745 = -538.046 over 166 frames.
+Ho_source_2_S_3_12 今晚 我們 合唱團 要 彩排 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_3_13, best cost 123.02 + -664.491 = -541.472 over 152 frames.
+Ho_source_2_S_3_13 明天 我們 中學 同學 聚會 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_3_14, best cost 135.338 + -655.257 = -519.919 over 166 frames.
+Ho_source_2_S_3_14 我們 都 願意 選 他 作班長 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_3_15, best cost 142.239 + -665.731 = -523.492 over 175 frames.
+Ho_source_2_S_3_15 這個 老師 的 課 很 受 歡迎 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_3_16, best cost 137.019 + -651.497 = -514.478 over 174 frames.
+Ho_source_2_S_3_16 大家 晚上 睡覺 要點 蚊香 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_3_17, best cost 131.931 + -642.128 = -510.197 over 165 frames.
+Ho_source_2_S_3_17 他們 是 籃球 校隊 的 隊員 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_3_18, best cost 147.521 + -622.823 = -475.302 over 167 frames.
+Ho_source_2_S_3_18 他 參加 學校 的 唱歌 比賽 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_3_19, best cost 130.541 + -624.439 = -493.899 over 154 frames.
+Ho_source_2_S_3_19 她 每天 都 在 聽 英語 廣播 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_3_2, best cost 116.983 + -615.002 = -498.018 over 147 frames.
+Ho_source_2_S_3_2 他 好不容易 借到 五萬元 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_3_20, best cost 123.135 + -579.576 = -456.441 over 149 frames.
+Ho_source_2_S_3_20 他 特別 喜歡 看 足球 比賽 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_3_3, best cost 133.506 + -668.183 = -534.677 over 165 frames.
+Ho_source_2_S_3_3 公園裡 有 很多 人 放風箏 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_3_4, best cost 142.734 + -664.339 = -521.606 over 174 frames.
+Ho_source_2_S_3_4 她 的 腳 被 汽車門 夾傷 了 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_3_5, best cost 121.942 + -579.697 = -457.755 over 148 frames.
+Ho_source_2_S_3_5 他 的 工作 經驗 十分 豐富 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_3_6, best cost 125.949 + -602.986 = -477.038 over 155 frames.
+Ho_source_2_S_3_6 他 今天 覺得 有點 不 舒服 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_3_7, best cost 127.16 + -597.204 = -470.044 over 153 frames.
+Ho_source_2_S_3_7 他 的 職業 是 圖書 管理員 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_3_8, best cost 138.349 + -640.929 = -502.58 over 169 frames.
+Ho_source_2_S_3_8 他 的 行為 讓 大家 很 反感 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_3_9, best cost 145.742 + -656.744 = -511.002 over 167 frames.
+Ho_source_2_S_3_9 今天 的 案子 明天 開庭 宣判 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_4_1, best cost 114.932 + -523.746 = -408.814 over 136 frames.
+Ho_source_2_S_4_1 爸爸 戴 老花 眼鏡 看 報紙 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_4_10, best cost 107.942 + -466.144 = -358.202 over 121 frames.
+Ho_source_2_S_4_10 她 說 昨天 做 了 一個 怪 夢 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_4_11, best cost 130.914 + -620.134 = -489.219 over 160 frames.
+Ho_source_2_S_4_11 他們 都 喜歡 這個 新 老師 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_4_12, best cost 121.122 + -648.487 = -527.365 over 148 frames.
+Ho_source_2_S_4_12 我們 全家 都 喜歡 八寶粥 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_4_13, best cost 125.522 + -605.346 = -479.824 over 155 frames.
+Ho_source_2_S_4_13 他們 會 背誦 李白 的 詩詞 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_4_14, best cost 129.91 + -608.286 = -478.376 over 159 frames.
+Ho_source_2_S_4_14 我 肯定 明天 上午 有 大雨 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_4_15, best cost 124.385 + -521.678 = -397.293 over 138 frames.
+Ho_source_2_S_4_15 他 很 相信 她 的 決策 能力 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_4_16, best cost 117.327 + -527.374 = -410.046 over 137 frames.
+Ho_source_2_S_4_16 我們 的 市長 是 有 遠見 的 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_4_17, best cost 114.648 + -496.685 = -382.037 over 132 frames.
+Ho_source_2_S_4_17 他 會 在 比賽 中 獲得 第一 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_4_18, best cost 124.686 + -602.62 = -477.934 over 149 frames.
+Ho_source_2_S_4_18 他們 在 這家 飯店 等 你 嗎 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_4_19, best cost 130.445 + -603.402 = -472.958 over 159 frames.
+Ho_source_2_S_4_19 我 完全 同意 你們 的 觀點 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_4_2, best cost 132.566 + -574.312 = -441.745 over 158 frames.
+Ho_source_2_S_4_2 這位 醫生 手術 做 得 很 好 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_4_20, best cost 115.415 + -542.188 = -426.773 over 136 frames.
+Ho_source_2_S_4_20 我們 在 看法 上 是 一致 的 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_4_3, best cost 123.502 + -598.339 = -474.837 over 152 frames.
+Ho_source_2_S_4_3 婆婆 今天 炒菜 放多 了 鹽 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_4_4, best cost 122.868 + -545.509 = -422.641 over 143 frames.
+Ho_source_2_S_4_4 他 去 書店 買 了 好 幾本書 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_4_5, best cost 118.276 + -599.952 = -481.675 over 144 frames.
+Ho_source_2_S_4_5 全家人 都 非常 喜歡 吃魚 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_4_6, best cost 117.789 + -518.54 = -400.752 over 140 frames.
+Ho_source_2_S_4_6 她 喜歡 去 麵包店 買 蛋糕 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_4_7, best cost 104.628 + -436.329 = -331.7 over 118 frames.
+Ho_source_2_S_4_7 他 騎車 太快 小心 撞 到 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_4_8, best cost 113.856 + -568.48 = -454.624 over 136 frames.
+LOG (lattice-scale[5.5.646~1-cdf2]:main():lattice-scale.cc:107) Done 319 lattices.
+Ho_source_2_S_4_8 醫院 南邊 有 一個 小花 園 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_4_9, best cost 110.613 + -584.366 = -473.753 over 134 frames.
+Ho_source_2_S_4_9 最近 的 電費 好像 增加 了 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_5_1, best cost 120.934 + -532.488 = -411.554 over 137 frames.
+Ho_source_2_S_5_1 這個 牌子 的 電器 非常 好 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_5_10, best cost 118.255 + -572.436 = -454.18 over 146 frames.
+Ho_source_2_S_5_10 這個 國家 旅遊業 很 發達 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_5_11, best cost 122.681 + -589.148 = -466.468 over 152 frames.
+Ho_source_2_S_5_11 我們 公司 福利待遇 很 好 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_5_12, best cost 119.243 + -539.961 = -420.718 over 138 frames.
+Ho_source_2_S_5_12 大家 對 他 的 演講 很 滿意 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_5_13, best cost 114.941 + -579.276 = -464.335 over 137 frames.
+Ho_source_2_S_5_13 我們 都 在 學習 電腦 打字 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_5_14, best cost 113.008 + -511.067 = -398.059 over 136 frames.
+Ho_source_2_S_5_14 爸爸 的 同事 今天 過 生日 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_5_15, best cost 116.15 + -570.326 = -454.176 over 140 frames.
+Ho_source_2_S_5_15 我 自信 能 獲得 這個 職位 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_5_16, best cost 122.699 + -538.336 = -415.637 over 151 frames.
+Ho_source_2_S_5_16 恐怕 我 真的 不 擅長 讀書 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_5_17, best cost 125.3 + -632.926 = -507.625 over 154 frames.
+Ho_source_2_S_5_17 他們 全家 非常 喜歡 登山 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_5_18, best cost 121.335 + -570.152 = -448.816 over 146 frames.
+Ho_source_2_S_5_18 我 非常 喜歡 明媚 的 春天 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_5_19, best cost 114.187 + -510.333 = -396.146 over 136 frames.
+Ho_source_2_S_5_19 我 買 了 一包 熱帶魚 飼料 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_5_2, best cost 116.958 + -371.743 = -254.785 over 139 frames.
+Ho_source_2_S_5_2 隻 大 狼狗 正在 啃 骨頭 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_5_20, best cost 120.026 + -562.109 = -442.084 over 142 frames.
+Ho_source_2_S_5_20 為什麼 不 接聽 我 的 電話 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_5_3, best cost 108.919 + -496.397 = -387.478 over 129 frames.
+Ho_source_2_S_5_3 貨架上 擺滿 了 各種 水果 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_5_4, best cost 121.792 + -616.216 = -494.424 over 148 frames.
+Ho_source_2_S_5_4 今天 晚上 的 月亮 非常 圓 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_5_5, best cost 107.751 + -508.132 = -400.381 over 130 frames.
+Ho_source_2_S_5_5 她 剛才 講話 時 吞吞吐吐 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_5_6, best cost 121.424 + -578.489 = -457.065 over 145 frames.
+Ho_source_2_S_5_6 全家人 圍 在 一起 包 水餃 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_5_7, best cost 120.018 + -577.146 = -457.128 over 141 frames.
+Ho_source_2_S_5_7 她 盼望 著 能 和 親人 團聚 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_5_8, best cost 113.952 + -544.378 = -430.426 over 138 frames.
+Ho_source_2_S_5_8 辦理 入學 手續 非常 簡單 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_5_9, best cost 130.63 + -650.93 = -520.3 over 165 frames.
+Ho_source_2_S_5_9 買車 可以 申請 銀行 貸款 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_6_1, best cost 135.168 + -683.468 = -548.3 over 168 frames.
+Ho_source_2_S_6_1 我 下午 約 好 朋友 踢足球 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_6_10, best cost 111.986 + -506.01 = -394.024 over 129 frames.
+Ho_source_2_S_6_10 他 幾天 前 配 了 一副 眼鏡 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_6_11, best cost 117.197 + -554.547 = -437.349 over 143 frames.
+Ho_source_2_S_6_11 記者 整夜 工作 趕 截稿 日 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_6_12, best cost 114.501 + -562.946 = -448.446 over 140 frames.
+Ho_source_2_S_6_12 昨天晚上 聚會 他 喝醉 了 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_6_13, best cost 122.724 + -539.295 = -416.571 over 143 frames.
+Ho_source_2_S_6_13 請教 你們 經理 來 接電話 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_6_14, best cost 125.027 + -592.738 = -467.711 over 155 frames.
+Ho_source_2_S_6_14 這個 城市 有 許多 旅遊點 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_6_15, best cost 115.129 + -571.771 = -456.642 over 138 frames.
+Ho_source_2_S_6_15 這個 行業 很 容易 找 工作 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_6_16, best cost 110.226 + -518.065 = -407.839 over 132 frames.
+Ho_source_2_S_6_16 他 對 朋友 一向 很 守信用 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_6_17, best cost 132.512 + -625.026 = -492.514 over 163 frames.
+Ho_source_2_S_6_17 庭院 裡 種 了 一些 向日葵 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_6_18, best cost 124.22 + -570.663 = -446.443 over 147 frames.
+Ho_source_2_S_6_18 夏天 牆上 爬 滿 了 牽牛花 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_6_19, best cost 113.502 + -539.804 = -426.302 over 135 frames.
+Ho_source_2_S_6_19 我 在 口袋 裡 找出 三十 塊 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_6_2, best cost 110.523 + -477.078 = -366.555 over 126 frames.
+Ho_source_2_S_6_2 他 幾乎 每個 月 都 要 出差 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_6_20, best cost 114.555 + -528.462 = -413.907 over 131 frames.
+Ho_source_2_S_6_20 誰 都 喜歡 和 她 一起 工作 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_6_3, best cost 128.67 + -610.414 = -481.744 over 156 frames.
+Ho_source_2_S_6_3 他 最近 好像 掉 了 魂 似的 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_6_4, best cost 127.387 + -642.745 = -515.358 over 151 frames.
+Ho_source_2_S_6_4 我 今晚 要 去 奶奶家 吃 飯 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_6_5, best cost 113.192 + -591.287 = -478.095 over 139 frames.
+Ho_source_2_S_6_5 爸爸 明天 送 外婆 回老家 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_6_6, best cost 114.069 + -516.778 = -402.709 over 133 frames.
+Ho_source_2_S_6_6 退潮 時 他 撿 到 很多 貝殼 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_6_7, best cost 122.466 + -581.672 = -459.206 over 146 frames.
+Ho_source_2_S_6_7 工地 上 有 很多 建築 工人 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_6_8, best cost 120.661 + -574.348 = -453.687 over 147 frames.
+Ho_source_2_S_6_8 他 今天 去 醫院 探望 同事 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_6_9, best cost 97.3032 + -445.76 = -348.457 over 113 frames.
+Ho_source_2_S_6_9 他們 特別 想 去 參觀 故宮 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_7_1, best cost 133.387 + -643.627 = -510.24 over 160 frames.
+Ho_source_2_S_7_1 他 今天 穿 了 一件 緊身 衣 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_7_10, best cost 130.752 + -608.678 = -477.926 over 161 frames.
+Ho_source_2_S_7_10 這件 衣服 冬天 穿 很 合適 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_7_11, best cost 119.191 + -550.062 = -430.871 over 139 frames.
+Ho_source_2_S_7_11 他 倒 了 一杯 水 準備 吃藥 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_7_12, best cost 129.591 + -597.88 = -468.288 over 158 frames.
+Ho_source_2_S_7_12 他 覺得 外國 人名 很 難記 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_7_13, best cost 113.402 + -557.453 = -444.051 over 141 frames.
+Ho_source_2_S_7_13 爸爸LOG (lattice-add-penalty[5.5.646~1-cdf2]:main():lattice-add-penalty.cc:62) Done adding word insertion penalty to 319 lattices.
+ 以前 是 籃球隊 隊員 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_7_14, best cost 120.745 + -595.626 = -474.88 over 147 frames.
+Ho_source_2_S_7_14 醫生 說 他 需要 住院 治療 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_7_15, best cost 129.367 + -607.158 = -477.791 over 158 frames.
+Ho_source_2_S_7_15 電視 上 經常 有 時裝 表演 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_7_16, best cost 126.685 + -571.831 = -445.146 over 146 frames.
+Ho_source_2_S_7_16 他 頭 上 的 傷口 縫 了 七針 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_7_17, best cost 129.423 + -587.998 = -458.575 over 154 frames.
+Ho_source_2_S_7_17 所有 的 小朋友 都 在 吃 飯 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_7_18, best cost 124.963 + -595.389 = -470.426 over 150 frames.
+Ho_source_2_S_7_18 小朋友 都 喜歡 吃 麥當勞 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_7_19, best cost 121.525 + -619.954 = -498.429 over 152 frames.
+Ho_source_2_S_7_19 這個 城市 北邊 是 工業區 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_7_2, best cost 134.562 + -678.52 = -543.958 over 163 frames.
+Ho_source_2_S_7_2 爸爸 每天 晚上 要 看 新聞 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_7_20, best cost 118.665 + -612.07 = -493.405 over 146 frames.
+Ho_source_2_S_7_20 學校 不准 學生 穿 高跟鞋 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_7_3, best cost 115.7 + -552.689 = -436.989 over 135 frames.
+Ho_source_2_S_7_3 他 染上 了 吸煙 的 壞 習慣 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_7_4, best cost 126.915 + -594.603 = -467.688 over 155 frames.
+Ho_source_2_S_7_4 他 辭職 大家 覺得 很 意外 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_7_5, best cost 130.484 + -582.523 = -452.039 over 159 frames.
+Ho_source_2_S_7_5 我 在 桌子 下 看到 一枝 筆 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_7_6, best cost 121.805 + -601.445 = -479.64 over 152 frames.
+Ho_source_2_S_7_6 這個 球隊 終於 打入 決賽 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_7_7, best cost 119.906 + -632.476 = -512.57 over 145 frames.
+Ho_source_2_S_7_7 媽媽 一大早 就 去 上班 了 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_7_8, best cost 127.047 + -665.193 = -538.146 over 160 frames.
+Ho_source_2_S_7_8 爺爺 經常帶 小妹 出去玩 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_7_9, best cost 135.513 + -658.724 = -523.211 over 164 frames.
+Ho_source_2_S_7_9 他們 下 周五 要 開 家長會 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_8_1, best cost 126.903 + -606.687 = -479.783 over 157 frames.
+Ho_source_2_S_8_1 因為 下 大雨 比賽 取消 了 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_8_10, best cost 116.442 + -503.273 = -386.831 over 135 frames.
+Ho_source_2_S_8_10 大伯 的 孩子 們 都 很 孝順 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_8_11, best cost 116.417 + -540.823 = -424.406 over 137 frames.
+Ho_source_2_S_8_11 這個 火車站 有 很多 遊客 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_8_12, best cost 122.427 + -612.511 = -490.084 over 153 frames.
+Ho_source_2_S_8_12 奶奶 會講 好多 恐怖 故事 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_8_13, best cost 117.994 + -568.097 = -450.104 over 141 frames.
+Ho_source_2_S_8_13 鄰居家 經常 有 人 打麻將 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_8_14, best cost 114.126 + -595.538 = -481.412 over 137 frames.
+Ho_source_2_S_8_14 我們 經常 一起 玩 撲克牌 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_8_15, best cost 129.288 + -577.898 = -448.609 over 142 frames.
+Ho_source_2_S_8_15 媽媽 每天 都 幫 我 做 早點 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_8_16, best cost 109.741 + -525.775 = -416.033 over 133 frames.
+Ho_source_2_S_8_16 媽媽 最 喜歡 做 麻婆豆腐 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_8_17, best cost 108.908 + -498.38 = -389.472 over 132 frames.
+Ho_source_2_S_8_17 我 的 姊姊 最喜歡 逛書店 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_8_18, best cost 112.025 + -506.284 = -394.259 over 133 frames.
+Ho_source_2_S_8_18 樓下 的 叔叔 喜歡 聽 歌劇 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_8_19, best cost 122.814 + -617.822 = -495.008 over 151 frames.
+Ho_source_2_S_8_19 廚房裡 最近 發現 有 老鼠 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_8_2, best cost 120.223 + -590.501 = -470.279 over 148 frames.
+Ho_source_2_S_8_2 大家 正在 商量 這個 計劃 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_8_20, best cost 119.993 + -565.254 = -445.262 over 141 frames.
+Ho_source_2_S_8_20 週末 我們 全家 去 看 電影 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_8_3, best cost 121.476 + -579.399 = -457.923 over 144 frames.
+Ho_source_2_S_8_3 他們 都 在 抱怨 物價 上 漲 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_8_4, best cost 131.605 + -660.602 = -528.997 over 158 frames.
+Ho_source_2_S_8_4 我 明天 上午 九點 有 約 會 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_8_5, best cost 116.488 + -548.55 = -432.061 over 138 frames.
+Ho_source_2_S_8_5 那 家 超市 的 東西 不 便宜 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_8_6, best cost 116.923 + -578.045 = -461.122 over 141 frames.
+Ho_source_2_S_8_6 他 的 爸爸 在 大學 教數學 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_8_7, best cost 114.379 + -510.672 = -396.293 over 137 frames.
+Ho_source_2_S_8_7 那家 餐廳 的 包子 很 有名 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_8_8, best cost 134.72 + -613.353 = -478.633 over 170 frames.
+Ho_source_2_S_8_8 他們 部門 春節 放假 五天 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_8_9, best cost 123.839 + -585.413 = -461.574 over 154 frames.
+Ho_source_2_S_8_9 那邊 的 公路 有 交通事故 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_9_1, best cost 128.983 + -586.562 = -457.579 over 156 frames.
+Ho_source_2_S_9_1 放 長假 好多 人 出去 旅遊 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_9_10, best cost 124.359 + -578.67 = -454.311 over 148 frames.
+Ho_source_2_S_9_10 他 買 了 一束 鮮花 送給 她 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_9_11, best cost 117.556 + -614.662 = -497.106 over 148 frames.
+Ho_source_2_S_9_11 今天 出門要 記得 帶雨傘 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_9_12, best cost 126.908 + -616.169 = -489.261 over 151 frames.
+Ho_source_2_S_9_12 樓下 的 小貓 整晚 都 在 叫 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_9_13, best cost 119.324 + -591.258 = -471.935 over 146 frames.
+Ho_source_2_S_9_13 阿姨 送給 我 一包 水果糖 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_9_14, best cost 136.684 + -705.67 = -568.987 over 170 frames.
+Ho_source_2_S_9_14 我 在 星期天 常常 晚 起床 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_9_15, best cost 130.82 + -638.942 = -508.122 over 155 frames.
+Ho_source_2_S_9_15 她 每天 都 要 工作 到 深夜 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_9_16, best cost 131.82 + -684.182 = -552.362 over 161 frames.
+Ho_source_2_S_9_16 老師 很 關心 我們 的 生活 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_9_17, best cost 116.536 + -538.562 = -422.026 over 140 frames.
+Ho_source_2_S_9_17 他 的 幾個 同事 是 電腦迷 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_9_18, best cost 123.473 + -626.696 = -503.223 over 154 frames.
+Ho_source_2_S_9_18 我們 部門 主任 經常 出國 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_9_19, best cost 111.563 + -548.288 = -436.725 over 135 frames.
+Ho_source_2_S_9_19 他 下 星期一 要 參加會議 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_9_2, best cost 115.602 + -578.673 = -463.07 over 143 frames.
+Ho_source_2_S_9_2 平常 應該 注意 個人 衛生 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_9_20, best cost 126.092 + -553.558 = -427.467 over 157 frames.
+Ho_source_2_S_9_20 這部 連續劇 的確 很 無聊 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_9_3, best cost 111.179 + -472.168 = -360.99 over 133 frames.
+Ho_source_2_S_9_3 他 買 了 一本 厚厚的 字典 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_9_4, best cost 114.974 + -544.31 = -429.336 over 137 frames.
+Ho_source_2_S_9_4 公 佈 欄 貼 著 一張 通緝令 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_9_5, best cost 117.196 + -527.432 = -410.236 over 136 frames.
+Ho_source_2_S_9_5 他 每天 上班 都 要 打 領帶 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_9_6, best cost 108.078 + -513.727 = -405.648 over 128 frames.
+Ho_source_2_S_9_6 他 收到 一大 筆 海外 匯款 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_9_7, best cost 130.331 + -603.838 = -473.507 over 153 frames.
+Ho_source_2_S_9_7 那壺 水 已經 開 了 好久 了 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_9_8, best cost 111.28 + -581.254 = -469.973 over 134 frames.
+Ho_source_2_S_9_8 學校 今天 晚上 舉辦 舞會 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:99) For utterance Ho_source_2_S_9_9, best cost 112.941 + -535.87 = -422.929 over 138 frames.
+Ho_source_2_S_9_9 他 被 邀請 參加 畢業 典禮 
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:124) Overall cost per frame is -3.10293 = 0.833226 [graph] + -3.93615 [acoustic] over 46720 frames.
+LOG (lattice-best-path[5.5.646~1-cdf2]:main():lattice-best-path.cc:128) Done 319 lattices, failed for 0
+# Accounting: time=1 threads=1
+# Ended (code 0) at Mon Feb 24 13:55:36 CST 2020, elapsed time 1 seconds

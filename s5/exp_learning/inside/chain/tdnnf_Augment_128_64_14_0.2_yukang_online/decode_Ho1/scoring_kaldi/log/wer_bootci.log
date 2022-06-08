@@ -1,0 +1,6 @@
+# compute-wer-bootci --mode=present ark:exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang_online/decode_Ho1/scoring_kaldi/test_filt.txt ark:exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang_online/decode_Ho1/scoring_kaldi/penalty_1.0/7.txt > exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang_online/decode_Ho1/scoring_kaldi/wer_details/wer_bootci 
+# Started at Mon Feb 24 13:54:49 CST 2020
+#
+compute-wer-bootci --mode=present ark:exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang_online/decode_Ho1/scoring_kaldi/test_filt.txt ark:exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang_online/decode_Ho1/scoring_kaldi/penalty_1.0/7.txt 
+# Accounting: time=1 threads=1
+# Ended (code 0) at Mon Feb 24 13:54:50 CST 2020, elapsed time 1 seconds

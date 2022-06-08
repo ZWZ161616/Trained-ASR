@@ -1,0 +1,4 @@
+compute-wer --text --mode=present ark:exp_learning/inside/DELTA_tri1/decode_DELTA/scoring_kaldi/test_filt.chars.txt ark,p:- 
+%WER 14.87 [ 1835 / 12343, 210 ins, 767 del, 858 sub ]
+%SER 20.88 [ 522 / 2500 ]
+Scored 2500 sentences, 0 not present in hyp.

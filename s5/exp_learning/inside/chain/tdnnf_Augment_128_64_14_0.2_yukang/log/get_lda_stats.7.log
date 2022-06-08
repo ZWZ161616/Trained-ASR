@@ -1,0 +1,11 @@
+# nnet3-chain-acc-lda-stats --rand-prune=4.0 exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/init.raw "ark:nnet3-chain-copy-egs  ark:exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/egs/cegs.7.ark ark:- |" exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/7.lda_stats 
+# Started at Mon Feb 24 04:57:21 CST 2020
+#
+nnet3-chain-acc-lda-stats --rand-prune=4.0 exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/init.raw 'ark:nnet3-chain-copy-egs  ark:exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/egs/cegs.7.ark ark:- |' exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/7.lda_stats 
+nnet3-chain-copy-egs ark:exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/egs/cegs.7.ark ark:- 
+LOG (nnet3-chain-copy-egs[5.5.646~1-cdf2]:main():nnet3-chain-copy-egs.cc:395) Read 48321 neural-network training examples, wrote 48321
+LOG (nnet3-chain-acc-lda-stats[5.5.646~1-cdf2]:main():nnet3-chain-acc-lda-stats.cc:242) Processed 48321 examples.
+LOG (nnet3-chain-acc-lda-stats[5.5.646~1-cdf2]:WriteStats():nnet3-chain-acc-lda-stats.cc:71) Accumulated stats, soft frame count = 821096.  Wrote to exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/7.lda_stats
+LOG (nnet3-chain-acc-lda-stats[5.5.646~1-cdf2]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.148 seconds taken in nnet3 compilation total (breakdown: 0.000312 compilation, 7.61e-05 optimization, 0 shortcut expansion, 4.48e-05 checking, 2.19e-05 computing indexes, 0.148 misc.) + 0 I/O.
+# Accounting: time=49 threads=1
+# Ended (code 0) at Mon Feb 24 04:58:10 CST 2020, elapsed time 49 seconds

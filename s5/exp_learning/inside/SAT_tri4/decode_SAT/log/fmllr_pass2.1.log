@@ -1,0 +1,48 @@
+# lattice-determinize-pruned --acoustic-scale=0.083333 --beam=4.0 "ark:gunzip -c exp_learning/inside/SAT_tri4/decode_SAT/lat.tmp.1.gz|" ark:- | lattice-to-post --acoustic-scale=0.083333 ark:- ark:- | weight-silence-post 0.01 1:2:3:4:5 exp_learning/inside/SAT_tri4/final.mdl ark:- ark:- | gmm-est-fmllr --fmllr-update-type=full --spk2utt=ark:data/inside//split1/1/spk2utt exp_learning/inside/SAT_tri4/final.mdl "ark,s,cs:apply-cmvn  --utt2spk=ark:data/inside//split1/1/utt2spk scp:data/inside//split1/1/cmvn.scp scp:data/inside//split1/1/feats.scp ark:- | splice-feats  ark:- ark:- | transform-feats exp_learning/inside/SAT_tri4/final.mat ark:- ark:- | transform-feats --utt2spk=ark:data/inside//split1/1/utt2spk ark:exp_learning/inside/SAT_tri4/decode_SAT/pre_trans.1 ark:- ark:- |" ark,s,cs:- ark:exp_learning/inside/SAT_tri4/decode_SAT/trans_tmp.1 && compose-transforms --b-is-affine=true ark:exp_learning/inside/SAT_tri4/decode_SAT/trans_tmp.1 ark:exp_learning/inside/SAT_tri4/decode_SAT/pre_trans.1 ark:exp_learning/inside/SAT_tri4/decode_SAT/trans.1 
+# Started at Sat Feb 22 22:14:07 CST 2020
+#
+weight-silence-post 0.01 1:2:3:4:5 exp_learning/inside/SAT_tri4/final.mdl ark:- ark:- 
+lattice-to-post --acoustic-scale=0.083333 ark:- ark:- 
+gmm-est-fmllr --fmllr-update-type=full --spk2utt=ark:data/inside//split1/1/spk2utt exp_learning/inside/SAT_tri4/final.mdl 'ark,s,cs:apply-cmvn  --utt2spk=ark:data/inside//split1/1/utt2spk scp:data/inside//split1/1/cmvn.scp scp:data/inside//split1/1/feats.scp ark:- | splice-feats  ark:- ark:- | transform-feats exp_learning/inside/SAT_tri4/final.mat ark:- ark:- | transform-feats --utt2spk=ark:data/inside//split1/1/utt2spk ark:exp_learning/inside/SAT_tri4/decode_SAT/pre_trans.1 ark:- ark:- |' ark,s,cs:- ark:exp_learning/inside/SAT_tri4/decode_SAT/trans_tmp.1 
+lattice-determinize-pruned --acoustic-scale=0.083333 --beam=4.0 'ark:gunzip -c exp_learning/inside/SAT_tri4/decode_SAT/lat.tmp.1.gz|' ark:- 
+transform-feats exp_learning/inside/SAT_tri4/final.mat ark:- ark:- 
+splice-feats ark:- ark:- 
+transform-feats --utt2spk=ark:data/inside//split1/1/utt2spk ark:exp_learning/inside/SAT_tri4/decode_SAT/pre_trans.1 ark:- ark:- 
+apply-cmvn --utt2spk=ark:data/inside//split1/1/utt2spk scp:data/inside//split1/1/cmvn.scp scp:data/inside//split1/1/feats.scp ark:- 
+LOG (gmm-est-fmllr[5.5.646~1-cdf2]:ComputeFmllrMatrixDiagGmmFull():fmllr-diag-gmm.cc:262) fMLLR objf improvement is 0.230913 per frame over 19530.4 frames.
+LOG (gmm-est-fmllr[5.5.646~1-cdf2]:main():gmm-est-fmllr.cc:143) For speaker CVA_V1_01, auxf-impr from fMLLR is 0.230913, over 19530.4 frames.
+LOG (gmm-est-fmllr[5.5.646~1-cdf2]:ComputeFmllrMatrixDiagGmmFull():fmllr-diag-gmm.cc:262) fMLLR objf improvement is 0.14781 per frame over 14939.3 frames.
+LOG (gmm-est-fmllr[5.5.646~1-cdf2]:main():gmm-est-fmllr.cc:143) For speaker CVA_V1_02, auxf-impr from fMLLR is 0.14781, over 14939.3 frames.
+LOG (gmm-est-fmllr[5.5.646~1-cdf2]:ComputeFmllrMatrixDiagGmmFull():fmllr-diag-gmm.cc:262) fMLLR objf improvement is 0.0184017 per frame over 45104.4 frames.
+LOG (gmm-est-fmllr[5.5.646~1-cdf2]:main():gmm-est-fmllr.cc:143) For speaker CVA_V1_05, auxf-impr from fMLLR is 0.0184017, over 45104.4 frames.
+LOG (gmm-est-fmllr[5.5.646~1-cdf2]:ComputeFmllrMatrixDiagGmmFull():fmllr-diag-gmm.cc:262) fMLLR objf improvement is 0.0729422 per frame over 26940.9 frames.
+LOG (gmm-est-fmllr[5.5.646~1-cdf2]:main():gmm-est-fmllr.cc:143) For speaker CVA_V1_06, auxf-impr from fMLLR is 0.0729422, over 26940.9 frames.
+LOG (gmm-est-fmllr[5.5.646~1-cdf2]:ComputeFmllrMatrixDiagGmmFull():fmllr-diag-gmm.cc:262) fMLLR objf improvement is 0.0428348 per frame over 25960.2 frames.
+LOG (gmm-est-fmllr[5.5.646~1-cdf2]:main():gmm-est-fmllr.cc:143) For speaker CVA_V2_07, auxf-impr from fMLLR is 0.0428348, over 25960.2 frames.
+LOG (gmm-est-fmllr[5.5.646~1-cdf2]:ComputeFmllrMatrixDiagGmmFull():fmllr-diag-gmm.cc:262) fMLLR objf improvement is 0.0398142 per frame over 28786.8 frames.
+LOG (gmm-est-fmllr[5.5.646~1-cdf2]:main():gmm-est-fmllr.cc:143) For speaker ChangM, auxf-impr from fMLLR is 0.0398142, over 28786.8 frames.
+LOG (gmm-est-fmllr[5.5.646~1-cdf2]:ComputeFmllrMatrixDiagGmmFull():fmllr-diag-gmm.cc:262) fMLLR objf improvement is 0.0246356 per frame over 100241 frames.
+LOG (gmm-est-fmllr[5.5.646~1-cdf2]:main():gmm-est-fmllr.cc:143) For speaker ChouCJ, auxf-impr from fMLLR is 0.0246356, over 100241 frames.
+LOG (gmm-est-fmllr[5.5.646~1-cdf2]:ComputeFmllrMatrixDiagGmmFull():fmllr-diag-gmm.cc:262) fMLLR objf improvement is 0.0161044 per frame over 83532.8 frames.
+LOG (gmm-est-fmllr[5.5.646~1-cdf2]:main():gmm-est-fmllr.cc:143) For speaker FangBZ, auxf-impr from fMLLR is 0.0161044, over 83532.9 frames.
+LOG (gmm-est-fmllr[5.5.646~1-cdf2]:ComputeFmllrMatrixDiagGmmFull():fmllr-diag-gmm.cc:262) fMLLR objf improvement is 0.0100334 per frame over 62441.2 frames.
+LOG (gmm-est-fmllr[5.5.646~1-cdf2]:main():gmm-est-fmllr.cc:143) For speaker Ho, auxf-impr from fMLLR is 0.0100334, over 62441.2 frames.
+LOG (gmm-est-fmllr[5.5.646~1-cdf2]:ComputeFmllrMatrixDiagGmmFull():fmllr-diag-gmm.cc:262) fMLLR objf improvement is 0.011481 per frame over 122463 frames.
+LOG (gmm-est-fmllr[5.5.646~1-cdf2]:main():gmm-est-fmllr.cc:143) For speaker HsuSZ, auxf-impr from fMLLR is 0.011481, over 122463 frames.
+LOG (lattice-determinize-pruned[5.5.646~1-cdf2]:main():lattice-determinize-pruned.cc:159) Average input-lattice depth (measured at at state level) is 6.57887, output depth is 1.09327, over 826498 frames  (average num-frames = 330.599).
+LOG (lattice-determinize-pruned[5.5.646~1-cdf2]:main():lattice-determinize-pruned.cc:164) Done 2500 lattices, determinization finished earlier than specified by the beam (or output was empty) on 0 of these.
+LOG (lattice-to-post[5.5.646~1-cdf2]:main():lattice-to-post.cc:106) Overall average log-like/frame is -3.27234 over 826498 frames.  Average acoustic like/frame is -3.1969
+LOG (lattice-to-post[5.5.646~1-cdf2]:main():lattice-to-post.cc:110) Done 2500 lattices.
+LOG (weight-silence-post[5.5.646~1-cdf2]:main():weight-silence-post.cc:95) Done 2500 posteriors.
+LOG (apply-cmvn[5.5.646~1-cdf2]:main():apply-cmvn.cc:162) Applied cepstral mean normalization to 2500 utterances, errors on 0
+LOG (transform-feats[5.5.646~1-cdf2]:main():transform-feats.cc:158) Overall average [pseudo-]logdet is -96.1658 over 826498 frames.
+LOG (transform-feats[5.5.646~1-cdf2]:main():transform-feats.cc:161) Applied transform to 2500 utterances; 0 had errors.
+LOG (transform-feats[5.5.646~1-cdf2]:main():transform-feats.cc:158) Overall average logdet is 3.60112 over 826498 frames.
+LOG (transform-feats[5.5.646~1-cdf2]:main():transform-feats.cc:161) Applied transform to 2500 utterances; 0 had errors.
+LOG (gmm-est-fmllr[5.5.646~1-cdf2]:ComputeFmllrMatrixDiagGmmFull():fmllr-diag-gmm.cc:262) fMLLR objf improvement is 0.10678 per frame over 22284.9 frames.
+LOG (gmm-est-fmllr[5.5.646~1-cdf2]:main():gmm-est-fmllr.cc:143) For speaker Wang, auxf-impr from fMLLR is 0.10678, over 22284.9 frames.
+LOG (gmm-est-fmllr[5.5.646~1-cdf2]:main():gmm-est-fmllr.cc:188) Done 2500 files, 0 with no posts, 0 with other errors.
+LOG (gmm-est-fmllr[5.5.646~1-cdf2]:main():gmm-est-fmllr.cc:190) Overall fMLLR auxf impr per frame is 0.0362136 over 552226 frames.
+compose-transforms --b-is-affine=true ark:exp_learning/inside/SAT_tri4/decode_SAT/trans_tmp.1 ark:exp_learning/inside/SAT_tri4/decode_SAT/pre_trans.1 ark:exp_learning/inside/SAT_tri4/decode_SAT/trans.1 
+# Accounting: time=31 threads=1
+# Ended (code 0) at Sat Feb 22 22:14:38 CST 2020, elapsed time 31 seconds

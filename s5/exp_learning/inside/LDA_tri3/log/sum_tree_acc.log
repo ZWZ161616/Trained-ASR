@@ -1,0 +1,7 @@
+# sum-tree-stats exp_learning/inside/LDA_tri3/treeacc exp_learning/inside/LDA_tri3/1.treeacc exp_learning/inside/LDA_tri3/2.treeacc exp_learning/inside/LDA_tri3/3.treeacc exp_learning/inside/LDA_tri3/4.treeacc exp_learning/inside/LDA_tri3/5.treeacc exp_learning/inside/LDA_tri3/6.treeacc exp_learning/inside/LDA_tri3/7.treeacc exp_learning/inside/LDA_tri3/8.treeacc 
+# Started at Sat Feb 22 11:47:47 CST 2020
+#
+sum-tree-stats exp_learning/inside/LDA_tri3/treeacc exp_learning/inside/LDA_tri3/1.treeacc exp_learning/inside/LDA_tri3/2.treeacc exp_learning/inside/LDA_tri3/3.treeacc exp_learning/inside/LDA_tri3/4.treeacc exp_learning/inside/LDA_tri3/5.treeacc exp_learning/inside/LDA_tri3/6.treeacc exp_learning/inside/LDA_tri3/7.treeacc exp_learning/inside/LDA_tri3/8.treeacc 
+LOG (sum-tree-stats[5.5.646~1-cdf2]:main():sum-tree-stats.cc:88) Wrote summed accs ( 17522 individual stats)
+# Accounting: time=2 threads=1
+# Ended (code 0) at Sat Feb 22 11:47:50 CST 2020, elapsed time 2 seconds

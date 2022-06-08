@@ -1,0 +1,10 @@
+# cat exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang_online/decode_Ho2/scoring_kaldi/penalty_0.5/8.txt | align-text --special-symbol='***' ark:exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang_online/decode_Ho2/scoring_kaldi/test_filt.txt ark:- ark,t:- | utils/scoring/wer_per_utt_details.pl --special-symbol '***' | tee exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang_online/decode_Ho2/scoring_kaldi/wer_details/per_utt | utils/scoring/wer_per_spk_details.pl data/Ho2/iv_nopitch/utt2spk > exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang_online/decode_Ho2/scoring_kaldi/wer_details/per_spk 
+# Started at Mon Feb 24 13:55:38 CST 2020
+#
+align-text '--special-symbol=***' ark:exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang_online/decode_Ho2/scoring_kaldi/test_filt.txt ark:- ark,t:- 
+LOG (align-text[5.5.646~1-cdf2]:main():align-text.cc:135) Done 319 sentences, failed for 0
+utils/scoring/wer_per_utt_details.pl: Note: handling as utf-8 text
+utils/scoring/wer_per_spk_details.pl: Note: handling as utf-8 text
+utils/scoring/wer_per_spk_details.pl: Note: handling as utf-8 text
+# Accounting: time=1 threads=1
+# Ended (code 0) at Mon Feb 24 13:55:39 CST 2020, elapsed time 1 seconds

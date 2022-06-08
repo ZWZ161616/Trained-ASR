@@ -1,0 +1,6 @@
+# compute-wer-bootci --mode=present ark:exp_learning/inside/LDA_tri3/decode_LDA/scoring_kaldi/test_filt.chars.txt ark:exp_learning/inside/LDA_tri3/decode_LDA/scoring_kaldi/penalty_0.0/14.chars.txt > exp_learning/inside/LDA_tri3/decode_LDA/scoring_kaldi/cer_details/cer_bootci 
+# Started at Sat Feb 22 13:27:44 CST 2020
+#
+compute-wer-bootci --mode=present ark:exp_learning/inside/LDA_tri3/decode_LDA/scoring_kaldi/test_filt.chars.txt ark:exp_learning/inside/LDA_tri3/decode_LDA/scoring_kaldi/penalty_0.0/14.chars.txt 
+# Accounting: time=13 threads=1
+# Ended (code 0) at Sat Feb 22 13:28:02 CST 2020, elapsed time 13 seconds

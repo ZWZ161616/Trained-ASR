@@ -1,0 +1,4 @@
+compute-wer --text --mode=present ark:exp_learning/inside/mono/decode_mono/scoring_kaldi/test_filt.chars.txt ark,p:- 
+%WER 44.78 [ 5527 / 12343, 364 ins, 1218 del, 3945 sub ]
+%SER 56.80 [ 1420 / 2500 ]
+Scored 2500 sentences, 0 not present in hyp.

@@ -1,0 +1,7 @@
+# sum-tree-stats exp_learning/inside/nnet3/tri4_biphone_tree/treeacc exp_learning/inside/nnet3/tri4_biphone_tree/1.treeacc exp_learning/inside/nnet3/tri4_biphone_tree/2.treeacc exp_learning/inside/nnet3/tri4_biphone_tree/3.treeacc exp_learning/inside/nnet3/tri4_biphone_tree/4.treeacc exp_learning/inside/nnet3/tri4_biphone_tree/5.treeacc exp_learning/inside/nnet3/tri4_biphone_tree/6.treeacc exp_learning/inside/nnet3/tri4_biphone_tree/7.treeacc exp_learning/inside/nnet3/tri4_biphone_tree/8.treeacc 
+# Started at Mon Feb 24 04:45:57 CST 2020
+#
+sum-tree-stats exp_learning/inside/nnet3/tri4_biphone_tree/treeacc exp_learning/inside/nnet3/tri4_biphone_tree/1.treeacc exp_learning/inside/nnet3/tri4_biphone_tree/2.treeacc exp_learning/inside/nnet3/tri4_biphone_tree/3.treeacc exp_learning/inside/nnet3/tri4_biphone_tree/4.treeacc exp_learning/inside/nnet3/tri4_biphone_tree/5.treeacc exp_learning/inside/nnet3/tri4_biphone_tree/6.treeacc exp_learning/inside/nnet3/tri4_biphone_tree/7.treeacc exp_learning/inside/nnet3/tri4_biphone_tree/8.treeacc 
+LOG (sum-tree-stats[5.5.646~1-cdf2]:main():sum-tree-stats.cc:88) Wrote summed accs ( 4380 individual stats)
+# Accounting: time=1 threads=1
+# Ended (code 0) at Mon Feb 24 04:45:58 CST 2020, elapsed time 1 seconds

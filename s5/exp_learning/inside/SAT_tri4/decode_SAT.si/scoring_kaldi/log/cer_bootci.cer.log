@@ -1,0 +1,6 @@
+# compute-wer-bootci --mode=present ark:exp_learning/inside/SAT_tri4/decode_SAT.si/scoring_kaldi/test_filt.chars.txt ark:exp_learning/inside/SAT_tri4/decode_SAT.si/scoring_kaldi/penalty_0.0/14.chars.txt > exp_learning/inside/SAT_tri4/decode_SAT.si/scoring_kaldi/cer_details/cer_bootci 
+# Started at Sat Feb 22 21:21:14 CST 2020
+#
+compute-wer-bootci --mode=present ark:exp_learning/inside/SAT_tri4/decode_SAT.si/scoring_kaldi/test_filt.chars.txt ark:exp_learning/inside/SAT_tri4/decode_SAT.si/scoring_kaldi/penalty_0.0/14.chars.txt 
+# Accounting: time=7 threads=1
+# Ended (code 0) at Sat Feb 22 21:21:21 CST 2020, elapsed time 7 seconds

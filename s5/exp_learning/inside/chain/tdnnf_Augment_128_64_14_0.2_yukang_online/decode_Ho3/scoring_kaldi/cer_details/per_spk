@@ -1,0 +1,5 @@
+SPEAKER         id       #SENT      #WORD       Corr        Sub        Ins        Del        Err      S.Err
+Ho              raw        320       3186       3117         64         12          5         81         55
+Ho              sys        320       3186      97.83       2.01       0.38       0.16       2.54      17.19
+SUM             raw        320       3186       3117         64         12          5         81         55
+SUM             sys        320       3186      97.83       2.01       0.38       0.16       2.54      17.19

@@ -1,0 +1,7 @@
+# set -o pipefail && ali-to-phones --write-lengths=true exp_learning/inside/DELTA3_tri2_ali/final.mdl "ark:gunzip -c exp_learning/inside/DELTA3_tri2_ali/ali.4.gz|" ark,t:- | sed -E "s/^[^ ]+ //" | awk 'BEGIN{FS=" ; "; OFS="\n";} {print "begin " $1; if (NF>1) print "end " $NF; for (n=1;n<=NF;n++) print "all " $n; }' | sort | uniq -c | gzip -c > exp_learning/inside/DELTA3_tri2_ali/phone_stats.4.gz 
+# Started at Sat Feb 22 11:44:26 CST 2020
+#
+ali-to-phones --write-lengths=true exp_learning/inside/DELTA3_tri2_ali/final.mdl 'ark:gunzip -c exp_learning/inside/DELTA3_tri2_ali/ali.4.gz|' ark,t:- 
+LOG (ali-to-phones[5.5.646~1-cdf2]:main():ali-to-phones.cc:134) Done 18322 utterances.
+# Accounting: time=6 threads=1
+# Ended (code 0) at Sat Feb 22 11:44:33 CST 2020, elapsed time 6 seconds

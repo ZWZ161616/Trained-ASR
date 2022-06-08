@@ -1,0 +1,662 @@
+# online2-wav-nnet3-latgen-faster --do-endpointing=false --frames-per-chunk=20 --extra-left-context-initial=0 --online=true --frame-subsampling-factor=3 --config=exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang_online/conf/online.conf --min-active=200 --max-active=7000 --beam=15.0 --lattice-beam=6.0 --acoustic-scale=1.0 --word-symbol-table=exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/graph/words.txt exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang_online/final.mdl exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/graph/HCLG.fst ark:data/Wang2/iv_nopitch/split1/1/spk2utt "ark,s,cs:wav-copy scp,p:data/Wang2/iv_nopitch/split1/1/wav.scp ark:- |" "ark:|lattice-scale --acoustic-scale=10.0 ark:- ark:- | gzip -c >exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang_online/decode_Wang2/lat.1.gz" 
+# Started at Mon Feb 24 13:52:53 CST 2020
+#
+online2-wav-nnet3-latgen-faster --do-endpointing=false --frames-per-chunk=20 --extra-left-context-initial=0 --online=true --frame-subsampling-factor=3 --config=exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang_online/conf/online.conf --min-active=200 --max-active=7000 --beam=15.0 --lattice-beam=6.0 --acoustic-scale=1.0 --word-symbol-table=exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/graph/words.txt exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang_online/final.mdl exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang/graph/HCLG.fst ark:data/Wang2/iv_nopitch/split1/1/spk2utt 'ark,s,cs:wav-copy scp,p:data/Wang2/iv_nopitch/split1/1/wav.scp ark:- |' 'ark:|lattice-scale --acoustic-scale=10.0 ark:- ark:- | gzip -c >exp_learning/inside/chain/tdnnf_Augment_128_64_14_0.2_yukang_online/decode_Wang2/lat.1.gz' 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:ComputeDerivedVars():ivector-extractor.cc:183) Computing derived variables for iVector extractor
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:ComputeDerivedVars():ivector-extractor.cc:204) Done.
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:RemoveOrphanNodes():nnet-nnet.cc:948) Removed 1 orphan nodes.
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:RemoveOrphanComponents():nnet-nnet.cc:847) Removing 2 orphan components.
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:Collapse():nnet-utils.cc:1472) Added 1 components, removed 2
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:CompileLooped():nnet-compile-looped.cc:345) Spent 0.174315 seconds in looped compilation.
+wav-copy scp,p:data/Wang2/iv_nopitch/split1/1/wav.scp ark:- 
+lattice-scale --acoustic-scale=10.0 ark:- ark:- 
+Wang_Mhint_S2_190919_S2_Wang_1 這學期 學校 有 書法 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_1
+Wang_Mhint_S2_190919_S2_Wang_10 秘書 在 幫 老闆 寫 文件 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_10
+Wang_Mhint_S2_190919_S2_Wang_100 為什麼 不 接聽 我 的 電話 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_100
+Wang_Mhint_S2_190919_S2_Wang_101 我 下午 約 好 朋友 踢足球 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_101
+Wang_Mhint_S2_190919_S2_Wang_102 他 幾乎 每個 月 都 要 出差 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_102
+Wang_Mhint_S2_190919_S2_Wang_103 他 最近 好像 掉 了 魂 似的 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_103
+Wang_Mhint_S2_190919_S2_Wang_104 我 今晚 要 去 奶奶家 吃 飯 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_104
+Wang_Mhint_S2_190919_S2_Wang_105 爸爸 明天 送 外婆 回老家 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_105
+Wang_Mhint_S2_190919_S2_Wang_106 退潮 時 他 撿 到 很多 貝殼 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_106
+Wang_Mhint_S2_190919_S2_Wang_107 工地 上 有 很多 建築 工人 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_107
+Wang_Mhint_S2_190919_S2_Wang_108 他 今天 去 醫院 探望 同事 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_108
+Wang_Mhint_S2_190919_S2_Wang_109 我們 特別 想 去 參觀 故宮 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_109
+Wang_Mhint_S2_190919_S2_Wang_11 我 今年 初一 向 爸爸 拜年 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_11
+Wang_Mhint_S2_190919_S2_Wang_110 他 幾天 前 配 了 一副 眼鏡 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_110
+Wang_Mhint_S2_190919_S2_Wang_111 記者 整夜 工作 趕 截稿 日 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_111
+Wang_Mhint_S2_190919_S2_Wang_112 昨天晚上 聚會 他 喝醉 了 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_112
+Wang_Mhint_S2_190919_S2_Wang_113 請 叫 他們 經理 來 接電話 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_113
+Wang_Mhint_S2_190919_S2_Wang_114 這 個 城市 有 很多 旅遊點 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_114
+Wang_Mhint_S2_190919_S2_Wang_115 這 個 行業 很 容易 找 工作 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_115
+Wang_Mhint_S2_190919_S2_Wang_116 他 對 朋友 一向 很 守信用 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_116
+Wang_Mhint_S2_190919_S2_Wang_117 庭院 裡 種 了 一些 向日葵 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_117
+Wang_Mhint_S2_190919_S2_Wang_118 夏天 牆上 爬 滿 了 牽 牛花 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_118
+Wang_Mhint_S2_190919_S2_Wang_119 我 在 口袋 裡 找出 三十 元 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_119
+Wang_Mhint_S2_190919_S2_Wang_12 我 每天 早上 都 要 喝杯 茶 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_12
+Wang_Mhint_S2_190919_S2_Wang_120 誰 都 喜歡 和 她 一起 工作 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_120
+Wang_Mhint_S2_190919_S2_Wang_121 他 今天 穿 了 一件 緊身 衣 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_121
+Wang_Mhint_S2_190919_S2_Wang_122 爸爸 每天晚上 要 看 新聞 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_122
+Wang_Mhint_S2_190919_S2_Wang_123 他 染上 了 吸煙 的 壞 習慣 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_123
+Wang_Mhint_S2_190919_S2_Wang_124 他 辭職 大家 覺得 很 意外 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_124
+Wang_Mhint_S2_190919_S2_Wang_125 我 在 桌子 下 看到 一枝 筆 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_125
+Wang_Mhint_S2_190919_S2_Wang_126 這 個 球隊 終於 打入 決賽 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_126
+Wang_Mhint_S2_190919_S2_Wang_127 媽媽 一大早 就 去 上班 了 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_127
+Wang_Mhint_S2_190919_S2_Wang_128 爺爺 經常帶 小妹 出去玩 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_128
+Wang_Mhint_S2_190919_S2_Wang_129 他們 下 周五 要 開 家長會 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_129
+Wang_Mhint_S2_190919_S2_Wang_13 他 的 名片 上 有 很多 頭銜 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_13
+Wang_Mhint_S2_190919_S2_Wang_130 這件 衣服 冬天 穿 很 合適 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_130
+Wang_Mhint_S2_190919_S2_Wang_131 他 倒 了 一杯 準備 吃藥 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_131
+Wang_Mhint_S2_190919_S2_Wang_132 他 覺得 外國 人名 很 難記 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_132
+Wang_Mhint_S2_190919_S2_Wang_133 爸爸 以前 是 籃球隊 隊員 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_133
+Wang_Mhint_S2_190919_S2_Wang_134 醫生 說 他 需要 住院 治療 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_134
+Wang_Mhint_S2_190919_S2_Wang_135 電視 上 經常 有 時裝 表演 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_135
+Wang_Mhint_S2_190919_S2_Wang_136 他 頭 上 的 傷口 縫 了 七針 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_136
+Wang_Mhint_S2_190919_S2_Wang_137 所有 的 小朋友 都 在 吃 飯 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_137
+Wang_Mhint_S2_190919_S2_Wang_138 小孩子 都 喜歡 吃 麥當勞 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_138
+Wang_Mhint_S2_190919_S2_Wang_139 這 個 城市 北邊 是 工業區 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_139
+Wang_Mhint_S2_190919_S2_Wang_14 這 個 超市 的 東西 很 便宜 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_14
+Wang_Mhint_S2_190919_S2_Wang_140 學校 不准 學生 穿 高跟鞋 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_140
+Wang_Mhint_S2_190919_S2_Wang_141 因為 下 大雨 比賽 取消 了 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_141
+Wang_Mhint_S2_190919_S2_Wang_142 大家 正在 商量 這個 計劃 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_142
+Wang_Mhint_S2_190919_S2_Wang_143 他們 都 在 抱怨 物價 上 漲 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_143
+Wang_Mhint_S2_190919_S2_Wang_144 我 明天 上午 九點 有 約 會 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_144
+Wang_Mhint_S2_190919_S2_Wang_145 那 家 超市 的 東西 不 便宜 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_145
+Wang_Mhint_S2_190919_S2_Wang_146 他 的 爸爸 在 大學 教數學 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_146
+Wang_Mhint_S2_190919_S2_Wang_147 那家 餐廳 的 包子 很 有名 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_147
+Wang_Mhint_S2_190919_S2_Wang_148 他們 部門 春節 放假 五天 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_148
+Wang_Mhint_S2_190919_S2_Wang_149 那邊 的 公路 有 交通事故 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_149
+Wang_Mhint_S2_190919_S2_Wang_15 我們 喜歡 看 電視 連續劇 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_15
+Wang_Mhint_S2_190919_S2_Wang_150 大伯 的 孩子 們 都 很 孝順 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_150
+Wang_Mhint_S2_190919_S2_Wang_151 這 個 火車站 有 很多 遊客 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_151
+Wang_Mhint_S2_190919_S2_Wang_152 奶奶 會講 好多 恐怖 故事 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_152
+Wang_Mhint_S2_190919_S2_Wang_153 鄰居家 經常 有 人 打麻將 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_153
+Wang_Mhint_S2_190919_S2_Wang_154 我們 經常 一起 玩 撲克牌 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_154
+Wang_Mhint_S2_190919_S2_Wang_155 媽媽 每 天 都 幫 我 做 早點 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_155
+Wang_Mhint_S2_190919_S2_Wang_156 媽媽 最 喜歡 做 麻婆 豆腐 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_156
+Wang_Mhint_S2_190919_S2_Wang_157 我 的 姊姊 最喜歡 逛書店 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_157
+Wang_Mhint_S2_190919_S2_Wang_158 樓下 的 叔叔 喜歡 聽 歌劇 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_158
+Wang_Mhint_S2_190919_S2_Wang_159 廚房 裏 最近 發現 有 老鼠 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_159
+Wang_Mhint_S2_190919_S2_Wang_16 他們 非常 熟悉 中國 歷史 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_16
+Wang_Mhint_S2_190919_S2_Wang_160 週末 我們 全家 去 看 電影 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_160
+Wang_Mhint_S2_190919_S2_Wang_161 她 參加 好多 人 出去 旅遊 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_161
+Wang_Mhint_S2_190919_S2_Wang_162 平常 應該 注意 個 人衛生 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_162
+Wang_Mhint_S2_190919_S2_Wang_163 他 買 了 一本 厚厚的 字典 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_163
+Wang_Mhint_S2_190919_S2_Wang_164 公佈欄 貼 著 一張 通緝令 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_164
+Wang_Mhint_S2_190919_S2_Wang_165 他 每天 上班 都 要 打 領帶 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_165
+Wang_Mhint_S2_190919_S2_Wang_166 他 收到 一 大 筆 海外 匯款 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_166
+Wang_Mhint_S2_190919_S2_Wang_167 那壺 水 已經 開 了 好久 了 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_167
+Wang_Mhint_S2_190919_S2_Wang_168 學校 今天 晚上 舉辦 舞會 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_168
+Wang_Mhint_S2_190919_S2_Wang_169 他 被 學習 參加 畢業 典禮 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_169
+Wang_Mhint_S2_190919_S2_Wang_17 這個 人 看 起來 彬彬 有禮 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_17
+Wang_Mhint_S2_190919_S2_Wang_170 他 買 了 一束 鮮花 送給 她 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_170
+Wang_Mhint_S2_190919_S2_Wang_171 今天 出門要 記得 帶雨傘 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_171
+Wang_Mhint_S2_190919_S2_Wang_172 樓下 的 小貓 整晚 都 在 叫 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_172
+Wang_Mhint_S2_190919_S2_Wang_173 阿姨 送給 我 一包 水果糖 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_173
+Wang_Mhint_S2_190919_S2_Wang_174 我 在 星期天 常常 晚 起床 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_174
+Wang_Mhint_S2_190919_S2_Wang_175 他 每 天 都 要 工作 到 深夜 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_175
+Wang_Mhint_S2_190919_S2_Wang_176 老師 很 關心 我們 的 生活 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_176
+Wang_Mhint_S2_190919_S2_Wang_177 他 的 幾個 同事 是 電腦迷 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_177
+Wang_Mhint_S2_190919_S2_Wang_178 我們 部門 主任 經常 出國 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_178
+Wang_Mhint_S2_190919_S2_Wang_179 他 下 星期一 要 參加會議 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_179
+Wang_Mhint_S2_190919_S2_Wang_18 他 的 臉 上長 了 很多 麻疹 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_18
+Wang_Mhint_S2_190919_S2_Wang_180 這部 連續劇 的確 很 無聊 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_180
+Wang_Mhint_S2_190919_S2_Wang_181 那間 餐廳 吃 早點 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_181
+Wang_Mhint_S2_190919_S2_Wang_182 她 們 家 的 寶寶 剛過 滿月 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_182
+Wang_Mhint_S2_190919_S2_Wang_183 爸爸 去 幫 大家 買電 影票 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_183
+Wang_Mhint_S2_190919_S2_Wang_184 有許 多家 長 接 孩子 放學 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_184
+Wang_Mhint_S2_190919_S2_Wang_185 深夜 聽到 有人 在 彈鋼琴 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_185
+Wang_Mhint_S2_190919_S2_Wang_186 他 今天 帶 了 一條 金項 鍊 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_186
+Wang_Mhint_S2_190919_S2_Wang_187 這 班列 車 因故 被 取消 了 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_187
+Wang_Mhint_S2_190919_S2_Wang_188 今晚 有 棒球賽 實況 轉播 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_188
+Wang_Mhint_S2_190919_S2_Wang_189 我 的 城裡 有 著 跨海 大橋 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_189
+Wang_Mhint_S2_190919_S2_Wang_19 他 今年 七月 要 參 加考 試 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_19
+Wang_Mhint_S2_190919_S2_Wang_190 我們 都 參加 學校 合唱 團 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_190
+Wang_Mhint_S2_190919_S2_Wang_191 我們 每 天 早上 都 要 跑步 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_191
+Wang_Mhint_S2_190919_S2_Wang_192 我 發現 廚房裡 沒 有 鹽 了 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_192
+Wang_Mhint_S2_190919_S2_Wang_193 媽媽 明天 要 去 超市 買油 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_193
+Wang_Mhint_S2_190919_S2_Wang_194 爸爸 今天 買回 一個 西瓜 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_194
+Wang_Mhint_S2_190919_S2_Wang_195 媽媽 做好 飯 等 爸爸 回來 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_195
+Wang_Mhint_S2_190919_S2_Wang_196 他 每 天 都 要 練習 彈鋼琴 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_196
+Wang_Mhint_S2_190919_S2_Wang_197 剛才 聽 到 隔壁家 在 吵架 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_197
+Wang_Mhint_S2_190919_S2_Wang_198 爸爸 不 小心 把 茶 打翻 了 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_198
+Wang_Mhint_S2_190919_S2_Wang_199 媽媽 經常 寄些 錢 給 外婆 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_199
+Wang_Mhint_S2_190919_S2_Wang_2 公司 接到 一 份 國外 訂單 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_2
+Wang_Mhint_S2_190919_S2_Wang_20 他 特別 留意 看 天氣 預報 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_20
+Wang_Mhint_S2_190919_S2_Wang_200 遠遠 的 聽 到 有人 在 唱歌 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_200
+Wang_Mhint_S2_190919_S2_Wang_201 我 爸爸 最喜歡 喝 龍井茶 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_201
+Wang_Mhint_S2_190919_S2_Wang_202 我 剛剛 把 作業 交給 老師 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_202
+Wang_Mhint_S2_190919_S2_Wang_203 我 星期天 去 公園 放風箏 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_203
+Wang_Mhint_S2_190919_S2_Wang_204 我 經常 打電話 給 我 媽媽 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_204
+Wang_Mhint_S2_190919_S2_Wang_205 爸爸 每年 都 送 禮 給 他 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_205
+Wang_Mhint_S2_190919_S2_Wang_206 我們 今天 晚上 要 看球賽 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_206
+Wang_Mhint_S2_190919_S2_Wang_207 他 出門 前 忘 了 關水龍頭 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_207
+Wang_Mhint_S2_190919_S2_Wang_208 她 今天 收到 一個 大 包裹 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_208
+Wang_Mhint_S2_190919_S2_Wang_209 我 昨天晚上 去 聽 演唱 會 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_209
+Wang_Mhint_S2_190919_S2_Wang_21 我 昨天 沒能 參加 招待 會 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_21
+Wang_Mhint_S2_190919_S2_Wang_210 上個 月 很多 人得 了 麻疹 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_210
+Wang_Mhint_S2_190919_S2_Wang_211 她 送給 爸爸 一 隻 防水 錶 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_211
+Wang_Mhint_S2_190919_S2_Wang_212 大家 都 習慣 叫 他 的 腳 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_212
+Wang_Mhint_S2_190919_S2_Wang_213 我們 班 男生 喜歡 踢足球 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_213
+Wang_Mhint_S2_190919_S2_Wang_214 老師 說 下 一節 課 取消 了 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_214
+Wang_Mhint_S2_190919_S2_Wang_215 他 的 錄取 資格 被 取消 了 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_215
+Wang_Mhint_S2_190919_S2_Wang_216 三名 學生 被 學校 開 除了 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_216
+Wang_Mhint_S2_190919_S2_Wang_217 今年 的 聯考 考題 比較 難 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_217
+Wang_Mhint_S2_190919_S2_Wang_218 我們 明天 要 辦 慶祝 晚會 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_218
+Wang_Mhint_S2_190919_S2_Wang_219 我 和 幾個 同學要 去 溜冰 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_219
+Wang_Mhint_S2_190919_S2_Wang_22 我 忘 了 把 參考 書 帶給 你 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_22
+Wang_Mhint_S2_190919_S2_Wang_220 鄰居家 的 小花 貓 很 可愛 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_220
+Wang_Mhint_S2_190919_S2_Wang_221 那裡 森林 春天 要 刮大風 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_221
+Wang_Mhint_S2_190919_S2_Wang_222 這 隻 貓 把 床單 給 抓破 了 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_222
+Wang_Mhint_S2_190919_S2_Wang_223 我 朋友 在 郊區 買 了 房子 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_223
+Wang_Mhint_S2_190919_S2_Wang_224 我 早上 在 火車站 遇到 他 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_224
+Wang_Mhint_S2_190919_S2_Wang_225 我 穿 那套 衣服 特別 合身 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_225
+Wang_Mhint_S2_190919_S2_Wang_226 那 家 超市 最近 在 大 減價 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_226
+Wang_Mhint_S2_190919_S2_Wang_227 我 開會時 碰到 老 同學 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_227
+Wang_Mhint_S2_190919_S2_Wang_228 學校 經常 檢查 宿舍 衛生 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_228
+Wang_Mhint_S2_190919_S2_Wang_229 運動員 在 操場 練習 投籃 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_229
+Wang_Mhint_S2_190919_S2_Wang_23 讓 我們 約 個 時間 見面 吧 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_23
+Wang_Mhint_S2_190919_S2_Wang_230 鄰居家 最近 在 裝修 房子 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_230
+Wang_Mhint_S2_190919_S2_Wang_231 我 十點鐘 去 會議室 開會 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_231
+Wang_Mhint_S2_190919_S2_Wang_232 他們 是 多年 的 老朋友 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_232
+Wang_Mhint_S2_190919_S2_Wang_233 山頂 上 的 積雪 常年 不化 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_233
+Wang_Mhint_S2_190919_S2_Wang_234 她們 姊妹 兩個 是雙 胞胎 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_234
+Wang_Mhint_S2_190919_S2_Wang_235 這 個 寺 廟 是 唐代 的 建築 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_235
+Wang_Mhint_S2_190919_S2_Wang_236 這裡 風景 美 得 像 一幅 畫 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_236
+Wang_Mhint_S2_190919_S2_Wang_237 寄 幾 個 包裹 要 很多 錢 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_237
+Wang_Mhint_S2_190919_S2_Wang_238 媽媽 做好 飯 等 爸爸 回來 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_238
+Wang_Mhint_S2_190919_S2_Wang_239 他 在家 裡幫 媽媽 洗 廁所 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_239
+Wang_Mhint_S2_190919_S2_Wang_24 我 想 和 您 討論 那個 計劃 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_24
+Wang_Mhint_S2_190919_S2_Wang_240 她 今天下午 突然 肚子痛 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_240
+Wang_Mhint_S2_190919_S2_Wang_241 再 十分 鐘火車 就要 開 了 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_241
+Wang_Mhint_S2_190919_S2_Wang_242 哥哥 的 腳長 了 個 大 水泡 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_242
+Wang_Mhint_S2_190919_S2_Wang_243 醫院 大門口 有 很多 花店 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_243
+Wang_Mhint_S2_190919_S2_Wang_244 他們 經常 去 餐廳 吃飯 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_244
+Wang_Mhint_S2_190919_S2_Wang_245 叔叔 家 養 了 一大 缸 金魚 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_245
+Wang_Mhint_S2_190919_S2_Wang_246 他 答應 要 請 我們 喝 喜酒 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_246
+Wang_Mhint_S2_190919_S2_Wang_247 下雨 後 馬 路上 積滿 了 水 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_247
+Wang_Mhint_S2_190919_S2_Wang_248 有人 送給 他 一盒 化妝品 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_248
+Wang_Mhint_S2_190919_S2_Wang_249 今年 國慶日 放 了 幾 天 假 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_249
+Wang_Mhint_S2_190919_S2_Wang_25 我 有事 要 和 你們 經理 談 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_25
+Wang_Mhint_S2_190919_S2_Wang_250 大家 元宵 節要 去 看 燈會 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_250
+Wang_Mhint_S2_190919_S2_Wang_251 她 學校 規定 學生 穿 制服 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_251
+Wang_Mhint_S2_190919_S2_Wang_252 弟弟 非常 喜歡 穿 運動 鞋 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_252
+Wang_Mhint_S2_190919_S2_Wang_253 他 手錶 慢 了 十五 分鐘 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_253
+Wang_Mhint_S2_190919_S2_Wang_254 周末 我 幫媽媽 打 掃 房子 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_254
+Wang_Mhint_S2_190919_S2_Wang_255 她 手上 戴 了 一只 玉手 環 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_255
+Wang_Mhint_S2_190919_S2_Wang_256 我 父母 希望 我 上 醫學院 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_256
+Wang_Mhint_S2_190919_S2_Wang_257 那個 老奶奶 心地 很 善良 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_257
+Wang_Mhint_S2_190919_S2_Wang_258 他 發現 鋼筆 沒有 墨水 了 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_258
+Wang_Mhint_S2_190919_S2_Wang_259 他 喜歡 跟 孩子 們 一起 玩 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_259
+Wang_Mhint_S2_190919_S2_Wang_26 我要 搭乘 本 周五 的 飛機 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_26
+Wang_Mhint_S2_190919_S2_Wang_260 我 替 他 向 老師 請 了 病假 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_260
+Wang_Mhint_S2_190919_S2_Wang_261 他 最近 好像 有什麼 心事 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_261
+Wang_Mhint_S2_190919_S2_Wang_262 他 今天 覺得 頭 昏沉沉 的 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_262
+Wang_Mhint_S2_190919_S2_Wang_263 他 穿 了 一件 粉紅色 外套 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_263
+Wang_Mhint_S2_190919_S2_Wang_264 這 個 公園 有 兩 隻 大熊貓 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_264
+Wang_Mhint_S2_190919_S2_Wang_265 我們 中秋節 一起 去 賞 月 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_265
+Wang_Mhint_S2_190919_S2_Wang_266 這段 公路 被 洪水 沖 毀了 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_266
+Wang_Mhint_S2_190919_S2_Wang_267 他 的 作文 在 比賽 中 獲獎 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_267
+Wang_Mhint_S2_190919_S2_Wang_268 他 買 了 一 大包 五香 瓜子 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_268
+Wang_Mhint_S2_190919_S2_Wang_269 弟弟 拿 了 相機 出去 照相 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_269
+Wang_Mhint_S2_190919_S2_Wang_27 我要 預訂 三個 人 的 座位 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_27
+Wang_Mhint_S2_190919_S2_Wang_270 妹妹 上街 買 了 一 件 洋裝 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_270
+Wang_Mhint_S2_190919_S2_Wang_271 我們 都 笑 他 是 個 膽小鬼 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_271
+Wang_Mhint_S2_190919_S2_Wang_272 我們 幫 他 把 櫃子 搬 上樓 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_272
+Wang_Mhint_S2_190919_S2_Wang_273 這 場 雨 整整 下 了 一 星期 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_273
+Wang_Mhint_S2_190919_S2_Wang_274 花園裡 的 雜草 長 得 很快 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_274
+Wang_Mhint_S2_190919_S2_Wang_275 護士 每天 給 病人 換 床單 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_275
+Wang_Mhint_S2_190919_S2_Wang_276 他 每天 要 幫媽媽 熬 中藥 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_276
+Wang_Mhint_S2_190919_S2_Wang_277 遊客們 都 愛買些 紀念品 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_277
+Wang_Mhint_S2_190919_S2_Wang_278 他們 合伙 開 了 一間 公司 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_278
+Wang_Mhint_S2_190919_S2_Wang_279 他 的 夢 想 是當 一名 記者 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_279
+Wang_Mhint_S2_190919_S2_Wang_28 把 這張 卡片 填好 交給 我 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_28
+Wang_Mhint_S2_190919_S2_Wang_280 這 個 房間 的 電風扇 壞 了 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_280
+Wang_Mhint_S2_190919_S2_Wang_281 他 捐 了 很多 衣物 給災區 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_281
+Wang_Mhint_S2_190919_S2_Wang_282 電視 報導 那裡 發生 地震 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_282
+Wang_Mhint_S2_190919_S2_Wang_283 姊夫 修好 了 那個 收音 機 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_283
+Wang_Mhint_S2_190919_S2_Wang_284 我 把 不用 的 傢 俱 送 人 了 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_284
+Wang_Mhint_S2_190919_S2_Wang_285 我 幫 他 把 雞蛋 放入 冰箱 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_285
+Wang_Mhint_S2_190919_S2_Wang_286 橘黃色 的 燈 顯得 很 溫馨 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_286
+Wang_Mhint_S2_190919_S2_Wang_287 那個 牆 上 掛著 一幅 油畫 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_287
+Wang_Mhint_S2_190919_S2_Wang_288 她 用 抹布 把 桌子 擦乾 淨 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_288
+Wang_Mhint_S2_190919_S2_Wang_289 剛才 有人 打電話 給媽媽 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_289
+Wang_Mhint_S2_190919_S2_Wang_29 每個 人 需要 付十塊 台幣 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_29
+Wang_Mhint_S2_190919_S2_Wang_290 她 的 數學 成績 全班 第一 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_290
+Wang_Mhint_S2_190919_S2_Wang_291 他 有 治 氣喘 的 祖傳 秘方 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_291
+Wang_Mhint_S2_190919_S2_Wang_292 小妹 現在 自己 會 做飯 了 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_292
+Wang_Mhint_S2_190919_S2_Wang_293 清明節 下 了 一天 毛毛雨 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_293
+Wang_Mhint_S2_190919_S2_Wang_294 昨天 他 向 我 借 了 三百 塊 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_294
+Wang_Mhint_S2_190919_S2_Wang_295 廚師 在 節目裡 表演 拉 麵 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_295
+Wang_Mhint_S2_190919_S2_Wang_296 他們 正 樹上 噴灑 農藥 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_296
+Wang_Mhint_S2_190919_S2_Wang_297 交通警察 正在 疏導 人群 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_297
+Wang_Mhint_S2_190919_S2_Wang_298 他 仔細幫 病人 檢查 牙齒 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_298
+Wang_Mhint_S2_190919_S2_Wang_299 草叢裡 有 隻 蟋蟀 在 叫 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_299
+Wang_Mhint_S2_190919_S2_Wang_3 他 在 禮堂 主持 開幕 典禮 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_3
+Wang_Mhint_S2_190919_S2_Wang_30 她 為 你 的 考試 成績 擔心 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_30
+Wang_Mhint_S2_190919_S2_Wang_300 他們 學校 有 很多 留學生 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_300
+Wang_Mhint_S2_190919_S2_Wang_301 小朋友 們 在 看 螞蟻 搬家 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_301
+Wang_Mhint_S2_190919_S2_Wang_302 這 個 池塘 裡 養 了 很多 魚 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_302
+Wang_Mhint_S2_190919_S2_Wang_303 這裡 將要 建 一座 發電廠 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_303
+Wang_Mhint_S2_190919_S2_Wang_304 他 下山 時 被 蛇 咬了一口 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_304
+Wang_Mhint_S2_190919_S2_Wang_305 他 計劃 今年 買 一台 電腦 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_305
+Wang_Mhint_S2_190919_S2_Wang_306 這間 公司 要 招聘 工程師 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_306
+Wang_Mhint_S2_190919_S2_Wang_307 便 依 警察 抓 到 一名 小偷 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_307
+Wang_Mhint_S2_190919_S2_Wang_308 她 是 那座 大樓 的 設計師 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_308
+Wang_Mhint_S2_190919_S2_Wang_309 他們 擺 好 姿勢 準備 拍照 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_309
+Wang_Mhint_S2_190919_S2_Wang_31 大多數 北方人 愛 吃 水餃 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_31
+Wang_Mhint_S2_190919_S2_Wang_310 今天 老師 宣布 提前 放學 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_310
+Wang_Mhint_S2_190919_S2_Wang_311 桌子 上 擺 了 一大 盤 瓜子 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_311
+Wang_Mhint_S2_190919_S2_Wang_312 中國 萬里長城 中外 名聞 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_312
+Wang_Mhint_S2_190919_S2_Wang_313 那片 原始森林 發生 大火 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_313
+Wang_Mhint_S2_190919_S2_Wang_314 棒球 飛過 來 打破 了 窗戶 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_314
+Wang_Mhint_S2_190919_S2_Wang_315 他 的 哥哥 養 了 一群 白鴿 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_315
+Wang_Mhint_S2_190919_S2_Wang_316 她 做 完 功課 才 上床 睡覺 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_316
+Wang_Mhint_S2_190919_S2_Wang_317 一群 孩子 在 那裡 玩 跳 繩 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_317
+Wang_Mhint_S2_190919_S2_Wang_318 這裡 的 風俗 習慣 很 特別 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_318
+Wang_Mhint_S2_190919_S2_Wang_319 他 腰痛 的 老毛病 又 犯 了 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_319
+Wang_Mhint_S2_190919_S2_Wang_32 聖誕節 前 信箱 塞滿 賀卡 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_32
+Wang_Mhint_S2_190919_S2_Wang_320 她 不 小心 把 茶杯 碰翻 了 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_320
+Wang_Mhint_S2_190919_S2_Wang_33 這 個 房間裡 的 燈光 很 暗 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_33
+Wang_Mhint_S2_190919_S2_Wang_34 外面 的 氣溫 是 零下 十度 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_34
+Wang_Mhint_S2_190919_S2_Wang_35 他 穿 了 一件 灰 格子 上衣 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_35
+Wang_Mhint_S2_190919_S2_Wang_36 他 裝修 房子 花 了 三萬塊 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_36
+Wang_Mhint_S2_190919_S2_Wang_37 學音樂 的 人 需要 些 天賦 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_37
+Wang_Mhint_S2_190919_S2_Wang_38 大家 有事 都 愛找 他 商量 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_38
+Wang_Mhint_S2_190919_S2_Wang_39 一大早 他 就 在 外面 掃地 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_39
+Wang_Mhint_S2_190919_S2_Wang_4 這家書店 今天 正式 營業 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_4
+Wang_Mhint_S2_190919_S2_Wang_40 你 出門 時 別 忘 了 帶 鑰匙 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_40
+Wang_Mhint_S2_190919_S2_Wang_41 他 一口 氣 喝 了 三碗 豆漿 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_41
+Wang_Mhint_S2_190919_S2_Wang_42 他 好不容易 借到 五萬元 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_42
+Wang_Mhint_S2_190919_S2_Wang_43 公園裡 有 很多 人 放風箏 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_43
+Wang_Mhint_S2_190919_S2_Wang_44 她 的 腳 被 汽車門 夾傷 了 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_44
+Wang_Mhint_S2_190919_S2_Wang_45 他 的 工作 經驗 十分 豐富 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_45
+Wang_Mhint_S2_190919_S2_Wang_46 他 今天 覺得 有點 不 舒服 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_46
+Wang_Mhint_S2_190919_S2_Wang_47 他 的 職業 是 圖書館員 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_47
+Wang_Mhint_S2_190919_S2_Wang_48 他 的 行為 讓 大家 很 反感 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_48
+Wang_Mhint_S2_190919_S2_Wang_49 這 個 案子 明天 開庭 宣判 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_49
+Wang_Mhint_S2_190919_S2_Wang_5 今年 夏天 他 剃 了 個 光頭 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_5
+Wang_Mhint_S2_190919_S2_Wang_50 這 次 英文 考試 我 很 緊張 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_50
+Wang_Mhint_S2_190919_S2_Wang_51 我 正在 四處 找 那 張 收據 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_51
+Wang_Mhint_S2_190919_S2_Wang_52 今晚 我們 合唱 團要 綵 排 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_52
+Wang_Mhint_S2_190919_S2_Wang_53 明天 我們 中學 同學 聚會 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_53
+Wang_Mhint_S2_190919_S2_Wang_54 我們 都 願意 選 他 作班長 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_54
+Wang_Mhint_S2_190919_S2_Wang_55 這 個 老師 的 課 很 受 歡迎 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_55
+Wang_Mhint_S2_190919_S2_Wang_56 大家 晚上 睡覺 要點 蚊香 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_56
+Wang_Mhint_S2_190919_S2_Wang_57 他們 是 籃球 校隊 的 隊員 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_57
+Wang_Mhint_S2_190919_S2_Wang_58 他 參加 學校 的 歌唱 比賽 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_58
+Wang_Mhint_S2_190919_S2_Wang_59 他 每 天 都 在 聽 英文 廣播 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_59
+Wang_Mhint_S2_190919_S2_Wang_6 這群 訪客 都 戴著 識別證 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_6
+Wang_Mhint_S2_190919_S2_Wang_60 他 特別 喜歡 看 足球 比賽 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_60
+Wang_Mhint_S2_190919_S2_Wang_61 爸爸 戴 老花眼 鏡看 報紙 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_61
+Wang_Mhint_S2_190919_S2_Wang_62 這位 醫生 手術 做 得 很 好 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_62
+Wang_Mhint_S2_190919_S2_Wang_63 婆婆 今天 炒菜 放多 了 鹽 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_63
+Wang_Mhint_S2_190919_S2_Wang_64 他 去 書店 買 了 好 幾本書 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_64
+Wang_Mhint_S2_190919_S2_Wang_65 全家人 都 非常 喜歡 吃 魚 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_65
+Wang_Mhint_S2_190919_S2_Wang_66 她 喜歡 去 麵 包店 買 蛋糕 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_66
+Wang_Mhint_S2_190919_S2_Wang_67 他 騎車 太快 小心 撞 到 人 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_67
+Wang_Mhint_S2_190919_S2_Wang_68 醫院 南邊 有 一個 小花 園 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_68
+Wang_Mhint_S2_190919_S2_Wang_69 最近 的 電費 好像 增加 了 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_69
+Wang_Mhint_S2_190919_S2_Wang_7 她 聽 到 這個 消息 很 傷心 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_7
+Wang_Mhint_S2_190919_S2_Wang_70 她 說 昨天 做 了 一個 怪 夢 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_70
+Wang_Mhint_S2_190919_S2_Wang_71 他們 都 喜歡 這個 新 老師 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_71
+Wang_Mhint_S2_190919_S2_Wang_72 我們 全家 都 喜歡 八寶粥 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_72
+Wang_Mhint_S2_190919_S2_Wang_73 他們 會 背誦 李白 的 詞詩 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_73
+Wang_Mhint_S2_190919_S2_Wang_74 我 肯定 明天 上午 有 大雨 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_74
+Wang_Mhint_S2_190919_S2_Wang_75 我 很 相信 她 的 決策 能力 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_75
+Wang_Mhint_S2_190919_S2_Wang_76 我們 的 市長 是 有 遠 見 的 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_76
+Wang_Mhint_S2_190919_S2_Wang_77 他 在 比賽 中 獲得 第一 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_77
+Wang_Mhint_S2_190919_S2_Wang_78 他們 在 這家 飯店 等 你 嗎 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_78
+Wang_Mhint_S2_190919_S2_Wang_79 我 完全 同意 你們 的 觀點 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_79
+Wang_Mhint_S2_190919_S2_Wang_8 他 在 扭傷 的 腳 上 敷 冰塊 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_8
+Wang_Mhint_S2_190919_S2_Wang_80 我們 在 看法 上 是 一致 的 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_80
+Wang_Mhint_S2_190919_S2_Wang_81 那個 牌子 的 電器 非常 好 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_81
+Wang_Mhint_S2_190919_S2_Wang_82 那 隻 大 狼狗 正在 啃 骨頭 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_82
+Wang_Mhint_S2_190919_S2_Wang_83 貨 架上 擺滿 了 各種 水果 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_83
+Wang_Mhint_S2_190919_S2_Wang_84 今天 晚上 的 月亮 非常 圓 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_84
+Wang_Mhint_S2_190919_S2_Wang_85 她 剛才 講話 時 吞吞吐吐 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_85
+Wang_Mhint_S2_190919_S2_Wang_86 全家人 圍 在 一起 吃 水餃 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_86
+Wang_Mhint_S2_190919_S2_Wang_87 她 盼望 著 能 和 親人 團聚 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_87
+Wang_Mhint_S2_190919_S2_Wang_88 辦理入 學手續 非常 簡單 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_88
+Wang_Mhint_S2_190919_S2_Wang_89 買車 可以 申請 銀行 貸款 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_89
+Wang_Mhint_S2_190919_S2_Wang_9 這兩個 寺廟 的 香火 很盛 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_9
+Wang_Mhint_S2_190919_S2_Wang_90 這 個 國家 旅遊業 很 發達 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_90
+Wang_Mhint_S2_190919_S2_Wang_91 我們 公司 福利待遇 很 好 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_91
+Wang_Mhint_S2_190919_S2_Wang_92 大家 對 他 的 演講 很 滿意 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_92
+Wang_Mhint_S2_190919_S2_Wang_93 我們 都 在 學習 電腦 打字 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_93
+Wang_Mhint_S2_190919_S2_Wang_94 爸爸 的 同事 今天 過生日 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_94
+Wang_Mhint_S2_190919_S2_Wang_95 我 自信 能 獲得 這個 職位 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_95
+Wang_Mhint_S2_190919_S2_Wang_96 恐怕 我 真的 不 擅長 讀書 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_96
+Wang_Mhint_S2_190919_S2_Wang_97 他們 全家 非常 喜歡 登山 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_97
+Wang_Mhint_S2_190919_S2_Wang_98 我 非常 喜歡 明媚 的 春天 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_98
+LOG (wav-copy[5.5.646~1-cdf2]:main():wav-copy.cc:68) Copied 320 wave files
+Wang_Mhint_S2_190919_S2_Wang_99 我 買 了 一包 熱帶魚 飼料 
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:296) Decoded utterance Wang_Mhint_S2_190919_S2_Wang_99
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:Print():online-timing.cc:36) Timing stats: real-time factor was 1.00697 (note: this cannot be less than one.)
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:Print():online-timing.cc:38) Average delay was 0.0244497 seconds.
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:Print():online-timing.cc:42) Percentage of time spent idling was 98.7635
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:Print():online-timing.cc:44) Longest delay was 0.152279 seconds for utterance 'Wang_Mhint_S2_190919_S2_Wang_220'
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:302) Decoded 320 utterances, 0 with errors.
+LOG (online2-wav-nnet3-latgen-faster[5.5.646~1-cdf2]:main():online2-wav-nnet3-latgen-faster.cc:304) Overall likelihood per frame was 2.32495 per frame over 37342 frames.
+LOG (lattice-scale[5.5.646~1-cdf2]:main():lattice-scale.cc:107) Done 320 lattices.
+# Accounting: time=24 threads=1
+# Ended (code 0) at Mon Feb 24 13:53:17 CST 2020, elapsed time 24 seconds

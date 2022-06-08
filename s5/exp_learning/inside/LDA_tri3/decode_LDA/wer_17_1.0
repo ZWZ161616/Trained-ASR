@@ -1,0 +1,4 @@
+compute-wer --text --mode=present ark:exp_learning/inside/LDA_tri3/decode_LDA/scoring_kaldi/test_filt.txt ark,p:- 
+%WER 11.79 [ 888 / 7529, 116 ins, 317 del, 455 sub ]
+%SER 15.04 [ 376 / 2500 ]
+Scored 2500 sentences, 0 not present in hyp.

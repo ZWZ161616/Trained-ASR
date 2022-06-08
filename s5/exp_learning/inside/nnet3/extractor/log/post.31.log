@@ -1,0 +1,18 @@
+# gmm-global-get-post --n=5 --min-post=0.025 exp_learning/inside/nnet3/extractor/final.dubm "ark,s,cs:apply-cmvn-online --config=exp_learning/inside/nnet3/extractor/online_cmvn.conf --spk2utt=ark:data/train/iv_nopitch/split36/31/spk2utt exp_learning/inside/nnet3/extractor/global_cmvn.stats scp:data/train/iv_nopitch/split36/31/feats.scp ark:- | splice-feats --left-context=3 --right-context=3 ark:- ark:- | transform-feats exp_learning/inside/nnet3/extractor/final.mat ark:- ark:- | subsample-feats --n=2 ark:- ark:- |" ark:- | scale-post ark:- 0.2 "ark:|gzip -c >exp_learning/inside/nnet3/extractor/post.31.gz" 
+# Started at Sun Feb 23 20:21:47 CST 2020
+#
+gmm-global-get-post --n=5 --min-post=0.025 exp_learning/inside/nnet3/extractor/final.dubm 'ark,s,cs:apply-cmvn-online --config=exp_learning/inside/nnet3/extractor/online_cmvn.conf --spk2utt=ark:data/train/iv_nopitch/split36/31/spk2utt exp_learning/inside/nnet3/extractor/global_cmvn.stats scp:data/train/iv_nopitch/split36/31/feats.scp ark:- | splice-feats --left-context=3 --right-context=3 ark:- ark:- | transform-feats exp_learning/inside/nnet3/extractor/final.mat ark:- ark:- | subsample-feats --n=2 ark:- ark:- |' ark:- 
+scale-post ark:- 0.2 'ark:|gzip -c >exp_learning/inside/nnet3/extractor/post.31.gz' 
+subsample-feats --n=2 ark:- ark:- 
+transform-feats exp_learning/inside/nnet3/extractor/final.mat ark:- ark:- 
+splice-feats --left-context=3 --right-context=3 ark:- ark:- 
+apply-cmvn-online --config=exp_learning/inside/nnet3/extractor/online_cmvn.conf --spk2utt=ark:data/train/iv_nopitch/split36/31/spk2utt exp_learning/inside/nnet3/extractor/global_cmvn.stats scp:data/train/iv_nopitch/split36/31/feats.scp ark:- 
+LOG (apply-cmvn-online[5.5.646~1-cdf2]:main():apply-cmvn-online.cc:133) Applied online CMVN to 3414 files, or 627385 frames.
+LOG (transform-feats[5.5.646~1-cdf2]:main():transform-feats.cc:158) Overall average [pseudo-]logdet is -120.109 over 627385 frames.
+LOG (transform-feats[5.5.646~1-cdf2]:main():transform-feats.cc:161) Applied transform to 3414 utterances; 0 had errors.
+LOG (subsample-feats[5.5.646~1-cdf2]:main():subsample-feats.cc:115) Processed 3414 feature matrices; 0 with errors.
+LOG (subsample-feats[5.5.646~1-cdf2]:main():subsample-feats.cc:117) Processed 627385 input frames and 314534 output frames.
+LOG (gmm-global-get-post[5.5.646~1-cdf2]:main():gmm-global-get-post.cc:115) Done 3414 files, 0 with errors, average UBM log-likelihood is -45.4797 over 314534 frames.
+LOG (scale-post[5.5.646~1-cdf2]:main():scale-post.cc:79) Done 3414 posteriors;  0 had no scales.
+# Accounting: time=54 threads=1
+# Ended (code 0) at Sun Feb 23 20:22:41 CST 2020, elapsed time 54 seconds

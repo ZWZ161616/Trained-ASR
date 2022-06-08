@@ -1,0 +1,20 @@
+# build-tree --verbose=1 --max-leaves=2500 --cluster-thresh=-1 exp_learning/inside/DELTA_tri1/treeacc data/lang_test_learning/phones/roots.int exp_learning/inside/DELTA_tri1/questions.qst data/lang_test_learning/topo exp_learning/inside/DELTA_tri1/tree 
+# Started at Sat Feb 22 07:14:19 CST 2020
+#
+build-tree --verbose=1 --max-leaves=2500 --cluster-thresh=-1 exp_learning/inside/DELTA_tri1/treeacc data/lang_test_learning/phones/roots.int exp_learning/inside/DELTA_tri1/questions.qst data/lang_test_learning/topo exp_learning/inside/DELTA_tri1/tree 
+LOG (build-tree[5.5.646~1-cdf2]:main():build-tree.cc:104) Number of separate statistics is 18014
+LOG (build-tree[5.5.646~1-cdf2]:BuildTree():build-tree.cc:161) BuildTree: before building trees, map has 73 leaves.
+LOG (build-tree[5.5.646~1-cdf2]:SplitDecisionTree():build-tree-utils.cc:577) DoDecisionTreeSplit: split 2427 times, #leaves now 2500
+LOG (build-tree[5.5.646~1-cdf2]:BuildTree():build-tree.cc:187) Setting clustering threshold to smallest split 6713.75
+VLOG[1] (build-tree[5.5.646~1-cdf2]:BuildTree():build-tree.cc:196) After decision tree split, num-leaves = 2500, like-impr = 3.54559 per frame over 5.01779e+07 frames.
+VLOG[1] (build-tree[5.5.646~1-cdf2]:BuildTree():build-tree.cc:200) Including just phones that were split, improvement is 3.54559 per frame over 5.01779e+07 frames.
+LOG (build-tree[5.5.646~1-cdf2]:BuildTree():build-tree.cc:215) BuildTree: removed 628 leaves.
+VLOG[1] (build-tree[5.5.646~1-cdf2]:ClusterEventMapToNClustersRestrictedByMap():build-tree-utils.cc:914) Number of non-empty clusters in map = 73
+VLOG[1] (build-tree[5.5.646~1-cdf2]:ClusterEventMapToNClustersRestrictedByMap():build-tree-utils.cc:915) Number of non-empty clusters = 1872
+VLOG[1] (build-tree[5.5.646~1-cdf2]:BuildTree():build-tree.cc:256) Objf change due to clustering -0.0628752 per frame.
+VLOG[1] (build-tree[5.5.646~1-cdf2]:BuildTree():build-tree.cc:259) Normalizing over only split phones, this is: -0.0628752 per frame.
+VLOG[1] (build-tree[5.5.646~1-cdf2]:BuildTree():build-tree.cc:262) Num-leaves is now 1872
+WARNING (build-tree[5.5.646~1-cdf2]:main():build-tree.cc:185) Saw no stats for following phones: 2 3 4 5 6 8 9 13 17 18 21 25 27 29 31 33 35 37 39 41 42 45 46 49 50 53 54 57 58 61 62 65 66 69 70 73 74 77 78 80 81 82 85 86 89 90 93 94 96 97 99 101 103 105 107 109 110 112 113 121 129 130 133 134 137 138 141 142 145 146 149 151 153 155 157 159 161 163 165 167 169 170 173 174 177 178 181 182 185 186 189 190 193 194 197 198 201 202 204 205 206 209 210 213 214 217 218 221 223 225 227 229 231 233 235 237 239 241 243 245 246 248 249 253 257 265 267 269 273 287 289 291 293 
+LOG (build-tree[5.5.646~1-cdf2]:main():build-tree.cc:189) Wrote tree
+# Accounting: time=39 threads=1
+# Ended (code 0) at Sat Feb 22 07:14:58 CST 2020, elapsed time 39 seconds
