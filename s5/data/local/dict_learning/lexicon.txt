@@ -1,0 +1,1465 @@
+一	i1 
+一一	i1  i1 
+一些	i1  x i1 e1 
+一件	i1  j i4 a4 nn4 
+一份	i1  f ern4 
+一個	i1  g er0 
+一副	i1  f u4 
+一包	i1  b a1 u1 
+一口	i1  k o3 u3 
+一口氣	i1  k o3 u3  q i4 
+一只	i1  zh ii1 
+一台	i1  t a2 i2 
+一名	i1  m i2 ng2 
+一向	i2  x i4 a4 ng4 
+一大	i1  d a4 
+一大包	i1  d a4  b a1 u1 
+一大早	i1  d a4  z a3 u3 
+一大盤	i1  d a4  p a2 nn2 
+一大筆	i1  d a4  b i3 
+一大缸	i1  d a4  g a1 ng1 
+一天	i1  t i1 a1 nn1 
+一幅	i1  f u2 
+一座	i1  z u4 o4 
+一張	i1  zh a1 ng1 
+一支	i1  zh ii1 
+一星期	i1  x i1 ng1  q i2 
+一本	i1  b ern3 
+一束	i1  sh u4 
+一束花	i1  sh u4  h u1 a1 
+一杯	i1  b e1 i1 
+一枝	i1  zh ii1 
+一條	i1  t i2 a2 u2 
+一盒	i1  h er2 
+一節	i1  j i2 e2 
+一群	i1  q yu2 nn2 
+一致	i2  zh ii4 
+一要	i1  i4 a4 u4 
+一起	i4  q i3 
+一間	i1  j i1 a1 nn1 
+一隻	i1  zh ii1 
+七	q i1 
+七月	q i1  yu4 e4 
+七針	q i1  zh ern1 
+三	s a1 nn1 
+三個	s a1 nn1  g er0 
+三十	s a1 nn1  sh ii2 
+三十元	s a1 nn1  sh ii2  yu2 a2 nn2 
+三名	s a1 nn1  m i2 ng2 
+三百	s a1 nn1  b a3 i3 
+三百元	s a1 nn1  b a3 i3  yu2 a2 nn2 
+三碗	s a1 nn1  u3 a3 nn3 
+三萬	s a1 nn1  u4 a4 nn4 
+三萬塊	s a1 nn1  u4 a4 nn4  k u4 a4 i4 
+上	sh a4 ng4 
+上個	sh a4 ng4  g er0 
+上個月	sh a4 ng4  g er0  yu4 e4 
+上午	sh a4 ng4  u3 
+上床	sh a4 ng4  ch u2 a2 ng2 
+上樓	sh a4 ng4  l o2 u2 
+上漲	sh a4 ng4  zh a3 ng3 
+上爬	sh a4 ng4  p a2 
+上班	sh a4 ng4  b a1 nn1 
+上經	sh a4 ng4  j i1 ng1 
+上街	sh a4 ng4  j i1 e1 
+上衣	sh a4 ng4  i1 
+上長	sh a4 ng4  zh a3 ng3 
+下	x i4 a4 
+下一節	x i4 a4  i1  j i2 e2 
+下下星期	x i4 a4  x i4 a4  x i1 ng1  q i2 
+下午	x i4 a4  u3 
+下山	x i4 a4  sh a1 nn1 
+下雨	x i4 a4  yu3 
+不	b u4 
+不便宜	b u4  b i4 a4 nn4  i2 
+不准	b u4  zh u3 nn3 
+不化	b u4  h u4 a4 
+不接	b u4  j i1 e1 
+不為	b u4  u4 e4 i4 
+不用	b u4  i4 o4 ng4 
+不許	b u4  x yu3 
+中	zh u1 ng1 
+中國	zh u1 ng1  g u2 o2 
+中外	zh u1 ng1  u4 a4 i4 
+中外聞名	zh u1 ng1  u4 a4 i4  u2 nn2  m i2 ng2 
+中學	zh u1 ng1  x yu2 e2 
+中秋	zh u1 ng1  q i1 o1 u1 
+中秋節	zh u1 ng1  q i1 o1 u1  j i2 e2 
+中藥	zh u1 ng1  i4 a4 u4 
+主任	zh u3  rh ern4 
+主持	zh u3  ch ii2 
+久	j i3 o3 u3 
+九點	j i3 o3 u3  d i3 a3 nn3 
+也	i3 e3 
+了	l er0 
+了關	l er0  g u1 a1 nn1 
+事故	sh ii4  g u4 
+五	u3 
+五五	u3  u3 
+五天	u3  t i1 a1 nn1 
+五萬	u3  u4 a4 nn4 
+五萬元	u3  u4 a4 nn4  yu2 a2 nn2 
+五萬塊	u3  u4 a4 nn4  k u4 a4 i4 
+五香	u3  x i1 a1 ng1 
+些	x i1 e1 
+交給	j i1 a1 u1  g e3 i3 
+交通	j i1 a1 u1  t u1 ng1 
+交通事故	j i1 a1 u1  t u1 ng1  sh ii4  g u4 
+交通警察	j i1 a1 u1  t u1 ng1  j i3 ng3  ch a2 
+人	rh ern2 
+人人	rh ern2  rh ern2 
+人名	rh ern2  m i2 ng2 
+人得	rh ern2  d er2 
+人愛吃	rh ern2  a4 i4  ch ii1 
+人放風箏	rh ern2  f a4 ng4  f ng1  zh ng1 
+人群	rh ern2  q yu2 nn2 
+人衛生	rh ern2  u4 e4 i4  sh ng1 
+什麼	sh ern2  m er0 
+今天	j i1 nn1  t i1 a1 nn1 
+今天下午	j i1 nn1  t i1 a1 nn1  x i4 a4  u3 
+今年	j i1 nn1  n i2 a2 nn2 
+今年夏天	j i1 nn1  n i2 a2 nn2  x i4 a4  t i1 a1 nn1 
+今晚	j i1 nn1  u3 a3 nn3 
+仔細	z a3 i3  x i4 
+仔細幫	z a3 i3  x i4  b a1 ng1 
+他	t a1 
+他們	t a1  m ern0 
+他剛	t a1  g a1 ng1 
+他會	t a1  h u4 e4 i4 
+他答	t a1  d a2 
+他裝	t a1  zh u1 a1 ng1 
+他覺	t a1  j yu2 e2 
+他頭	t a1  t o2 u2 
+付	f u4 
+付十塊	f u4  sh ii2  k u4 a4 i4 
+以前	i3  q i2 a2 nn2 
+件	j i4 a4 nn4 
+份	f ern4 
+似的	sh ii4  d er0 
+佈	b u4 
+位	u4 e4 i4 
+住院	zh u4  yu4 a4 nn4 
+作	z u4 o4 
+作文	z u4 o4  u2 nn2 
+作業	z u4 o4  i4 e4 
+作班長	z u4 o4  b a1 nn1  zh a3 ng3 
+你	n i3 
+你們	n i3  m ern0 
+來	l a2 i2 
+依	i1 
+便	b i4 a4 nn4 
+便宜	p i2 a2 nn2  i2 
+便衣	b i4 a4 nn4  i1 
+便衣警察	b i4 a4 nn4  i1  j i3 ng3  ch a2 
+信用	x i4 nn4  i4 o4 ng4 
+信箱	x i4 nn4  x i1 a1 ng1 
+修好	x i1 o1 u1  h a3 u3 
+修房子	x i1 o1 u1  f a2 ng2  z ii0 
+修花	x i1 o1 u1  h u1 a1 
+俱	j yu4 
+個	g er0 
+個人	g er4  rh ern2 
+個膽	g er4  d a3 nn3 
+們	m ern0 
+倒	d a4 u4 
+借	j i4 e4 
+借到	j i4 e4  d a4 u4 
+假	j i3 a3 
+做	z u4 o4 
+做了	z u4 o4  l er0 
+做好	z u4 o4  h a3 u3 
+做完	z u4 o4  u2 a2 nn2 
+做得	z u4 o4  d er2 
+做班長	z u4 o4  b a1 nn1  zh a3 ng3 
+做飯	z u4 o4  f a4 nn4 
+傢	j i1 a1 
+傢俱	j i1 a1  j yu4 
+傷口	sh a1 ng1  k o3 u3 
+傷心	sh a1 ng1  x i1 nn1 
+像	x i4 a4 ng4 
+元	yu2 a2 nn2 
+元宵	yu2 a2 nn2  x i1 a1 u1 
+元宵節	yu2 a2 nn2  x i1 a1 u1  j i2 e2 
+光頭	g u1 a1 ng1  t o2 u2 
+入學	rh u4  x yu2 e2 
+全	q yu2 a2 nn2 
+全家	q yu2 a2 nn2  j i1 a1 
+全家人	q yu2 a2 nn2  j i1 a1  rh ern2 
+全班	q yu2 a2 nn2  b a1 nn1 
+兩	l i3 a3 ng3 
+兩個	l i3 a3 ng3  g er0 
+兩包	l i3 a3 ng3  b a1 u1 
+八寶	b a1  b a3 u3 
+八寶粥	b a1  b a3 u3  zh o1 u1 
+公	g u1 ng1 
+公佈欄	g u1 ng1  b u4  l a2 nn2 
+公司	g u1 ng1  s ii1 
+公園	g u1 ng1  yu2 a2 nn2 
+公園裡	g u1 ng1  yu2 a2 nn2  l i3 
+公路	g u1 ng1  l u4 
+典禮	d i3 a3 nn3  l i3 
+再	z a4 i4 
+冬天	d u1 ng1  t i1 a1 nn1 
+冰塊	b i1 ng1  k u4 a4 i4 
+冰箱	b i1 ng1  x i1 a1 ng1 
+出	ch u1 
+出去	ch u1  q yu4 
+出去玩	ch u1  q yu4  u2 a2 nn2 
+出國	ch u1  g u2 o2 
+出差	ch u1  ch a1 i1 
+出門	ch u1  m ern2 
+出門前	ch u1  m ern2  q i2 a2 nn2 
+出門時	ch u1  m ern2  sh ii2 
+出門要	ch u1  m ern2  i4 a4 u4 
+分鐘	f ern1  zh u1 ng1 
+列車	l i4 e4  ch er1 
+初一	ch u1  i1 
+別	b i2 e2 
+別證	b i2 e2  zh ng4 
+刮	g u1 a1 
+刮大風	g u1 a1  d a4  f ng1 
+到	d a4 u4 
+制服	zh ii4  f u2 
+剃	t i4 
+前	q i2 a2 nn2 
+前配	q i2 a2 nn2  p e4 i4 
+剛	g a1 ng1 
+剛剛	g a1 ng1  g a1 ng1 
+剛才	g a1 ng1  c a2 i2 
+剛過	g a1 ng1  g u4 o4 
+副	f u4 
+劇	j yu4 
+劇的確	j yu4  d er0  q yu4 e4 
+功課	g u1 ng1  k er4 
+加考	j i1 a1  k a3 u3 
+包	b a1 u1 
+包子	b a1 u1  z ii0 
+包店	b a1 u1  d i4 a4 nn4 
+包水	b a1 u1  sh u3 e3 i3 
+包裹	b a1 u1  g u3 o3 
+化	h u4 a4 
+化妝品	h u4 a4  zh u1 a1 ng1  p i3 nn3 
+化妝水	h u4 a4  zh u1 a1 ng1  sh u3 e3 i3 
+北方	b e3 i3  f a1 ng1 
+北方人	b e3 i3  f a1 ng1  rh ern2 
+北邊	b e3 i3  b i1 a1 nn1 
+匯款	h u4 e4 i4  k u3 a3 nn3 
+十	sh ii2 
+十七	sh ii2  q i1 
+十五	sh ii2  u3 
+十五分	sh ii2  u3  f ern1 
+十分	sh ii2  f ern1 
+十分鐘	sh ii2  f ern1  zh u1 ng1 
+十塊	sh ii2  k u4 a4 i4 
+十度	sh ii2  d u4 
+十點	sh ii2  d i3 a3 nn3 
+十點鐘	sh ii2  d i3 a3 nn3  zh u1 ng1 
+南邊	n a2 nn2  b i1 a1 nn1 
+卡片	k a3  p i4 a4 nn4 
+厚厚	h o4 u4  h o4 u4 
+厚厚的	h o4 u4  h o4 u4  d er0 
+原始	yu2 a2 nn2  sh ii3 
+原始森林	yu2 a2 nn2  sh ii3  s ern1  l i2 nn2 
+去	q yu4 
+去會	q yu4  h u4 e4 i4 
+去賞	q yu4  sh a3 ng3 
+參	c a1 nn1 
+參加	c a1 nn1  j i1 a1 
+參加會議	c a1 nn1  j i1 a1  h u4 e4 i4  i4 
+參考	c a1 nn1  k a3 u3 
+參考書	c a1 nn1  k a3 u3  sh u1 
+參觀	c a1 nn1  g u1 a1 nn1 
+又	i4 o4 u4 
+反感	f a3 nn3  g a3 nn3 
+叔叔	sh u1  sh u1 
+取消	q yu3  x i1 a1 u1 
+受	sh o4 u4 
+口	k o3 u3 
+口袋	k o3 u3  d a4 i4 
+只	zh ii3 
+叫	j i4 a4 u4 
+可	k er3 
+可以	k er3  i3 
+可愛	k er3  a4 i4 
+台	t a2 i2 
+台幣	t a2 i2  b i4 
+吃	ch ii1 
+吃藥	ch ii1  i4 a4 u4 
+吃飯	ch ii1  f a4 nn4 
+吃魚	ch ii1  yu2 
+吃麥	ch ii1  m a4 i4 
+各	g er4 
+各種	g er4  zh u3 ng3 
+合伙	h er2  h u3 o3 
+合唱	h er2  ch a4 ng4 
+合唱團	h er2  ch a4 ng4  t u2 a2 nn2 
+合夥	h er2  h u3 o3 
+合身	h er2  sh ern1 
+合適	h er2  sh ii4 
+同事	t u2 ng2  sh ii4 
+同學	t u2 ng2  x yu2 e2 
+同學要	t u2 ng2  x yu2 e2  i4 a4 u4 
+同意	t u2 ng2  i4 
+名	m i2 ng2 
+名片	m i2 ng2  p i4 a4 nn4 
+名片上	m i2 ng2  p i4 a4 nn4  sh a4 ng4 
+名聞	m i2 ng2  u2 nn2 
+吐吐	t u3  t u3 
+向	x i4 a4 ng4 
+向日葵	x i4 a4 ng4  rh ii4  k u2 e2 i2 
+吞吞	t u1 nn1  t u1 nn1 
+吞吞吐吐	t u1 nn1  t u1 nn1  t u3  t u3 
+吧	b a0 
+吵架	ch a3 u3  j i4 a4 
+吸	x i1 
+吸煙	x i1  i1 a1 nn1 
+吸菸	x i1  i1 a1 nn1 
+周	zh o1 u1 
+周五	zh o1 u1  u3 
+周末	zh o1 u1  m o4 
+和	h er2 
+咬	i3 a3 u3 
+咬了	i3 a3 u3  l er0 
+咬了一口	i3 a3 u3  l er0  i1  k o3 u3 
+品	p i3 nn3 
+員	yu2 a2 nn2 
+哥哥	g er1  g er1 
+唐代	t a2 ng2  d a4 i4 
+唱歌	ch a4 ng4  g er1 
+啃	k ern3 
+商量	sh a1 ng1  l i2 a2 ng2 
+善良	sh a4 nn4  l i2 a2 ng2 
+喘	ch u3 a3 nn3 
+喜歡	x i3  h u1 a1 nn1 
+喜酒	x i3  j i3 o3 u3 
+喝	h er1 
+喝杯	h er1  b e1 i1 
+喝醉	h er1  z u4 e4 i4 
+喝龍井	h er1  l u2 ng2  j i3 ng3 
+喝龍井龍井	h er1  l u2 ng2  j i3 ng3  l u2 ng2  j i3 ng3 
+單	d a1 nn1 
+單給	d a1 nn1  g e3 i3 
+嗎	m a0 
+噴灑	p ern1  s a3 
+四處	s ii4  ch u4 
+回	h u2 e2 i2 
+回來	h u2 e2 i2  l a2 i2 
+回回來	h u2 e2 i2  h u2 e2 i2  l a2 i2 
+回老家	h u2 e2 i2  l a3 u3  j i1 a1 
+因故	i1 nn1  g u4 
+因為	i1 nn1  u4 e4 i4 
+國外	g u2 o2  u4 a4 i4 
+國家	g u2 o2  j i1 a1 
+國慶日	g u2 o2  q i4 ng4  rh ii4 
+圍	u2 e2 i2 
+園	yu2 a2 nn2 
+圓	yu2 a2 nn2 
+圖書	t u2  sh u1 
+圖書館員	t u2  sh u1  g u3 a3 nn3  yu2 a2 nn2 
+團	t u2 a2 nn2 
+團聚	t u2 a2 nn2  j yu4 
+團要	t u2 a2 nn2  i4 a4 u4 
+在	z a4 i4 
+在一起	z a4 i4  i4  q i3 
+在家	z a4 i4  j i1 a1 
+在裝	z a4 i4  zh u1 a1 ng1 
+地上	d i4  sh a4 ng4 
+地震	d i4  zh ern4 
+城	ch ng2 
+城中	ch ng2  zh u1 ng1 
+城市	ch ng2  sh ii4 
+城裡	ch ng2  l i3 
+報告	b a4 u4  g a4 u4 
+報導	b a4 u4  d a3 u3 
+報紙	b a4 u4  zh ii3 
+場	ch a3 ng3 
+塊	k u4 a4 i4 
+塞	s a1 i1 
+塞滿	s a1 i1  m a3 nn3 
+塞買	s a1 i1  m a3 i3 
+填好	t i2 a2 nn2  h a3 u3 
+填寫	t i2 a2 nn2  x i3 e3 
+增加	z ng1  j i1 a1 
+墨水	m o4  sh u3 e3 i3 
+壞	h u4 a4 i4 
+壞習慣	h u4 a4 i4  x i2  g u4 a4 nn4 
+壺	h u2 
+夏天	x i4 a4  t i1 a1 nn1 
+外國	u4 a4 i4  g u2 o2 
+外國人	u4 a4 i4  g u2 o2  rh ern2 
+外套	u4 a4 i4  t a4 u4 
+外婆	u4 a4 i4  p o2 
+外聞名	u4 a4 i4  u2 nn2  m i2 ng2 
+外面	u4 a4 i4  m i4 a4 nn4 
+多	d u1 o1 
+多家	d u1 o1  j i1 a1 
+多年	d u1 o1  n i2 a2 nn2 
+夜	i4 e4 
+夢	m ng4 
+夢想	m ng4  x i3 a3 ng3 
+大	d a4 
+大伯	d a4  b o2 
+大包	d a4  b a1 u1 
+大多	d a4  d u1 o1 
+大多數	d a4  d u1 o1  sh u4 
+大學	d a4  x yu2 e2 
+大家	d a4  j i1 a1 
+大年	d a4  n i2 a2 nn2 
+大年初一	d a4  n i2 a2 nn2  ch u1  i1 
+大樓	d a4  l o2 u2 
+大橋	d a4  q i2 a2 u2 
+大減價	d a4  j i3 a3 nn3  j i4 a4 
+大火	d a4  h u3 o3 
+大熊	d a4  x i2 o2 ng2 
+大熊貓	d a4  x i2 o2 ng2  m a1 u1 
+大缸	d a4  g a1 ng1 
+大門	d a4  m ern2 
+大門口	d a4  m ern2  k o3 u3 
+大雨	d a4  yu3 
+大風	d a4  f ng1 
+天	t i1 a1 nn1 
+天氣	t i1 a1 nn1  q i4 
+天賦	t i1 a1 nn1  f u4 
+太	t a4 i4 
+太快	t a4 i4  k u4 a4 i4 
+夾傷	j i1 a1  sh a1 ng1 
+套	t a4 u4 
+奶奶	n a3 i3  n a3 i3 
+奶奶家	n a3 i3  n a3 i3  j i1 a1 
+她	t a1 
+她們	t a1  m ern0 
+好	h a3 u3 
+好不容易	h a3 u3  b u4  rh u2 ng2  i4 
+好久	h a3 u3  j i3 o3 u3 
+好像	h a3 u3  x i4 a4 ng4 
+好吃	h a3 u3  ch ii1 
+好多	h a3 u3  d u1 o1 
+好好	h a3 u3  h a3 u3 
+好幾	h a3 u3  j i3 
+好朋友	h a3 u3  p ng2  i3 o3 u3 
+妹妹	m e4 i4  m e4 i4 
+姊夫	z ii3  f u1 
+姊妹	z ii3  m e4 i4 
+姊姊	z ii3  z ii3 
+姐夫	j i3 e3  f u1 
+姐妹	j i3 e3  m e4 i4 
+姐姐	j i3 e3  j i3 e3 
+姿勢	z ii1  sh ii4 
+婆婆	p o2  p o0 
+媽	m a1 
+媽媽	m a1  m a1 
+子上	z ii0  sh a4 ng4 
+字典	z ii4  d i3 a3 nn3 
+孝順	x i4 a4 u4  sh u4 nn4 
+孩子	h a2 i2  z ii0 
+孩子們	h a2 i2  z ii0  m ern0 
+學	x yu2 e2 
+學入	x yu2 e2  rh u4 
+學手續	x yu2 e2  sh o3 u3  x yu4 
+學期	x yu2 e2  q i2 
+學校	x yu2 e2  x i4 a4 u4 
+學生	x yu2 e2  sh ng1 
+學習	x yu2 e2  x i2 
+學音樂	x yu2 e2  i1 nn1  l er4 
+守信用	sh o3 u3  x i4 nn4  i4 o4 ng4 
+完	u2 a2 nn2 
+完全	u2 a2 nn2  q yu2 a2 nn2 
+完全同意	u2 a2 nn2  q yu2 a2 nn2  t u2 ng2  i4 
+完功	u2 a2 nn2  g u1 ng1 
+客	k er4 
+宣判	x yu1 a1 nn1  p a4 nn4 
+宣布	x yu1 a1 nn1  b u4 
+家	j i1 a1 
+家人	j i1 a1  rh ern2 
+家具	j i1 a1  j yu4 
+家裡	j i1 a1  l i3 
+家長	j i1 a1  zh a3 ng3 
+家長會	j i1 a1  zh a3 ng3  h u4 e4 i4 
+家養	j i1 a1  i3 a3 ng3 
+容易	rh u2 ng2  i4 
+宿舍	s u4  sh er4 
+寄	j i4 
+寄些	j i4  x i1 e1 
+實況	sh ii2  k u4 a4 ng4 
+寫	x i3 e3 
+寶寶	b a3 u3  b a3 u3 
+寶寶剛	b a3 u3  b a3 u3  g a1 ng1 
+寺	s ii4 
+寺廟	s ii4  m i4 a4 u4 
+將要	j i1 a1 ng1  i4 a4 u4 
+對	d u4 e4 i4 
+小	x i3 a3 u3 
+小偷	x i3 a3 u3  t o1 u1 
+小名	x i3 a3 u3  m i2 ng2 
+小妹	x i3 a3 u3  m e4 i4 
+小妹子	x i3 a3 u3  m e4 i4  z ii0 
+小孩子	x i3 a3 u3  h a2 i2  z ii0 
+小心	x i3 a3 u3  x i1 nn1 
+小朋友	x i3 a3 u3  p ng2  i3 o3 u3 
+小花	x i3 a3 u3  h u1 a1 
+小貓	x i3 a3 u3  m a1 u1 
+小鬼	x i3 a3 u3  g u3 e3 i3 
+就	j i4 o4 u4 
+就要	j i4 o4 u4  i4 a4 u4 
+居家	j yu1  j i1 a1 
+山頂	sh a1 nn1  d i3 ng3 
+山頂上	sh a1 nn1  d i3 ng3  sh a4 ng4 
+工人	g u1 ng1  rh ern2 
+工作	g u1 ng1  z u4 o4 
+工地	g u1 ng1  d i4 
+工地上	g u1 ng1  d i4  sh a4 ng4 
+工業區	g u1 ng1  i4 e4  q yu1 
+工程	g u1 ng1  ch ng2 
+工程師	g u1 ng1  ch ng2  sh ii1 
+差	ch a4 
+已	i3 
+已經	i3  j i1 ng1 
+已經開	i3  j i1 ng1  k a1 i1 
+市長	sh ii4  zh a3 ng3 
+希望	x i1  u4 a4 ng4 
+師	sh ii1 
+帶	d a4 i4 
+帶傘	d a4 i4  s a3 nn3 
+帶給	d a4 i4  g e3 i3 
+帶雨傘	d a4 i4  yu3  s a3 nn3 
+常	ch a2 ng2 
+常去	ch a2 ng2  q yu4 
+常常	ch a2 ng2  ch a2 ng2 
+常年	ch a2 ng2  n i2 a2 nn2 
+常有	ch a2 ng2  i3 o3 u3 
+幅	f u2 
+幫	b a1 ng1 
+幫媽媽	b a1 ng1  m a1  m a1 
+幫老	b a1 ng1  l a3 u3 
+平常	p i2 ng2  ch a2 ng2 
+年	n i2 a2 nn2 
+幾	j i3 
+幾乎	j i3  h u1 
+幾個	j i3  g er0 
+幾天	j i3  t i1 a1 nn1 
+幾天前	j i3  t i1 a1 nn1  q i2 a2 nn2 
+幾本	j i3  b ern3 
+幾本書	j i3  b ern3  sh u1 
+床	ch u2 a2 ng2 
+床單	ch u2 a2 ng2  d a1 nn1 
+度	d u4 
+座	z u4 o4 
+座位	z u4 o4  u4 e4 i4 
+庭院	t i2 ng2  yu4 a4 nn4 
+廁所	c er4  s u3 o3 
+廚師	ch u2  sh ii1 
+廚房	ch u2  f a2 ng2 
+廚房裡	ch u2  f a2 ng2  l i3 
+廟	m i4 a4 u4 
+廣播	g u3 a3 ng3  b o1 
+建	j i4 a4 nn4 
+建築	j i4 a4 nn4  zh u4 
+弟弟	d i4  d i0 
+張	zh a1 ng1 
+彈	d a4 nn4 
+彈鋼琴	d a4 nn4  g a1 ng1  q i2 nn2 
+彩	c a3 i3 
+彩排	c a3 i3  p a2 i2 
+彬彬	b i1 nn1  b i1 nn1 
+彬彬有禮	b i1 nn1  b i1 nn1  i3 o3 u3  l i3 
+影票	i3 ng3  p i4 a4 u4 
+影院	i3 ng3  yu4 a4 nn4 
+往	u3 a3 ng3 
+待遇	d a4 i4  yu4 
+很	h ern3 
+很久	h ern3  j i3 o3 u3 
+很傷	h ern3  sh a1 ng1 
+很受	h ern3  sh o4 u4 
+很合適	h ern3  h er2  sh ii4 
+很多	h ern3  d u1 o1 
+很多很多	h ern3  d u1 o1  h ern3  d u1 o1 
+很好	h ern3  h a3 u3 
+很快	h ern3  k u4 a4 i4 
+很特別	h ern3  t er4  b i2 e2 
+很盛	h ern3  sh ng4 
+後	h o4 u4 
+得	d er2 
+心事	x i1 nn1  sh ii4 
+心地	x i1 nn1  d i4 
+忘	u4 a4 ng4 
+快	k u4 a4 i4 
+怪	g u4 a4 i4 
+怪夢	g u4 a4 i4  m ng4 
+恐怕	k u3 ng3  p a4 
+恐怖	k u3 ng3  b u4 
+您	n i2 nn2 
+想	x i3 a3 ng3 
+意外	i4  u4 a4 i4 
+意選	i4  x yu3 a3 nn3 
+愛	a4 i4 
+愛吃	a4 i4  ch ii1 
+愛找	a4 i4  zh a3 u3 
+愛買	a4 i4  m a3 i3 
+愛買些	a4 i4  m a3 i3  x i1 e1 
+慢	m a4 nn4 
+慶祝	q i4 ng4  zh u4 
+應要	i1 ng1  i4 a4 u4 
+應該	i1 ng1  g a1 i1 
+成績	ch ng2  j i1 
+我	u3 o3 
+我們	u3 o3  m ern0 
+我十點	u3 o3  sh ii2  d i3 a3 nn3 
+我十點鐘	u3 o3  sh ii2  d i3 a3 nn3  zh u1 ng1 
+我常去	u3 o3  ch a2 ng2  q yu4 
+我怕	u3 o3  p a4 
+我要	u3 o3  i4 a4 u4 
+截稿	j i2 e2  g a3 u3 
+戴	d a4 i4 
+戴著	d a4 i4  zh u4 
+房子	f a2 ng2  z ii0 
+房間	f a2 ng2  j i1 a1 nn1 
+房間裡	f a2 ng2  j i1 a1 nn1  l i3 
+所	s u3 o3 
+所有	s u3 o3  i3 o3 u3 
+手	sh o3 u3 
+手上	sh o3 u3  sh a4 ng4 
+手環	sh o3 u3  h u2 a2 nn2 
+手續	sh o3 u3  x yu4 
+手術	sh o3 u3  sh u4 
+手錶	sh o3 u3  b i3 a3 u3 
+才	c a2 i2 
+打	d a3 
+打入	d a3  rh u4 
+打字	d a3  z ii4 
+打打	d a3  d a3 
+打掃	d a3  s a3 u3 
+打破	d a3  p o4 
+打翻	d a3  f a1 nn1 
+打電話	d a3  d i4 a4 nn4  h u4 a4 
+打領	d a3  l i3 ng3 
+打領帶	d a3  l i3 ng3  d a4 i4 
+打麻將	d a3  m a2  j i1 a1 ng1 
+扭傷	n i3 o3 u3  sh a1 ng1 
+找	zh a3 u3 
+找出	zh a3 u3  ch u1 
+把	b a3 
+抓	zh u1 a1 
+抓到	zh u1 a1  d a4 u4 
+抓破	zh u1 a1  p o4 
+投籃	t o2 u2  l a2 nn2 
+抱怨	b a4 u4  yu4 a4 nn4 
+抹布	m a1  b u4 
+拉	l a1 
+拉麵	l a1  m i4 a4 nn4 
+拍照	p a1 i1  zh a4 u4 
+招待	zh a1 u1  d a4 i4 
+招待會	zh a1 u1  d a4 i4  h u4 e4 i4 
+招聘	zh a1 u1  p i4 nn4 
+拜年	b a4 i4  n i2 a2 nn2 
+拿	n a2 
+捐	j yu1 a1 nn1 
+掃	s a3 u3 
+掃地	s a3 u3  d er0 
+掉	d i4 a4 u4 
+排	p a2 i2 
+掛	g u4 a4 
+掛著	g u4 a4  zh u4 
+探望	t a4 nn4  u4 a4 ng4 
+接	j i1 e1 
+接到	j i1 e1  d a4 u4 
+接聽	j i1 e1  t i1 ng1 
+接電話	j i1 e1  d i4 a4 nn4  h u4 a4 
+提前	t i2  q i2 a2 nn2 
+換	h u4 a4 nn4 
+換床	h u4 a4 nn4  ch u2 a2 ng2 
+搬	b a1 nn1 
+搬上	b a1 nn1  sh a4 ng4 
+搬家	b a1 nn1  j i1 a1 
+搭乘	d a1  ch ng2 
+撞	zh u4 a4 ng4 
+撞到	zh u4 a4 ng4  d a4 u4 
+撰	zh u4 a4 nn4 
+撰寫	zh u4 a4 nn4  x i3 e3 
+撲克牌	p u1  k er4  p a2 i2 
+撿	j i3 a3 nn3 
+撿到	j i3 a3 nn3  d a4 u4 
+擅長	sh a4 nn4  zh a3 ng3 
+操場	c a1 u1  ch a3 ng3 
+擔心	d a1 nn1  x i1 nn1 
+擦乾	c a1  q i2 a2 nn2 
+擦乾淨	c a1  q i2 a2 nn2  j i4 ng4 
+擺	b a3 i3 
+擺好	b a3 i3  h a3 u3 
+擺滿	b a3 i3  m a3 nn3 
+支	zh ii1 
+收到	sh o1 u1  d a4 u4 
+收據	sh o1 u1  j yu4 
+收音	sh o1 u1  i1 nn1 
+收音機	sh o1 u1  i1 nn1  j i1 
+放	f a4 ng4 
+放假	f a4 ng4  j i4 a4 
+放入	f a4 ng4  rh u4 
+放多	f a4 ng4  d u1 o1 
+放學	f a4 ng4  x yu2 e2 
+放放學	f a4 ng4  f a4 ng4  x yu2 e2 
+放長	f a4 ng4  zh a3 ng3 
+放風箏	f a4 ng4  f ng1  zh ng1 
+故事	g u4  sh ii4 
+故宮	g u4  g u1 ng1 
+教	j i4 a4 u4 
+教數學	j i4 a4 u4  sh u4  x yu2 e2 
+整	zh ng3 
+整夜	zh ng3  i4 e4 
+整整	zh ng3  zh ng3 
+整晚	zh ng3  u3 a3 nn3 
+敷	f u1 
+敷冰塊	f u1  b i1 ng1  k u4 a4 i4 
+數	sh u4 
+數學	sh u4  x yu2 e2 
+文件	u2 nn2  j i4 a4 nn4 
+新	x i1 nn1 
+新老師	x i1 nn1  l a3 u3  sh ii1 
+新聞	x i1 nn1  u2 nn2 
+於	yu2 
+旅遊	l yu3  i2 o2 u2 
+旅遊業	l yu3  i2 o2 u2  i4 e4 
+旅遊點	l yu3  i2 o2 u2  d i3 a3 nn3 
+日	rh ii4 
+早上	z a3 u3  sh a4 ng4 
+早早	z a3 u3  z a3 u3 
+早餐	z a3 u3  c a1 nn1 
+早點	z a3 u3  d i3 a3 nn3 
+明天	m i2 ng2  t i1 a1 nn1 
+明媚	m i2 ng2  m e4 i4 
+昏昏沉沉	h u1 nn1  h u1 nn1  ch ern2  ch ern2 
+昏沉沉	h u1 nn1  ch ern2  ch ern2 
+星期	x i1 ng1  q i2 
+星期一	x i1 ng1  q i2  i1 
+星期天	x i1 ng1  q i2  t i1 a1 nn1 
+春天	ch u1 nn1  t i1 a1 nn1 
+春節	ch u1 nn1  j i2 e2 
+昨天	z u2 o2  t i1 a1 nn1 
+昨天晚上	z u2 o2  t i1 a1 nn1  u3 a3 nn3  sh a4 ng4 
+是	sh ii4 
+是當	sh ii4  d a1 ng1 
+是雙	sh ii4  sh u1 a1 ng1 
+時	sh ii2 
+時別	sh ii2  b i2 e2 
+時裝	sh ii2  zh u1 a1 ng1 
+時間	sh ii2  j i1 a1 nn1 
+晚	u3 a3 nn3 
+晚上	u3 a3 nn3  sh a4 ng4 
+晚晚	u3 a3 nn3  u3 a3 nn3 
+晚會	u3 a3 nn3  h u4 e4 i4 
+晚飯	u3 a3 nn3  f a4 nn4 
+晚餐	u3 a3 nn3  c a1 nn1 
+景美	j i3 ng3  m e3 i3 
+暗	a4 nn4 
+書	sh u1 
+書店	sh u1  d i4 a4 nn4 
+書法	sh u1  f a3 
+替	t i4 
+最	z u4 e4 i4 
+最喜歡	z u4 e4 i4  x i3  h u1 a1 nn1 
+最近	z u4 e4 i4  j i4 nn4 
+會	h u4 e4 i4 
+會講	h u4 e4 i4  j i3 a3 ng3 
+會議	h u4 e4 i4  i4 
+會議室	h u4 e4 i4  i4  sh ii4 
+月	yu4 e4 
+月亮	yu4 e4  l i4 a4 ng4 
+有	i3 o3 u3 
+有事	i3 o3 u3  sh ii4 
+有人	i3 o3 u3  rh ern2 
+有什麼	i3 o3 u3  sh ern2  m er0 
+有名	i3 o3 u3  m i2 ng2 
+有座	i3 o3 u3  z u4 o4 
+有書法	i3 o3 u3  sh u1  f a3 
+有治氣	i3 o3 u3  zh ii4  q i4 
+有禮	i3 o3 u3  l i3 
+有約會	i3 o3 u3  yu1 e1  h u4 e4 i4 
+有許	i3 o3 u3  x yu3 
+有遠	i3 o3 u3  yu3 a3 nn3 
+有點	i3 o3 u3  d i3 a3 nn3 
+朋友	p ng2  i3 o3 u3 
+服	f u2 
+末	m o4 
+本	b ern3 
+本週	b ern3  zh o1 u1 
+李白	l i3  b a2 i2 
+束	sh u4 
+杯	b e1 i1 
+東西	d u1 ng1  x i1 
+枝	zh ii1 
+架上	j i4 a4  sh a4 ng4 
+染上	rh a3 nn3  sh a4 ng4 
+校隊	x i4 a4 u4  d u4 e4 i4 
+格子	g er2  z ii0 
+案子	a4 nn4  z ii0 
+桌上	zh u1 o1  sh a4 ng4 
+桌下	zh u1 o1  x i4 a4 
+桌子	zh u1 o1  z ii0 
+桌子上	zh u1 o1  z ii0  sh a4 ng4 
+條	t i2 a2 u2 
+棒球	b a4 ng4  q i2 o2 u2 
+棒球賽	b a4 ng4  q i2 o2 u2  s a4 i4 
+森林	s ern1  l i2 nn2 
+樓	l o2 u2 
+樓下	l o2 u2  x i4 a4 
+樹	sh u4 
+樹上	sh u4  sh a4 ng4 
+橋	q i2 a2 u2 
+橘色	j yu2  s er4 
+橘黃色	j yu2  h u2 a2 ng2  s er4 
+橙黃色	ch ng2  h u2 a2 ng2  s er4 
+機	j i1 
+檢查	j i3 a3 nn3  ch a2 
+櫃子	g u4 e4 i4  z ii0 
+欄	l a2 nn2 
+次	c ii4 
+歌劇	g er1  j yu4 
+歌唱	g er1  ch a4 ng4 
+歡迎	h u1 a1 nn1  i2 ng2 
+正	zh ng4 
+正四處	zh ng4  s ii4  ch u4 
+正在	zh ng4  z a4 i4 
+正式	zh ng4  sh ii4 
+正往	zh ng4  u3 a3 ng3 
+步	b u4 
+歷史	l i4  sh ii3 
+段	d u4 a4 nn4 
+毀了	h u3 e3 i3  l er0 
+每	m e3 i3 
+每個	m e3 i3  g er0 
+每天	m e3 i3  t i1 a1 nn1 
+每天晚上	m e3 i3  t i1 a1 nn1  u3 a3 nn3  sh a4 ng4 
+每年	m e3 i3  n i2 a2 nn2 
+比	b i3 
+比賽	b i3  s a4 i4 
+比較	b i3  j i4 a4 u4 
+毛毛雨	m a2 u2  m a2 u2  yu3 
+氣	q i4 
+氣喘	q i4  ch u3 a3 nn3 
+氣喝	q i4  h er1 
+氣溫	q i4  u1 nn1 
+水	sh u3 e3 i3 
+水果	sh u3 e3 i3  g u3 o3 
+水果糖	sh u3 e3 i3  g u3 o3  t a2 ng2 
+水泡	sh u3 e3 i3  p a4 u4 
+水準備	sh u3 e3 i3  zh u3 nn3  b e4 i4 
+水餃	sh u3 e3 i3  j i3 a3 u3 
+水龍頭	sh u3 e3 i3  l u2 ng2  t o2 u2 
+池塘	ch ii2  t a2 ng2 
+決策	j yu2 e2  c er4 
+決賽	j yu2 e2  s a4 i4 
+汽車門	q i4  ch er1  m ern2 
+沉沉的	ch ern2  ch ern2  d er0 
+沒	m e2 i2 
+沒有	m e2 i2  i3 o3 u3 
+沒能	m e2 i2  n ng2 
+沖	ch u1 ng1 
+沖垮	ch u1 ng1  k u3 a3 
+沖毀	ch u1 ng1  h u3 e3 i3 
+油	i2 o2 u2 
+油畫	i2 o2 u2  h u4 a4 
+治	zh ii4 
+治氣	zh ii4  q i4 
+治療	zh ii4  l i2 a2 u2 
+注意	zh u4  i4 
+洋裝	i2 a2 ng2  zh u1 a1 ng1 
+洗	x i3 
+洗廁	x i3  c er4 
+洗廁所	x i3  c er4  s u3 o3 
+洪水	h u2 ng2  sh u3 e3 i3 
+海外	h a3 i3  u4 a4 i4 
+消息	x i1 a1 u1  x i2 
+淨	j i4 ng4 
+深夜	sh ern1  i4 e4 
+清明	q i1 ng1  m i2 ng2 
+清明節	q i1 ng1  m i2 ng2  j i2 e2 
+減價	j i3 a3 nn3  j i4 a4 
+準備	zh u3 nn3  b e4 i4 
+溜冰	l i1 o1 u1  b i1 ng1 
+溫響	u1 nn1  x i3 a3 ng3 
+溫香	u1 nn1  x i1 a1 ng1 
+溫馨	u1 nn1  x i1 nn1 
+滿	m a3 nn3 
+滿意	m a3 nn3  i4 
+滿月	m a3 nn3  yu4 e4 
+演唱	i3 a3 nn3  ch a4 ng4 
+演唱會	i3 a3 nn3  ch a4 ng4  h u4 e4 i4 
+演講	i3 a3 nn3  j i3 a3 ng3 
+漲	zh a3 ng3 
+火車	h u3 o3  ch er1 
+火車站	h u3 o3  ch er1  zh a4 nn4 
+灰	h u1 e1 i1 
+災區	z a1 i1  q yu1 
+炒	ch a3 u3 
+炒菜	ch a3 u3  c a4 i4 
+為	u4 e4 i4 
+為什麼	u4 e4 i4  sh ern2  m er0 
+無聊	u2  l i2 a2 u2 
+照相	zh a4 u4  x i4 a4 ng4 
+熊貓	x i2 o2 ng2  m a1 u1 
+熟悉	sh o2 u2  x i1 
+熬	a2 u2 
+熬中藥	a2 u2  zh u1 ng1  i4 a4 u4 
+熱帶魚	rh er4  d a4 i4  yu2 
+燈	d ng1 
+燈光	d ng1  g u1 a1 ng1 
+燈會	d ng1  h u4 e4 i4 
+營業	i2 ng2  i4 e4 
+爬	p a2 
+爬滿	p a2  m a3 nn3 
+父母	f u4  m u3 
+爸爸	b a4  b a4 
+爺爺	i2 e2  i2 e2 
+牆	q i2 a2 ng2 
+牆上	q i2 a2 ng2  sh a4 ng4 
+片	p i4 a4 nn4 
+牌子	p a2 i2  z ii0 
+牙齒	i2 a2  ch ii3 
+牛花	n i2 o2 u2  h u1 a1 
+物價	u4  j i4 a4 
+特別	t er4  b i2 e2 
+牽	q i1 a1 nn1 
+牽牛花	q i1 a1 nn1  n i2 o2 u2  h u1 a1 
+犯	f a4 nn4 
+狗	g o3 u3 
+狼	l a2 ng2 
+狼狗	l a2 ng2  g o3 u3 
+獲得	h u4 o4  d er2 
+獲獎	h u4 o4  j i3 a3 ng3 
+玉	yu4 
+玉手	yu4  sh o3 u3 
+玉手環	yu4  sh o3 u3  h u2 a2 nn2 
+玩	u2 a2 nn2 
+玩撲克牌	u2 a2 nn2  p u1  k er4  p a2 i2 
+班	b a1 nn1 
+班上	b a1 nn1  sh a4 ng4 
+班列	b a1 nn1  l i4 e4 
+班長	b a1 nn1  zh a3 ng3 
+現在	x i4 a4 nn4  z a4 i4 
+現在會	x i4 a4 nn4  z a4 i4  h u4 e4 i4 
+球	q i2 o2 u2 
+球賽	q i2 o2 u2  s a4 i4 
+球隊	q i2 o2 u2  d u4 e4 i4 
+理	l i3 
+環	h u2 a2 nn2 
+瓜子	g u1 a1  z ii0 
+生手	sh ng1  sh o3 u3 
+生日	sh ng1  rh ii4 
+生活	sh ng1  h u2 o2 
+用	i4 o4 ng4 
+申請	sh ern1  q i3 ng3 
+男生	n a2 nn2  sh ng1 
+留學生	l i2 o2 u2  x yu2 e2  sh ng1 
+留意	l i2 o2 u2  i4 
+畢業	b i4  i4 e4 
+畢業典禮	b i4  i4 e4  d i3 a3 nn3  l i3 
+畫	h u4 a4 
+當	d a1 ng1 
+當勞	d a1 ng1  l a2 u2 
+疏導	sh u1  d a3 u3 
+疹子	zh ern3  z ii0 
+病人	b i4 ng4  rh ern2 
+病假	b i4 ng4  j i4 a4 
+痛	t u4 ng4 
+登山	d ng1  sh a1 nn1 
+發現	f a1  x i4 a4 nn4 
+發生	f a1  sh ng1 
+發達	f a1  d a2 
+發電	f a1  d i4 a4 nn4 
+發電廠	f a1  d i4 a4 nn4  ch a3 ng3 
+白	b a2 i2 
+白鴿	b a2 i2  g er1 
+的	d er0 
+的確	d er0  q yu4 e4 
+盒	h er2 
+盛	sh ng4 
+盤	p a2 nn2 
+相信	x i1 a1 ng1  x i4 nn4 
+相機	x i1 a1 ng1  j i1 
+盼望	p a4 nn4  u4 a4 ng4 
+看	k a4 nn4 
+看到	k a4 nn4  d a4 u4 
+看天氣	k a4 nn4  t i1 a1 nn1  q i4 
+看法	k a4 nn4  f a3 
+看法上	k a4 nn4  f a3  sh a4 ng4 
+看球賽	k a4 nn4  q i2 o2 u2  s a4 i4 
+看看	k a4 nn4  k a4 nn4 
+看花燈	k a4 nn4  h u1 a1  d ng1 
+看起	k a4 nn4  q i3 
+看起來	k a4 nn4  q i3  l a2 i2 
+看電視	k a4 nn4  d i4 a4 nn4  sh ii4 
+真的	zh ern1  d er0 
+眼鏡	i3 a3 nn3  j i4 ng4 
+睡覺	sh u4 e4 i4  j yu2 e2 
+碗	u3 a3 nn3 
+碰到	p ng4  d a4 u4 
+碰翻	p ng4  f a1 nn1 
+確的確	q yu4 e4  d er0  q yu4 e4 
+祖傳	z u3  ch u2 a2 nn2 
+票	p i4 a4 u4 
+福利	f u2  l i4 
+福利待遇	f u2  l i4  d a4 i4  yu4 
+禮	l i3 
+禮堂	l i3  t a2 ng2 
+禮物	l i3  u4 
+禮物給	l i3  u4  g e3 i3 
+禮給	l i3  g e3 i3 
+秘方	m i4  f a1 ng1 
+秘書	m i4  sh u1 
+種	zh u3 ng3 
+種了	zh u3 ng3  l er0 
+稿	g a3 u3 
+積水積	j i1  sh u3 e3 i3  j i1 
+積滿	j i1  m a3 nn3 
+積雪	j i1  x yu3 e3 
+積雪長	j i1  x yu3 e3  zh a3 ng3 
+穿	ch u1 a1 nn1 
+穿制	ch u1 a1 nn1  zh ii4 
+穿運動	ch u1 a1 nn1  yu4 nn4  d u4 ng4 
+突然	t u1  rh a2 nn2 
+窗戶	ch u1 a1 ng1  h u4 
+站	zh a4 nn4 
+站裡	zh a4 nn4  l i3 
+笑	x i4 a4 u4 
+第一	d i4  i1 
+筆	b i3 
+等	d ng3 
+答應	d a2  i1 ng1 
+管理	g u3 a3 nn3  l i3 
+管理員	g u3 a3 nn3  l i3  yu2 a2 nn2 
+節	j i2 e2 
+節下	j i2 e2  x i4 a4 
+節目	j i2 e2  m u4 
+節目裡	j i2 e2  m u4  l i3 
+節要	j i2 e2  i4 a4 u4 
+簡單	j i3 a3 nn3  d a1 nn1 
+籃球	l a2 nn2  q i2 o2 u2 
+籃球隊	l a2 nn2  q i2 o2 u2  d u4 e4 i4 
+粉紅色	f ern3  h u2 ng2  s er4 
+粥	zh o1 u1 
+粧	zh u1 a1 ng1 
+糖	t a2 ng2 
+紀念品	j i4  n i4 a4 nn4  p i3 nn3 
+約	yu1 e1 
+約個	yu1 e1  g er0 
+約會	yu1 e1  h u4 e4 i4 
+終於	zh u1 ng1  yu2 
+給	g e3 i3 
+給他	g e3 i3  t a1 
+給媽媽	g e3 i3  m a1  m a1 
+給我媽媽	g e3 i3  u3 o3  m a1  m a1 
+給災區	g e3 i3  z a1 i1  q yu1 
+給給	g e3 i3  g e3 i3 
+經	j i1 ng1 
+經常	j i1 ng1  ch a2 ng2 
+經常去	j i1 ng1  ch a2 ng2  q yu4 
+經常寄些	j i1 ng1  ch a2 ng2  j i4  x i1 e1 
+經常帶	j i1 ng1  ch a2 ng2  d a4 i4 
+經常經	j i1 ng1  ch a2 ng2  j i1 ng1 
+經理	j i1 ng1  l i3 
+經理來	j i1 ng1  l i3  l a2 i2 
+經理談	j i1 ng1  l i3  t a2 nn2 
+經開	j i1 ng1  k a1 i1 
+經驗	j i1 ng1  i4 a4 nn4 
+綵	c a3 i3 
+緊張	j i3 nn3  zh a1 ng1 
+緊身	j i3 nn3  sh ern1 
+練	l i4 a4 nn4 
+練練	l i4 a4 nn4  l i4 a4 nn4 
+練習	l i4 a4 nn4  x i2 
+縫	f ng4 
+繩	sh ng2 
+缸	g a1 ng1 
+美	m e3 i3 
+群	q yu2 nn2 
+習彈	x i2  d a4 nn4 
+習慣	x i2  g u4 a4 nn4 
+翻倒	f a1 nn1  d a3 u3 
+老	l a3 u3 
+老同學	l a3 u3  t u2 ng2  x yu2 e2 
+老奶奶	l a3 u3  n a3 i3  n a3 i3 
+老家	l a3 u3  j i1 a1 
+老師	l a3 u3  sh ii1 
+老朋友	l a3 u3  p ng2  i3 o3 u3 
+老毛病	l a3 u3  m a2 u2  b i4 ng4 
+老花	l a3 u3  h u1 a1 
+老花眼	l a3 u3  h u1 a1  i3 a3 nn3 
+老花眼鏡	l a3 u3  h u1 a1  i3 a3 nn3  j i4 ng4 
+老闆	l a3 u3  b a3 nn3 
+老鼠	l a3 u3  sh u3 
+考考	k a3 u3  k a3 u3 
+考試	k a3 u3  sh ii4 
+考題	k a3 u3  t i2 
+聖誕節	sh ng4  d a4 nn4  j i2 e2 
+聚	j yu4 
+聚會	j yu4  h u4 e4 i4 
+聞名	u2 nn2  m i2 ng2 
+聯	l i2 a2 nn2 
+聯考	l i2 a2 nn2  k a3 u3 
+聯考試	l i2 a2 nn2  k a3 u3  sh ii4 
+職位	zh ii2  u4 e4 i4 
+職業	zh ii2  i4 e4 
+聽	t i1 ng1 
+聽到	t i1 ng1  d a4 u4 
+聽歌	t i1 ng1  g er1 
+肚子	d u3  z ii0 
+肚子疼	d u3  z ii0  t ng2 
+肚子痛	d u4  z ii0  t u4 ng4 
+肯定	k ern3  d i4 ng4 
+背誦	b e4 i4  s u4 ng4 
+胞胎	b a1 u1  t a1 i1 
+能	n ng2 
+能力	n ng2  l i4 
+腰	i1 a1 u1 
+腰痛	i1 a1 u1  t u4 ng4 
+腳	j i3 a3 u3 
+腳上	j i3 a3 u3  sh a4 ng4 
+腳長	j i3 a3 u3  zh a3 ng3 
+膽	d a3 nn3 
+膽小鬼	d a3 nn3  x i3 a3 u3  g u3 e3 i3 
+臉	l i3 a3 nn3 
+臉上	l i3 a3 nn3  sh a4 ng4 
+自信	z ii4  x i4 nn4 
+自己	z ii4  j i3 
+舉辦	j yu3  b a4 nn4 
+舒服	sh u1  f u2 
+舞會	u3  h u4 e4 i4 
+花	h u1 a1 
+花園	h u1 a1  yu2 a2 nn2 
+花園裡	h u1 a1  yu2 a2 nn2  l i3 
+花店	h u1 a1  d i4 a4 nn4 
+花貓	h u1 a1  m a1 u1 
+英文	i1 ng1  u2 nn2 
+英語	i1 ng1  yu3 
+茶	ch a2 
+茶杯	ch a2  b e1 i1 
+草叢	c a3 u3  c u2 ng2 
+草叢裡	c a3 u3  c u2 ng2  l i3 
+菜	c a4 i4 
+菸	i1 a1 nn1 
+萬元	u4 a4 nn4  yu2 a2 nn2 
+萬里長	u4 a4 nn4  l i3  zh a3 ng3 
+萬里長城	u4 a4 nn4  l i3  zh a3 ng3  ch ng2 
+著	zh u4 
+著能	zh u4  n ng2 
+著識	zh u4  sh ii2 
+藥	i4 a4 u4 
+蚊	u2 nn2 
+蚊香	u2 nn2  x i1 a1 ng1 
+蛇	sh er2 
+蛋	d a4 nn4 
+蛋糕	d a4 nn4  g a1 u1 
+螞蟻	m a3  i3 
+蟋蟀	x i1  sh u4 a4 i4 
+行業	x i2 ng2  i4 e4 
+行為	x i2 ng2  u4 e4 i4 
+術	sh u4 
+衛生	u4 e4 i4  sh ng1 
+衣	i1 
+衣服	i1  f u2 
+衣物	i1  u4 
+表演	b i3 a3 u3  i3 a3 nn3 
+被	b e4 i4 
+被門	b e4 i4  m ern2 
+裏	l i3 
+裝修	zh u1 a1 ng1  x i1 o1 u1 
+裡	l i3 
+裡幫	l i3  b a1 ng1 
+裡種	l i3  zh u3 ng3 
+裡養	l i3  i3 a3 ng3 
+西瓜	x i1  g u1 a1 
+要	i4 a4 u4 
+要賽	i4 a4 u4  s a4 i4 
+要辦	i4 a4 u4  b a4 nn4 
+要開	i4 a4 u4  k a1 i1 
+要點	i4 a4 u4  d i3 a3 nn3 
+見	j i4 a4 nn4 
+見面	j i4 a4 nn4  m i4 a4 nn4 
+規定	g u1 e1 i1  d i4 ng4 
+親人	q i1 nn1  rh ern2 
+親人團	q i1 nn1  rh ern2  t u2 a2 nn2 
+覺得	j yu2 e2  d er2 
+覺得頭	j yu2 e2  d er2  t o2 u2 
+觀點	g u1 a1 nn1  d i3 a3 nn3 
+訂單	d i4 ng4  d a1 nn1 
+計劃	j i4  h u4 a4 
+計畫	j i4  h u4 a4 
+討論	t a3 u3  l u4 nn4 
+記	j i4 
+記得	j i4  d er2 
+記者	j i4  zh er3 
+訪客	f a3 ng3  k er4 
+設計師	sh er4  j i4  sh ii1 
+許多	x yu3  d u1 o1 
+詞詩	c ii2  sh ii1 
+試	sh ii4 
+詩歌	sh ii1  g er1 
+詩詞	sh ii1  c ii2 
+說	sh u1 o1 
+誰	sh u2 e2 i2 
+課	k er4 
+課才	k er4  c a2 i2 
+談	t a2 nn2 
+請	q i3 ng3 
+請教	q i3 ng3  j i4 a4 u4 
+講	j i3 a3 ng3 
+講話	j i3 a3 ng3  h u4 a4 
+證	zh ng4 
+識別	sh ii2  b i2 e2 
+識別證	sh ii2  b i2 e2  zh ng4 
+警察	j i3 ng3  ch a2 
+議室	i4  sh ii4 
+護士	h u4  sh ii4 
+讀書	d u2  sh u1 
+讓	rh a4 ng4 
+豆漿	d o4 u4  j i1 a1 ng1 
+豆腐	d o4 u4  f u0 
+豐富	f ng1  f u4 
+貓	m a1 u1 
+貓很可愛	m a1 u1  h ern3  k er3  a4 i4 
+貓把床	m a1 u1  b a3  ch u2 a2 ng2 
+貝殼	b e4 i4  k er2 
+貨	h u4 o4 
+貨架	h u4 o4  j i4 a4 
+貨架上	h u4 o4  j i4 a4  sh a4 ng4 
+買	m a3 i3 
+買些	m a3 i3  x i1 e1 
+買回	m a3 i3  h u2 e2 i2 
+買油	m a3 i3  i2 o2 u2 
+買車	m a3 i3  ch er1 
+買電	m a3 i3  d i4 a4 nn4 
+貸款	d a4 i4  k u3 a3 nn3 
+貼	t i1 e1 
+貼著	t i1 e1  zh u4 
+賀卡	h er4  k a3 
+資格	z ii1  g er2 
+賞	sh a3 ng3 
+賞月	sh a3 ng3  yu4 e4 
+賽	s a4 i4 
+賽實況	s a4 i4  sh ii2  k u4 a4 ng4 
+起	q i3 
+起來	q i3  l a2 i2 
+起床	q i3  ch u2 a2 ng2 
+超商	ch a1 u1  sh a1 ng1 
+超市	ch a1 u1  sh ii4 
+趕	g a3 nn3 
+趕截	g a3 nn3  j i2 e2 
+足球	z u2  q i2 o2 u2 
+跑	p a3 u3 
+跑步	p a3 u3  b u4 
+跟	g ern1 
+跨海	k u4 a4  h a3 i3 
+路上	l u4  sh a4 ng4 
+跳	t i4 a4 u4 
+跳繩	t i4 a4 u4  sh ng2 
+踢	t i1 
+踢足球	t i1  z u2  q i2 o2 u2 
+車	ch er1 
+較	j i4 a4 u4 
+轉播	zh u3 a3 nn3  b o1 
+辦	b a4 nn4 
+辦慶祝	b a4 nn4  q i4 ng4  zh u4 
+辦理	b a4 nn4  l i3 
+辦理入	b a4 nn4  l i3  rh u4 
+辭職	c ii2  zh ii2 
+農藥	n u2 ng2  i4 a4 u4 
+迷	m i2 
+退潮	t u4 e4 i4  ch a2 u2 
+送	s u4 ng4 
+送人	s u4 ng4  rh ern2 
+送禮物	s u4 ng4  l i3  u4 
+送給	s u4 ng4  g e3 i3 
+這	zh er4 
+這件	zh er4  j i4 a4 nn4 
+這位	zh er4  u4 e4 i4 
+這位醫	zh er4  u4 e4 i4  i1 
+這個	zh er4  g er0 
+這兩個	zh er4  l i3 a3 ng3  g er0 
+這場	zh er4  ch a3 ng3 
+這學期	zh er4  x yu2 e2  q i2 
+這家	zh er4  j i1 a1 
+這家書店	zh er4  j i1 a1  sh u1  d i4 a4 nn4 
+這幾個	zh er4  j i3  g er0 
+這張	zh er4  zh a1 ng1 
+這次	zh er4  c ii4 
+這段	zh er4  d u4 a4 nn4 
+這班	zh er4  b a1 nn1 
+這群	zh er4  q yu2 nn2 
+這裏	zh er4  l i3 
+這裡	zh er4  l i3 
+這裡風	zh er4  l i3  f ng1 
+這部	zh er4  b u4 
+這間	zh er4  j i1 a1 nn1 
+這隻	zh er4  zh ii1 
+這風景	zh er4  f ng1  j i3 ng3 
+通緝令	t u1 ng1  j i1  l i4 ng4 
+逛	g u4 a4 ng4 
+逛書店	g u4 a4 ng4  sh u1  d i4 a4 nn4 
+連續	l i2 a2 nn2  x yu4 
+連續劇	l i2 a2 nn2  x yu4  j yu4 
+週末	zh o1 u1  m o4 
+遇到	yu4  d a4 u4 
+遊客	i2 o2 u2  k er4 
+遊客們	i2 o2 u2  k er4  m ern0 
+運動	yu4 nn4  d u4 ng4 
+運動員	yu4 nn4  d u4 ng4  yu2 a2 nn2 
+運動鞋	yu4 nn4  d u4 ng4  x i2 e2 
+過	g u4 o4 
+過滿	g u4 o4  m a3 nn3 
+過生日	g u4 o4  sh ng1  rh ii4 
+遠	yu3 a3 nn3 
+遠見	yu3 a3 nn3  j i4 a4 nn4 
+遠遠	yu3 a3 nn3  yu3 a3 nn3 
+遠遠的	yu3 a3 nn3  yu3 a3 nn3  d er0 
+適合	sh ii4  h er2 
+選	x yu3 a3 nn3 
+邀	i1 a1 u1 
+邀請	i1 a1 u1  q i3 ng3 
+那	n a4 
+那個	n a4  g er0 
+那壺	n a4  h u2 
+那套	n a4  t a4 u4 
+那家	n a4  j i1 a1 
+那座	n a4  z u4 o4 
+那張	n a4  zh a1 ng1 
+那片	n a4  p i4 a4 nn4 
+那裏	n a4  l i3 
+那裡	n a4  l i3 
+那邊	n a4  b i1 a1 nn1 
+那間	n a4  j i1 a1 nn1 
+郊區	j i1 a1 u1  q yu1 
+部	b u4 
+部門	b u4  m ern2 
+部門春節	b u4  m ern2  ch u1 nn1  j i2 e2 
+都	d o1 u1 
+鄰	l i2 nn2 
+鄰居	l i2 nn2  j yu1 
+鄰居家	l i2 nn2  j yu1  j i1 a1 
+配	p e4 i4 
+醫學院	i1  x yu2 e2  yu4 a4 nn4 
+醫生	i1  sh ng1 
+醫院	i1  yu4 a4 nn4 
+金	j i1 nn1 
+金項	j i1 nn1  x i4 a4 ng4 
+金項鍊	j i1 nn1  x i4 a4 ng4  l i4 a4 nn4 
+金魚	j i1 nn1  yu2 
+針	zh ern1 
+銀行	i2 nn2  x i2 ng2 
+鋼琴	g a1 ng1  q i2 nn2 
+鋼筆	g a1 ng1  b i3 
+錄取	l u4  q yu3 
+錢	q i2 a2 nn2 
+錢給	q i2 a2 nn2  g e3 i3 
+錶	b i3 a3 u3 
+鍊	l i4 a4 nn4 
+鏡	j i4 ng4 
+鏡看	j i4 ng4  k a4 nn4 
+鐘	zh u1 ng1 
+鐘去	zh u1 ng1  q yu4 
+鐘火車	zh u1 ng1  h u3 o3  ch er1 
+鑰匙	i4 a4 u4  sh ii0 
+長	zh a3 ng3 
+長了	zh a3 ng3  l er0 
+長假	zh a3 ng3  j i3 a3 
+長年	zh a3 ng3  n i2 a2 nn2 
+開	k a1 i1 
+開家長	k a1 i1  j i1 a1  zh a3 ng3 
+開幕	k a1 i1  m u4 
+開幕典禮	k a1 i1  m u4  d i3 a3 nn3  l i3 
+開庭	k a1 i1  t i2 ng2 
+開會	k a1 i1  h u4 e4 i4 
+開會時	k a1 i1  h u4 e4 i4  sh ii2 
+開除	k a1 i1  ch u2 
+間	j i1 a1 nn1 
+闆	b a3 nn3 
+關	g u1 a1 nn1 
+關心	g u1 a1 nn1  x i1 nn1 
+關水龍頭	g u1 a1 nn1  sh u3 e3 i3  l u2 ng2  t o2 u2 
+防水	f a2 ng2  sh u3 e3 i3 
+阿姨	a1  i2 
+除了	ch u2  l er0 
+隊員	d u4 e4 i4  yu2 a2 nn2 
+隊終	d u4 e4 i4  zh u1 ng1 
+隔壁	g er2  b i4 
+隔壁家	g er2  b i4  j i1 a1 
+隻	zh ii1 
+雙胞胎	sh u1 a1 ng1  b a1 u1  t a1 i1 
+雜草	z a2  c a3 u3 
+雜草長	z a2  c a3 u3  zh a3 ng3 
+雞	j i1 
+雞蛋	j i1  d a4 nn4 
+難	n a2 nn2 
+難記	n a2 nn2  j i4 
+雨	yu3 
+雨傘	yu3  s a3 nn3 
+零下	l i2 ng2  x i4 a4 
+電	d i4 a4 nn4 
+電器	d i4 a4 nn4  q i4 
+電影	d i4 a4 nn4  i3 ng3 
+電影票	d i4 a4 nn4  i3 ng3  p i4 a4 u4 
+電腦	d i4 a4 nn4  n a3 u3 
+電腦迷	d i4 a4 nn4  n a3 u3  m i2 
+電視	d i4 a4 nn4  sh ii4 
+電視上	d i4 a4 nn4  sh ii4  sh a4 ng4 
+電視劇	d i4 a4 nn4  sh ii4  j yu4 
+電話	d i4 a4 nn4  h u4 a4 
+電話給	d i4 a4 nn4  h u4 a4  g e3 i3 
+電費	d i4 a4 nn4  f e4 i4 
+電風扇	d i4 a4 nn4  f ng1  sh a4 nn4 
+需付	x yu1  f u4 
+需要	x yu1  i4 a4 u4 
+非常	f e1 i1  ch a2 ng2 
+鞋	x i2 e2 
+音樂	i1 nn1  l er4 
+項鍊	x i4 a4 ng4  l i4 a4 nn4 
+預報	yu4  b a4 u4 
+預定	yu4  d i4 ng4 
+預訂	yu4  d i4 ng4 
+領帶	l i3 ng3  d a4 i4 
+頭	t o2 u2 
+頭上	t o2 u2  sh a4 ng4 
+頭銜	t o2 u2  x i2 a2 nn2 
+題	t i2 
+願	yu4 a4 nn4 
+願意	yu4 a4 nn4  i4 
+願意選	yu4 a4 nn4  i4  x yu3 a3 nn3 
+顯得	x i3 a3 nn3  d er2 
+風	f ng1 
+風俗	f ng1  s u2 
+風景	f ng1  j i3 ng3 
+風箏	f ng1  zh ng1 
+飛機	f e1 i1  j i1 
+飛過	f e1 i1  g u4 o4 
+飛過來	f e1 i1  g u4 o4  l a2 i2 
+飯	f a4 nn4 
+飯店	f a4 nn4  d i4 a4 nn4 
+飼料	s ii4  l i4 a4 u4 
+餃	j i3 a3 u3 
+餃子	j i3 a3 u3  z ii0 
+養	i3 a3 ng3 
+餐廳	c a1 nn1  t i1 ng1 
+香	x i1 a1 ng1 
+香火	x i1 a1 ng1  h u3 o3 
+香火很盛	x i1 a1 ng1  h u3 o3  h ern3  sh ng4 
+馬	m a3 
+馬路	m a3  l u4 
+馬路上	m a3  l u4  sh a4 ng4 
+騎車	q i2  ch er1 
+骨頭	g u3  t o2 u2 
+高跟	g a1 u1  g ern1 
+高跟鞋	g a1 u1  g ern1  x i2 e2 
+魂	h u2 nn2 
+魚	yu2 
+魚飼料	yu2  s ii4  l i4 a4 u4 
+鮮花	x i1 a1 nn1  h u1 a1 
+鴿	g er1 
+鹽	i2 a2 nn2 
+鹽巴	i2 a2 nn2  b a1 
+麥當勞	m a4 i4  d a1 ng1  l a2 u2 
+麵	m i4 a4 nn4 
+麵包店	m i4 a4 nn4  b a1 u1  d i4 a4 nn4 
+麻婆	m a2  p o2 
+麻婆豆腐	m a2  p o2  d o4 u4  f u0 
+麻疹	m a2  zh ern3 
+點	d i3 a3 nn3 
+龍井茶	l u2 ng2  j i3 ng3  ch a2 
+<unk>	SIL

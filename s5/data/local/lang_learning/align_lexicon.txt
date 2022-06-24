@@ -1,0 +1,1466 @@
+一 i1_S
+一一 i1_B i1_E
+一些 i1_B x_I i1_I e1_E
+一件 i1_B j_I i4_I a4_I nn4_E
+一份 i1_B f_I ern4_E
+一個 i1_B g_I er0_E
+一副 i1_B f_I u4_E
+一包 i1_B b_I a1_I u1_E
+一口 i1_B k_I o3_I u3_E
+一口氣 i1_B k_I o3_I u3_I q_I i4_E
+一只 i1_B zh_I ii1_E
+一台 i1_B t_I a2_I i2_E
+一名 i1_B m_I i2_I ng2_E
+一向 i2_B x_I i4_I a4_I ng4_E
+一大 i1_B d_I a4_E
+一大包 i1_B d_I a4_I b_I a1_I u1_E
+一大早 i1_B d_I a4_I z_I a3_I u3_E
+一大盤 i1_B d_I a4_I p_I a2_I nn2_E
+一大筆 i1_B d_I a4_I b_I i3_E
+一大缸 i1_B d_I a4_I g_I a1_I ng1_E
+一天 i1_B t_I i1_I a1_I nn1_E
+一幅 i1_B f_I u2_E
+一座 i1_B z_I u4_I o4_E
+一張 i1_B zh_I a1_I ng1_E
+一支 i1_B zh_I ii1_E
+一星期 i1_B x_I i1_I ng1_I q_I i2_E
+一本 i1_B b_I ern3_E
+一束 i1_B sh_I u4_E
+一束花 i1_B sh_I u4_I h_I u1_I a1_E
+一杯 i1_B b_I e1_I i1_E
+一枝 i1_B zh_I ii1_E
+一條 i1_B t_I i2_I a2_I u2_E
+一盒 i1_B h_I er2_E
+一節 i1_B j_I i2_I e2_E
+一群 i1_B q_I yu2_I nn2_E
+一致 i2_B zh_I ii4_E
+一要 i1_B i4_I a4_I u4_E
+一起 i4_B q_I i3_E
+一間 i1_B j_I i1_I a1_I nn1_E
+一隻 i1_B zh_I ii1_E
+七 q_B i1_E
+七月 q_B i1_I yu4_I e4_E
+七針 q_B i1_I zh_I ern1_E
+三 s_B a1_I nn1_E
+三個 s_B a1_I nn1_I g_I er0_E
+三十 s_B a1_I nn1_I sh_I ii2_E
+三十元 s_B a1_I nn1_I sh_I ii2_I yu2_I a2_I nn2_E
+三名 s_B a1_I nn1_I m_I i2_I ng2_E
+三百 s_B a1_I nn1_I b_I a3_I i3_E
+三百元 s_B a1_I nn1_I b_I a3_I i3_I yu2_I a2_I nn2_E
+三碗 s_B a1_I nn1_I u3_I a3_I nn3_E
+三萬 s_B a1_I nn1_I u4_I a4_I nn4_E
+三萬塊 s_B a1_I nn1_I u4_I a4_I nn4_I k_I u4_I a4_I i4_E
+上 sh_B a4_I ng4_E
+上個 sh_B a4_I ng4_I g_I er0_E
+上個月 sh_B a4_I ng4_I g_I er0_I yu4_I e4_E
+上午 sh_B a4_I ng4_I u3_E
+上床 sh_B a4_I ng4_I ch_I u2_I a2_I ng2_E
+上樓 sh_B a4_I ng4_I l_I o2_I u2_E
+上漲 sh_B a4_I ng4_I zh_I a3_I ng3_E
+上爬 sh_B a4_I ng4_I p_I a2_E
+上班 sh_B a4_I ng4_I b_I a1_I nn1_E
+上經 sh_B a4_I ng4_I j_I i1_I ng1_E
+上街 sh_B a4_I ng4_I j_I i1_I e1_E
+上衣 sh_B a4_I ng4_I i1_E
+上長 sh_B a4_I ng4_I zh_I a3_I ng3_E
+下 x_B i4_I a4_E
+下一節 x_B i4_I a4_I i1_I j_I i2_I e2_E
+下下星期 x_B i4_I a4_I x_I i4_I a4_I x_I i1_I ng1_I q_I i2_E
+下午 x_B i4_I a4_I u3_E
+下山 x_B i4_I a4_I sh_I a1_I nn1_E
+下雨 x_B i4_I a4_I yu3_E
+不 b_B u4_E
+不便宜 b_B u4_I b_I i4_I a4_I nn4_I i2_E
+不准 b_B u4_I zh_I u3_I nn3_E
+不化 b_B u4_I h_I u4_I a4_E
+不接 b_B u4_I j_I i1_I e1_E
+不為 b_B u4_I u4_I e4_I i4_E
+不用 b_B u4_I i4_I o4_I ng4_E
+不許 b_B u4_I x_I yu3_E
+中 zh_B u1_I ng1_E
+中國 zh_B u1_I ng1_I g_I u2_I o2_E
+中外 zh_B u1_I ng1_I u4_I a4_I i4_E
+中外聞名 zh_B u1_I ng1_I u4_I a4_I i4_I u2_I nn2_I m_I i2_I ng2_E
+中學 zh_B u1_I ng1_I x_I yu2_I e2_E
+中秋 zh_B u1_I ng1_I q_I i1_I o1_I u1_E
+中秋節 zh_B u1_I ng1_I q_I i1_I o1_I u1_I j_I i2_I e2_E
+中藥 zh_B u1_I ng1_I i4_I a4_I u4_E
+主任 zh_B u3_I rh_I ern4_E
+主持 zh_B u3_I ch_I ii2_E
+久 j_B i3_I o3_I u3_E
+九點 j_B i3_I o3_I u3_I d_I i3_I a3_I nn3_E
+也 i3_B e3_E
+了 l_B er0_E
+了關 l_B er0_I g_I u1_I a1_I nn1_E
+事故 sh_B ii4_I g_I u4_E
+五 u3_S
+五五 u3_B u3_E
+五天 u3_B t_I i1_I a1_I nn1_E
+五萬 u3_B u4_I a4_I nn4_E
+五萬元 u3_B u4_I a4_I nn4_I yu2_I a2_I nn2_E
+五萬塊 u3_B u4_I a4_I nn4_I k_I u4_I a4_I i4_E
+五香 u3_B x_I i1_I a1_I ng1_E
+些 x_B i1_I e1_E
+交給 j_B i1_I a1_I u1_I g_I e3_I i3_E
+交通 j_B i1_I a1_I u1_I t_I u1_I ng1_E
+交通事故 j_B i1_I a1_I u1_I t_I u1_I ng1_I sh_I ii4_I g_I u4_E
+交通警察 j_B i1_I a1_I u1_I t_I u1_I ng1_I j_I i3_I ng3_I ch_I a2_E
+人 rh_B ern2_E
+人人 rh_B ern2_I rh_I ern2_E
+人名 rh_B ern2_I m_I i2_I ng2_E
+人得 rh_B ern2_I d_I er2_E
+人愛吃 rh_B ern2_I a4_I i4_I ch_I ii1_E
+人放風箏 rh_B ern2_I f_I a4_I ng4_I f_I ng1_I zh_I ng1_E
+人群 rh_B ern2_I q_I yu2_I nn2_E
+人衛生 rh_B ern2_I u4_I e4_I i4_I sh_I ng1_E
+什麼 sh_B ern2_I m_I er0_E
+今天 j_B i1_I nn1_I t_I i1_I a1_I nn1_E
+今天下午 j_B i1_I nn1_I t_I i1_I a1_I nn1_I x_I i4_I a4_I u3_E
+今年 j_B i1_I nn1_I n_I i2_I a2_I nn2_E
+今年夏天 j_B i1_I nn1_I n_I i2_I a2_I nn2_I x_I i4_I a4_I t_I i1_I a1_I nn1_E
+今晚 j_B i1_I nn1_I u3_I a3_I nn3_E
+仔細 z_B a3_I i3_I x_I i4_E
+仔細幫 z_B a3_I i3_I x_I i4_I b_I a1_I ng1_E
+他 t_B a1_E
+他們 t_B a1_I m_I ern0_E
+他剛 t_B a1_I g_I a1_I ng1_E
+他會 t_B a1_I h_I u4_I e4_I i4_E
+他答 t_B a1_I d_I a2_E
+他裝 t_B a1_I zh_I u1_I a1_I ng1_E
+他覺 t_B a1_I j_I yu2_I e2_E
+他頭 t_B a1_I t_I o2_I u2_E
+付 f_B u4_E
+付十塊 f_B u4_I sh_I ii2_I k_I u4_I a4_I i4_E
+以前 i3_B q_I i2_I a2_I nn2_E
+件 j_B i4_I a4_I nn4_E
+份 f_B ern4_E
+似的 sh_B ii4_I d_I er0_E
+佈 b_B u4_E
+位 u4_B e4_I i4_E
+住院 zh_B u4_I yu4_I a4_I nn4_E
+作 z_B u4_I o4_E
+作文 z_B u4_I o4_I u2_I nn2_E
+作業 z_B u4_I o4_I i4_I e4_E
+作班長 z_B u4_I o4_I b_I a1_I nn1_I zh_I a3_I ng3_E
+你 n_B i3_E
+你們 n_B i3_I m_I ern0_E
+來 l_B a2_I i2_E
+依 i1_S
+便 b_B i4_I a4_I nn4_E
+便宜 p_B i2_I a2_I nn2_I i2_E
+便衣 b_B i4_I a4_I nn4_I i1_E
+便衣警察 b_B i4_I a4_I nn4_I i1_I j_I i3_I ng3_I ch_I a2_E
+信用 x_B i4_I nn4_I i4_I o4_I ng4_E
+信箱 x_B i4_I nn4_I x_I i1_I a1_I ng1_E
+修好 x_B i1_I o1_I u1_I h_I a3_I u3_E
+修房子 x_B i1_I o1_I u1_I f_I a2_I ng2_I z_I ii0_E
+修花 x_B i1_I o1_I u1_I h_I u1_I a1_E
+俱 j_B yu4_E
+個 g_B er0_E
+個人 g_B er4_I rh_I ern2_E
+個膽 g_B er4_I d_I a3_I nn3_E
+們 m_B ern0_E
+倒 d_B a4_I u4_E
+借 j_B i4_I e4_E
+借到 j_B i4_I e4_I d_I a4_I u4_E
+假 j_B i3_I a3_E
+做 z_B u4_I o4_E
+做了 z_B u4_I o4_I l_I er0_E
+做好 z_B u4_I o4_I h_I a3_I u3_E
+做完 z_B u4_I o4_I u2_I a2_I nn2_E
+做得 z_B u4_I o4_I d_I er2_E
+做班長 z_B u4_I o4_I b_I a1_I nn1_I zh_I a3_I ng3_E
+做飯 z_B u4_I o4_I f_I a4_I nn4_E
+傢 j_B i1_I a1_E
+傢俱 j_B i1_I a1_I j_I yu4_E
+傷口 sh_B a1_I ng1_I k_I o3_I u3_E
+傷心 sh_B a1_I ng1_I x_I i1_I nn1_E
+像 x_B i4_I a4_I ng4_E
+元 yu2_B a2_I nn2_E
+元宵 yu2_B a2_I nn2_I x_I i1_I a1_I u1_E
+元宵節 yu2_B a2_I nn2_I x_I i1_I a1_I u1_I j_I i2_I e2_E
+光頭 g_B u1_I a1_I ng1_I t_I o2_I u2_E
+入學 rh_B u4_I x_I yu2_I e2_E
+全 q_B yu2_I a2_I nn2_E
+全家 q_B yu2_I a2_I nn2_I j_I i1_I a1_E
+全家人 q_B yu2_I a2_I nn2_I j_I i1_I a1_I rh_I ern2_E
+全班 q_B yu2_I a2_I nn2_I b_I a1_I nn1_E
+兩 l_B i3_I a3_I ng3_E
+兩個 l_B i3_I a3_I ng3_I g_I er0_E
+兩包 l_B i3_I a3_I ng3_I b_I a1_I u1_E
+八寶 b_B a1_I b_I a3_I u3_E
+八寶粥 b_B a1_I b_I a3_I u3_I zh_I o1_I u1_E
+公 g_B u1_I ng1_E
+公佈欄 g_B u1_I ng1_I b_I u4_I l_I a2_I nn2_E
+公司 g_B u1_I ng1_I s_I ii1_E
+公園 g_B u1_I ng1_I yu2_I a2_I nn2_E
+公園裡 g_B u1_I ng1_I yu2_I a2_I nn2_I l_I i3_E
+公路 g_B u1_I ng1_I l_I u4_E
+典禮 d_B i3_I a3_I nn3_I l_I i3_E
+再 z_B a4_I i4_E
+冬天 d_B u1_I ng1_I t_I i1_I a1_I nn1_E
+冰塊 b_B i1_I ng1_I k_I u4_I a4_I i4_E
+冰箱 b_B i1_I ng1_I x_I i1_I a1_I ng1_E
+出 ch_B u1_E
+出去 ch_B u1_I q_I yu4_E
+出去玩 ch_B u1_I q_I yu4_I u2_I a2_I nn2_E
+出國 ch_B u1_I g_I u2_I o2_E
+出差 ch_B u1_I ch_I a1_I i1_E
+出門 ch_B u1_I m_I ern2_E
+出門前 ch_B u1_I m_I ern2_I q_I i2_I a2_I nn2_E
+出門時 ch_B u1_I m_I ern2_I sh_I ii2_E
+出門要 ch_B u1_I m_I ern2_I i4_I a4_I u4_E
+分鐘 f_B ern1_I zh_I u1_I ng1_E
+列車 l_B i4_I e4_I ch_I er1_E
+初一 ch_B u1_I i1_E
+別 b_B i2_I e2_E
+別證 b_B i2_I e2_I zh_I ng4_E
+刮 g_B u1_I a1_E
+刮大風 g_B u1_I a1_I d_I a4_I f_I ng1_E
+到 d_B a4_I u4_E
+制服 zh_B ii4_I f_I u2_E
+剃 t_B i4_E
+前 q_B i2_I a2_I nn2_E
+前配 q_B i2_I a2_I nn2_I p_I e4_I i4_E
+剛 g_B a1_I ng1_E
+剛剛 g_B a1_I ng1_I g_I a1_I ng1_E
+剛才 g_B a1_I ng1_I c_I a2_I i2_E
+剛過 g_B a1_I ng1_I g_I u4_I o4_E
+副 f_B u4_E
+劇 j_B yu4_E
+劇的確 j_B yu4_I d_I er0_I q_I yu4_I e4_E
+功課 g_B u1_I ng1_I k_I er4_E
+加考 j_B i1_I a1_I k_I a3_I u3_E
+包 b_B a1_I u1_E
+包子 b_B a1_I u1_I z_I ii0_E
+包店 b_B a1_I u1_I d_I i4_I a4_I nn4_E
+包水 b_B a1_I u1_I sh_I u3_I e3_I i3_E
+包裹 b_B a1_I u1_I g_I u3_I o3_E
+化 h_B u4_I a4_E
+化妝品 h_B u4_I a4_I zh_I u1_I a1_I ng1_I p_I i3_I nn3_E
+化妝水 h_B u4_I a4_I zh_I u1_I a1_I ng1_I sh_I u3_I e3_I i3_E
+北方 b_B e3_I i3_I f_I a1_I ng1_E
+北方人 b_B e3_I i3_I f_I a1_I ng1_I rh_I ern2_E
+北邊 b_B e3_I i3_I b_I i1_I a1_I nn1_E
+匯款 h_B u4_I e4_I i4_I k_I u3_I a3_I nn3_E
+十 sh_B ii2_E
+十七 sh_B ii2_I q_I i1_E
+十五 sh_B ii2_I u3_E
+十五分 sh_B ii2_I u3_I f_I ern1_E
+十分 sh_B ii2_I f_I ern1_E
+十分鐘 sh_B ii2_I f_I ern1_I zh_I u1_I ng1_E
+十塊 sh_B ii2_I k_I u4_I a4_I i4_E
+十度 sh_B ii2_I d_I u4_E
+十點 sh_B ii2_I d_I i3_I a3_I nn3_E
+十點鐘 sh_B ii2_I d_I i3_I a3_I nn3_I zh_I u1_I ng1_E
+南邊 n_B a2_I nn2_I b_I i1_I a1_I nn1_E
+卡片 k_B a3_I p_I i4_I a4_I nn4_E
+厚厚 h_B o4_I u4_I h_I o4_I u4_E
+厚厚的 h_B o4_I u4_I h_I o4_I u4_I d_I er0_E
+原始 yu2_B a2_I nn2_I sh_I ii3_E
+原始森林 yu2_B a2_I nn2_I sh_I ii3_I s_I ern1_I l_I i2_I nn2_E
+去 q_B yu4_E
+去會 q_B yu4_I h_I u4_I e4_I i4_E
+去賞 q_B yu4_I sh_I a3_I ng3_E
+參 c_B a1_I nn1_E
+參加 c_B a1_I nn1_I j_I i1_I a1_E
+參加會議 c_B a1_I nn1_I j_I i1_I a1_I h_I u4_I e4_I i4_I i4_E
+參考 c_B a1_I nn1_I k_I a3_I u3_E
+參考書 c_B a1_I nn1_I k_I a3_I u3_I sh_I u1_E
+參觀 c_B a1_I nn1_I g_I u1_I a1_I nn1_E
+又 i4_B o4_I u4_E
+反感 f_B a3_I nn3_I g_I a3_I nn3_E
+叔叔 sh_B u1_I sh_I u1_E
+取消 q_B yu3_I x_I i1_I a1_I u1_E
+受 sh_B o4_I u4_E
+口 k_B o3_I u3_E
+口袋 k_B o3_I u3_I d_I a4_I i4_E
+只 zh_B ii3_E
+叫 j_B i4_I a4_I u4_E
+可 k_B er3_E
+可以 k_B er3_I i3_E
+可愛 k_B er3_I a4_I i4_E
+台 t_B a2_I i2_E
+台幣 t_B a2_I i2_I b_I i4_E
+吃 ch_B ii1_E
+吃藥 ch_B ii1_I i4_I a4_I u4_E
+吃飯 ch_B ii1_I f_I a4_I nn4_E
+吃魚 ch_B ii1_I yu2_E
+吃麥 ch_B ii1_I m_I a4_I i4_E
+各 g_B er4_E
+各種 g_B er4_I zh_I u3_I ng3_E
+合伙 h_B er2_I h_I u3_I o3_E
+合唱 h_B er2_I ch_I a4_I ng4_E
+合唱團 h_B er2_I ch_I a4_I ng4_I t_I u2_I a2_I nn2_E
+合夥 h_B er2_I h_I u3_I o3_E
+合身 h_B er2_I sh_I ern1_E
+合適 h_B er2_I sh_I ii4_E
+同事 t_B u2_I ng2_I sh_I ii4_E
+同學 t_B u2_I ng2_I x_I yu2_I e2_E
+同學要 t_B u2_I ng2_I x_I yu2_I e2_I i4_I a4_I u4_E
+同意 t_B u2_I ng2_I i4_E
+名 m_B i2_I ng2_E
+名片 m_B i2_I ng2_I p_I i4_I a4_I nn4_E
+名片上 m_B i2_I ng2_I p_I i4_I a4_I nn4_I sh_I a4_I ng4_E
+名聞 m_B i2_I ng2_I u2_I nn2_E
+吐吐 t_B u3_I t_I u3_E
+向 x_B i4_I a4_I ng4_E
+向日葵 x_B i4_I a4_I ng4_I rh_I ii4_I k_I u2_I e2_I i2_E
+吞吞 t_B u1_I nn1_I t_I u1_I nn1_E
+吞吞吐吐 t_B u1_I nn1_I t_I u1_I nn1_I t_I u3_I t_I u3_E
+吧 b_B a0_E
+吵架 ch_B a3_I u3_I j_I i4_I a4_E
+吸 x_B i1_E
+吸煙 x_B i1_I i1_I a1_I nn1_E
+吸菸 x_B i1_I i1_I a1_I nn1_E
+周 zh_B o1_I u1_E
+周五 zh_B o1_I u1_I u3_E
+周末 zh_B o1_I u1_I m_I o4_E
+和 h_B er2_E
+咬 i3_B a3_I u3_E
+咬了 i3_B a3_I u3_I l_I er0_E
+咬了一口 i3_B a3_I u3_I l_I er0_I i1_I k_I o3_I u3_E
+品 p_B i3_I nn3_E
+員 yu2_B a2_I nn2_E
+哥哥 g_B er1_I g_I er1_E
+唐代 t_B a2_I ng2_I d_I a4_I i4_E
+唱歌 ch_B a4_I ng4_I g_I er1_E
+啃 k_B ern3_E
+商量 sh_B a1_I ng1_I l_I i2_I a2_I ng2_E
+善良 sh_B a4_I nn4_I l_I i2_I a2_I ng2_E
+喘 ch_B u3_I a3_I nn3_E
+喜歡 x_B i3_I h_I u1_I a1_I nn1_E
+喜酒 x_B i3_I j_I i3_I o3_I u3_E
+喝 h_B er1_E
+喝杯 h_B er1_I b_I e1_I i1_E
+喝醉 h_B er1_I z_I u4_I e4_I i4_E
+喝龍井 h_B er1_I l_I u2_I ng2_I j_I i3_I ng3_E
+喝龍井龍井 h_B er1_I l_I u2_I ng2_I j_I i3_I ng3_I l_I u2_I ng2_I j_I i3_I ng3_E
+單 d_B a1_I nn1_E
+單給 d_B a1_I nn1_I g_I e3_I i3_E
+嗎 m_B a0_E
+噴灑 p_B ern1_I s_I a3_E
+四處 s_B ii4_I ch_I u4_E
+回 h_B u2_I e2_I i2_E
+回來 h_B u2_I e2_I i2_I l_I a2_I i2_E
+回回來 h_B u2_I e2_I i2_I h_I u2_I e2_I i2_I l_I a2_I i2_E
+回老家 h_B u2_I e2_I i2_I l_I a3_I u3_I j_I i1_I a1_E
+因故 i1_B nn1_I g_I u4_E
+因為 i1_B nn1_I u4_I e4_I i4_E
+國外 g_B u2_I o2_I u4_I a4_I i4_E
+國家 g_B u2_I o2_I j_I i1_I a1_E
+國慶日 g_B u2_I o2_I q_I i4_I ng4_I rh_I ii4_E
+圍 u2_B e2_I i2_E
+園 yu2_B a2_I nn2_E
+圓 yu2_B a2_I nn2_E
+圖書 t_B u2_I sh_I u1_E
+圖書館員 t_B u2_I sh_I u1_I g_I u3_I a3_I nn3_I yu2_I a2_I nn2_E
+團 t_B u2_I a2_I nn2_E
+團聚 t_B u2_I a2_I nn2_I j_I yu4_E
+團要 t_B u2_I a2_I nn2_I i4_I a4_I u4_E
+在 z_B a4_I i4_E
+在一起 z_B a4_I i4_I i4_I q_I i3_E
+在家 z_B a4_I i4_I j_I i1_I a1_E
+在裝 z_B a4_I i4_I zh_I u1_I a1_I ng1_E
+地上 d_B i4_I sh_I a4_I ng4_E
+地震 d_B i4_I zh_I ern4_E
+城 ch_B ng2_E
+城中 ch_B ng2_I zh_I u1_I ng1_E
+城市 ch_B ng2_I sh_I ii4_E
+城裡 ch_B ng2_I l_I i3_E
+報告 b_B a4_I u4_I g_I a4_I u4_E
+報導 b_B a4_I u4_I d_I a3_I u3_E
+報紙 b_B a4_I u4_I zh_I ii3_E
+場 ch_B a3_I ng3_E
+塊 k_B u4_I a4_I i4_E
+塞 s_B a1_I i1_E
+塞滿 s_B a1_I i1_I m_I a3_I nn3_E
+塞買 s_B a1_I i1_I m_I a3_I i3_E
+填好 t_B i2_I a2_I nn2_I h_I a3_I u3_E
+填寫 t_B i2_I a2_I nn2_I x_I i3_I e3_E
+增加 z_B ng1_I j_I i1_I a1_E
+墨水 m_B o4_I sh_I u3_I e3_I i3_E
+壞 h_B u4_I a4_I i4_E
+壞習慣 h_B u4_I a4_I i4_I x_I i2_I g_I u4_I a4_I nn4_E
+壺 h_B u2_E
+夏天 x_B i4_I a4_I t_I i1_I a1_I nn1_E
+外國 u4_B a4_I i4_I g_I u2_I o2_E
+外國人 u4_B a4_I i4_I g_I u2_I o2_I rh_I ern2_E
+外套 u4_B a4_I i4_I t_I a4_I u4_E
+外婆 u4_B a4_I i4_I p_I o2_E
+外聞名 u4_B a4_I i4_I u2_I nn2_I m_I i2_I ng2_E
+外面 u4_B a4_I i4_I m_I i4_I a4_I nn4_E
+多 d_B u1_I o1_E
+多家 d_B u1_I o1_I j_I i1_I a1_E
+多年 d_B u1_I o1_I n_I i2_I a2_I nn2_E
+夜 i4_B e4_E
+夢 m_B ng4_E
+夢想 m_B ng4_I x_I i3_I a3_I ng3_E
+大 d_B a4_E
+大伯 d_B a4_I b_I o2_E
+大包 d_B a4_I b_I a1_I u1_E
+大多 d_B a4_I d_I u1_I o1_E
+大多數 d_B a4_I d_I u1_I o1_I sh_I u4_E
+大學 d_B a4_I x_I yu2_I e2_E
+大家 d_B a4_I j_I i1_I a1_E
+大年 d_B a4_I n_I i2_I a2_I nn2_E
+大年初一 d_B a4_I n_I i2_I a2_I nn2_I ch_I u1_I i1_E
+大樓 d_B a4_I l_I o2_I u2_E
+大橋 d_B a4_I q_I i2_I a2_I u2_E
+大減價 d_B a4_I j_I i3_I a3_I nn3_I j_I i4_I a4_E
+大火 d_B a4_I h_I u3_I o3_E
+大熊 d_B a4_I x_I i2_I o2_I ng2_E
+大熊貓 d_B a4_I x_I i2_I o2_I ng2_I m_I a1_I u1_E
+大缸 d_B a4_I g_I a1_I ng1_E
+大門 d_B a4_I m_I ern2_E
+大門口 d_B a4_I m_I ern2_I k_I o3_I u3_E
+大雨 d_B a4_I yu3_E
+大風 d_B a4_I f_I ng1_E
+天 t_B i1_I a1_I nn1_E
+天氣 t_B i1_I a1_I nn1_I q_I i4_E
+天賦 t_B i1_I a1_I nn1_I f_I u4_E
+太 t_B a4_I i4_E
+太快 t_B a4_I i4_I k_I u4_I a4_I i4_E
+夾傷 j_B i1_I a1_I sh_I a1_I ng1_E
+套 t_B a4_I u4_E
+奶奶 n_B a3_I i3_I n_I a3_I i3_E
+奶奶家 n_B a3_I i3_I n_I a3_I i3_I j_I i1_I a1_E
+她 t_B a1_E
+她們 t_B a1_I m_I ern0_E
+好 h_B a3_I u3_E
+好不容易 h_B a3_I u3_I b_I u4_I rh_I u2_I ng2_I i4_E
+好久 h_B a3_I u3_I j_I i3_I o3_I u3_E
+好像 h_B a3_I u3_I x_I i4_I a4_I ng4_E
+好吃 h_B a3_I u3_I ch_I ii1_E
+好多 h_B a3_I u3_I d_I u1_I o1_E
+好好 h_B a3_I u3_I h_I a3_I u3_E
+好幾 h_B a3_I u3_I j_I i3_E
+好朋友 h_B a3_I u3_I p_I ng2_I i3_I o3_I u3_E
+妹妹 m_B e4_I i4_I m_I e4_I i4_E
+姊夫 z_B ii3_I f_I u1_E
+姊妹 z_B ii3_I m_I e4_I i4_E
+姊姊 z_B ii3_I z_I ii3_E
+姐夫 j_B i3_I e3_I f_I u1_E
+姐妹 j_B i3_I e3_I m_I e4_I i4_E
+姐姐 j_B i3_I e3_I j_I i3_I e3_E
+姿勢 z_B ii1_I sh_I ii4_E
+婆婆 p_B o2_I p_I o0_E
+媽 m_B a1_E
+媽媽 m_B a1_I m_I a1_E
+子上 z_B ii0_I sh_I a4_I ng4_E
+字典 z_B ii4_I d_I i3_I a3_I nn3_E
+孝順 x_B i4_I a4_I u4_I sh_I u4_I nn4_E
+孩子 h_B a2_I i2_I z_I ii0_E
+孩子們 h_B a2_I i2_I z_I ii0_I m_I ern0_E
+學 x_B yu2_I e2_E
+學入 x_B yu2_I e2_I rh_I u4_E
+學手續 x_B yu2_I e2_I sh_I o3_I u3_I x_I yu4_E
+學期 x_B yu2_I e2_I q_I i2_E
+學校 x_B yu2_I e2_I x_I i4_I a4_I u4_E
+學生 x_B yu2_I e2_I sh_I ng1_E
+學習 x_B yu2_I e2_I x_I i2_E
+學音樂 x_B yu2_I e2_I i1_I nn1_I l_I er4_E
+守信用 sh_B o3_I u3_I x_I i4_I nn4_I i4_I o4_I ng4_E
+完 u2_B a2_I nn2_E
+完全 u2_B a2_I nn2_I q_I yu2_I a2_I nn2_E
+完全同意 u2_B a2_I nn2_I q_I yu2_I a2_I nn2_I t_I u2_I ng2_I i4_E
+完功 u2_B a2_I nn2_I g_I u1_I ng1_E
+客 k_B er4_E
+宣判 x_B yu1_I a1_I nn1_I p_I a4_I nn4_E
+宣布 x_B yu1_I a1_I nn1_I b_I u4_E
+家 j_B i1_I a1_E
+家人 j_B i1_I a1_I rh_I ern2_E
+家具 j_B i1_I a1_I j_I yu4_E
+家裡 j_B i1_I a1_I l_I i3_E
+家長 j_B i1_I a1_I zh_I a3_I ng3_E
+家長會 j_B i1_I a1_I zh_I a3_I ng3_I h_I u4_I e4_I i4_E
+家養 j_B i1_I a1_I i3_I a3_I ng3_E
+容易 rh_B u2_I ng2_I i4_E
+宿舍 s_B u4_I sh_I er4_E
+寄 j_B i4_E
+寄些 j_B i4_I x_I i1_I e1_E
+實況 sh_B ii2_I k_I u4_I a4_I ng4_E
+寫 x_B i3_I e3_E
+寶寶 b_B a3_I u3_I b_I a3_I u3_E
+寶寶剛 b_B a3_I u3_I b_I a3_I u3_I g_I a1_I ng1_E
+寺 s_B ii4_E
+寺廟 s_B ii4_I m_I i4_I a4_I u4_E
+將要 j_B i1_I a1_I ng1_I i4_I a4_I u4_E
+對 d_B u4_I e4_I i4_E
+小 x_B i3_I a3_I u3_E
+小偷 x_B i3_I a3_I u3_I t_I o1_I u1_E
+小名 x_B i3_I a3_I u3_I m_I i2_I ng2_E
+小妹 x_B i3_I a3_I u3_I m_I e4_I i4_E
+小妹子 x_B i3_I a3_I u3_I m_I e4_I i4_I z_I ii0_E
+小孩子 x_B i3_I a3_I u3_I h_I a2_I i2_I z_I ii0_E
+小心 x_B i3_I a3_I u3_I x_I i1_I nn1_E
+小朋友 x_B i3_I a3_I u3_I p_I ng2_I i3_I o3_I u3_E
+小花 x_B i3_I a3_I u3_I h_I u1_I a1_E
+小貓 x_B i3_I a3_I u3_I m_I a1_I u1_E
+小鬼 x_B i3_I a3_I u3_I g_I u3_I e3_I i3_E
+就 j_B i4_I o4_I u4_E
+就要 j_B i4_I o4_I u4_I i4_I a4_I u4_E
+居家 j_B yu1_I j_I i1_I a1_E
+山頂 sh_B a1_I nn1_I d_I i3_I ng3_E
+山頂上 sh_B a1_I nn1_I d_I i3_I ng3_I sh_I a4_I ng4_E
+工人 g_B u1_I ng1_I rh_I ern2_E
+工作 g_B u1_I ng1_I z_I u4_I o4_E
+工地 g_B u1_I ng1_I d_I i4_E
+工地上 g_B u1_I ng1_I d_I i4_I sh_I a4_I ng4_E
+工業區 g_B u1_I ng1_I i4_I e4_I q_I yu1_E
+工程 g_B u1_I ng1_I ch_I ng2_E
+工程師 g_B u1_I ng1_I ch_I ng2_I sh_I ii1_E
+差 ch_B a4_E
+已 i3_S
+已經 i3_B j_I i1_I ng1_E
+已經開 i3_B j_I i1_I ng1_I k_I a1_I i1_E
+市長 sh_B ii4_I zh_I a3_I ng3_E
+希望 x_B i1_I u4_I a4_I ng4_E
+師 sh_B ii1_E
+帶 d_B a4_I i4_E
+帶傘 d_B a4_I i4_I s_I a3_I nn3_E
+帶給 d_B a4_I i4_I g_I e3_I i3_E
+帶雨傘 d_B a4_I i4_I yu3_I s_I a3_I nn3_E
+常 ch_B a2_I ng2_E
+常去 ch_B a2_I ng2_I q_I yu4_E
+常常 ch_B a2_I ng2_I ch_I a2_I ng2_E
+常年 ch_B a2_I ng2_I n_I i2_I a2_I nn2_E
+常有 ch_B a2_I ng2_I i3_I o3_I u3_E
+幅 f_B u2_E
+幫 b_B a1_I ng1_E
+幫媽媽 b_B a1_I ng1_I m_I a1_I m_I a1_E
+幫老 b_B a1_I ng1_I l_I a3_I u3_E
+平常 p_B i2_I ng2_I ch_I a2_I ng2_E
+年 n_B i2_I a2_I nn2_E
+幾 j_B i3_E
+幾乎 j_B i3_I h_I u1_E
+幾個 j_B i3_I g_I er0_E
+幾天 j_B i3_I t_I i1_I a1_I nn1_E
+幾天前 j_B i3_I t_I i1_I a1_I nn1_I q_I i2_I a2_I nn2_E
+幾本 j_B i3_I b_I ern3_E
+幾本書 j_B i3_I b_I ern3_I sh_I u1_E
+床 ch_B u2_I a2_I ng2_E
+床單 ch_B u2_I a2_I ng2_I d_I a1_I nn1_E
+度 d_B u4_E
+座 z_B u4_I o4_E
+座位 z_B u4_I o4_I u4_I e4_I i4_E
+庭院 t_B i2_I ng2_I yu4_I a4_I nn4_E
+廁所 c_B er4_I s_I u3_I o3_E
+廚師 ch_B u2_I sh_I ii1_E
+廚房 ch_B u2_I f_I a2_I ng2_E
+廚房裡 ch_B u2_I f_I a2_I ng2_I l_I i3_E
+廟 m_B i4_I a4_I u4_E
+廣播 g_B u3_I a3_I ng3_I b_I o1_E
+建 j_B i4_I a4_I nn4_E
+建築 j_B i4_I a4_I nn4_I zh_I u4_E
+弟弟 d_B i4_I d_I i0_E
+張 zh_B a1_I ng1_E
+彈 d_B a4_I nn4_E
+彈鋼琴 d_B a4_I nn4_I g_I a1_I ng1_I q_I i2_I nn2_E
+彩 c_B a3_I i3_E
+彩排 c_B a3_I i3_I p_I a2_I i2_E
+彬彬 b_B i1_I nn1_I b_I i1_I nn1_E
+彬彬有禮 b_B i1_I nn1_I b_I i1_I nn1_I i3_I o3_I u3_I l_I i3_E
+影票 i3_B ng3_I p_I i4_I a4_I u4_E
+影院 i3_B ng3_I yu4_I a4_I nn4_E
+往 u3_B a3_I ng3_E
+待遇 d_B a4_I i4_I yu4_E
+很 h_B ern3_E
+很久 h_B ern3_I j_I i3_I o3_I u3_E
+很傷 h_B ern3_I sh_I a1_I ng1_E
+很受 h_B ern3_I sh_I o4_I u4_E
+很合適 h_B ern3_I h_I er2_I sh_I ii4_E
+很多 h_B ern3_I d_I u1_I o1_E
+很多很多 h_B ern3_I d_I u1_I o1_I h_I ern3_I d_I u1_I o1_E
+很好 h_B ern3_I h_I a3_I u3_E
+很快 h_B ern3_I k_I u4_I a4_I i4_E
+很特別 h_B ern3_I t_I er4_I b_I i2_I e2_E
+很盛 h_B ern3_I sh_I ng4_E
+後 h_B o4_I u4_E
+得 d_B er2_E
+心事 x_B i1_I nn1_I sh_I ii4_E
+心地 x_B i1_I nn1_I d_I i4_E
+忘 u4_B a4_I ng4_E
+快 k_B u4_I a4_I i4_E
+怪 g_B u4_I a4_I i4_E
+怪夢 g_B u4_I a4_I i4_I m_I ng4_E
+恐怕 k_B u3_I ng3_I p_I a4_E
+恐怖 k_B u3_I ng3_I b_I u4_E
+您 n_B i2_I nn2_E
+想 x_B i3_I a3_I ng3_E
+意外 i4_B u4_I a4_I i4_E
+意選 i4_B x_I yu3_I a3_I nn3_E
+愛 a4_B i4_E
+愛吃 a4_B i4_I ch_I ii1_E
+愛找 a4_B i4_I zh_I a3_I u3_E
+愛買 a4_B i4_I m_I a3_I i3_E
+愛買些 a4_B i4_I m_I a3_I i3_I x_I i1_I e1_E
+慢 m_B a4_I nn4_E
+慶祝 q_B i4_I ng4_I zh_I u4_E
+應要 i1_B ng1_I i4_I a4_I u4_E
+應該 i1_B ng1_I g_I a1_I i1_E
+成績 ch_B ng2_I j_I i1_E
+我 u3_B o3_E
+我們 u3_B o3_I m_I ern0_E
+我十點 u3_B o3_I sh_I ii2_I d_I i3_I a3_I nn3_E
+我十點鐘 u3_B o3_I sh_I ii2_I d_I i3_I a3_I nn3_I zh_I u1_I ng1_E
+我常去 u3_B o3_I ch_I a2_I ng2_I q_I yu4_E
+我怕 u3_B o3_I p_I a4_E
+我要 u3_B o3_I i4_I a4_I u4_E
+截稿 j_B i2_I e2_I g_I a3_I u3_E
+戴 d_B a4_I i4_E
+戴著 d_B a4_I i4_I zh_I u4_E
+房子 f_B a2_I ng2_I z_I ii0_E
+房間 f_B a2_I ng2_I j_I i1_I a1_I nn1_E
+房間裡 f_B a2_I ng2_I j_I i1_I a1_I nn1_I l_I i3_E
+所 s_B u3_I o3_E
+所有 s_B u3_I o3_I i3_I o3_I u3_E
+手 sh_B o3_I u3_E
+手上 sh_B o3_I u3_I sh_I a4_I ng4_E
+手環 sh_B o3_I u3_I h_I u2_I a2_I nn2_E
+手續 sh_B o3_I u3_I x_I yu4_E
+手術 sh_B o3_I u3_I sh_I u4_E
+手錶 sh_B o3_I u3_I b_I i3_I a3_I u3_E
+才 c_B a2_I i2_E
+打 d_B a3_E
+打入 d_B a3_I rh_I u4_E
+打字 d_B a3_I z_I ii4_E
+打打 d_B a3_I d_I a3_E
+打掃 d_B a3_I s_I a3_I u3_E
+打破 d_B a3_I p_I o4_E
+打翻 d_B a3_I f_I a1_I nn1_E
+打電話 d_B a3_I d_I i4_I a4_I nn4_I h_I u4_I a4_E
+打領 d_B a3_I l_I i3_I ng3_E
+打領帶 d_B a3_I l_I i3_I ng3_I d_I a4_I i4_E
+打麻將 d_B a3_I m_I a2_I j_I i1_I a1_I ng1_E
+扭傷 n_B i3_I o3_I u3_I sh_I a1_I ng1_E
+找 zh_B a3_I u3_E
+找出 zh_B a3_I u3_I ch_I u1_E
+把 b_B a3_E
+抓 zh_B u1_I a1_E
+抓到 zh_B u1_I a1_I d_I a4_I u4_E
+抓破 zh_B u1_I a1_I p_I o4_E
+投籃 t_B o2_I u2_I l_I a2_I nn2_E
+抱怨 b_B a4_I u4_I yu4_I a4_I nn4_E
+抹布 m_B a1_I b_I u4_E
+拉 l_B a1_E
+拉麵 l_B a1_I m_I i4_I a4_I nn4_E
+拍照 p_B a1_I i1_I zh_I a4_I u4_E
+招待 zh_B a1_I u1_I d_I a4_I i4_E
+招待會 zh_B a1_I u1_I d_I a4_I i4_I h_I u4_I e4_I i4_E
+招聘 zh_B a1_I u1_I p_I i4_I nn4_E
+拜年 b_B a4_I i4_I n_I i2_I a2_I nn2_E
+拿 n_B a2_E
+捐 j_B yu1_I a1_I nn1_E
+掃 s_B a3_I u3_E
+掃地 s_B a3_I u3_I d_I er0_E
+掉 d_B i4_I a4_I u4_E
+排 p_B a2_I i2_E
+掛 g_B u4_I a4_E
+掛著 g_B u4_I a4_I zh_I u4_E
+探望 t_B a4_I nn4_I u4_I a4_I ng4_E
+接 j_B i1_I e1_E
+接到 j_B i1_I e1_I d_I a4_I u4_E
+接聽 j_B i1_I e1_I t_I i1_I ng1_E
+接電話 j_B i1_I e1_I d_I i4_I a4_I nn4_I h_I u4_I a4_E
+提前 t_B i2_I q_I i2_I a2_I nn2_E
+換 h_B u4_I a4_I nn4_E
+換床 h_B u4_I a4_I nn4_I ch_I u2_I a2_I ng2_E
+搬 b_B a1_I nn1_E
+搬上 b_B a1_I nn1_I sh_I a4_I ng4_E
+搬家 b_B a1_I nn1_I j_I i1_I a1_E
+搭乘 d_B a1_I ch_I ng2_E
+撞 zh_B u4_I a4_I ng4_E
+撞到 zh_B u4_I a4_I ng4_I d_I a4_I u4_E
+撰 zh_B u4_I a4_I nn4_E
+撰寫 zh_B u4_I a4_I nn4_I x_I i3_I e3_E
+撲克牌 p_B u1_I k_I er4_I p_I a2_I i2_E
+撿 j_B i3_I a3_I nn3_E
+撿到 j_B i3_I a3_I nn3_I d_I a4_I u4_E
+擅長 sh_B a4_I nn4_I zh_I a3_I ng3_E
+操場 c_B a1_I u1_I ch_I a3_I ng3_E
+擔心 d_B a1_I nn1_I x_I i1_I nn1_E
+擦乾 c_B a1_I q_I i2_I a2_I nn2_E
+擦乾淨 c_B a1_I q_I i2_I a2_I nn2_I j_I i4_I ng4_E
+擺 b_B a3_I i3_E
+擺好 b_B a3_I i3_I h_I a3_I u3_E
+擺滿 b_B a3_I i3_I m_I a3_I nn3_E
+支 zh_B ii1_E
+收到 sh_B o1_I u1_I d_I a4_I u4_E
+收據 sh_B o1_I u1_I j_I yu4_E
+收音 sh_B o1_I u1_I i1_I nn1_E
+收音機 sh_B o1_I u1_I i1_I nn1_I j_I i1_E
+放 f_B a4_I ng4_E
+放假 f_B a4_I ng4_I j_I i4_I a4_E
+放入 f_B a4_I ng4_I rh_I u4_E
+放多 f_B a4_I ng4_I d_I u1_I o1_E
+放學 f_B a4_I ng4_I x_I yu2_I e2_E
+放放學 f_B a4_I ng4_I f_I a4_I ng4_I x_I yu2_I e2_E
+放長 f_B a4_I ng4_I zh_I a3_I ng3_E
+放風箏 f_B a4_I ng4_I f_I ng1_I zh_I ng1_E
+故事 g_B u4_I sh_I ii4_E
+故宮 g_B u4_I g_I u1_I ng1_E
+教 j_B i4_I a4_I u4_E
+教數學 j_B i4_I a4_I u4_I sh_I u4_I x_I yu2_I e2_E
+整 zh_B ng3_E
+整夜 zh_B ng3_I i4_I e4_E
+整整 zh_B ng3_I zh_I ng3_E
+整晚 zh_B ng3_I u3_I a3_I nn3_E
+敷 f_B u1_E
+敷冰塊 f_B u1_I b_I i1_I ng1_I k_I u4_I a4_I i4_E
+數 sh_B u4_E
+數學 sh_B u4_I x_I yu2_I e2_E
+文件 u2_B nn2_I j_I i4_I a4_I nn4_E
+新 x_B i1_I nn1_E
+新老師 x_B i1_I nn1_I l_I a3_I u3_I sh_I ii1_E
+新聞 x_B i1_I nn1_I u2_I nn2_E
+於 yu2_S
+旅遊 l_B yu3_I i2_I o2_I u2_E
+旅遊業 l_B yu3_I i2_I o2_I u2_I i4_I e4_E
+旅遊點 l_B yu3_I i2_I o2_I u2_I d_I i3_I a3_I nn3_E
+日 rh_B ii4_E
+早上 z_B a3_I u3_I sh_I a4_I ng4_E
+早早 z_B a3_I u3_I z_I a3_I u3_E
+早餐 z_B a3_I u3_I c_I a1_I nn1_E
+早點 z_B a3_I u3_I d_I i3_I a3_I nn3_E
+明天 m_B i2_I ng2_I t_I i1_I a1_I nn1_E
+明媚 m_B i2_I ng2_I m_I e4_I i4_E
+昏昏沉沉 h_B u1_I nn1_I h_I u1_I nn1_I ch_I ern2_I ch_I ern2_E
+昏沉沉 h_B u1_I nn1_I ch_I ern2_I ch_I ern2_E
+星期 x_B i1_I ng1_I q_I i2_E
+星期一 x_B i1_I ng1_I q_I i2_I i1_E
+星期天 x_B i1_I ng1_I q_I i2_I t_I i1_I a1_I nn1_E
+春天 ch_B u1_I nn1_I t_I i1_I a1_I nn1_E
+春節 ch_B u1_I nn1_I j_I i2_I e2_E
+昨天 z_B u2_I o2_I t_I i1_I a1_I nn1_E
+昨天晚上 z_B u2_I o2_I t_I i1_I a1_I nn1_I u3_I a3_I nn3_I sh_I a4_I ng4_E
+是 sh_B ii4_E
+是當 sh_B ii4_I d_I a1_I ng1_E
+是雙 sh_B ii4_I sh_I u1_I a1_I ng1_E
+時 sh_B ii2_E
+時別 sh_B ii2_I b_I i2_I e2_E
+時裝 sh_B ii2_I zh_I u1_I a1_I ng1_E
+時間 sh_B ii2_I j_I i1_I a1_I nn1_E
+晚 u3_B a3_I nn3_E
+晚上 u3_B a3_I nn3_I sh_I a4_I ng4_E
+晚晚 u3_B a3_I nn3_I u3_I a3_I nn3_E
+晚會 u3_B a3_I nn3_I h_I u4_I e4_I i4_E
+晚飯 u3_B a3_I nn3_I f_I a4_I nn4_E
+晚餐 u3_B a3_I nn3_I c_I a1_I nn1_E
+景美 j_B i3_I ng3_I m_I e3_I i3_E
+暗 a4_B nn4_E
+書 sh_B u1_E
+書店 sh_B u1_I d_I i4_I a4_I nn4_E
+書法 sh_B u1_I f_I a3_E
+替 t_B i4_E
+最 z_B u4_I e4_I i4_E
+最喜歡 z_B u4_I e4_I i4_I x_I i3_I h_I u1_I a1_I nn1_E
+最近 z_B u4_I e4_I i4_I j_I i4_I nn4_E
+會 h_B u4_I e4_I i4_E
+會講 h_B u4_I e4_I i4_I j_I i3_I a3_I ng3_E
+會議 h_B u4_I e4_I i4_I i4_E
+會議室 h_B u4_I e4_I i4_I i4_I sh_I ii4_E
+月 yu4_B e4_E
+月亮 yu4_B e4_I l_I i4_I a4_I ng4_E
+有 i3_B o3_I u3_E
+有事 i3_B o3_I u3_I sh_I ii4_E
+有人 i3_B o3_I u3_I rh_I ern2_E
+有什麼 i3_B o3_I u3_I sh_I ern2_I m_I er0_E
+有名 i3_B o3_I u3_I m_I i2_I ng2_E
+有座 i3_B o3_I u3_I z_I u4_I o4_E
+有書法 i3_B o3_I u3_I sh_I u1_I f_I a3_E
+有治氣 i3_B o3_I u3_I zh_I ii4_I q_I i4_E
+有禮 i3_B o3_I u3_I l_I i3_E
+有約會 i3_B o3_I u3_I yu1_I e1_I h_I u4_I e4_I i4_E
+有許 i3_B o3_I u3_I x_I yu3_E
+有遠 i3_B o3_I u3_I yu3_I a3_I nn3_E
+有點 i3_B o3_I u3_I d_I i3_I a3_I nn3_E
+朋友 p_B ng2_I i3_I o3_I u3_E
+服 f_B u2_E
+末 m_B o4_E
+本 b_B ern3_E
+本週 b_B ern3_I zh_I o1_I u1_E
+李白 l_B i3_I b_I a2_I i2_E
+束 sh_B u4_E
+杯 b_B e1_I i1_E
+東西 d_B u1_I ng1_I x_I i1_E
+枝 zh_B ii1_E
+架上 j_B i4_I a4_I sh_I a4_I ng4_E
+染上 rh_B a3_I nn3_I sh_I a4_I ng4_E
+校隊 x_B i4_I a4_I u4_I d_I u4_I e4_I i4_E
+格子 g_B er2_I z_I ii0_E
+案子 a4_B nn4_I z_I ii0_E
+桌上 zh_B u1_I o1_I sh_I a4_I ng4_E
+桌下 zh_B u1_I o1_I x_I i4_I a4_E
+桌子 zh_B u1_I o1_I z_I ii0_E
+桌子上 zh_B u1_I o1_I z_I ii0_I sh_I a4_I ng4_E
+條 t_B i2_I a2_I u2_E
+棒球 b_B a4_I ng4_I q_I i2_I o2_I u2_E
+棒球賽 b_B a4_I ng4_I q_I i2_I o2_I u2_I s_I a4_I i4_E
+森林 s_B ern1_I l_I i2_I nn2_E
+樓 l_B o2_I u2_E
+樓下 l_B o2_I u2_I x_I i4_I a4_E
+樹 sh_B u4_E
+樹上 sh_B u4_I sh_I a4_I ng4_E
+橋 q_B i2_I a2_I u2_E
+橘色 j_B yu2_I s_I er4_E
+橘黃色 j_B yu2_I h_I u2_I a2_I ng2_I s_I er4_E
+橙黃色 ch_B ng2_I h_I u2_I a2_I ng2_I s_I er4_E
+機 j_B i1_E
+檢查 j_B i3_I a3_I nn3_I ch_I a2_E
+櫃子 g_B u4_I e4_I i4_I z_I ii0_E
+欄 l_B a2_I nn2_E
+次 c_B ii4_E
+歌劇 g_B er1_I j_I yu4_E
+歌唱 g_B er1_I ch_I a4_I ng4_E
+歡迎 h_B u1_I a1_I nn1_I i2_I ng2_E
+正 zh_B ng4_E
+正四處 zh_B ng4_I s_I ii4_I ch_I u4_E
+正在 zh_B ng4_I z_I a4_I i4_E
+正式 zh_B ng4_I sh_I ii4_E
+正往 zh_B ng4_I u3_I a3_I ng3_E
+步 b_B u4_E
+歷史 l_B i4_I sh_I ii3_E
+段 d_B u4_I a4_I nn4_E
+毀了 h_B u3_I e3_I i3_I l_I er0_E
+每 m_B e3_I i3_E
+每個 m_B e3_I i3_I g_I er0_E
+每天 m_B e3_I i3_I t_I i1_I a1_I nn1_E
+每天晚上 m_B e3_I i3_I t_I i1_I a1_I nn1_I u3_I a3_I nn3_I sh_I a4_I ng4_E
+每年 m_B e3_I i3_I n_I i2_I a2_I nn2_E
+比 b_B i3_E
+比賽 b_B i3_I s_I a4_I i4_E
+比較 b_B i3_I j_I i4_I a4_I u4_E
+毛毛雨 m_B a2_I u2_I m_I a2_I u2_I yu3_E
+氣 q_B i4_E
+氣喘 q_B i4_I ch_I u3_I a3_I nn3_E
+氣喝 q_B i4_I h_I er1_E
+氣溫 q_B i4_I u1_I nn1_E
+水 sh_B u3_I e3_I i3_E
+水果 sh_B u3_I e3_I i3_I g_I u3_I o3_E
+水果糖 sh_B u3_I e3_I i3_I g_I u3_I o3_I t_I a2_I ng2_E
+水泡 sh_B u3_I e3_I i3_I p_I a4_I u4_E
+水準備 sh_B u3_I e3_I i3_I zh_I u3_I nn3_I b_I e4_I i4_E
+水餃 sh_B u3_I e3_I i3_I j_I i3_I a3_I u3_E
+水龍頭 sh_B u3_I e3_I i3_I l_I u2_I ng2_I t_I o2_I u2_E
+池塘 ch_B ii2_I t_I a2_I ng2_E
+決策 j_B yu2_I e2_I c_I er4_E
+決賽 j_B yu2_I e2_I s_I a4_I i4_E
+汽車門 q_B i4_I ch_I er1_I m_I ern2_E
+沉沉的 ch_B ern2_I ch_I ern2_I d_I er0_E
+沒 m_B e2_I i2_E
+沒有 m_B e2_I i2_I i3_I o3_I u3_E
+沒能 m_B e2_I i2_I n_I ng2_E
+沖 ch_B u1_I ng1_E
+沖垮 ch_B u1_I ng1_I k_I u3_I a3_E
+沖毀 ch_B u1_I ng1_I h_I u3_I e3_I i3_E
+油 i2_B o2_I u2_E
+油畫 i2_B o2_I u2_I h_I u4_I a4_E
+治 zh_B ii4_E
+治氣 zh_B ii4_I q_I i4_E
+治療 zh_B ii4_I l_I i2_I a2_I u2_E
+注意 zh_B u4_I i4_E
+洋裝 i2_B a2_I ng2_I zh_I u1_I a1_I ng1_E
+洗 x_B i3_E
+洗廁 x_B i3_I c_I er4_E
+洗廁所 x_B i3_I c_I er4_I s_I u3_I o3_E
+洪水 h_B u2_I ng2_I sh_I u3_I e3_I i3_E
+海外 h_B a3_I i3_I u4_I a4_I i4_E
+消息 x_B i1_I a1_I u1_I x_I i2_E
+淨 j_B i4_I ng4_E
+深夜 sh_B ern1_I i4_I e4_E
+清明 q_B i1_I ng1_I m_I i2_I ng2_E
+清明節 q_B i1_I ng1_I m_I i2_I ng2_I j_I i2_I e2_E
+減價 j_B i3_I a3_I nn3_I j_I i4_I a4_E
+準備 zh_B u3_I nn3_I b_I e4_I i4_E
+溜冰 l_B i1_I o1_I u1_I b_I i1_I ng1_E
+溫響 u1_B nn1_I x_I i3_I a3_I ng3_E
+溫香 u1_B nn1_I x_I i1_I a1_I ng1_E
+溫馨 u1_B nn1_I x_I i1_I nn1_E
+滿 m_B a3_I nn3_E
+滿意 m_B a3_I nn3_I i4_E
+滿月 m_B a3_I nn3_I yu4_I e4_E
+演唱 i3_B a3_I nn3_I ch_I a4_I ng4_E
+演唱會 i3_B a3_I nn3_I ch_I a4_I ng4_I h_I u4_I e4_I i4_E
+演講 i3_B a3_I nn3_I j_I i3_I a3_I ng3_E
+漲 zh_B a3_I ng3_E
+火車 h_B u3_I o3_I ch_I er1_E
+火車站 h_B u3_I o3_I ch_I er1_I zh_I a4_I nn4_E
+灰 h_B u1_I e1_I i1_E
+災區 z_B a1_I i1_I q_I yu1_E
+炒 ch_B a3_I u3_E
+炒菜 ch_B a3_I u3_I c_I a4_I i4_E
+為 u4_B e4_I i4_E
+為什麼 u4_B e4_I i4_I sh_I ern2_I m_I er0_E
+無聊 u2_B l_I i2_I a2_I u2_E
+照相 zh_B a4_I u4_I x_I i4_I a4_I ng4_E
+熊貓 x_B i2_I o2_I ng2_I m_I a1_I u1_E
+熟悉 sh_B o2_I u2_I x_I i1_E
+熬 a2_B u2_E
+熬中藥 a2_B u2_I zh_I u1_I ng1_I i4_I a4_I u4_E
+熱帶魚 rh_B er4_I d_I a4_I i4_I yu2_E
+燈 d_B ng1_E
+燈光 d_B ng1_I g_I u1_I a1_I ng1_E
+燈會 d_B ng1_I h_I u4_I e4_I i4_E
+營業 i2_B ng2_I i4_I e4_E
+爬 p_B a2_E
+爬滿 p_B a2_I m_I a3_I nn3_E
+父母 f_B u4_I m_I u3_E
+爸爸 b_B a4_I b_I a4_E
+爺爺 i2_B e2_I i2_I e2_E
+牆 q_B i2_I a2_I ng2_E
+牆上 q_B i2_I a2_I ng2_I sh_I a4_I ng4_E
+片 p_B i4_I a4_I nn4_E
+牌子 p_B a2_I i2_I z_I ii0_E
+牙齒 i2_B a2_I ch_I ii3_E
+牛花 n_B i2_I o2_I u2_I h_I u1_I a1_E
+物價 u4_B j_I i4_I a4_E
+特別 t_B er4_I b_I i2_I e2_E
+牽 q_B i1_I a1_I nn1_E
+牽牛花 q_B i1_I a1_I nn1_I n_I i2_I o2_I u2_I h_I u1_I a1_E
+犯 f_B a4_I nn4_E
+狗 g_B o3_I u3_E
+狼 l_B a2_I ng2_E
+狼狗 l_B a2_I ng2_I g_I o3_I u3_E
+獲得 h_B u4_I o4_I d_I er2_E
+獲獎 h_B u4_I o4_I j_I i3_I a3_I ng3_E
+玉 yu4_S
+玉手 yu4_B sh_I o3_I u3_E
+玉手環 yu4_B sh_I o3_I u3_I h_I u2_I a2_I nn2_E
+玩 u2_B a2_I nn2_E
+玩撲克牌 u2_B a2_I nn2_I p_I u1_I k_I er4_I p_I a2_I i2_E
+班 b_B a1_I nn1_E
+班上 b_B a1_I nn1_I sh_I a4_I ng4_E
+班列 b_B a1_I nn1_I l_I i4_I e4_E
+班長 b_B a1_I nn1_I zh_I a3_I ng3_E
+現在 x_B i4_I a4_I nn4_I z_I a4_I i4_E
+現在會 x_B i4_I a4_I nn4_I z_I a4_I i4_I h_I u4_I e4_I i4_E
+球 q_B i2_I o2_I u2_E
+球賽 q_B i2_I o2_I u2_I s_I a4_I i4_E
+球隊 q_B i2_I o2_I u2_I d_I u4_I e4_I i4_E
+理 l_B i3_E
+環 h_B u2_I a2_I nn2_E
+瓜子 g_B u1_I a1_I z_I ii0_E
+生手 sh_B ng1_I sh_I o3_I u3_E
+生日 sh_B ng1_I rh_I ii4_E
+生活 sh_B ng1_I h_I u2_I o2_E
+用 i4_B o4_I ng4_E
+申請 sh_B ern1_I q_I i3_I ng3_E
+男生 n_B a2_I nn2_I sh_I ng1_E
+留學生 l_B i2_I o2_I u2_I x_I yu2_I e2_I sh_I ng1_E
+留意 l_B i2_I o2_I u2_I i4_E
+畢業 b_B i4_I i4_I e4_E
+畢業典禮 b_B i4_I i4_I e4_I d_I i3_I a3_I nn3_I l_I i3_E
+畫 h_B u4_I a4_E
+當 d_B a1_I ng1_E
+當勞 d_B a1_I ng1_I l_I a2_I u2_E
+疏導 sh_B u1_I d_I a3_I u3_E
+疹子 zh_B ern3_I z_I ii0_E
+病人 b_B i4_I ng4_I rh_I ern2_E
+病假 b_B i4_I ng4_I j_I i4_I a4_E
+痛 t_B u4_I ng4_E
+登山 d_B ng1_I sh_I a1_I nn1_E
+發現 f_B a1_I x_I i4_I a4_I nn4_E
+發生 f_B a1_I sh_I ng1_E
+發達 f_B a1_I d_I a2_E
+發電 f_B a1_I d_I i4_I a4_I nn4_E
+發電廠 f_B a1_I d_I i4_I a4_I nn4_I ch_I a3_I ng3_E
+白 b_B a2_I i2_E
+白鴿 b_B a2_I i2_I g_I er1_E
+的 d_B er0_E
+的確 d_B er0_I q_I yu4_I e4_E
+盒 h_B er2_E
+盛 sh_B ng4_E
+盤 p_B a2_I nn2_E
+相信 x_B i1_I a1_I ng1_I x_I i4_I nn4_E
+相機 x_B i1_I a1_I ng1_I j_I i1_E
+盼望 p_B a4_I nn4_I u4_I a4_I ng4_E
+看 k_B a4_I nn4_E
+看到 k_B a4_I nn4_I d_I a4_I u4_E
+看天氣 k_B a4_I nn4_I t_I i1_I a1_I nn1_I q_I i4_E
+看法 k_B a4_I nn4_I f_I a3_E
+看法上 k_B a4_I nn4_I f_I a3_I sh_I a4_I ng4_E
+看球賽 k_B a4_I nn4_I q_I i2_I o2_I u2_I s_I a4_I i4_E
+看看 k_B a4_I nn4_I k_I a4_I nn4_E
+看花燈 k_B a4_I nn4_I h_I u1_I a1_I d_I ng1_E
+看起 k_B a4_I nn4_I q_I i3_E
+看起來 k_B a4_I nn4_I q_I i3_I l_I a2_I i2_E
+看電視 k_B a4_I nn4_I d_I i4_I a4_I nn4_I sh_I ii4_E
+真的 zh_B ern1_I d_I er0_E
+眼鏡 i3_B a3_I nn3_I j_I i4_I ng4_E
+睡覺 sh_B u4_I e4_I i4_I j_I yu2_I e2_E
+碗 u3_B a3_I nn3_E
+碰到 p_B ng4_I d_I a4_I u4_E
+碰翻 p_B ng4_I f_I a1_I nn1_E
+確的確 q_B yu4_I e4_I d_I er0_I q_I yu4_I e4_E
+祖傳 z_B u3_I ch_I u2_I a2_I nn2_E
+票 p_B i4_I a4_I u4_E
+福利 f_B u2_I l_I i4_E
+福利待遇 f_B u2_I l_I i4_I d_I a4_I i4_I yu4_E
+禮 l_B i3_E
+禮堂 l_B i3_I t_I a2_I ng2_E
+禮物 l_B i3_I u4_E
+禮物給 l_B i3_I u4_I g_I e3_I i3_E
+禮給 l_B i3_I g_I e3_I i3_E
+秘方 m_B i4_I f_I a1_I ng1_E
+秘書 m_B i4_I sh_I u1_E
+種 zh_B u3_I ng3_E
+種了 zh_B u3_I ng3_I l_I er0_E
+稿 g_B a3_I u3_E
+積水積 j_B i1_I sh_I u3_I e3_I i3_I j_I i1_E
+積滿 j_B i1_I m_I a3_I nn3_E
+積雪 j_B i1_I x_I yu3_I e3_E
+積雪長 j_B i1_I x_I yu3_I e3_I zh_I a3_I ng3_E
+穿 ch_B u1_I a1_I nn1_E
+穿制 ch_B u1_I a1_I nn1_I zh_I ii4_E
+穿運動 ch_B u1_I a1_I nn1_I yu4_I nn4_I d_I u4_I ng4_E
+突然 t_B u1_I rh_I a2_I nn2_E
+窗戶 ch_B u1_I a1_I ng1_I h_I u4_E
+站 zh_B a4_I nn4_E
+站裡 zh_B a4_I nn4_I l_I i3_E
+笑 x_B i4_I a4_I u4_E
+第一 d_B i4_I i1_E
+筆 b_B i3_E
+等 d_B ng3_E
+答應 d_B a2_I i1_I ng1_E
+管理 g_B u3_I a3_I nn3_I l_I i3_E
+管理員 g_B u3_I a3_I nn3_I l_I i3_I yu2_I a2_I nn2_E
+節 j_B i2_I e2_E
+節下 j_B i2_I e2_I x_I i4_I a4_E
+節目 j_B i2_I e2_I m_I u4_E
+節目裡 j_B i2_I e2_I m_I u4_I l_I i3_E
+節要 j_B i2_I e2_I i4_I a4_I u4_E
+簡單 j_B i3_I a3_I nn3_I d_I a1_I nn1_E
+籃球 l_B a2_I nn2_I q_I i2_I o2_I u2_E
+籃球隊 l_B a2_I nn2_I q_I i2_I o2_I u2_I d_I u4_I e4_I i4_E
+粉紅色 f_B ern3_I h_I u2_I ng2_I s_I er4_E
+粥 zh_B o1_I u1_E
+粧 zh_B u1_I a1_I ng1_E
+糖 t_B a2_I ng2_E
+紀念品 j_B i4_I n_I i4_I a4_I nn4_I p_I i3_I nn3_E
+約 yu1_B e1_E
+約個 yu1_B e1_I g_I er0_E
+約會 yu1_B e1_I h_I u4_I e4_I i4_E
+終於 zh_B u1_I ng1_I yu2_E
+給 g_B e3_I i3_E
+給他 g_B e3_I i3_I t_I a1_E
+給媽媽 g_B e3_I i3_I m_I a1_I m_I a1_E
+給我媽媽 g_B e3_I i3_I u3_I o3_I m_I a1_I m_I a1_E
+給災區 g_B e3_I i3_I z_I a1_I i1_I q_I yu1_E
+給給 g_B e3_I i3_I g_I e3_I i3_E
+經 j_B i1_I ng1_E
+經常 j_B i1_I ng1_I ch_I a2_I ng2_E
+經常去 j_B i1_I ng1_I ch_I a2_I ng2_I q_I yu4_E
+經常寄些 j_B i1_I ng1_I ch_I a2_I ng2_I j_I i4_I x_I i1_I e1_E
+經常帶 j_B i1_I ng1_I ch_I a2_I ng2_I d_I a4_I i4_E
+經常經 j_B i1_I ng1_I ch_I a2_I ng2_I j_I i1_I ng1_E
+經理 j_B i1_I ng1_I l_I i3_E
+經理來 j_B i1_I ng1_I l_I i3_I l_I a2_I i2_E
+經理談 j_B i1_I ng1_I l_I i3_I t_I a2_I nn2_E
+經開 j_B i1_I ng1_I k_I a1_I i1_E
+經驗 j_B i1_I ng1_I i4_I a4_I nn4_E
+綵 c_B a3_I i3_E
+緊張 j_B i3_I nn3_I zh_I a1_I ng1_E
+緊身 j_B i3_I nn3_I sh_I ern1_E
+練 l_B i4_I a4_I nn4_E
+練練 l_B i4_I a4_I nn4_I l_I i4_I a4_I nn4_E
+練習 l_B i4_I a4_I nn4_I x_I i2_E
+縫 f_B ng4_E
+繩 sh_B ng2_E
+缸 g_B a1_I ng1_E
+美 m_B e3_I i3_E
+群 q_B yu2_I nn2_E
+習彈 x_B i2_I d_I a4_I nn4_E
+習慣 x_B i2_I g_I u4_I a4_I nn4_E
+翻倒 f_B a1_I nn1_I d_I a3_I u3_E
+老 l_B a3_I u3_E
+老同學 l_B a3_I u3_I t_I u2_I ng2_I x_I yu2_I e2_E
+老奶奶 l_B a3_I u3_I n_I a3_I i3_I n_I a3_I i3_E
+老家 l_B a3_I u3_I j_I i1_I a1_E
+老師 l_B a3_I u3_I sh_I ii1_E
+老朋友 l_B a3_I u3_I p_I ng2_I i3_I o3_I u3_E
+老毛病 l_B a3_I u3_I m_I a2_I u2_I b_I i4_I ng4_E
+老花 l_B a3_I u3_I h_I u1_I a1_E
+老花眼 l_B a3_I u3_I h_I u1_I a1_I i3_I a3_I nn3_E
+老花眼鏡 l_B a3_I u3_I h_I u1_I a1_I i3_I a3_I nn3_I j_I i4_I ng4_E
+老闆 l_B a3_I u3_I b_I a3_I nn3_E
+老鼠 l_B a3_I u3_I sh_I u3_E
+考考 k_B a3_I u3_I k_I a3_I u3_E
+考試 k_B a3_I u3_I sh_I ii4_E
+考題 k_B a3_I u3_I t_I i2_E
+聖誕節 sh_B ng4_I d_I a4_I nn4_I j_I i2_I e2_E
+聚 j_B yu4_E
+聚會 j_B yu4_I h_I u4_I e4_I i4_E
+聞名 u2_B nn2_I m_I i2_I ng2_E
+聯 l_B i2_I a2_I nn2_E
+聯考 l_B i2_I a2_I nn2_I k_I a3_I u3_E
+聯考試 l_B i2_I a2_I nn2_I k_I a3_I u3_I sh_I ii4_E
+職位 zh_B ii2_I u4_I e4_I i4_E
+職業 zh_B ii2_I i4_I e4_E
+聽 t_B i1_I ng1_E
+聽到 t_B i1_I ng1_I d_I a4_I u4_E
+聽歌 t_B i1_I ng1_I g_I er1_E
+肚子 d_B u3_I z_I ii0_E
+肚子疼 d_B u3_I z_I ii0_I t_I ng2_E
+肚子痛 d_B u4_I z_I ii0_I t_I u4_I ng4_E
+肯定 k_B ern3_I d_I i4_I ng4_E
+背誦 b_B e4_I i4_I s_I u4_I ng4_E
+胞胎 b_B a1_I u1_I t_I a1_I i1_E
+能 n_B ng2_E
+能力 n_B ng2_I l_I i4_E
+腰 i1_B a1_I u1_E
+腰痛 i1_B a1_I u1_I t_I u4_I ng4_E
+腳 j_B i3_I a3_I u3_E
+腳上 j_B i3_I a3_I u3_I sh_I a4_I ng4_E
+腳長 j_B i3_I a3_I u3_I zh_I a3_I ng3_E
+膽 d_B a3_I nn3_E
+膽小鬼 d_B a3_I nn3_I x_I i3_I a3_I u3_I g_I u3_I e3_I i3_E
+臉 l_B i3_I a3_I nn3_E
+臉上 l_B i3_I a3_I nn3_I sh_I a4_I ng4_E
+自信 z_B ii4_I x_I i4_I nn4_E
+自己 z_B ii4_I j_I i3_E
+舉辦 j_B yu3_I b_I a4_I nn4_E
+舒服 sh_B u1_I f_I u2_E
+舞會 u3_B h_I u4_I e4_I i4_E
+花 h_B u1_I a1_E
+花園 h_B u1_I a1_I yu2_I a2_I nn2_E
+花園裡 h_B u1_I a1_I yu2_I a2_I nn2_I l_I i3_E
+花店 h_B u1_I a1_I d_I i4_I a4_I nn4_E
+花貓 h_B u1_I a1_I m_I a1_I u1_E
+英文 i1_B ng1_I u2_I nn2_E
+英語 i1_B ng1_I yu3_E
+茶 ch_B a2_E
+茶杯 ch_B a2_I b_I e1_I i1_E
+草叢 c_B a3_I u3_I c_I u2_I ng2_E
+草叢裡 c_B a3_I u3_I c_I u2_I ng2_I l_I i3_E
+菜 c_B a4_I i4_E
+菸 i1_B a1_I nn1_E
+萬元 u4_B a4_I nn4_I yu2_I a2_I nn2_E
+萬里長 u4_B a4_I nn4_I l_I i3_I zh_I a3_I ng3_E
+萬里長城 u4_B a4_I nn4_I l_I i3_I zh_I a3_I ng3_I ch_I ng2_E
+著 zh_B u4_E
+著能 zh_B u4_I n_I ng2_E
+著識 zh_B u4_I sh_I ii2_E
+藥 i4_B a4_I u4_E
+蚊 u2_B nn2_E
+蚊香 u2_B nn2_I x_I i1_I a1_I ng1_E
+蛇 sh_B er2_E
+蛋 d_B a4_I nn4_E
+蛋糕 d_B a4_I nn4_I g_I a1_I u1_E
+螞蟻 m_B a3_I i3_E
+蟋蟀 x_B i1_I sh_I u4_I a4_I i4_E
+行業 x_B i2_I ng2_I i4_I e4_E
+行為 x_B i2_I ng2_I u4_I e4_I i4_E
+術 sh_B u4_E
+衛生 u4_B e4_I i4_I sh_I ng1_E
+衣 i1_S
+衣服 i1_B f_I u2_E
+衣物 i1_B u4_E
+表演 b_B i3_I a3_I u3_I i3_I a3_I nn3_E
+被 b_B e4_I i4_E
+被門 b_B e4_I i4_I m_I ern2_E
+裏 l_B i3_E
+裝修 zh_B u1_I a1_I ng1_I x_I i1_I o1_I u1_E
+裡 l_B i3_E
+裡幫 l_B i3_I b_I a1_I ng1_E
+裡種 l_B i3_I zh_I u3_I ng3_E
+裡養 l_B i3_I i3_I a3_I ng3_E
+西瓜 x_B i1_I g_I u1_I a1_E
+要 i4_B a4_I u4_E
+要賽 i4_B a4_I u4_I s_I a4_I i4_E
+要辦 i4_B a4_I u4_I b_I a4_I nn4_E
+要開 i4_B a4_I u4_I k_I a1_I i1_E
+要點 i4_B a4_I u4_I d_I i3_I a3_I nn3_E
+見 j_B i4_I a4_I nn4_E
+見面 j_B i4_I a4_I nn4_I m_I i4_I a4_I nn4_E
+規定 g_B u1_I e1_I i1_I d_I i4_I ng4_E
+親人 q_B i1_I nn1_I rh_I ern2_E
+親人團 q_B i1_I nn1_I rh_I ern2_I t_I u2_I a2_I nn2_E
+覺得 j_B yu2_I e2_I d_I er2_E
+覺得頭 j_B yu2_I e2_I d_I er2_I t_I o2_I u2_E
+觀點 g_B u1_I a1_I nn1_I d_I i3_I a3_I nn3_E
+訂單 d_B i4_I ng4_I d_I a1_I nn1_E
+計劃 j_B i4_I h_I u4_I a4_E
+計畫 j_B i4_I h_I u4_I a4_E
+討論 t_B a3_I u3_I l_I u4_I nn4_E
+記 j_B i4_E
+記得 j_B i4_I d_I er2_E
+記者 j_B i4_I zh_I er3_E
+訪客 f_B a3_I ng3_I k_I er4_E
+設計師 sh_B er4_I j_I i4_I sh_I ii1_E
+許多 x_B yu3_I d_I u1_I o1_E
+詞詩 c_B ii2_I sh_I ii1_E
+試 sh_B ii4_E
+詩歌 sh_B ii1_I g_I er1_E
+詩詞 sh_B ii1_I c_I ii2_E
+說 sh_B u1_I o1_E
+誰 sh_B u2_I e2_I i2_E
+課 k_B er4_E
+課才 k_B er4_I c_I a2_I i2_E
+談 t_B a2_I nn2_E
+請 q_B i3_I ng3_E
+請教 q_B i3_I ng3_I j_I i4_I a4_I u4_E
+講 j_B i3_I a3_I ng3_E
+講話 j_B i3_I a3_I ng3_I h_I u4_I a4_E
+證 zh_B ng4_E
+識別 sh_B ii2_I b_I i2_I e2_E
+識別證 sh_B ii2_I b_I i2_I e2_I zh_I ng4_E
+警察 j_B i3_I ng3_I ch_I a2_E
+議室 i4_B sh_I ii4_E
+護士 h_B u4_I sh_I ii4_E
+讀書 d_B u2_I sh_I u1_E
+讓 rh_B a4_I ng4_E
+豆漿 d_B o4_I u4_I j_I i1_I a1_I ng1_E
+豆腐 d_B o4_I u4_I f_I u0_E
+豐富 f_B ng1_I f_I u4_E
+貓 m_B a1_I u1_E
+貓很可愛 m_B a1_I u1_I h_I ern3_I k_I er3_I a4_I i4_E
+貓把床 m_B a1_I u1_I b_I a3_I ch_I u2_I a2_I ng2_E
+貝殼 b_B e4_I i4_I k_I er2_E
+貨 h_B u4_I o4_E
+貨架 h_B u4_I o4_I j_I i4_I a4_E
+貨架上 h_B u4_I o4_I j_I i4_I a4_I sh_I a4_I ng4_E
+買 m_B a3_I i3_E
+買些 m_B a3_I i3_I x_I i1_I e1_E
+買回 m_B a3_I i3_I h_I u2_I e2_I i2_E
+買油 m_B a3_I i3_I i2_I o2_I u2_E
+買車 m_B a3_I i3_I ch_I er1_E
+買電 m_B a3_I i3_I d_I i4_I a4_I nn4_E
+貸款 d_B a4_I i4_I k_I u3_I a3_I nn3_E
+貼 t_B i1_I e1_E
+貼著 t_B i1_I e1_I zh_I u4_E
+賀卡 h_B er4_I k_I a3_E
+資格 z_B ii1_I g_I er2_E
+賞 sh_B a3_I ng3_E
+賞月 sh_B a3_I ng3_I yu4_I e4_E
+賽 s_B a4_I i4_E
+賽實況 s_B a4_I i4_I sh_I ii2_I k_I u4_I a4_I ng4_E
+起 q_B i3_E
+起來 q_B i3_I l_I a2_I i2_E
+起床 q_B i3_I ch_I u2_I a2_I ng2_E
+超商 ch_B a1_I u1_I sh_I a1_I ng1_E
+超市 ch_B a1_I u1_I sh_I ii4_E
+趕 g_B a3_I nn3_E
+趕截 g_B a3_I nn3_I j_I i2_I e2_E
+足球 z_B u2_I q_I i2_I o2_I u2_E
+跑 p_B a3_I u3_E
+跑步 p_B a3_I u3_I b_I u4_E
+跟 g_B ern1_E
+跨海 k_B u4_I a4_I h_I a3_I i3_E
+路上 l_B u4_I sh_I a4_I ng4_E
+跳 t_B i4_I a4_I u4_E
+跳繩 t_B i4_I a4_I u4_I sh_I ng2_E
+踢 t_B i1_E
+踢足球 t_B i1_I z_I u2_I q_I i2_I o2_I u2_E
+車 ch_B er1_E
+較 j_B i4_I a4_I u4_E
+轉播 zh_B u3_I a3_I nn3_I b_I o1_E
+辦 b_B a4_I nn4_E
+辦慶祝 b_B a4_I nn4_I q_I i4_I ng4_I zh_I u4_E
+辦理 b_B a4_I nn4_I l_I i3_E
+辦理入 b_B a4_I nn4_I l_I i3_I rh_I u4_E
+辭職 c_B ii2_I zh_I ii2_E
+農藥 n_B u2_I ng2_I i4_I a4_I u4_E
+迷 m_B i2_E
+退潮 t_B u4_I e4_I i4_I ch_I a2_I u2_E
+送 s_B u4_I ng4_E
+送人 s_B u4_I ng4_I rh_I ern2_E
+送禮物 s_B u4_I ng4_I l_I i3_I u4_E
+送給 s_B u4_I ng4_I g_I e3_I i3_E
+這 zh_B er4_E
+這件 zh_B er4_I j_I i4_I a4_I nn4_E
+這位 zh_B er4_I u4_I e4_I i4_E
+這位醫 zh_B er4_I u4_I e4_I i4_I i1_E
+這個 zh_B er4_I g_I er0_E
+這兩個 zh_B er4_I l_I i3_I a3_I ng3_I g_I er0_E
+這場 zh_B er4_I ch_I a3_I ng3_E
+這學期 zh_B er4_I x_I yu2_I e2_I q_I i2_E
+這家 zh_B er4_I j_I i1_I a1_E
+這家書店 zh_B er4_I j_I i1_I a1_I sh_I u1_I d_I i4_I a4_I nn4_E
+這幾個 zh_B er4_I j_I i3_I g_I er0_E
+這張 zh_B er4_I zh_I a1_I ng1_E
+這次 zh_B er4_I c_I ii4_E
+這段 zh_B er4_I d_I u4_I a4_I nn4_E
+這班 zh_B er4_I b_I a1_I nn1_E
+這群 zh_B er4_I q_I yu2_I nn2_E
+這裏 zh_B er4_I l_I i3_E
+這裡 zh_B er4_I l_I i3_E
+這裡風 zh_B er4_I l_I i3_I f_I ng1_E
+這部 zh_B er4_I b_I u4_E
+這間 zh_B er4_I j_I i1_I a1_I nn1_E
+這隻 zh_B er4_I zh_I ii1_E
+這風景 zh_B er4_I f_I ng1_I j_I i3_I ng3_E
+通緝令 t_B u1_I ng1_I j_I i1_I l_I i4_I ng4_E
+逛 g_B u4_I a4_I ng4_E
+逛書店 g_B u4_I a4_I ng4_I sh_I u1_I d_I i4_I a4_I nn4_E
+連續 l_B i2_I a2_I nn2_I x_I yu4_E
+連續劇 l_B i2_I a2_I nn2_I x_I yu4_I j_I yu4_E
+週末 zh_B o1_I u1_I m_I o4_E
+遇到 yu4_B d_I a4_I u4_E
+遊客 i2_B o2_I u2_I k_I er4_E
+遊客們 i2_B o2_I u2_I k_I er4_I m_I ern0_E
+運動 yu4_B nn4_I d_I u4_I ng4_E
+運動員 yu4_B nn4_I d_I u4_I ng4_I yu2_I a2_I nn2_E
+運動鞋 yu4_B nn4_I d_I u4_I ng4_I x_I i2_I e2_E
+過 g_B u4_I o4_E
+過滿 g_B u4_I o4_I m_I a3_I nn3_E
+過生日 g_B u4_I o4_I sh_I ng1_I rh_I ii4_E
+遠 yu3_B a3_I nn3_E
+遠見 yu3_B a3_I nn3_I j_I i4_I a4_I nn4_E
+遠遠 yu3_B a3_I nn3_I yu3_I a3_I nn3_E
+遠遠的 yu3_B a3_I nn3_I yu3_I a3_I nn3_I d_I er0_E
+適合 sh_B ii4_I h_I er2_E
+選 x_B yu3_I a3_I nn3_E
+邀 i1_B a1_I u1_E
+邀請 i1_B a1_I u1_I q_I i3_I ng3_E
+那 n_B a4_E
+那個 n_B a4_I g_I er0_E
+那壺 n_B a4_I h_I u2_E
+那套 n_B a4_I t_I a4_I u4_E
+那家 n_B a4_I j_I i1_I a1_E
+那座 n_B a4_I z_I u4_I o4_E
+那張 n_B a4_I zh_I a1_I ng1_E
+那片 n_B a4_I p_I i4_I a4_I nn4_E
+那裏 n_B a4_I l_I i3_E
+那裡 n_B a4_I l_I i3_E
+那邊 n_B a4_I b_I i1_I a1_I nn1_E
+那間 n_B a4_I j_I i1_I a1_I nn1_E
+郊區 j_B i1_I a1_I u1_I q_I yu1_E
+部 b_B u4_E
+部門 b_B u4_I m_I ern2_E
+部門春節 b_B u4_I m_I ern2_I ch_I u1_I nn1_I j_I i2_I e2_E
+都 d_B o1_I u1_E
+鄰 l_B i2_I nn2_E
+鄰居 l_B i2_I nn2_I j_I yu1_E
+鄰居家 l_B i2_I nn2_I j_I yu1_I j_I i1_I a1_E
+配 p_B e4_I i4_E
+醫學院 i1_B x_I yu2_I e2_I yu4_I a4_I nn4_E
+醫生 i1_B sh_I ng1_E
+醫院 i1_B yu4_I a4_I nn4_E
+金 j_B i1_I nn1_E
+金項 j_B i1_I nn1_I x_I i4_I a4_I ng4_E
+金項鍊 j_B i1_I nn1_I x_I i4_I a4_I ng4_I l_I i4_I a4_I nn4_E
+金魚 j_B i1_I nn1_I yu2_E
+針 zh_B ern1_E
+銀行 i2_B nn2_I x_I i2_I ng2_E
+鋼琴 g_B a1_I ng1_I q_I i2_I nn2_E
+鋼筆 g_B a1_I ng1_I b_I i3_E
+錄取 l_B u4_I q_I yu3_E
+錢 q_B i2_I a2_I nn2_E
+錢給 q_B i2_I a2_I nn2_I g_I e3_I i3_E
+錶 b_B i3_I a3_I u3_E
+鍊 l_B i4_I a4_I nn4_E
+鏡 j_B i4_I ng4_E
+鏡看 j_B i4_I ng4_I k_I a4_I nn4_E
+鐘 zh_B u1_I ng1_E
+鐘去 zh_B u1_I ng1_I q_I yu4_E
+鐘火車 zh_B u1_I ng1_I h_I u3_I o3_I ch_I er1_E
+鑰匙 i4_B a4_I u4_I sh_I ii0_E
+長 zh_B a3_I ng3_E
+長了 zh_B a3_I ng3_I l_I er0_E
+長假 zh_B a3_I ng3_I j_I i3_I a3_E
+長年 zh_B a3_I ng3_I n_I i2_I a2_I nn2_E
+開 k_B a1_I i1_E
+開家長 k_B a1_I i1_I j_I i1_I a1_I zh_I a3_I ng3_E
+開幕 k_B a1_I i1_I m_I u4_E
+開幕典禮 k_B a1_I i1_I m_I u4_I d_I i3_I a3_I nn3_I l_I i3_E
+開庭 k_B a1_I i1_I t_I i2_I ng2_E
+開會 k_B a1_I i1_I h_I u4_I e4_I i4_E
+開會時 k_B a1_I i1_I h_I u4_I e4_I i4_I sh_I ii2_E
+開除 k_B a1_I i1_I ch_I u2_E
+間 j_B i1_I a1_I nn1_E
+闆 b_B a3_I nn3_E
+關 g_B u1_I a1_I nn1_E
+關心 g_B u1_I a1_I nn1_I x_I i1_I nn1_E
+關水龍頭 g_B u1_I a1_I nn1_I sh_I u3_I e3_I i3_I l_I u2_I ng2_I t_I o2_I u2_E
+防水 f_B a2_I ng2_I sh_I u3_I e3_I i3_E
+阿姨 a1_B i2_E
+除了 ch_B u2_I l_I er0_E
+隊員 d_B u4_I e4_I i4_I yu2_I a2_I nn2_E
+隊終 d_B u4_I e4_I i4_I zh_I u1_I ng1_E
+隔壁 g_B er2_I b_I i4_E
+隔壁家 g_B er2_I b_I i4_I j_I i1_I a1_E
+隻 zh_B ii1_E
+雙胞胎 sh_B u1_I a1_I ng1_I b_I a1_I u1_I t_I a1_I i1_E
+雜草 z_B a2_I c_I a3_I u3_E
+雜草長 z_B a2_I c_I a3_I u3_I zh_I a3_I ng3_E
+雞 j_B i1_E
+雞蛋 j_B i1_I d_I a4_I nn4_E
+難 n_B a2_I nn2_E
+難記 n_B a2_I nn2_I j_I i4_E
+雨 yu3_S
+雨傘 yu3_B s_I a3_I nn3_E
+零下 l_B i2_I ng2_I x_I i4_I a4_E
+電 d_B i4_I a4_I nn4_E
+電器 d_B i4_I a4_I nn4_I q_I i4_E
+電影 d_B i4_I a4_I nn4_I i3_I ng3_E
+電影票 d_B i4_I a4_I nn4_I i3_I ng3_I p_I i4_I a4_I u4_E
+電腦 d_B i4_I a4_I nn4_I n_I a3_I u3_E
+電腦迷 d_B i4_I a4_I nn4_I n_I a3_I u3_I m_I i2_E
+電視 d_B i4_I a4_I nn4_I sh_I ii4_E
+電視上 d_B i4_I a4_I nn4_I sh_I ii4_I sh_I a4_I ng4_E
+電視劇 d_B i4_I a4_I nn4_I sh_I ii4_I j_I yu4_E
+電話 d_B i4_I a4_I nn4_I h_I u4_I a4_E
+電話給 d_B i4_I a4_I nn4_I h_I u4_I a4_I g_I e3_I i3_E
+電費 d_B i4_I a4_I nn4_I f_I e4_I i4_E
+電風扇 d_B i4_I a4_I nn4_I f_I ng1_I sh_I a4_I nn4_E
+需付 x_B yu1_I f_I u4_E
+需要 x_B yu1_I i4_I a4_I u4_E
+非常 f_B e1_I i1_I ch_I a2_I ng2_E
+鞋 x_B i2_I e2_E
+音樂 i1_B nn1_I l_I er4_E
+項鍊 x_B i4_I a4_I ng4_I l_I i4_I a4_I nn4_E
+預報 yu4_B b_I a4_I u4_E
+預定 yu4_B d_I i4_I ng4_E
+預訂 yu4_B d_I i4_I ng4_E
+領帶 l_B i3_I ng3_I d_I a4_I i4_E
+頭 t_B o2_I u2_E
+頭上 t_B o2_I u2_I sh_I a4_I ng4_E
+頭銜 t_B o2_I u2_I x_I i2_I a2_I nn2_E
+題 t_B i2_E
+願 yu4_B a4_I nn4_E
+願意 yu4_B a4_I nn4_I i4_E
+願意選 yu4_B a4_I nn4_I i4_I x_I yu3_I a3_I nn3_E
+顯得 x_B i3_I a3_I nn3_I d_I er2_E
+風 f_B ng1_E
+風俗 f_B ng1_I s_I u2_E
+風景 f_B ng1_I j_I i3_I ng3_E
+風箏 f_B ng1_I zh_I ng1_E
+飛機 f_B e1_I i1_I j_I i1_E
+飛過 f_B e1_I i1_I g_I u4_I o4_E
+飛過來 f_B e1_I i1_I g_I u4_I o4_I l_I a2_I i2_E
+飯 f_B a4_I nn4_E
+飯店 f_B a4_I nn4_I d_I i4_I a4_I nn4_E
+飼料 s_B ii4_I l_I i4_I a4_I u4_E
+餃 j_B i3_I a3_I u3_E
+餃子 j_B i3_I a3_I u3_I z_I ii0_E
+養 i3_B a3_I ng3_E
+餐廳 c_B a1_I nn1_I t_I i1_I ng1_E
+香 x_B i1_I a1_I ng1_E
+香火 x_B i1_I a1_I ng1_I h_I u3_I o3_E
+香火很盛 x_B i1_I a1_I ng1_I h_I u3_I o3_I h_I ern3_I sh_I ng4_E
+馬 m_B a3_E
+馬路 m_B a3_I l_I u4_E
+馬路上 m_B a3_I l_I u4_I sh_I a4_I ng4_E
+騎車 q_B i2_I ch_I er1_E
+骨頭 g_B u3_I t_I o2_I u2_E
+高跟 g_B a1_I u1_I g_I ern1_E
+高跟鞋 g_B a1_I u1_I g_I ern1_I x_I i2_I e2_E
+魂 h_B u2_I nn2_E
+魚 yu2_S
+魚飼料 yu2_B s_I ii4_I l_I i4_I a4_I u4_E
+鮮花 x_B i1_I a1_I nn1_I h_I u1_I a1_E
+鴿 g_B er1_E
+鹽 i2_B a2_I nn2_E
+鹽巴 i2_B a2_I nn2_I b_I a1_E
+麥當勞 m_B a4_I i4_I d_I a1_I ng1_I l_I a2_I u2_E
+麵 m_B i4_I a4_I nn4_E
+麵包店 m_B i4_I a4_I nn4_I b_I a1_I u1_I d_I i4_I a4_I nn4_E
+麻婆 m_B a2_I p_I o2_E
+麻婆豆腐 m_B a2_I p_I o2_I d_I o4_I u4_I f_I u0_E
+麻疹 m_B a2_I zh_I ern3_E
+點 d_B i3_I a3_I nn3_E
+龍井茶 l_B u2_I ng2_I j_I i3_I ng3_I ch_I a2_E
+<unk> SIL_S
+<eps> SIL

@@ -1,0 +1,1465 @@
+一	1.0	i1 
+一一	1.0	i1  i1 
+一些	1.0	i1  x i1 e1 
+一件	1.0	i1  j i4 a4 nn4 
+一份	1.0	i1  f ern4 
+一個	1.0	i1  g er0 
+一副	1.0	i1  f u4 
+一包	1.0	i1  b a1 u1 
+一口	1.0	i1  k o3 u3 
+一口氣	1.0	i1  k o3 u3  q i4 
+一只	1.0	i1  zh ii1 
+一台	1.0	i1  t a2 i2 
+一名	1.0	i1  m i2 ng2 
+一向	1.0	i2  x i4 a4 ng4 
+一大	1.0	i1  d a4 
+一大包	1.0	i1  d a4  b a1 u1 
+一大早	1.0	i1  d a4  z a3 u3 
+一大盤	1.0	i1  d a4  p a2 nn2 
+一大筆	1.0	i1  d a4  b i3 
+一大缸	1.0	i1  d a4  g a1 ng1 
+一天	1.0	i1  t i1 a1 nn1 
+一幅	1.0	i1  f u2 
+一座	1.0	i1  z u4 o4 
+一張	1.0	i1  zh a1 ng1 
+一支	1.0	i1  zh ii1 
+一星期	1.0	i1  x i1 ng1  q i2 
+一本	1.0	i1  b ern3 
+一束	1.0	i1  sh u4 
+一束花	1.0	i1  sh u4  h u1 a1 
+一杯	1.0	i1  b e1 i1 
+一枝	1.0	i1  zh ii1 
+一條	1.0	i1  t i2 a2 u2 
+一盒	1.0	i1  h er2 
+一節	1.0	i1  j i2 e2 
+一群	1.0	i1  q yu2 nn2 
+一致	1.0	i2  zh ii4 
+一要	1.0	i1  i4 a4 u4 
+一起	1.0	i4  q i3 
+一間	1.0	i1  j i1 a1 nn1 
+一隻	1.0	i1  zh ii1 
+七	1.0	q i1 
+七月	1.0	q i1  yu4 e4 
+七針	1.0	q i1  zh ern1 
+三	1.0	s a1 nn1 
+三個	1.0	s a1 nn1  g er0 
+三十	1.0	s a1 nn1  sh ii2 
+三十元	1.0	s a1 nn1  sh ii2  yu2 a2 nn2 
+三名	1.0	s a1 nn1  m i2 ng2 
+三百	1.0	s a1 nn1  b a3 i3 
+三百元	1.0	s a1 nn1  b a3 i3  yu2 a2 nn2 
+三碗	1.0	s a1 nn1  u3 a3 nn3 
+三萬	1.0	s a1 nn1  u4 a4 nn4 
+三萬塊	1.0	s a1 nn1  u4 a4 nn4  k u4 a4 i4 
+上	1.0	sh a4 ng4 
+上個	1.0	sh a4 ng4  g er0 
+上個月	1.0	sh a4 ng4  g er0  yu4 e4 
+上午	1.0	sh a4 ng4  u3 
+上床	1.0	sh a4 ng4  ch u2 a2 ng2 
+上樓	1.0	sh a4 ng4  l o2 u2 
+上漲	1.0	sh a4 ng4  zh a3 ng3 
+上爬	1.0	sh a4 ng4  p a2 
+上班	1.0	sh a4 ng4  b a1 nn1 
+上經	1.0	sh a4 ng4  j i1 ng1 
+上街	1.0	sh a4 ng4  j i1 e1 
+上衣	1.0	sh a4 ng4  i1 
+上長	1.0	sh a4 ng4  zh a3 ng3 
+下	1.0	x i4 a4 
+下一節	1.0	x i4 a4  i1  j i2 e2 
+下下星期	1.0	x i4 a4  x i4 a4  x i1 ng1  q i2 
+下午	1.0	x i4 a4  u3 
+下山	1.0	x i4 a4  sh a1 nn1 
+下雨	1.0	x i4 a4  yu3 
+不	1.0	b u4 
+不便宜	1.0	b u4  b i4 a4 nn4  i2 
+不准	1.0	b u4  zh u3 nn3 
+不化	1.0	b u4  h u4 a4 
+不接	1.0	b u4  j i1 e1 
+不為	1.0	b u4  u4 e4 i4 
+不用	1.0	b u4  i4 o4 ng4 
+不許	1.0	b u4  x yu3 
+中	1.0	zh u1 ng1 
+中國	1.0	zh u1 ng1  g u2 o2 
+中外	1.0	zh u1 ng1  u4 a4 i4 
+中外聞名	1.0	zh u1 ng1  u4 a4 i4  u2 nn2  m i2 ng2 
+中學	1.0	zh u1 ng1  x yu2 e2 
+中秋	1.0	zh u1 ng1  q i1 o1 u1 
+中秋節	1.0	zh u1 ng1  q i1 o1 u1  j i2 e2 
+中藥	1.0	zh u1 ng1  i4 a4 u4 
+主任	1.0	zh u3  rh ern4 
+主持	1.0	zh u3  ch ii2 
+久	1.0	j i3 o3 u3 
+九點	1.0	j i3 o3 u3  d i3 a3 nn3 
+也	1.0	i3 e3 
+了	1.0	l er0 
+了關	1.0	l er0  g u1 a1 nn1 
+事故	1.0	sh ii4  g u4 
+五	1.0	u3 
+五五	1.0	u3  u3 
+五天	1.0	u3  t i1 a1 nn1 
+五萬	1.0	u3  u4 a4 nn4 
+五萬元	1.0	u3  u4 a4 nn4  yu2 a2 nn2 
+五萬塊	1.0	u3  u4 a4 nn4  k u4 a4 i4 
+五香	1.0	u3  x i1 a1 ng1 
+些	1.0	x i1 e1 
+交給	1.0	j i1 a1 u1  g e3 i3 
+交通	1.0	j i1 a1 u1  t u1 ng1 
+交通事故	1.0	j i1 a1 u1  t u1 ng1  sh ii4  g u4 
+交通警察	1.0	j i1 a1 u1  t u1 ng1  j i3 ng3  ch a2 
+人	1.0	rh ern2 
+人人	1.0	rh ern2  rh ern2 
+人名	1.0	rh ern2  m i2 ng2 
+人得	1.0	rh ern2  d er2 
+人愛吃	1.0	rh ern2  a4 i4  ch ii1 
+人放風箏	1.0	rh ern2  f a4 ng4  f ng1  zh ng1 
+人群	1.0	rh ern2  q yu2 nn2 
+人衛生	1.0	rh ern2  u4 e4 i4  sh ng1 
+什麼	1.0	sh ern2  m er0 
+今天	1.0	j i1 nn1  t i1 a1 nn1 
+今天下午	1.0	j i1 nn1  t i1 a1 nn1  x i4 a4  u3 
+今年	1.0	j i1 nn1  n i2 a2 nn2 
+今年夏天	1.0	j i1 nn1  n i2 a2 nn2  x i4 a4  t i1 a1 nn1 
+今晚	1.0	j i1 nn1  u3 a3 nn3 
+仔細	1.0	z a3 i3  x i4 
+仔細幫	1.0	z a3 i3  x i4  b a1 ng1 
+他	1.0	t a1 
+他們	1.0	t a1  m ern0 
+他剛	1.0	t a1  g a1 ng1 
+他會	1.0	t a1  h u4 e4 i4 
+他答	1.0	t a1  d a2 
+他裝	1.0	t a1  zh u1 a1 ng1 
+他覺	1.0	t a1  j yu2 e2 
+他頭	1.0	t a1  t o2 u2 
+付	1.0	f u4 
+付十塊	1.0	f u4  sh ii2  k u4 a4 i4 
+以前	1.0	i3  q i2 a2 nn2 
+件	1.0	j i4 a4 nn4 
+份	1.0	f ern4 
+似的	1.0	sh ii4  d er0 
+佈	1.0	b u4 
+位	1.0	u4 e4 i4 
+住院	1.0	zh u4  yu4 a4 nn4 
+作	1.0	z u4 o4 
+作文	1.0	z u4 o4  u2 nn2 
+作業	1.0	z u4 o4  i4 e4 
+作班長	1.0	z u4 o4  b a1 nn1  zh a3 ng3 
+你	1.0	n i3 
+你們	1.0	n i3  m ern0 
+來	1.0	l a2 i2 
+依	1.0	i1 
+便	1.0	b i4 a4 nn4 
+便宜	1.0	p i2 a2 nn2  i2 
+便衣	1.0	b i4 a4 nn4  i1 
+便衣警察	1.0	b i4 a4 nn4  i1  j i3 ng3  ch a2 
+信用	1.0	x i4 nn4  i4 o4 ng4 
+信箱	1.0	x i4 nn4  x i1 a1 ng1 
+修好	1.0	x i1 o1 u1  h a3 u3 
+修房子	1.0	x i1 o1 u1  f a2 ng2  z ii0 
+修花	1.0	x i1 o1 u1  h u1 a1 
+俱	1.0	j yu4 
+個	1.0	g er0 
+個人	1.0	g er4  rh ern2 
+個膽	1.0	g er4  d a3 nn3 
+們	1.0	m ern0 
+倒	1.0	d a4 u4 
+借	1.0	j i4 e4 
+借到	1.0	j i4 e4  d a4 u4 
+假	1.0	j i3 a3 
+做	1.0	z u4 o4 
+做了	1.0	z u4 o4  l er0 
+做好	1.0	z u4 o4  h a3 u3 
+做完	1.0	z u4 o4  u2 a2 nn2 
+做得	1.0	z u4 o4  d er2 
+做班長	1.0	z u4 o4  b a1 nn1  zh a3 ng3 
+做飯	1.0	z u4 o4  f a4 nn4 
+傢	1.0	j i1 a1 
+傢俱	1.0	j i1 a1  j yu4 
+傷口	1.0	sh a1 ng1  k o3 u3 
+傷心	1.0	sh a1 ng1  x i1 nn1 
+像	1.0	x i4 a4 ng4 
+元	1.0	yu2 a2 nn2 
+元宵	1.0	yu2 a2 nn2  x i1 a1 u1 
+元宵節	1.0	yu2 a2 nn2  x i1 a1 u1  j i2 e2 
+光頭	1.0	g u1 a1 ng1  t o2 u2 
+入學	1.0	rh u4  x yu2 e2 
+全	1.0	q yu2 a2 nn2 
+全家	1.0	q yu2 a2 nn2  j i1 a1 
+全家人	1.0	q yu2 a2 nn2  j i1 a1  rh ern2 
+全班	1.0	q yu2 a2 nn2  b a1 nn1 
+兩	1.0	l i3 a3 ng3 
+兩個	1.0	l i3 a3 ng3  g er0 
+兩包	1.0	l i3 a3 ng3  b a1 u1 
+八寶	1.0	b a1  b a3 u3 
+八寶粥	1.0	b a1  b a3 u3  zh o1 u1 
+公	1.0	g u1 ng1 
+公佈欄	1.0	g u1 ng1  b u4  l a2 nn2 
+公司	1.0	g u1 ng1  s ii1 
+公園	1.0	g u1 ng1  yu2 a2 nn2 
+公園裡	1.0	g u1 ng1  yu2 a2 nn2  l i3 
+公路	1.0	g u1 ng1  l u4 
+典禮	1.0	d i3 a3 nn3  l i3 
+再	1.0	z a4 i4 
+冬天	1.0	d u1 ng1  t i1 a1 nn1 
+冰塊	1.0	b i1 ng1  k u4 a4 i4 
+冰箱	1.0	b i1 ng1  x i1 a1 ng1 
+出	1.0	ch u1 
+出去	1.0	ch u1  q yu4 
+出去玩	1.0	ch u1  q yu4  u2 a2 nn2 
+出國	1.0	ch u1  g u2 o2 
+出差	1.0	ch u1  ch a1 i1 
+出門	1.0	ch u1  m ern2 
+出門前	1.0	ch u1  m ern2  q i2 a2 nn2 
+出門時	1.0	ch u1  m ern2  sh ii2 
+出門要	1.0	ch u1  m ern2  i4 a4 u4 
+分鐘	1.0	f ern1  zh u1 ng1 
+列車	1.0	l i4 e4  ch er1 
+初一	1.0	ch u1  i1 
+別	1.0	b i2 e2 
+別證	1.0	b i2 e2  zh ng4 
+刮	1.0	g u1 a1 
+刮大風	1.0	g u1 a1  d a4  f ng1 
+到	1.0	d a4 u4 
+制服	1.0	zh ii4  f u2 
+剃	1.0	t i4 
+前	1.0	q i2 a2 nn2 
+前配	1.0	q i2 a2 nn2  p e4 i4 
+剛	1.0	g a1 ng1 
+剛剛	1.0	g a1 ng1  g a1 ng1 
+剛才	1.0	g a1 ng1  c a2 i2 
+剛過	1.0	g a1 ng1  g u4 o4 
+副	1.0	f u4 
+劇	1.0	j yu4 
+劇的確	1.0	j yu4  d er0  q yu4 e4 
+功課	1.0	g u1 ng1  k er4 
+加考	1.0	j i1 a1  k a3 u3 
+包	1.0	b a1 u1 
+包子	1.0	b a1 u1  z ii0 
+包店	1.0	b a1 u1  d i4 a4 nn4 
+包水	1.0	b a1 u1  sh u3 e3 i3 
+包裹	1.0	b a1 u1  g u3 o3 
+化	1.0	h u4 a4 
+化妝品	1.0	h u4 a4  zh u1 a1 ng1  p i3 nn3 
+化妝水	1.0	h u4 a4  zh u1 a1 ng1  sh u3 e3 i3 
+北方	1.0	b e3 i3  f a1 ng1 
+北方人	1.0	b e3 i3  f a1 ng1  rh ern2 
+北邊	1.0	b e3 i3  b i1 a1 nn1 
+匯款	1.0	h u4 e4 i4  k u3 a3 nn3 
+十	1.0	sh ii2 
+十七	1.0	sh ii2  q i1 
+十五	1.0	sh ii2  u3 
+十五分	1.0	sh ii2  u3  f ern1 
+十分	1.0	sh ii2  f ern1 
+十分鐘	1.0	sh ii2  f ern1  zh u1 ng1 
+十塊	1.0	sh ii2  k u4 a4 i4 
+十度	1.0	sh ii2  d u4 
+十點	1.0	sh ii2  d i3 a3 nn3 
+十點鐘	1.0	sh ii2  d i3 a3 nn3  zh u1 ng1 
+南邊	1.0	n a2 nn2  b i1 a1 nn1 
+卡片	1.0	k a3  p i4 a4 nn4 
+厚厚	1.0	h o4 u4  h o4 u4 
+厚厚的	1.0	h o4 u4  h o4 u4  d er0 
+原始	1.0	yu2 a2 nn2  sh ii3 
+原始森林	1.0	yu2 a2 nn2  sh ii3  s ern1  l i2 nn2 
+去	1.0	q yu4 
+去會	1.0	q yu4  h u4 e4 i4 
+去賞	1.0	q yu4  sh a3 ng3 
+參	1.0	c a1 nn1 
+參加	1.0	c a1 nn1  j i1 a1 
+參加會議	1.0	c a1 nn1  j i1 a1  h u4 e4 i4  i4 
+參考	1.0	c a1 nn1  k a3 u3 
+參考書	1.0	c a1 nn1  k a3 u3  sh u1 
+參觀	1.0	c a1 nn1  g u1 a1 nn1 
+又	1.0	i4 o4 u4 
+反感	1.0	f a3 nn3  g a3 nn3 
+叔叔	1.0	sh u1  sh u1 
+取消	1.0	q yu3  x i1 a1 u1 
+受	1.0	sh o4 u4 
+口	1.0	k o3 u3 
+口袋	1.0	k o3 u3  d a4 i4 
+只	1.0	zh ii3 
+叫	1.0	j i4 a4 u4 
+可	1.0	k er3 
+可以	1.0	k er3  i3 
+可愛	1.0	k er3  a4 i4 
+台	1.0	t a2 i2 
+台幣	1.0	t a2 i2  b i4 
+吃	1.0	ch ii1 
+吃藥	1.0	ch ii1  i4 a4 u4 
+吃飯	1.0	ch ii1  f a4 nn4 
+吃魚	1.0	ch ii1  yu2 
+吃麥	1.0	ch ii1  m a4 i4 
+各	1.0	g er4 
+各種	1.0	g er4  zh u3 ng3 
+合伙	1.0	h er2  h u3 o3 
+合唱	1.0	h er2  ch a4 ng4 
+合唱團	1.0	h er2  ch a4 ng4  t u2 a2 nn2 
+合夥	1.0	h er2  h u3 o3 
+合身	1.0	h er2  sh ern1 
+合適	1.0	h er2  sh ii4 
+同事	1.0	t u2 ng2  sh ii4 
+同學	1.0	t u2 ng2  x yu2 e2 
+同學要	1.0	t u2 ng2  x yu2 e2  i4 a4 u4 
+同意	1.0	t u2 ng2  i4 
+名	1.0	m i2 ng2 
+名片	1.0	m i2 ng2  p i4 a4 nn4 
+名片上	1.0	m i2 ng2  p i4 a4 nn4  sh a4 ng4 
+名聞	1.0	m i2 ng2  u2 nn2 
+吐吐	1.0	t u3  t u3 
+向	1.0	x i4 a4 ng4 
+向日葵	1.0	x i4 a4 ng4  rh ii4  k u2 e2 i2 
+吞吞	1.0	t u1 nn1  t u1 nn1 
+吞吞吐吐	1.0	t u1 nn1  t u1 nn1  t u3  t u3 
+吧	1.0	b a0 
+吵架	1.0	ch a3 u3  j i4 a4 
+吸	1.0	x i1 
+吸煙	1.0	x i1  i1 a1 nn1 
+吸菸	1.0	x i1  i1 a1 nn1 
+周	1.0	zh o1 u1 
+周五	1.0	zh o1 u1  u3 
+周末	1.0	zh o1 u1  m o4 
+和	1.0	h er2 
+咬	1.0	i3 a3 u3 
+咬了	1.0	i3 a3 u3  l er0 
+咬了一口	1.0	i3 a3 u3  l er0  i1  k o3 u3 
+品	1.0	p i3 nn3 
+員	1.0	yu2 a2 nn2 
+哥哥	1.0	g er1  g er1 
+唐代	1.0	t a2 ng2  d a4 i4 
+唱歌	1.0	ch a4 ng4  g er1 
+啃	1.0	k ern3 
+商量	1.0	sh a1 ng1  l i2 a2 ng2 
+善良	1.0	sh a4 nn4  l i2 a2 ng2 
+喘	1.0	ch u3 a3 nn3 
+喜歡	1.0	x i3  h u1 a1 nn1 
+喜酒	1.0	x i3  j i3 o3 u3 
+喝	1.0	h er1 
+喝杯	1.0	h er1  b e1 i1 
+喝醉	1.0	h er1  z u4 e4 i4 
+喝龍井	1.0	h er1  l u2 ng2  j i3 ng3 
+喝龍井龍井	1.0	h er1  l u2 ng2  j i3 ng3  l u2 ng2  j i3 ng3 
+單	1.0	d a1 nn1 
+單給	1.0	d a1 nn1  g e3 i3 
+嗎	1.0	m a0 
+噴灑	1.0	p ern1  s a3 
+四處	1.0	s ii4  ch u4 
+回	1.0	h u2 e2 i2 
+回來	1.0	h u2 e2 i2  l a2 i2 
+回回來	1.0	h u2 e2 i2  h u2 e2 i2  l a2 i2 
+回老家	1.0	h u2 e2 i2  l a3 u3  j i1 a1 
+因故	1.0	i1 nn1  g u4 
+因為	1.0	i1 nn1  u4 e4 i4 
+國外	1.0	g u2 o2  u4 a4 i4 
+國家	1.0	g u2 o2  j i1 a1 
+國慶日	1.0	g u2 o2  q i4 ng4  rh ii4 
+圍	1.0	u2 e2 i2 
+園	1.0	yu2 a2 nn2 
+圓	1.0	yu2 a2 nn2 
+圖書	1.0	t u2  sh u1 
+圖書館員	1.0	t u2  sh u1  g u3 a3 nn3  yu2 a2 nn2 
+團	1.0	t u2 a2 nn2 
+團聚	1.0	t u2 a2 nn2  j yu4 
+團要	1.0	t u2 a2 nn2  i4 a4 u4 
+在	1.0	z a4 i4 
+在一起	1.0	z a4 i4  i4  q i3 
+在家	1.0	z a4 i4  j i1 a1 
+在裝	1.0	z a4 i4  zh u1 a1 ng1 
+地上	1.0	d i4  sh a4 ng4 
+地震	1.0	d i4  zh ern4 
+城	1.0	ch ng2 
+城中	1.0	ch ng2  zh u1 ng1 
+城市	1.0	ch ng2  sh ii4 
+城裡	1.0	ch ng2  l i3 
+報告	1.0	b a4 u4  g a4 u4 
+報導	1.0	b a4 u4  d a3 u3 
+報紙	1.0	b a4 u4  zh ii3 
+場	1.0	ch a3 ng3 
+塊	1.0	k u4 a4 i4 
+塞	1.0	s a1 i1 
+塞滿	1.0	s a1 i1  m a3 nn3 
+塞買	1.0	s a1 i1  m a3 i3 
+填好	1.0	t i2 a2 nn2  h a3 u3 
+填寫	1.0	t i2 a2 nn2  x i3 e3 
+增加	1.0	z ng1  j i1 a1 
+墨水	1.0	m o4  sh u3 e3 i3 
+壞	1.0	h u4 a4 i4 
+壞習慣	1.0	h u4 a4 i4  x i2  g u4 a4 nn4 
+壺	1.0	h u2 
+夏天	1.0	x i4 a4  t i1 a1 nn1 
+外國	1.0	u4 a4 i4  g u2 o2 
+外國人	1.0	u4 a4 i4  g u2 o2  rh ern2 
+外套	1.0	u4 a4 i4  t a4 u4 
+外婆	1.0	u4 a4 i4  p o2 
+外聞名	1.0	u4 a4 i4  u2 nn2  m i2 ng2 
+外面	1.0	u4 a4 i4  m i4 a4 nn4 
+多	1.0	d u1 o1 
+多家	1.0	d u1 o1  j i1 a1 
+多年	1.0	d u1 o1  n i2 a2 nn2 
+夜	1.0	i4 e4 
+夢	1.0	m ng4 
+夢想	1.0	m ng4  x i3 a3 ng3 
+大	1.0	d a4 
+大伯	1.0	d a4  b o2 
+大包	1.0	d a4  b a1 u1 
+大多	1.0	d a4  d u1 o1 
+大多數	1.0	d a4  d u1 o1  sh u4 
+大學	1.0	d a4  x yu2 e2 
+大家	1.0	d a4  j i1 a1 
+大年	1.0	d a4  n i2 a2 nn2 
+大年初一	1.0	d a4  n i2 a2 nn2  ch u1  i1 
+大樓	1.0	d a4  l o2 u2 
+大橋	1.0	d a4  q i2 a2 u2 
+大減價	1.0	d a4  j i3 a3 nn3  j i4 a4 
+大火	1.0	d a4  h u3 o3 
+大熊	1.0	d a4  x i2 o2 ng2 
+大熊貓	1.0	d a4  x i2 o2 ng2  m a1 u1 
+大缸	1.0	d a4  g a1 ng1 
+大門	1.0	d a4  m ern2 
+大門口	1.0	d a4  m ern2  k o3 u3 
+大雨	1.0	d a4  yu3 
+大風	1.0	d a4  f ng1 
+天	1.0	t i1 a1 nn1 
+天氣	1.0	t i1 a1 nn1  q i4 
+天賦	1.0	t i1 a1 nn1  f u4 
+太	1.0	t a4 i4 
+太快	1.0	t a4 i4  k u4 a4 i4 
+夾傷	1.0	j i1 a1  sh a1 ng1 
+套	1.0	t a4 u4 
+奶奶	1.0	n a3 i3  n a3 i3 
+奶奶家	1.0	n a3 i3  n a3 i3  j i1 a1 
+她	1.0	t a1 
+她們	1.0	t a1  m ern0 
+好	1.0	h a3 u3 
+好不容易	1.0	h a3 u3  b u4  rh u2 ng2  i4 
+好久	1.0	h a3 u3  j i3 o3 u3 
+好像	1.0	h a3 u3  x i4 a4 ng4 
+好吃	1.0	h a3 u3  ch ii1 
+好多	1.0	h a3 u3  d u1 o1 
+好好	1.0	h a3 u3  h a3 u3 
+好幾	1.0	h a3 u3  j i3 
+好朋友	1.0	h a3 u3  p ng2  i3 o3 u3 
+妹妹	1.0	m e4 i4  m e4 i4 
+姊夫	1.0	z ii3  f u1 
+姊妹	1.0	z ii3  m e4 i4 
+姊姊	1.0	z ii3  z ii3 
+姐夫	1.0	j i3 e3  f u1 
+姐妹	1.0	j i3 e3  m e4 i4 
+姐姐	1.0	j i3 e3  j i3 e3 
+姿勢	1.0	z ii1  sh ii4 
+婆婆	1.0	p o2  p o0 
+媽	1.0	m a1 
+媽媽	1.0	m a1  m a1 
+子上	1.0	z ii0  sh a4 ng4 
+字典	1.0	z ii4  d i3 a3 nn3 
+孝順	1.0	x i4 a4 u4  sh u4 nn4 
+孩子	1.0	h a2 i2  z ii0 
+孩子們	1.0	h a2 i2  z ii0  m ern0 
+學	1.0	x yu2 e2 
+學入	1.0	x yu2 e2  rh u4 
+學手續	1.0	x yu2 e2  sh o3 u3  x yu4 
+學期	1.0	x yu2 e2  q i2 
+學校	1.0	x yu2 e2  x i4 a4 u4 
+學生	1.0	x yu2 e2  sh ng1 
+學習	1.0	x yu2 e2  x i2 
+學音樂	1.0	x yu2 e2  i1 nn1  l er4 
+守信用	1.0	sh o3 u3  x i4 nn4  i4 o4 ng4 
+完	1.0	u2 a2 nn2 
+完全	1.0	u2 a2 nn2  q yu2 a2 nn2 
+完全同意	1.0	u2 a2 nn2  q yu2 a2 nn2  t u2 ng2  i4 
+完功	1.0	u2 a2 nn2  g u1 ng1 
+客	1.0	k er4 
+宣判	1.0	x yu1 a1 nn1  p a4 nn4 
+宣布	1.0	x yu1 a1 nn1  b u4 
+家	1.0	j i1 a1 
+家人	1.0	j i1 a1  rh ern2 
+家具	1.0	j i1 a1  j yu4 
+家裡	1.0	j i1 a1  l i3 
+家長	1.0	j i1 a1  zh a3 ng3 
+家長會	1.0	j i1 a1  zh a3 ng3  h u4 e4 i4 
+家養	1.0	j i1 a1  i3 a3 ng3 
+容易	1.0	rh u2 ng2  i4 
+宿舍	1.0	s u4  sh er4 
+寄	1.0	j i4 
+寄些	1.0	j i4  x i1 e1 
+實況	1.0	sh ii2  k u4 a4 ng4 
+寫	1.0	x i3 e3 
+寶寶	1.0	b a3 u3  b a3 u3 
+寶寶剛	1.0	b a3 u3  b a3 u3  g a1 ng1 
+寺	1.0	s ii4 
+寺廟	1.0	s ii4  m i4 a4 u4 
+將要	1.0	j i1 a1 ng1  i4 a4 u4 
+對	1.0	d u4 e4 i4 
+小	1.0	x i3 a3 u3 
+小偷	1.0	x i3 a3 u3  t o1 u1 
+小名	1.0	x i3 a3 u3  m i2 ng2 
+小妹	1.0	x i3 a3 u3  m e4 i4 
+小妹子	1.0	x i3 a3 u3  m e4 i4  z ii0 
+小孩子	1.0	x i3 a3 u3  h a2 i2  z ii0 
+小心	1.0	x i3 a3 u3  x i1 nn1 
+小朋友	1.0	x i3 a3 u3  p ng2  i3 o3 u3 
+小花	1.0	x i3 a3 u3  h u1 a1 
+小貓	1.0	x i3 a3 u3  m a1 u1 
+小鬼	1.0	x i3 a3 u3  g u3 e3 i3 
+就	1.0	j i4 o4 u4 
+就要	1.0	j i4 o4 u4  i4 a4 u4 
+居家	1.0	j yu1  j i1 a1 
+山頂	1.0	sh a1 nn1  d i3 ng3 
+山頂上	1.0	sh a1 nn1  d i3 ng3  sh a4 ng4 
+工人	1.0	g u1 ng1  rh ern2 
+工作	1.0	g u1 ng1  z u4 o4 
+工地	1.0	g u1 ng1  d i4 
+工地上	1.0	g u1 ng1  d i4  sh a4 ng4 
+工業區	1.0	g u1 ng1  i4 e4  q yu1 
+工程	1.0	g u1 ng1  ch ng2 
+工程師	1.0	g u1 ng1  ch ng2  sh ii1 
+差	1.0	ch a4 
+已	1.0	i3 
+已經	1.0	i3  j i1 ng1 
+已經開	1.0	i3  j i1 ng1  k a1 i1 
+市長	1.0	sh ii4  zh a3 ng3 
+希望	1.0	x i1  u4 a4 ng4 
+師	1.0	sh ii1 
+帶	1.0	d a4 i4 
+帶傘	1.0	d a4 i4  s a3 nn3 
+帶給	1.0	d a4 i4  g e3 i3 
+帶雨傘	1.0	d a4 i4  yu3  s a3 nn3 
+常	1.0	ch a2 ng2 
+常去	1.0	ch a2 ng2  q yu4 
+常常	1.0	ch a2 ng2  ch a2 ng2 
+常年	1.0	ch a2 ng2  n i2 a2 nn2 
+常有	1.0	ch a2 ng2  i3 o3 u3 
+幅	1.0	f u2 
+幫	1.0	b a1 ng1 
+幫媽媽	1.0	b a1 ng1  m a1  m a1 
+幫老	1.0	b a1 ng1  l a3 u3 
+平常	1.0	p i2 ng2  ch a2 ng2 
+年	1.0	n i2 a2 nn2 
+幾	1.0	j i3 
+幾乎	1.0	j i3  h u1 
+幾個	1.0	j i3  g er0 
+幾天	1.0	j i3  t i1 a1 nn1 
+幾天前	1.0	j i3  t i1 a1 nn1  q i2 a2 nn2 
+幾本	1.0	j i3  b ern3 
+幾本書	1.0	j i3  b ern3  sh u1 
+床	1.0	ch u2 a2 ng2 
+床單	1.0	ch u2 a2 ng2  d a1 nn1 
+度	1.0	d u4 
+座	1.0	z u4 o4 
+座位	1.0	z u4 o4  u4 e4 i4 
+庭院	1.0	t i2 ng2  yu4 a4 nn4 
+廁所	1.0	c er4  s u3 o3 
+廚師	1.0	ch u2  sh ii1 
+廚房	1.0	ch u2  f a2 ng2 
+廚房裡	1.0	ch u2  f a2 ng2  l i3 
+廟	1.0	m i4 a4 u4 
+廣播	1.0	g u3 a3 ng3  b o1 
+建	1.0	j i4 a4 nn4 
+建築	1.0	j i4 a4 nn4  zh u4 
+弟弟	1.0	d i4  d i0 
+張	1.0	zh a1 ng1 
+彈	1.0	d a4 nn4 
+彈鋼琴	1.0	d a4 nn4  g a1 ng1  q i2 nn2 
+彩	1.0	c a3 i3 
+彩排	1.0	c a3 i3  p a2 i2 
+彬彬	1.0	b i1 nn1  b i1 nn1 
+彬彬有禮	1.0	b i1 nn1  b i1 nn1  i3 o3 u3  l i3 
+影票	1.0	i3 ng3  p i4 a4 u4 
+影院	1.0	i3 ng3  yu4 a4 nn4 
+往	1.0	u3 a3 ng3 
+待遇	1.0	d a4 i4  yu4 
+很	1.0	h ern3 
+很久	1.0	h ern3  j i3 o3 u3 
+很傷	1.0	h ern3  sh a1 ng1 
+很受	1.0	h ern3  sh o4 u4 
+很合適	1.0	h ern3  h er2  sh ii4 
+很多	1.0	h ern3  d u1 o1 
+很多很多	1.0	h ern3  d u1 o1  h ern3  d u1 o1 
+很好	1.0	h ern3  h a3 u3 
+很快	1.0	h ern3  k u4 a4 i4 
+很特別	1.0	h ern3  t er4  b i2 e2 
+很盛	1.0	h ern3  sh ng4 
+後	1.0	h o4 u4 
+得	1.0	d er2 
+心事	1.0	x i1 nn1  sh ii4 
+心地	1.0	x i1 nn1  d i4 
+忘	1.0	u4 a4 ng4 
+快	1.0	k u4 a4 i4 
+怪	1.0	g u4 a4 i4 
+怪夢	1.0	g u4 a4 i4  m ng4 
+恐怕	1.0	k u3 ng3  p a4 
+恐怖	1.0	k u3 ng3  b u4 
+您	1.0	n i2 nn2 
+想	1.0	x i3 a3 ng3 
+意外	1.0	i4  u4 a4 i4 
+意選	1.0	i4  x yu3 a3 nn3 
+愛	1.0	a4 i4 
+愛吃	1.0	a4 i4  ch ii1 
+愛找	1.0	a4 i4  zh a3 u3 
+愛買	1.0	a4 i4  m a3 i3 
+愛買些	1.0	a4 i4  m a3 i3  x i1 e1 
+慢	1.0	m a4 nn4 
+慶祝	1.0	q i4 ng4  zh u4 
+應要	1.0	i1 ng1  i4 a4 u4 
+應該	1.0	i1 ng1  g a1 i1 
+成績	1.0	ch ng2  j i1 
+我	1.0	u3 o3 
+我們	1.0	u3 o3  m ern0 
+我十點	1.0	u3 o3  sh ii2  d i3 a3 nn3 
+我十點鐘	1.0	u3 o3  sh ii2  d i3 a3 nn3  zh u1 ng1 
+我常去	1.0	u3 o3  ch a2 ng2  q yu4 
+我怕	1.0	u3 o3  p a4 
+我要	1.0	u3 o3  i4 a4 u4 
+截稿	1.0	j i2 e2  g a3 u3 
+戴	1.0	d a4 i4 
+戴著	1.0	d a4 i4  zh u4 
+房子	1.0	f a2 ng2  z ii0 
+房間	1.0	f a2 ng2  j i1 a1 nn1 
+房間裡	1.0	f a2 ng2  j i1 a1 nn1  l i3 
+所	1.0	s u3 o3 
+所有	1.0	s u3 o3  i3 o3 u3 
+手	1.0	sh o3 u3 
+手上	1.0	sh o3 u3  sh a4 ng4 
+手環	1.0	sh o3 u3  h u2 a2 nn2 
+手續	1.0	sh o3 u3  x yu4 
+手術	1.0	sh o3 u3  sh u4 
+手錶	1.0	sh o3 u3  b i3 a3 u3 
+才	1.0	c a2 i2 
+打	1.0	d a3 
+打入	1.0	d a3  rh u4 
+打字	1.0	d a3  z ii4 
+打打	1.0	d a3  d a3 
+打掃	1.0	d a3  s a3 u3 
+打破	1.0	d a3  p o4 
+打翻	1.0	d a3  f a1 nn1 
+打電話	1.0	d a3  d i4 a4 nn4  h u4 a4 
+打領	1.0	d a3  l i3 ng3 
+打領帶	1.0	d a3  l i3 ng3  d a4 i4 
+打麻將	1.0	d a3  m a2  j i1 a1 ng1 
+扭傷	1.0	n i3 o3 u3  sh a1 ng1 
+找	1.0	zh a3 u3 
+找出	1.0	zh a3 u3  ch u1 
+把	1.0	b a3 
+抓	1.0	zh u1 a1 
+抓到	1.0	zh u1 a1  d a4 u4 
+抓破	1.0	zh u1 a1  p o4 
+投籃	1.0	t o2 u2  l a2 nn2 
+抱怨	1.0	b a4 u4  yu4 a4 nn4 
+抹布	1.0	m a1  b u4 
+拉	1.0	l a1 
+拉麵	1.0	l a1  m i4 a4 nn4 
+拍照	1.0	p a1 i1  zh a4 u4 
+招待	1.0	zh a1 u1  d a4 i4 
+招待會	1.0	zh a1 u1  d a4 i4  h u4 e4 i4 
+招聘	1.0	zh a1 u1  p i4 nn4 
+拜年	1.0	b a4 i4  n i2 a2 nn2 
+拿	1.0	n a2 
+捐	1.0	j yu1 a1 nn1 
+掃	1.0	s a3 u3 
+掃地	1.0	s a3 u3  d er0 
+掉	1.0	d i4 a4 u4 
+排	1.0	p a2 i2 
+掛	1.0	g u4 a4 
+掛著	1.0	g u4 a4  zh u4 
+探望	1.0	t a4 nn4  u4 a4 ng4 
+接	1.0	j i1 e1 
+接到	1.0	j i1 e1  d a4 u4 
+接聽	1.0	j i1 e1  t i1 ng1 
+接電話	1.0	j i1 e1  d i4 a4 nn4  h u4 a4 
+提前	1.0	t i2  q i2 a2 nn2 
+換	1.0	h u4 a4 nn4 
+換床	1.0	h u4 a4 nn4  ch u2 a2 ng2 
+搬	1.0	b a1 nn1 
+搬上	1.0	b a1 nn1  sh a4 ng4 
+搬家	1.0	b a1 nn1  j i1 a1 
+搭乘	1.0	d a1  ch ng2 
+撞	1.0	zh u4 a4 ng4 
+撞到	1.0	zh u4 a4 ng4  d a4 u4 
+撰	1.0	zh u4 a4 nn4 
+撰寫	1.0	zh u4 a4 nn4  x i3 e3 
+撲克牌	1.0	p u1  k er4  p a2 i2 
+撿	1.0	j i3 a3 nn3 
+撿到	1.0	j i3 a3 nn3  d a4 u4 
+擅長	1.0	sh a4 nn4  zh a3 ng3 
+操場	1.0	c a1 u1  ch a3 ng3 
+擔心	1.0	d a1 nn1  x i1 nn1 
+擦乾	1.0	c a1  q i2 a2 nn2 
+擦乾淨	1.0	c a1  q i2 a2 nn2  j i4 ng4 
+擺	1.0	b a3 i3 
+擺好	1.0	b a3 i3  h a3 u3 
+擺滿	1.0	b a3 i3  m a3 nn3 
+支	1.0	zh ii1 
+收到	1.0	sh o1 u1  d a4 u4 
+收據	1.0	sh o1 u1  j yu4 
+收音	1.0	sh o1 u1  i1 nn1 
+收音機	1.0	sh o1 u1  i1 nn1  j i1 
+放	1.0	f a4 ng4 
+放假	1.0	f a4 ng4  j i4 a4 
+放入	1.0	f a4 ng4  rh u4 
+放多	1.0	f a4 ng4  d u1 o1 
+放學	1.0	f a4 ng4  x yu2 e2 
+放放學	1.0	f a4 ng4  f a4 ng4  x yu2 e2 
+放長	1.0	f a4 ng4  zh a3 ng3 
+放風箏	1.0	f a4 ng4  f ng1  zh ng1 
+故事	1.0	g u4  sh ii4 
+故宮	1.0	g u4  g u1 ng1 
+教	1.0	j i4 a4 u4 
+教數學	1.0	j i4 a4 u4  sh u4  x yu2 e2 
+整	1.0	zh ng3 
+整夜	1.0	zh ng3  i4 e4 
+整整	1.0	zh ng3  zh ng3 
+整晚	1.0	zh ng3  u3 a3 nn3 
+敷	1.0	f u1 
+敷冰塊	1.0	f u1  b i1 ng1  k u4 a4 i4 
+數	1.0	sh u4 
+數學	1.0	sh u4  x yu2 e2 
+文件	1.0	u2 nn2  j i4 a4 nn4 
+新	1.0	x i1 nn1 
+新老師	1.0	x i1 nn1  l a3 u3  sh ii1 
+新聞	1.0	x i1 nn1  u2 nn2 
+於	1.0	yu2 
+旅遊	1.0	l yu3  i2 o2 u2 
+旅遊業	1.0	l yu3  i2 o2 u2  i4 e4 
+旅遊點	1.0	l yu3  i2 o2 u2  d i3 a3 nn3 
+日	1.0	rh ii4 
+早上	1.0	z a3 u3  sh a4 ng4 
+早早	1.0	z a3 u3  z a3 u3 
+早餐	1.0	z a3 u3  c a1 nn1 
+早點	1.0	z a3 u3  d i3 a3 nn3 
+明天	1.0	m i2 ng2  t i1 a1 nn1 
+明媚	1.0	m i2 ng2  m e4 i4 
+昏昏沉沉	1.0	h u1 nn1  h u1 nn1  ch ern2  ch ern2 
+昏沉沉	1.0	h u1 nn1  ch ern2  ch ern2 
+星期	1.0	x i1 ng1  q i2 
+星期一	1.0	x i1 ng1  q i2  i1 
+星期天	1.0	x i1 ng1  q i2  t i1 a1 nn1 
+春天	1.0	ch u1 nn1  t i1 a1 nn1 
+春節	1.0	ch u1 nn1  j i2 e2 
+昨天	1.0	z u2 o2  t i1 a1 nn1 
+昨天晚上	1.0	z u2 o2  t i1 a1 nn1  u3 a3 nn3  sh a4 ng4 
+是	1.0	sh ii4 
+是當	1.0	sh ii4  d a1 ng1 
+是雙	1.0	sh ii4  sh u1 a1 ng1 
+時	1.0	sh ii2 
+時別	1.0	sh ii2  b i2 e2 
+時裝	1.0	sh ii2  zh u1 a1 ng1 
+時間	1.0	sh ii2  j i1 a1 nn1 
+晚	1.0	u3 a3 nn3 
+晚上	1.0	u3 a3 nn3  sh a4 ng4 
+晚晚	1.0	u3 a3 nn3  u3 a3 nn3 
+晚會	1.0	u3 a3 nn3  h u4 e4 i4 
+晚飯	1.0	u3 a3 nn3  f a4 nn4 
+晚餐	1.0	u3 a3 nn3  c a1 nn1 
+景美	1.0	j i3 ng3  m e3 i3 
+暗	1.0	a4 nn4 
+書	1.0	sh u1 
+書店	1.0	sh u1  d i4 a4 nn4 
+書法	1.0	sh u1  f a3 
+替	1.0	t i4 
+最	1.0	z u4 e4 i4 
+最喜歡	1.0	z u4 e4 i4  x i3  h u1 a1 nn1 
+最近	1.0	z u4 e4 i4  j i4 nn4 
+會	1.0	h u4 e4 i4 
+會講	1.0	h u4 e4 i4  j i3 a3 ng3 
+會議	1.0	h u4 e4 i4  i4 
+會議室	1.0	h u4 e4 i4  i4  sh ii4 
+月	1.0	yu4 e4 
+月亮	1.0	yu4 e4  l i4 a4 ng4 
+有	1.0	i3 o3 u3 
+有事	1.0	i3 o3 u3  sh ii4 
+有人	1.0	i3 o3 u3  rh ern2 
+有什麼	1.0	i3 o3 u3  sh ern2  m er0 
+有名	1.0	i3 o3 u3  m i2 ng2 
+有座	1.0	i3 o3 u3  z u4 o4 
+有書法	1.0	i3 o3 u3  sh u1  f a3 
+有治氣	1.0	i3 o3 u3  zh ii4  q i4 
+有禮	1.0	i3 o3 u3  l i3 
+有約會	1.0	i3 o3 u3  yu1 e1  h u4 e4 i4 
+有許	1.0	i3 o3 u3  x yu3 
+有遠	1.0	i3 o3 u3  yu3 a3 nn3 
+有點	1.0	i3 o3 u3  d i3 a3 nn3 
+朋友	1.0	p ng2  i3 o3 u3 
+服	1.0	f u2 
+末	1.0	m o4 
+本	1.0	b ern3 
+本週	1.0	b ern3  zh o1 u1 
+李白	1.0	l i3  b a2 i2 
+束	1.0	sh u4 
+杯	1.0	b e1 i1 
+東西	1.0	d u1 ng1  x i1 
+枝	1.0	zh ii1 
+架上	1.0	j i4 a4  sh a4 ng4 
+染上	1.0	rh a3 nn3  sh a4 ng4 
+校隊	1.0	x i4 a4 u4  d u4 e4 i4 
+格子	1.0	g er2  z ii0 
+案子	1.0	a4 nn4  z ii0 
+桌上	1.0	zh u1 o1  sh a4 ng4 
+桌下	1.0	zh u1 o1  x i4 a4 
+桌子	1.0	zh u1 o1  z ii0 
+桌子上	1.0	zh u1 o1  z ii0  sh a4 ng4 
+條	1.0	t i2 a2 u2 
+棒球	1.0	b a4 ng4  q i2 o2 u2 
+棒球賽	1.0	b a4 ng4  q i2 o2 u2  s a4 i4 
+森林	1.0	s ern1  l i2 nn2 
+樓	1.0	l o2 u2 
+樓下	1.0	l o2 u2  x i4 a4 
+樹	1.0	sh u4 
+樹上	1.0	sh u4  sh a4 ng4 
+橋	1.0	q i2 a2 u2 
+橘色	1.0	j yu2  s er4 
+橘黃色	1.0	j yu2  h u2 a2 ng2  s er4 
+橙黃色	1.0	ch ng2  h u2 a2 ng2  s er4 
+機	1.0	j i1 
+檢查	1.0	j i3 a3 nn3  ch a2 
+櫃子	1.0	g u4 e4 i4  z ii0 
+欄	1.0	l a2 nn2 
+次	1.0	c ii4 
+歌劇	1.0	g er1  j yu4 
+歌唱	1.0	g er1  ch a4 ng4 
+歡迎	1.0	h u1 a1 nn1  i2 ng2 
+正	1.0	zh ng4 
+正四處	1.0	zh ng4  s ii4  ch u4 
+正在	1.0	zh ng4  z a4 i4 
+正式	1.0	zh ng4  sh ii4 
+正往	1.0	zh ng4  u3 a3 ng3 
+步	1.0	b u4 
+歷史	1.0	l i4  sh ii3 
+段	1.0	d u4 a4 nn4 
+毀了	1.0	h u3 e3 i3  l er0 
+每	1.0	m e3 i3 
+每個	1.0	m e3 i3  g er0 
+每天	1.0	m e3 i3  t i1 a1 nn1 
+每天晚上	1.0	m e3 i3  t i1 a1 nn1  u3 a3 nn3  sh a4 ng4 
+每年	1.0	m e3 i3  n i2 a2 nn2 
+比	1.0	b i3 
+比賽	1.0	b i3  s a4 i4 
+比較	1.0	b i3  j i4 a4 u4 
+毛毛雨	1.0	m a2 u2  m a2 u2  yu3 
+氣	1.0	q i4 
+氣喘	1.0	q i4  ch u3 a3 nn3 
+氣喝	1.0	q i4  h er1 
+氣溫	1.0	q i4  u1 nn1 
+水	1.0	sh u3 e3 i3 
+水果	1.0	sh u3 e3 i3  g u3 o3 
+水果糖	1.0	sh u3 e3 i3  g u3 o3  t a2 ng2 
+水泡	1.0	sh u3 e3 i3  p a4 u4 
+水準備	1.0	sh u3 e3 i3  zh u3 nn3  b e4 i4 
+水餃	1.0	sh u3 e3 i3  j i3 a3 u3 
+水龍頭	1.0	sh u3 e3 i3  l u2 ng2  t o2 u2 
+池塘	1.0	ch ii2  t a2 ng2 
+決策	1.0	j yu2 e2  c er4 
+決賽	1.0	j yu2 e2  s a4 i4 
+汽車門	1.0	q i4  ch er1  m ern2 
+沉沉的	1.0	ch ern2  ch ern2  d er0 
+沒	1.0	m e2 i2 
+沒有	1.0	m e2 i2  i3 o3 u3 
+沒能	1.0	m e2 i2  n ng2 
+沖	1.0	ch u1 ng1 
+沖垮	1.0	ch u1 ng1  k u3 a3 
+沖毀	1.0	ch u1 ng1  h u3 e3 i3 
+油	1.0	i2 o2 u2 
+油畫	1.0	i2 o2 u2  h u4 a4 
+治	1.0	zh ii4 
+治氣	1.0	zh ii4  q i4 
+治療	1.0	zh ii4  l i2 a2 u2 
+注意	1.0	zh u4  i4 
+洋裝	1.0	i2 a2 ng2  zh u1 a1 ng1 
+洗	1.0	x i3 
+洗廁	1.0	x i3  c er4 
+洗廁所	1.0	x i3  c er4  s u3 o3 
+洪水	1.0	h u2 ng2  sh u3 e3 i3 
+海外	1.0	h a3 i3  u4 a4 i4 
+消息	1.0	x i1 a1 u1  x i2 
+淨	1.0	j i4 ng4 
+深夜	1.0	sh ern1  i4 e4 
+清明	1.0	q i1 ng1  m i2 ng2 
+清明節	1.0	q i1 ng1  m i2 ng2  j i2 e2 
+減價	1.0	j i3 a3 nn3  j i4 a4 
+準備	1.0	zh u3 nn3  b e4 i4 
+溜冰	1.0	l i1 o1 u1  b i1 ng1 
+溫響	1.0	u1 nn1  x i3 a3 ng3 
+溫香	1.0	u1 nn1  x i1 a1 ng1 
+溫馨	1.0	u1 nn1  x i1 nn1 
+滿	1.0	m a3 nn3 
+滿意	1.0	m a3 nn3  i4 
+滿月	1.0	m a3 nn3  yu4 e4 
+演唱	1.0	i3 a3 nn3  ch a4 ng4 
+演唱會	1.0	i3 a3 nn3  ch a4 ng4  h u4 e4 i4 
+演講	1.0	i3 a3 nn3  j i3 a3 ng3 
+漲	1.0	zh a3 ng3 
+火車	1.0	h u3 o3  ch er1 
+火車站	1.0	h u3 o3  ch er1  zh a4 nn4 
+灰	1.0	h u1 e1 i1 
+災區	1.0	z a1 i1  q yu1 
+炒	1.0	ch a3 u3 
+炒菜	1.0	ch a3 u3  c a4 i4 
+為	1.0	u4 e4 i4 
+為什麼	1.0	u4 e4 i4  sh ern2  m er0 
+無聊	1.0	u2  l i2 a2 u2 
+照相	1.0	zh a4 u4  x i4 a4 ng4 
+熊貓	1.0	x i2 o2 ng2  m a1 u1 
+熟悉	1.0	sh o2 u2  x i1 
+熬	1.0	a2 u2 
+熬中藥	1.0	a2 u2  zh u1 ng1  i4 a4 u4 
+熱帶魚	1.0	rh er4  d a4 i4  yu2 
+燈	1.0	d ng1 
+燈光	1.0	d ng1  g u1 a1 ng1 
+燈會	1.0	d ng1  h u4 e4 i4 
+營業	1.0	i2 ng2  i4 e4 
+爬	1.0	p a2 
+爬滿	1.0	p a2  m a3 nn3 
+父母	1.0	f u4  m u3 
+爸爸	1.0	b a4  b a4 
+爺爺	1.0	i2 e2  i2 e2 
+牆	1.0	q i2 a2 ng2 
+牆上	1.0	q i2 a2 ng2  sh a4 ng4 
+片	1.0	p i4 a4 nn4 
+牌子	1.0	p a2 i2  z ii0 
+牙齒	1.0	i2 a2  ch ii3 
+牛花	1.0	n i2 o2 u2  h u1 a1 
+物價	1.0	u4  j i4 a4 
+特別	1.0	t er4  b i2 e2 
+牽	1.0	q i1 a1 nn1 
+牽牛花	1.0	q i1 a1 nn1  n i2 o2 u2  h u1 a1 
+犯	1.0	f a4 nn4 
+狗	1.0	g o3 u3 
+狼	1.0	l a2 ng2 
+狼狗	1.0	l a2 ng2  g o3 u3 
+獲得	1.0	h u4 o4  d er2 
+獲獎	1.0	h u4 o4  j i3 a3 ng3 
+玉	1.0	yu4 
+玉手	1.0	yu4  sh o3 u3 
+玉手環	1.0	yu4  sh o3 u3  h u2 a2 nn2 
+玩	1.0	u2 a2 nn2 
+玩撲克牌	1.0	u2 a2 nn2  p u1  k er4  p a2 i2 
+班	1.0	b a1 nn1 
+班上	1.0	b a1 nn1  sh a4 ng4 
+班列	1.0	b a1 nn1  l i4 e4 
+班長	1.0	b a1 nn1  zh a3 ng3 
+現在	1.0	x i4 a4 nn4  z a4 i4 
+現在會	1.0	x i4 a4 nn4  z a4 i4  h u4 e4 i4 
+球	1.0	q i2 o2 u2 
+球賽	1.0	q i2 o2 u2  s a4 i4 
+球隊	1.0	q i2 o2 u2  d u4 e4 i4 
+理	1.0	l i3 
+環	1.0	h u2 a2 nn2 
+瓜子	1.0	g u1 a1  z ii0 
+生手	1.0	sh ng1  sh o3 u3 
+生日	1.0	sh ng1  rh ii4 
+生活	1.0	sh ng1  h u2 o2 
+用	1.0	i4 o4 ng4 
+申請	1.0	sh ern1  q i3 ng3 
+男生	1.0	n a2 nn2  sh ng1 
+留學生	1.0	l i2 o2 u2  x yu2 e2  sh ng1 
+留意	1.0	l i2 o2 u2  i4 
+畢業	1.0	b i4  i4 e4 
+畢業典禮	1.0	b i4  i4 e4  d i3 a3 nn3  l i3 
+畫	1.0	h u4 a4 
+當	1.0	d a1 ng1 
+當勞	1.0	d a1 ng1  l a2 u2 
+疏導	1.0	sh u1  d a3 u3 
+疹子	1.0	zh ern3  z ii0 
+病人	1.0	b i4 ng4  rh ern2 
+病假	1.0	b i4 ng4  j i4 a4 
+痛	1.0	t u4 ng4 
+登山	1.0	d ng1  sh a1 nn1 
+發現	1.0	f a1  x i4 a4 nn4 
+發生	1.0	f a1  sh ng1 
+發達	1.0	f a1  d a2 
+發電	1.0	f a1  d i4 a4 nn4 
+發電廠	1.0	f a1  d i4 a4 nn4  ch a3 ng3 
+白	1.0	b a2 i2 
+白鴿	1.0	b a2 i2  g er1 
+的	1.0	d er0 
+的確	1.0	d er0  q yu4 e4 
+盒	1.0	h er2 
+盛	1.0	sh ng4 
+盤	1.0	p a2 nn2 
+相信	1.0	x i1 a1 ng1  x i4 nn4 
+相機	1.0	x i1 a1 ng1  j i1 
+盼望	1.0	p a4 nn4  u4 a4 ng4 
+看	1.0	k a4 nn4 
+看到	1.0	k a4 nn4  d a4 u4 
+看天氣	1.0	k a4 nn4  t i1 a1 nn1  q i4 
+看法	1.0	k a4 nn4  f a3 
+看法上	1.0	k a4 nn4  f a3  sh a4 ng4 
+看球賽	1.0	k a4 nn4  q i2 o2 u2  s a4 i4 
+看看	1.0	k a4 nn4  k a4 nn4 
+看花燈	1.0	k a4 nn4  h u1 a1  d ng1 
+看起	1.0	k a4 nn4  q i3 
+看起來	1.0	k a4 nn4  q i3  l a2 i2 
+看電視	1.0	k a4 nn4  d i4 a4 nn4  sh ii4 
+真的	1.0	zh ern1  d er0 
+眼鏡	1.0	i3 a3 nn3  j i4 ng4 
+睡覺	1.0	sh u4 e4 i4  j yu2 e2 
+碗	1.0	u3 a3 nn3 
+碰到	1.0	p ng4  d a4 u4 
+碰翻	1.0	p ng4  f a1 nn1 
+確的確	1.0	q yu4 e4  d er0  q yu4 e4 
+祖傳	1.0	z u3  ch u2 a2 nn2 
+票	1.0	p i4 a4 u4 
+福利	1.0	f u2  l i4 
+福利待遇	1.0	f u2  l i4  d a4 i4  yu4 
+禮	1.0	l i3 
+禮堂	1.0	l i3  t a2 ng2 
+禮物	1.0	l i3  u4 
+禮物給	1.0	l i3  u4  g e3 i3 
+禮給	1.0	l i3  g e3 i3 
+秘方	1.0	m i4  f a1 ng1 
+秘書	1.0	m i4  sh u1 
+種	1.0	zh u3 ng3 
+種了	1.0	zh u3 ng3  l er0 
+稿	1.0	g a3 u3 
+積水積	1.0	j i1  sh u3 e3 i3  j i1 
+積滿	1.0	j i1  m a3 nn3 
+積雪	1.0	j i1  x yu3 e3 
+積雪長	1.0	j i1  x yu3 e3  zh a3 ng3 
+穿	1.0	ch u1 a1 nn1 
+穿制	1.0	ch u1 a1 nn1  zh ii4 
+穿運動	1.0	ch u1 a1 nn1  yu4 nn4  d u4 ng4 
+突然	1.0	t u1  rh a2 nn2 
+窗戶	1.0	ch u1 a1 ng1  h u4 
+站	1.0	zh a4 nn4 
+站裡	1.0	zh a4 nn4  l i3 
+笑	1.0	x i4 a4 u4 
+第一	1.0	d i4  i1 
+筆	1.0	b i3 
+等	1.0	d ng3 
+答應	1.0	d a2  i1 ng1 
+管理	1.0	g u3 a3 nn3  l i3 
+管理員	1.0	g u3 a3 nn3  l i3  yu2 a2 nn2 
+節	1.0	j i2 e2 
+節下	1.0	j i2 e2  x i4 a4 
+節目	1.0	j i2 e2  m u4 
+節目裡	1.0	j i2 e2  m u4  l i3 
+節要	1.0	j i2 e2  i4 a4 u4 
+簡單	1.0	j i3 a3 nn3  d a1 nn1 
+籃球	1.0	l a2 nn2  q i2 o2 u2 
+籃球隊	1.0	l a2 nn2  q i2 o2 u2  d u4 e4 i4 
+粉紅色	1.0	f ern3  h u2 ng2  s er4 
+粥	1.0	zh o1 u1 
+粧	1.0	zh u1 a1 ng1 
+糖	1.0	t a2 ng2 
+紀念品	1.0	j i4  n i4 a4 nn4  p i3 nn3 
+約	1.0	yu1 e1 
+約個	1.0	yu1 e1  g er0 
+約會	1.0	yu1 e1  h u4 e4 i4 
+終於	1.0	zh u1 ng1  yu2 
+給	1.0	g e3 i3 
+給他	1.0	g e3 i3  t a1 
+給媽媽	1.0	g e3 i3  m a1  m a1 
+給我媽媽	1.0	g e3 i3  u3 o3  m a1  m a1 
+給災區	1.0	g e3 i3  z a1 i1  q yu1 
+給給	1.0	g e3 i3  g e3 i3 
+經	1.0	j i1 ng1 
+經常	1.0	j i1 ng1  ch a2 ng2 
+經常去	1.0	j i1 ng1  ch a2 ng2  q yu4 
+經常寄些	1.0	j i1 ng1  ch a2 ng2  j i4  x i1 e1 
+經常帶	1.0	j i1 ng1  ch a2 ng2  d a4 i4 
+經常經	1.0	j i1 ng1  ch a2 ng2  j i1 ng1 
+經理	1.0	j i1 ng1  l i3 
+經理來	1.0	j i1 ng1  l i3  l a2 i2 
+經理談	1.0	j i1 ng1  l i3  t a2 nn2 
+經開	1.0	j i1 ng1  k a1 i1 
+經驗	1.0	j i1 ng1  i4 a4 nn4 
+綵	1.0	c a3 i3 
+緊張	1.0	j i3 nn3  zh a1 ng1 
+緊身	1.0	j i3 nn3  sh ern1 
+練	1.0	l i4 a4 nn4 
+練練	1.0	l i4 a4 nn4  l i4 a4 nn4 
+練習	1.0	l i4 a4 nn4  x i2 
+縫	1.0	f ng4 
+繩	1.0	sh ng2 
+缸	1.0	g a1 ng1 
+美	1.0	m e3 i3 
+群	1.0	q yu2 nn2 
+習彈	1.0	x i2  d a4 nn4 
+習慣	1.0	x i2  g u4 a4 nn4 
+翻倒	1.0	f a1 nn1  d a3 u3 
+老	1.0	l a3 u3 
+老同學	1.0	l a3 u3  t u2 ng2  x yu2 e2 
+老奶奶	1.0	l a3 u3  n a3 i3  n a3 i3 
+老家	1.0	l a3 u3  j i1 a1 
+老師	1.0	l a3 u3  sh ii1 
+老朋友	1.0	l a3 u3  p ng2  i3 o3 u3 
+老毛病	1.0	l a3 u3  m a2 u2  b i4 ng4 
+老花	1.0	l a3 u3  h u1 a1 
+老花眼	1.0	l a3 u3  h u1 a1  i3 a3 nn3 
+老花眼鏡	1.0	l a3 u3  h u1 a1  i3 a3 nn3  j i4 ng4 
+老闆	1.0	l a3 u3  b a3 nn3 
+老鼠	1.0	l a3 u3  sh u3 
+考考	1.0	k a3 u3  k a3 u3 
+考試	1.0	k a3 u3  sh ii4 
+考題	1.0	k a3 u3  t i2 
+聖誕節	1.0	sh ng4  d a4 nn4  j i2 e2 
+聚	1.0	j yu4 
+聚會	1.0	j yu4  h u4 e4 i4 
+聞名	1.0	u2 nn2  m i2 ng2 
+聯	1.0	l i2 a2 nn2 
+聯考	1.0	l i2 a2 nn2  k a3 u3 
+聯考試	1.0	l i2 a2 nn2  k a3 u3  sh ii4 
+職位	1.0	zh ii2  u4 e4 i4 
+職業	1.0	zh ii2  i4 e4 
+聽	1.0	t i1 ng1 
+聽到	1.0	t i1 ng1  d a4 u4 
+聽歌	1.0	t i1 ng1  g er1 
+肚子	1.0	d u3  z ii0 
+肚子疼	1.0	d u3  z ii0  t ng2 
+肚子痛	1.0	d u4  z ii0  t u4 ng4 
+肯定	1.0	k ern3  d i4 ng4 
+背誦	1.0	b e4 i4  s u4 ng4 
+胞胎	1.0	b a1 u1  t a1 i1 
+能	1.0	n ng2 
+能力	1.0	n ng2  l i4 
+腰	1.0	i1 a1 u1 
+腰痛	1.0	i1 a1 u1  t u4 ng4 
+腳	1.0	j i3 a3 u3 
+腳上	1.0	j i3 a3 u3  sh a4 ng4 
+腳長	1.0	j i3 a3 u3  zh a3 ng3 
+膽	1.0	d a3 nn3 
+膽小鬼	1.0	d a3 nn3  x i3 a3 u3  g u3 e3 i3 
+臉	1.0	l i3 a3 nn3 
+臉上	1.0	l i3 a3 nn3  sh a4 ng4 
+自信	1.0	z ii4  x i4 nn4 
+自己	1.0	z ii4  j i3 
+舉辦	1.0	j yu3  b a4 nn4 
+舒服	1.0	sh u1  f u2 
+舞會	1.0	u3  h u4 e4 i4 
+花	1.0	h u1 a1 
+花園	1.0	h u1 a1  yu2 a2 nn2 
+花園裡	1.0	h u1 a1  yu2 a2 nn2  l i3 
+花店	1.0	h u1 a1  d i4 a4 nn4 
+花貓	1.0	h u1 a1  m a1 u1 
+英文	1.0	i1 ng1  u2 nn2 
+英語	1.0	i1 ng1  yu3 
+茶	1.0	ch a2 
+茶杯	1.0	ch a2  b e1 i1 
+草叢	1.0	c a3 u3  c u2 ng2 
+草叢裡	1.0	c a3 u3  c u2 ng2  l i3 
+菜	1.0	c a4 i4 
+菸	1.0	i1 a1 nn1 
+萬元	1.0	u4 a4 nn4  yu2 a2 nn2 
+萬里長	1.0	u4 a4 nn4  l i3  zh a3 ng3 
+萬里長城	1.0	u4 a4 nn4  l i3  zh a3 ng3  ch ng2 
+著	1.0	zh u4 
+著能	1.0	zh u4  n ng2 
+著識	1.0	zh u4  sh ii2 
+藥	1.0	i4 a4 u4 
+蚊	1.0	u2 nn2 
+蚊香	1.0	u2 nn2  x i1 a1 ng1 
+蛇	1.0	sh er2 
+蛋	1.0	d a4 nn4 
+蛋糕	1.0	d a4 nn4  g a1 u1 
+螞蟻	1.0	m a3  i3 
+蟋蟀	1.0	x i1  sh u4 a4 i4 
+行業	1.0	x i2 ng2  i4 e4 
+行為	1.0	x i2 ng2  u4 e4 i4 
+術	1.0	sh u4 
+衛生	1.0	u4 e4 i4  sh ng1 
+衣	1.0	i1 
+衣服	1.0	i1  f u2 
+衣物	1.0	i1  u4 
+表演	1.0	b i3 a3 u3  i3 a3 nn3 
+被	1.0	b e4 i4 
+被門	1.0	b e4 i4  m ern2 
+裏	1.0	l i3 
+裝修	1.0	zh u1 a1 ng1  x i1 o1 u1 
+裡	1.0	l i3 
+裡幫	1.0	l i3  b a1 ng1 
+裡種	1.0	l i3  zh u3 ng3 
+裡養	1.0	l i3  i3 a3 ng3 
+西瓜	1.0	x i1  g u1 a1 
+要	1.0	i4 a4 u4 
+要賽	1.0	i4 a4 u4  s a4 i4 
+要辦	1.0	i4 a4 u4  b a4 nn4 
+要開	1.0	i4 a4 u4  k a1 i1 
+要點	1.0	i4 a4 u4  d i3 a3 nn3 
+見	1.0	j i4 a4 nn4 
+見面	1.0	j i4 a4 nn4  m i4 a4 nn4 
+規定	1.0	g u1 e1 i1  d i4 ng4 
+親人	1.0	q i1 nn1  rh ern2 
+親人團	1.0	q i1 nn1  rh ern2  t u2 a2 nn2 
+覺得	1.0	j yu2 e2  d er2 
+覺得頭	1.0	j yu2 e2  d er2  t o2 u2 
+觀點	1.0	g u1 a1 nn1  d i3 a3 nn3 
+訂單	1.0	d i4 ng4  d a1 nn1 
+計劃	1.0	j i4  h u4 a4 
+計畫	1.0	j i4  h u4 a4 
+討論	1.0	t a3 u3  l u4 nn4 
+記	1.0	j i4 
+記得	1.0	j i4  d er2 
+記者	1.0	j i4  zh er3 
+訪客	1.0	f a3 ng3  k er4 
+設計師	1.0	sh er4  j i4  sh ii1 
+許多	1.0	x yu3  d u1 o1 
+詞詩	1.0	c ii2  sh ii1 
+試	1.0	sh ii4 
+詩歌	1.0	sh ii1  g er1 
+詩詞	1.0	sh ii1  c ii2 
+說	1.0	sh u1 o1 
+誰	1.0	sh u2 e2 i2 
+課	1.0	k er4 
+課才	1.0	k er4  c a2 i2 
+談	1.0	t a2 nn2 
+請	1.0	q i3 ng3 
+請教	1.0	q i3 ng3  j i4 a4 u4 
+講	1.0	j i3 a3 ng3 
+講話	1.0	j i3 a3 ng3  h u4 a4 
+證	1.0	zh ng4 
+識別	1.0	sh ii2  b i2 e2 
+識別證	1.0	sh ii2  b i2 e2  zh ng4 
+警察	1.0	j i3 ng3  ch a2 
+議室	1.0	i4  sh ii4 
+護士	1.0	h u4  sh ii4 
+讀書	1.0	d u2  sh u1 
+讓	1.0	rh a4 ng4 
+豆漿	1.0	d o4 u4  j i1 a1 ng1 
+豆腐	1.0	d o4 u4  f u0 
+豐富	1.0	f ng1  f u4 
+貓	1.0	m a1 u1 
+貓很可愛	1.0	m a1 u1  h ern3  k er3  a4 i4 
+貓把床	1.0	m a1 u1  b a3  ch u2 a2 ng2 
+貝殼	1.0	b e4 i4  k er2 
+貨	1.0	h u4 o4 
+貨架	1.0	h u4 o4  j i4 a4 
+貨架上	1.0	h u4 o4  j i4 a4  sh a4 ng4 
+買	1.0	m a3 i3 
+買些	1.0	m a3 i3  x i1 e1 
+買回	1.0	m a3 i3  h u2 e2 i2 
+買油	1.0	m a3 i3  i2 o2 u2 
+買車	1.0	m a3 i3  ch er1 
+買電	1.0	m a3 i3  d i4 a4 nn4 
+貸款	1.0	d a4 i4  k u3 a3 nn3 
+貼	1.0	t i1 e1 
+貼著	1.0	t i1 e1  zh u4 
+賀卡	1.0	h er4  k a3 
+資格	1.0	z ii1  g er2 
+賞	1.0	sh a3 ng3 
+賞月	1.0	sh a3 ng3  yu4 e4 
+賽	1.0	s a4 i4 
+賽實況	1.0	s a4 i4  sh ii2  k u4 a4 ng4 
+起	1.0	q i3 
+起來	1.0	q i3  l a2 i2 
+起床	1.0	q i3  ch u2 a2 ng2 
+超商	1.0	ch a1 u1  sh a1 ng1 
+超市	1.0	ch a1 u1  sh ii4 
+趕	1.0	g a3 nn3 
+趕截	1.0	g a3 nn3  j i2 e2 
+足球	1.0	z u2  q i2 o2 u2 
+跑	1.0	p a3 u3 
+跑步	1.0	p a3 u3  b u4 
+跟	1.0	g ern1 
+跨海	1.0	k u4 a4  h a3 i3 
+路上	1.0	l u4  sh a4 ng4 
+跳	1.0	t i4 a4 u4 
+跳繩	1.0	t i4 a4 u4  sh ng2 
+踢	1.0	t i1 
+踢足球	1.0	t i1  z u2  q i2 o2 u2 
+車	1.0	ch er1 
+較	1.0	j i4 a4 u4 
+轉播	1.0	zh u3 a3 nn3  b o1 
+辦	1.0	b a4 nn4 
+辦慶祝	1.0	b a4 nn4  q i4 ng4  zh u4 
+辦理	1.0	b a4 nn4  l i3 
+辦理入	1.0	b a4 nn4  l i3  rh u4 
+辭職	1.0	c ii2  zh ii2 
+農藥	1.0	n u2 ng2  i4 a4 u4 
+迷	1.0	m i2 
+退潮	1.0	t u4 e4 i4  ch a2 u2 
+送	1.0	s u4 ng4 
+送人	1.0	s u4 ng4  rh ern2 
+送禮物	1.0	s u4 ng4  l i3  u4 
+送給	1.0	s u4 ng4  g e3 i3 
+這	1.0	zh er4 
+這件	1.0	zh er4  j i4 a4 nn4 
+這位	1.0	zh er4  u4 e4 i4 
+這位醫	1.0	zh er4  u4 e4 i4  i1 
+這個	1.0	zh er4  g er0 
+這兩個	1.0	zh er4  l i3 a3 ng3  g er0 
+這場	1.0	zh er4  ch a3 ng3 
+這學期	1.0	zh er4  x yu2 e2  q i2 
+這家	1.0	zh er4  j i1 a1 
+這家書店	1.0	zh er4  j i1 a1  sh u1  d i4 a4 nn4 
+這幾個	1.0	zh er4  j i3  g er0 
+這張	1.0	zh er4  zh a1 ng1 
+這次	1.0	zh er4  c ii4 
+這段	1.0	zh er4  d u4 a4 nn4 
+這班	1.0	zh er4  b a1 nn1 
+這群	1.0	zh er4  q yu2 nn2 
+這裏	1.0	zh er4  l i3 
+這裡	1.0	zh er4  l i3 
+這裡風	1.0	zh er4  l i3  f ng1 
+這部	1.0	zh er4  b u4 
+這間	1.0	zh er4  j i1 a1 nn1 
+這隻	1.0	zh er4  zh ii1 
+這風景	1.0	zh er4  f ng1  j i3 ng3 
+通緝令	1.0	t u1 ng1  j i1  l i4 ng4 
+逛	1.0	g u4 a4 ng4 
+逛書店	1.0	g u4 a4 ng4  sh u1  d i4 a4 nn4 
+連續	1.0	l i2 a2 nn2  x yu4 
+連續劇	1.0	l i2 a2 nn2  x yu4  j yu4 
+週末	1.0	zh o1 u1  m o4 
+遇到	1.0	yu4  d a4 u4 
+遊客	1.0	i2 o2 u2  k er4 
+遊客們	1.0	i2 o2 u2  k er4  m ern0 
+運動	1.0	yu4 nn4  d u4 ng4 
+運動員	1.0	yu4 nn4  d u4 ng4  yu2 a2 nn2 
+運動鞋	1.0	yu4 nn4  d u4 ng4  x i2 e2 
+過	1.0	g u4 o4 
+過滿	1.0	g u4 o4  m a3 nn3 
+過生日	1.0	g u4 o4  sh ng1  rh ii4 
+遠	1.0	yu3 a3 nn3 
+遠見	1.0	yu3 a3 nn3  j i4 a4 nn4 
+遠遠	1.0	yu3 a3 nn3  yu3 a3 nn3 
+遠遠的	1.0	yu3 a3 nn3  yu3 a3 nn3  d er0 
+適合	1.0	sh ii4  h er2 
+選	1.0	x yu3 a3 nn3 
+邀	1.0	i1 a1 u1 
+邀請	1.0	i1 a1 u1  q i3 ng3 
+那	1.0	n a4 
+那個	1.0	n a4  g er0 
+那壺	1.0	n a4  h u2 
+那套	1.0	n a4  t a4 u4 
+那家	1.0	n a4  j i1 a1 
+那座	1.0	n a4  z u4 o4 
+那張	1.0	n a4  zh a1 ng1 
+那片	1.0	n a4  p i4 a4 nn4 
+那裏	1.0	n a4  l i3 
+那裡	1.0	n a4  l i3 
+那邊	1.0	n a4  b i1 a1 nn1 
+那間	1.0	n a4  j i1 a1 nn1 
+郊區	1.0	j i1 a1 u1  q yu1 
+部	1.0	b u4 
+部門	1.0	b u4  m ern2 
+部門春節	1.0	b u4  m ern2  ch u1 nn1  j i2 e2 
+都	1.0	d o1 u1 
+鄰	1.0	l i2 nn2 
+鄰居	1.0	l i2 nn2  j yu1 
+鄰居家	1.0	l i2 nn2  j yu1  j i1 a1 
+配	1.0	p e4 i4 
+醫學院	1.0	i1  x yu2 e2  yu4 a4 nn4 
+醫生	1.0	i1  sh ng1 
+醫院	1.0	i1  yu4 a4 nn4 
+金	1.0	j i1 nn1 
+金項	1.0	j i1 nn1  x i4 a4 ng4 
+金項鍊	1.0	j i1 nn1  x i4 a4 ng4  l i4 a4 nn4 
+金魚	1.0	j i1 nn1  yu2 
+針	1.0	zh ern1 
+銀行	1.0	i2 nn2  x i2 ng2 
+鋼琴	1.0	g a1 ng1  q i2 nn2 
+鋼筆	1.0	g a1 ng1  b i3 
+錄取	1.0	l u4  q yu3 
+錢	1.0	q i2 a2 nn2 
+錢給	1.0	q i2 a2 nn2  g e3 i3 
+錶	1.0	b i3 a3 u3 
+鍊	1.0	l i4 a4 nn4 
+鏡	1.0	j i4 ng4 
+鏡看	1.0	j i4 ng4  k a4 nn4 
+鐘	1.0	zh u1 ng1 
+鐘去	1.0	zh u1 ng1  q yu4 
+鐘火車	1.0	zh u1 ng1  h u3 o3  ch er1 
+鑰匙	1.0	i4 a4 u4  sh ii0 
+長	1.0	zh a3 ng3 
+長了	1.0	zh a3 ng3  l er0 
+長假	1.0	zh a3 ng3  j i3 a3 
+長年	1.0	zh a3 ng3  n i2 a2 nn2 
+開	1.0	k a1 i1 
+開家長	1.0	k a1 i1  j i1 a1  zh a3 ng3 
+開幕	1.0	k a1 i1  m u4 
+開幕典禮	1.0	k a1 i1  m u4  d i3 a3 nn3  l i3 
+開庭	1.0	k a1 i1  t i2 ng2 
+開會	1.0	k a1 i1  h u4 e4 i4 
+開會時	1.0	k a1 i1  h u4 e4 i4  sh ii2 
+開除	1.0	k a1 i1  ch u2 
+間	1.0	j i1 a1 nn1 
+闆	1.0	b a3 nn3 
+關	1.0	g u1 a1 nn1 
+關心	1.0	g u1 a1 nn1  x i1 nn1 
+關水龍頭	1.0	g u1 a1 nn1  sh u3 e3 i3  l u2 ng2  t o2 u2 
+防水	1.0	f a2 ng2  sh u3 e3 i3 
+阿姨	1.0	a1  i2 
+除了	1.0	ch u2  l er0 
+隊員	1.0	d u4 e4 i4  yu2 a2 nn2 
+隊終	1.0	d u4 e4 i4  zh u1 ng1 
+隔壁	1.0	g er2  b i4 
+隔壁家	1.0	g er2  b i4  j i1 a1 
+隻	1.0	zh ii1 
+雙胞胎	1.0	sh u1 a1 ng1  b a1 u1  t a1 i1 
+雜草	1.0	z a2  c a3 u3 
+雜草長	1.0	z a2  c a3 u3  zh a3 ng3 
+雞	1.0	j i1 
+雞蛋	1.0	j i1  d a4 nn4 
+難	1.0	n a2 nn2 
+難記	1.0	n a2 nn2  j i4 
+雨	1.0	yu3 
+雨傘	1.0	yu3  s a3 nn3 
+零下	1.0	l i2 ng2  x i4 a4 
+電	1.0	d i4 a4 nn4 
+電器	1.0	d i4 a4 nn4  q i4 
+電影	1.0	d i4 a4 nn4  i3 ng3 
+電影票	1.0	d i4 a4 nn4  i3 ng3  p i4 a4 u4 
+電腦	1.0	d i4 a4 nn4  n a3 u3 
+電腦迷	1.0	d i4 a4 nn4  n a3 u3  m i2 
+電視	1.0	d i4 a4 nn4  sh ii4 
+電視上	1.0	d i4 a4 nn4  sh ii4  sh a4 ng4 
+電視劇	1.0	d i4 a4 nn4  sh ii4  j yu4 
+電話	1.0	d i4 a4 nn4  h u4 a4 
+電話給	1.0	d i4 a4 nn4  h u4 a4  g e3 i3 
+電費	1.0	d i4 a4 nn4  f e4 i4 
+電風扇	1.0	d i4 a4 nn4  f ng1  sh a4 nn4 
+需付	1.0	x yu1  f u4 
+需要	1.0	x yu1  i4 a4 u4 
+非常	1.0	f e1 i1  ch a2 ng2 
+鞋	1.0	x i2 e2 
+音樂	1.0	i1 nn1  l er4 
+項鍊	1.0	x i4 a4 ng4  l i4 a4 nn4 
+預報	1.0	yu4  b a4 u4 
+預定	1.0	yu4  d i4 ng4 
+預訂	1.0	yu4  d i4 ng4 
+領帶	1.0	l i3 ng3  d a4 i4 
+頭	1.0	t o2 u2 
+頭上	1.0	t o2 u2  sh a4 ng4 
+頭銜	1.0	t o2 u2  x i2 a2 nn2 
+題	1.0	t i2 
+願	1.0	yu4 a4 nn4 
+願意	1.0	yu4 a4 nn4  i4 
+願意選	1.0	yu4 a4 nn4  i4  x yu3 a3 nn3 
+顯得	1.0	x i3 a3 nn3  d er2 
+風	1.0	f ng1 
+風俗	1.0	f ng1  s u2 
+風景	1.0	f ng1  j i3 ng3 
+風箏	1.0	f ng1  zh ng1 
+飛機	1.0	f e1 i1  j i1 
+飛過	1.0	f e1 i1  g u4 o4 
+飛過來	1.0	f e1 i1  g u4 o4  l a2 i2 
+飯	1.0	f a4 nn4 
+飯店	1.0	f a4 nn4  d i4 a4 nn4 
+飼料	1.0	s ii4  l i4 a4 u4 
+餃	1.0	j i3 a3 u3 
+餃子	1.0	j i3 a3 u3  z ii0 
+養	1.0	i3 a3 ng3 
+餐廳	1.0	c a1 nn1  t i1 ng1 
+香	1.0	x i1 a1 ng1 
+香火	1.0	x i1 a1 ng1  h u3 o3 
+香火很盛	1.0	x i1 a1 ng1  h u3 o3  h ern3  sh ng4 
+馬	1.0	m a3 
+馬路	1.0	m a3  l u4 
+馬路上	1.0	m a3  l u4  sh a4 ng4 
+騎車	1.0	q i2  ch er1 
+骨頭	1.0	g u3  t o2 u2 
+高跟	1.0	g a1 u1  g ern1 
+高跟鞋	1.0	g a1 u1  g ern1  x i2 e2 
+魂	1.0	h u2 nn2 
+魚	1.0	yu2 
+魚飼料	1.0	yu2  s ii4  l i4 a4 u4 
+鮮花	1.0	x i1 a1 nn1  h u1 a1 
+鴿	1.0	g er1 
+鹽	1.0	i2 a2 nn2 
+鹽巴	1.0	i2 a2 nn2  b a1 
+麥當勞	1.0	m a4 i4  d a1 ng1  l a2 u2 
+麵	1.0	m i4 a4 nn4 
+麵包店	1.0	m i4 a4 nn4  b a1 u1  d i4 a4 nn4 
+麻婆	1.0	m a2  p o2 
+麻婆豆腐	1.0	m a2  p o2  d o4 u4  f u0 
+麻疹	1.0	m a2  zh ern3 
+點	1.0	d i3 a3 nn3 
+龍井茶	1.0	l u2 ng2  j i3 ng3  ch a2 
+<unk>	1.0	SIL
